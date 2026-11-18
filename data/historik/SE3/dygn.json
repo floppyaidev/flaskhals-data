@@ -1,1 +1,1 @@
-{"zon":"SE3","enhet":"MW (snitt)","dygn":{"2026-11-18":{"gas":{"mw":0.8,"kvartar":31},"vattenkraft":{"mw":1505.3,"kvartar":31},"karnkraft":{"mw":2505.7,"kvartar":31},"sol":{"mw":5.2,"kvartar":31},"vind_land":{"mw":1202.3,"kvartar":31},"ovrigt":{"mw":1044.0,"kvartar":31}}}}
+{"zon":"SE3","enhet":"MW (snitt)","dygn":{"2026-11-18":{"gas":{"mw":0.8,"kvartar":35},"vattenkraft":{"mw":1477.6,"kvartar":35},"karnkraft":{"mw":2529.6,"kvartar":35},"sol":{"mw":5.0,"kvartar":35},"vind_land":{"mw":1168.9,"kvartar":35},"ovrigt":{"mw":1042.7,"kvartar":35}}}}
