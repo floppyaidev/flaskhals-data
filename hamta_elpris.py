@@ -209,27 +209,32 @@ def parse_enheter(body):
     return out
 
 
-def parse_avbrott(body):
+def parse_avbrott(body, stats):
     """Avbrott (A80) kommer som zip med en XML per meddelande. Returnerar senaste versionen per meddelande."""
     if not body.startswith(b"PK"):
+        stats["inte_zip"] = body[:200].decode("utf-8", "replace")
         return []
     senaste = {}
     with zipfile.ZipFile(io.BytesIO(body)) as z:
+        stats["filer"] = len(z.namelist())
         for fn in z.namelist():
             root = ET.fromstring(z.read(fn))
             mrid, rev = find_text(root, "mRID"), int(find_text(root, "revisionNumber") or 0)
             status = find_text(root, "docStatus")
             for ts in (e for e in root.iter() if localname(e) == "TimeSeries"):
                 psr = None
-                for e in ts.iter():
-                    if localname(e) == "psrType":
-                        psr = e.text
-                if psr != "B14":
-                    continue
                 namn = None
                 for e in ts.iter():
-                    if localname(e) == "production_RegisteredResource.name" or localname(e) == "name":
-                        namn = namn or (e.text or "").strip()
+                    ln = localname(e)
+                    if ln.endswith("psrType") and e.text:
+                        psr = e.text.strip()
+                    if ln.endswith("RegisteredResource.name") and e.text and not namn:
+                        namn = e.text.strip()
+                    if ln.endswith("PowerSystemResources.name") and e.text:
+                        namn = e.text.strip()  # själva reaktorn går före anläggningen
+                stats["typer"][psr] = stats["typer"].get(psr, 0) + 1
+                if psr != "B14":
+                    continue
                 tillg = [float(find_text(p, "quantity")) for p in ts.iter() if localname(p) == "Point"]
                 orsak = [e.text.strip() for e in root.iter() if localname(e) == "text" and e.text]
                 post = {
@@ -263,7 +268,10 @@ def uppdatera_karnkraft(now):
             time.sleep(1)
     enheter = []
     for zone in NUC_ZONES:
-        for u in parse_enheter(fetch(ZONES[zone], now - timedelta(hours=HOURS_BACK), now, "A73", "A16")):
+        body = fetch(ZONES[zone], now - timedelta(hours=HOURS_BACK), now, "A73", "A16")
+        alla = parse_enheter(body)
+        print(f"A73 {zone}: {len(alla)} enheter, typer {sorted(set(u['psr'] or '-' for u in alla))}" + ("" if alla else f", svar: {body[:250]!r}"))
+        for u in alla:
             if u["psr"] != "B14" or not u["punkter"]:
                 continue
             ts = sorted(u["punkter"])[-1]
@@ -273,7 +281,10 @@ def uppdatera_karnkraft(now):
     for zone in NUC_ZONES:
         body = fetch_raw({"documentType": "A80", "BiddingZone_Domain": ZONES[zone],
                           "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
-        for a in parse_avbrott(body):
+        stats = {"typer": {}}
+        res = parse_avbrott(body, stats)
+        print(f"A80 {zone}: {stats.get('filer', 0)} meddelanden, typer {stats['typer']}, kärnkraft {len(res)}" + (f", svar: {stats['inte_zip']!r}" if "inte_zip" in stats else ""))
+        for a in res:
             a["zon"] = zone
             avbrott.append(a)
         time.sleep(1)
