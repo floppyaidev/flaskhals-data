@@ -1,7 +1,7 @@
 {
- "uppdaterad": "2026-11-18T20:28Z",
+ "uppdaterad": "2026-11-18T00:00Z",
  "enhet": "MW",
- "kapacitet_dag": "2026-11-18",
+ "kapacitet_dag": null,
  "kapacitet": {
   "null": 485.0
  },
