@@ -257,6 +257,9 @@ def uppdatera_karnkraft(now):
     aktuella och kommande avbrott (A80) till data/karnkraft.json."""
     fil = OUT / "karnkraft.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(minutes=55):
+        print("kärnkraft: uppdaterad för mindre än en timme sedan, hoppar över")
+        return
     kap = old.get("kapacitet", {})
     if old.get("kapacitet_dag") != iso(now)[:10]:
         kap = {}
@@ -268,9 +271,16 @@ def uppdatera_karnkraft(now):
             time.sleep(1)
     enheter = []
     for zone in NUC_ZONES:
-        body = fetch(ZONES[zone], now - timedelta(hours=HOURS_BACK), now, "A73", "A16")
-        alla = parse_enheter(body)
-        print(f"A73 {zone}: {len(alla)} enheter, typer {sorted(set(u['psr'] or '-' for u in alla))}" + ("" if alla else f", svar: {body[:250]!r}"))
+        alla, fonster = [], None
+        for back in (HOURS_BACK, 30):
+            body = fetch(ZONES[zone], now - timedelta(hours=back), now, "A73", "A16")
+            alla = parse_enheter(body)
+            if alla:
+                fonster = back
+                break
+            print(f"A73 {zone} ({back} h): {ack_text(body)}")
+            time.sleep(1)
+        print(f"A73 {zone}: {len(alla)} enheter, typer {sorted(set(u['psr'] or '-' for u in alla))}, fönster {fonster} h")
         for u in alla:
             if u["psr"] != "B14" or not u["punkter"]:
                 continue
@@ -279,20 +289,30 @@ def uppdatera_karnkraft(now):
         time.sleep(1)
     avbrott = []
     for zone in NUC_ZONES:
-        body = fetch_raw({"documentType": "A80", "BiddingZone_Domain": ZONES[zone],
-                          "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
-        stats = {"typer": {}}
-        res = parse_avbrott(body, stats)
-        print(f"A80 {zone}: {stats.get('filer', 0)} meddelanden, typer {stats['typer']}, kärnkraft {len(res)}" + (f", svar: {stats['inte_zip']!r}" if "inte_zip" in stats else ""))
-        for a in res:
-            a["zon"] = zone
-            avbrott.append(a)
-        time.sleep(1)
+        for doc in ("A77", "A80"):
+            body = fetch_raw({"documentType": doc, "BiddingZone_Domain": ZONES[zone],
+                              "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
+            stats = {"typer": {}}
+            res = parse_avbrott(body, stats)
+            print(f"{doc} {zone}: {stats.get('filer', 0)} meddelanden, typer {stats['typer']}, kärnkraft {len(res)}" + (f", svar: {ack_text(body)}" if "inte_zip" in stats else ""))
+            for a in res:
+                a["zon"] = zone
+                if not any(x["namn"] == a["namn"] and x["start"] == a["start"] for x in avbrott):
+                    avbrott.append(a)
+            time.sleep(1)
     avbrott.sort(key=lambda a: (a["zon"], a["namn"] or "", a["start"]))
     out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "kapacitet_dag": iso(now)[:10] if kap else None,
            "kapacitet": kap, "enheter": sorted(enheter, key=lambda e: (e["zon"], e["namn"])), "avbrott": avbrott}
     fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"kärnkraft: {len(enheter)} reaktorer, {len(avbrott)} avbrott")
+
+
+def ack_text(body):
+    try:
+        root = ET.fromstring(body)
+        return " ".join(e.text.strip() for e in root.iter() if localname(e) == "text" and e.text)[:300] or body[:200]
+    except Exception:
+        return repr(body[:200])
 
 
 def fetch_raw(params):
