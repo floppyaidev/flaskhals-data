@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Bara en körning åt gången, så att två körningar inte krockar när de sparar
+concurrency:
+  group: elpris
+  cancel-in-progress: false
+
 jobs:
   uppdatera:
     runs-on: ubuntu-latest
