@@ -15,18 +15,22 @@ if not TOKEN:
 
 API = "https://web-api.tp.entsoe.eu/api"
 ZONES = {
-    "SE1": "10Y1001A1001A44P",
-    "SE2": "10Y1001A1001A45N",
-    "SE3": "10Y1001A1001A46L",
-    "SE4": "10Y1001A1001A47J",
+    "SE1": "10Y1001A1001A44P", "SE2": "10Y1001A1001A45N", "SE3": "10Y1001A1001A46L", "SE4": "10Y1001A1001A47J",
+    "NO1": "10YNO-1--------2", "NO2": "10YNO-2--------T", "NO3": "10YNO-3--------J", "NO4": "10YNO-4--------9",
+    "NO5": "10Y1001A1001A48H", "DK1": "10YDK-1--------W", "DK2": "10YDK-2--------M", "FI": "10YFI-1--------U",
+    "EE": "10Y1001A1001A39I", "LV": "10YLV-1001A00074", "LT": "10YLT-1001A0008Q",
+    "DE": "10Y1001A1001A82H", "PL": "10YPL-AREA-----S", "NL": "10YNL----------L",
 }
 PSR = {
-    "B04": "gas", "B12": "vattenkraft", "B14": "karnkraft", "B16": "sol",
-    "B18": "vind_hav", "B19": "vind_land", "B20": "ovrigt",
+    "B01": "biobransle", "B02": "brunkol", "B03": "kolgas", "B04": "gas", "B05": "kol", "B06": "olja",
+    "B07": "oljeskiffer", "B08": "torv", "B09": "geotermi", "B10": "pumpkraft", "B11": "stromkraft",
+    "B12": "vattenkraft", "B13": "havsenergi", "B14": "karnkraft", "B15": "ovrig_fornybar", "B16": "sol",
+    "B17": "avfall", "B18": "vind_hav", "B19": "vind_land", "B20": "ovrigt", "B25": "lagring",
 }
-HOURS_BACK = 3
+HOURS_BACK = 6  # GitHub startar ibland körningar sent, så varje körning fyller luckor bakåt
 OUT = Path(__file__).parent / "data"
 OUT.mkdir(exist_ok=True)
+HIST = OUT / "historik"  # data/historik/SE3/2026-11.json (kvartar) och data/historik/SE3/dygn.json (dygnssnitt)
 
 
 class RateLimit(Exception):
@@ -109,6 +113,43 @@ def parse(body):
     return {"serier": series_out}
 
 
+def spara_historik(zone, serier):
+    """Lägger in nya kvartar i månadsfilerna (svensk månad räknas på UTC-tid) och räknar om dygnssnitten."""
+    zdir = HIST / zone
+    zdir.mkdir(parents=True, exist_ok=True)
+    per_manad = {}
+    for namn, punkter in serier.items():
+        for ts, v in punkter.items():
+            per_manad.setdefault(ts[:7], {}).setdefault(namn, {})[ts] = v
+    for manad, nya in per_manad.items():
+        fil = zdir / f"{manad}.json"
+        old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {"zon": zone, "manad": manad, "enhet": "MW", "serier": {}}
+        for namn, punkter in nya.items():
+            old["serier"].setdefault(namn, {}).update(punkter)
+            old["serier"][namn] = dict(sorted(old["serier"][namn].items()))
+        old["uppdaterad"] = iso(datetime.now(timezone.utc))
+        tmp = fil.with_suffix(".tmp")
+        tmp.write_text(json.dumps(old, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        tmp.replace(fil)
+        uppdatera_dygn(zdir, old)
+
+
+def uppdatera_dygn(zdir, manadsdata):
+    """Dygnssnitt per kraftslag (UTC-dygn) med antal kvartar, så att ofullständiga dygn syns."""
+    fil = zdir / "dygn.json"
+    dygn = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {"zon": manadsdata["zon"], "enhet": "MW (snitt)", "dygn": {}}
+    summa = {}
+    for namn, punkter in manadsdata["serier"].items():
+        for ts, v in punkter.items():
+            s = summa.setdefault(ts[:10], {}).setdefault(namn, [0.0, 0])
+            s[0] += v
+            s[1] += 1
+    for dag, typer in summa.items():
+        dygn["dygn"][dag] = {n: {"mw": round(s[0] / s[1], 1), "kvartar": s[1]} for n, s in typer.items()}
+    dygn["dygn"] = dict(sorted(dygn["dygn"].items()))
+    fil.write_text(json.dumps(dygn, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def main():
     now = datetime.now(timezone.utc).replace(second=0, microsecond=0)
     now = now - timedelta(minutes=now.minute % 15)
@@ -147,6 +188,7 @@ def main():
         tmp = OUT / f"{zone}.json.tmp"
         tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
         tmp.replace(OUT / f"{zone}.json")
+        spara_historik(zone, data["serier"])
         antal = sum(len(s) for s in data["serier"].values())
         print(f"{zone}: sparade {antal} värden")
         time.sleep(2)
