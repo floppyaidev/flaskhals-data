@@ -1,0 +1,206 @@
+{
+ "uppdaterad": "2026-11-18T19:18Z",
+ "enhet": "MW",
+ "zoner": {
+  "SE1": {
+   "vattenkraft": 5346.0,
+   "vind_land": 2278.0,
+   "ovrigt": 266.0
+  },
+  "SE2": {
+   "vattenkraft": 8128.0,
+   "vind_land": 6315.0,
+   "ovrigt": 761.0
+  },
+  "SE3": {
+   "vattenkraft": 2595.0,
+   "karnkraft": 6800.0,
+   "vind_land": 3547.0,
+   "ovrigt": 3351.0
+  },
+  "SE4": {
+   "vattenkraft": 347.0,
+   "vind_land": 2134.0,
+   "ovrigt": 2160.0
+  },
+  "NO1": {
+   "biobransle": 2.3,
+   "gas": 6.6,
+   "stromkraft": 2597.6,
+   "vattenkraft": 1401.6,
+   "sol": 41.2,
+   "avfall": 31.7,
+   "vind_land": 405.7
+  },
+  "NO2": {
+   "gas": 33.9,
+   "pumpkraft": 532.4,
+   "stromkraft": 1569.4,
+   "vattenkraft": 9854.1,
+   "avfall": 21.9,
+   "vind_hav": 5.9,
+   "vind_land": 1446.4
+  },
+  "NO3": {
+   "biobransle": 12.5,
+   "pumpkraft": 61.2,
+   "stromkraft": 1501.7,
+   "vattenkraft": 3448.0,
+   "ovrig_fornybar": 22.2,
+   "sol": 1.6,
+   "avfall": 6.9,
+   "vind_land": 2121.1,
+   "ovrigt": 31.2
+  },
+  "NO4": {
+   "gas": 298.4,
+   "stromkraft": 751.0,
+   "vattenkraft": 4852.8,
+   "ovrig_fornybar": 77.3,
+   "vind_land": 1159.9
+  },
+  "NO5": {
+   "gas": 192.2,
+   "pumpkraft": 482.5,
+   "stromkraft": 929.2,
+   "vattenkraft": 7123.9,
+   "avfall": 32.0
+  },
+  "DK1": {
+   "biobransle": 977.38,
+   "gas": 1173.34,
+   "kol": 1162.0,
+   "olja": 161.35,
+   "stromkraft": 4.2,
+   "sol": 2385.74,
+   "vind_hav": 1614.9,
+   "vind_land": 2619.88
+  },
+  "DK2": {
+   "biobransle": 1238.06,
+   "gas": 459.18,
+   "kol": 434.5,
+   "olja": 503.63,
+   "sol": 734.42,
+   "vind_hav": 1023.6,
+   "vind_land": 380.55
+  },
+  "FI": {
+   "biobransle": 1950.8,
+   "gas": 1822.1,
+   "kol": 1080.5,
+   "olja": 1051.0,
+   "torv": 849.6,
+   "stromkraft": 3204.0,
+   "karnkraft": 4371.0,
+   "ovrig_fornybar": 362.4,
+   "sol": 1512.0,
+   "avfall": 95.0,
+   "vind_land": 9330.0,
+   "ovrigt": 386.3,
+   "lagring": 244.0
+  },
+  "EE": {
+   "biobransle": 150.3,
+   "brunkol": 0.0,
+   "kolgas": 78.4,
+   "gas": 13.5,
+   "kol": 0.0,
+   "olja": 0.0,
+   "oljeskiffer": 1215.0,
+   "torv": 0.0,
+   "geotermi": 0.0,
+   "pumpkraft": 0.0,
+   "stromkraft": 8.0,
+   "vattenkraft": 0.0,
+   "havsenergi": 0.0,
+   "karnkraft": 0.0,
+   "ovrig_fornybar": 0.0,
+   "sol": 1231.0,
+   "avfall": 17.0,
+   "vind_hav": 0.0,
+   "vind_land": 694.0,
+   "ovrigt": 20.0,
+   "lagring": 218.0
+  },
+  "LV": {
+   "biobransle": 152.0,
+   "gas": 1153.0,
+   "stromkraft": 1588.0,
+   "sol": 1135.0,
+   "vind_land": 138.0,
+   "lagring": 90.0
+  },
+  "LT": {
+   "biobransle": 193.0,
+   "gas": 1597.0,
+   "olja": 0.0,
+   "pumpkraft": 900.0,
+   "stromkraft": 130.0,
+   "ovrig_fornybar": 0.0,
+   "sol": 3018.0,
+   "avfall": 46.0,
+   "vind_land": 2507.0,
+   "ovrigt": 23.0,
+   "lagring": 426.0
+  },
+  "DE": {
+   "biobransle": 8855.9,
+   "brunkol": 14808.4,
+   "kolgas": 1791.0,
+   "gas": 35678.02,
+   "kol": 15307.73,
+   "olja": 3929.69,
+   "oljeskiffer": 0.0,
+   "torv": 0.0,
+   "geotermi": 75.55,
+   "pumpkraft": 9401.8,
+   "stromkraft": 4116.15,
+   "vattenkraft": 1459.8,
+   "havsenergi": 0.0,
+   "ovrig_fornybar": 329.15,
+   "sol": 104029.51,
+   "avfall": 1952.55,
+   "vind_hav": 9226.42,
+   "vind_land": 67922.93,
+   "ovrigt": 2030.47,
+   "lagring": 14025.81
+  },
+  "PL": {
+   "biobransle": 698.294,
+   "brunkol": 6951.0,
+   "kolgas": 499.254,
+   "gas": 5430.652,
+   "kol": 18542.593,
+   "olja": 405.035,
+   "pumpkraft": 1524.774,
+   "stromkraft": 322.755,
+   "vattenkraft": 467.895,
+   "sol": 20734.092,
+   "vind_land": 10699.706,
+   "ovrigt": 1979.566
+  },
+  "NL": {
+   "biobransle": 418.0,
+   "brunkol": 0.0,
+   "kolgas": 0.0,
+   "gas": 18412.0,
+   "kol": 4012.0,
+   "olja": 0.0,
+   "oljeskiffer": 0.0,
+   "torv": 0.0,
+   "geotermi": 0.0,
+   "pumpkraft": 0.0,
+   "stromkraft": 38.0,
+   "vattenkraft": 0.0,
+   "havsenergi": 0.0,
+   "karnkraft": 486.0,
+   "ovrig_fornybar": 0.0,
+   "sol": 29282.0,
+   "avfall": 777.0,
+   "vind_hav": 4739.0,
+   "vind_land": 7178.0,
+   "ovrigt": 1.0
+  }
+ }
+}
