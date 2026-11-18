@@ -1,14 +1,11 @@
 name: Uppdatera elpriser
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Bara en körning åt gången, så att två körningar inte krockar när de sparar
 concurrency:
   group: elpris
   cancel-in-progress: false
@@ -33,5 +30,10 @@ jobs:
           git config user.name "elpris-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Uppdatera elpriser"
+          if git diff --cached --quiet; then
+            echo "Inga ändringar"
+            exit 0
+          fi
+          git commit -m "Uppdatera elpriser"
+          git pull --rebase --autostash origin main
           git push
