@@ -6,5 +6,7 @@ GitHub Actions kör `hamta_elpris.py` var 15:e minut. Tokenen ligger som hemligh
 - `data/SE1.json`–`SE4.json`: de senaste 6 timmarna, skrivs över varje körning.
 - `data/historik/<zon>/<ÅÅÅÅ-MM>.json`: alla kvartar för månaden (UTC-tider, MW). Nya kvartar läggs till.
 - `data/historik/<zon>/dygn.json`: dygnssnitt per kraftslag, med antal kvartar per dygn (96 = komplett).
+- `data/kapacitet.json`: installerad effekt per kraftslag och zon (A68), uppdateras en gång per dygn.
+- I `data/<zon>.json` finns även `prognos` med vind- och solprognosen (A69).
 
 Läses via GitHub Pages, till exempel https://floppyaidev.github.io/flaskhals-data/data/historik/SE3/dygn.json

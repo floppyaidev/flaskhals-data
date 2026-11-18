@@ -56,11 +56,11 @@ def iso(dt):
     return dt.strftime("%Y-%m-%dT%H:%MZ")
 
 
-def fetch(code, start, end):
+def fetch(code, start, end, doc="A75", proc="A16"):
     params = {
         "securityToken": TOKEN,
-        "documentType": "A75",
-        "processType": "A16",
+        "documentType": doc,
+        "processType": proc,
         "in_Domain": code,
         "periodStart": fmt(start),
         "periodEnd": fmt(end),
@@ -73,6 +73,35 @@ def fetch(code, start, end):
         if e.code == 429:
             raise RateLimit()
         return e.read()
+
+
+def hamta_serier(code, start, end, doc, proc):
+    """Som fetch+parse men tyst: returnerar {} om det inte finns data."""
+    try:
+        data = parse(fetch(code, start, end, doc, proc))
+    except RateLimit:
+        raise
+    except Exception:
+        return {}
+    return data.get("serier", {})
+
+
+def uppdatera_kapacitet():
+    """Installerad effekt per kraftslag (A68), högst en gång per dygn, till data/kapacitet.json."""
+    fil = OUT / "kapacitet.json"
+    if fil.exists():
+        old = json.loads(fil.read_text(encoding="utf-8"))
+        if old.get("uppdaterad", "")[:10] == iso(datetime.now(timezone.utc))[:10]:
+            return
+    y = datetime.now(timezone.utc).year
+    start = datetime(y, 1, 1, tzinfo=timezone.utc)
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": {}}
+    for zone, code in ZONES.items():
+        serier = hamta_serier(code, start, datetime(y + 1, 1, 1, tzinfo=timezone.utc), "A68", "A33")
+        out["zoner"][zone] = {n: list(v.values())[-1] for n, v in serier.items() if v}
+        time.sleep(1)
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("kapacitet uppdaterad")
 
 
 def parse(body):
@@ -156,6 +185,10 @@ def main():
     start = now - timedelta(hours=HOURS_BACK)
     end = now
 
+    try:
+        uppdatera_kapacitet()
+    except RateLimit:
+        print("429 vid kapacitet, försöker nästa körning")
     for zone, code in ZONES.items():
         try:
             body = fetch(code, start, end)
@@ -179,11 +212,14 @@ def main():
             time.sleep(2)
             continue
 
+        prognos = hamta_serier(code, start, end + timedelta(hours=1), "A69", "A01")  # vind- och solprognos
+        time.sleep(1)
         payload = {
             "zon": zone,
             "uppdaterad": iso(datetime.now(timezone.utc)),
             "fönster": [iso(start), iso(end)],
             "serier": data["serier"],
+            "prognos": prognos,
         }
         tmp = OUT / f"{zone}.json.tmp"
         tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
