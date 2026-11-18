@@ -6,6 +6,8 @@ import urllib.request
 import urllib.parse
 import urllib.error
 import xml.etree.ElementTree as ET
+import io
+import zipfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -179,6 +181,120 @@ def uppdatera_dygn(zdir, manadsdata):
     fil.write_text(json.dumps(dygn, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+NUC_ZONES = ["SE3", "FI", "NL"]  # zoner med kärnkraft bland de som hämtas
+
+
+def parse_enheter(body):
+    """Produktion eller kapacitet per produktionsenhet (A73/A71): [{namn, mrid, psr, punkter{ts: mw}}]."""
+    root = ET.fromstring(body)
+    if localname(root) == "Acknowledgement_MarketDocument":
+        return []
+    out = []
+    for ts in root.iter():
+        if localname(ts) != "TimeSeries":
+            continue
+        psr = find_text(ts, "psrType")
+        res = next((e for e in ts.iter() if localname(e) == "PowerSystemResources"), None)
+        namn = find_text(res, "name") if res is not None else None
+        mrid = find_text(res, "mRID") if res is not None else None
+        pts = {}
+        for per in (e for e in ts.iter() if localname(e) == "Period"):
+            start = datetime.strptime(find_text(per, "start"), "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+            r = find_text(per, "resolution")
+            step = timedelta(minutes=15) if r == "PT15M" else timedelta(minutes=30) if r == "PT30M" else timedelta(hours=1)
+            for p in per.iter():
+                if localname(p) == "Point":
+                    pts[iso(start + (int(find_text(p, "position")) - 1) * step)] = float(find_text(p, "quantity"))
+        out.append({"namn": namn or mrid, "mrid": mrid, "psr": psr, "punkter": pts})
+    return out
+
+
+def parse_avbrott(body):
+    """Avbrott (A80) kommer som zip med en XML per meddelande. Returnerar senaste versionen per meddelande."""
+    if not body.startswith(b"PK"):
+        return []
+    senaste = {}
+    with zipfile.ZipFile(io.BytesIO(body)) as z:
+        for fn in z.namelist():
+            root = ET.fromstring(z.read(fn))
+            mrid, rev = find_text(root, "mRID"), int(find_text(root, "revisionNumber") or 0)
+            status = find_text(root, "docStatus")
+            for ts in (e for e in root.iter() if localname(e) == "TimeSeries"):
+                psr = None
+                for e in ts.iter():
+                    if localname(e) == "psrType":
+                        psr = e.text
+                if psr != "B14":
+                    continue
+                namn = None
+                for e in ts.iter():
+                    if localname(e) == "production_RegisteredResource.name" or localname(e) == "name":
+                        namn = namn or (e.text or "").strip()
+                tillg = [float(find_text(p, "quantity")) for p in ts.iter() if localname(p) == "Point"]
+                orsak = [e.text.strip() for e in root.iter() if localname(e) == "text" and e.text]
+                post = {
+                    "namn": namn,
+                    "typ": "planerat" if find_text(ts, "businessType") == "A53" else "oplanerat",
+                    "start": find_text(ts, "start_DateAndOrTime.date") + "T" + (find_text(ts, "start_DateAndOrTime.time") or "00:00:00Z")[:5] + "Z",
+                    "slut": find_text(ts, "end_DateAndOrTime.date") + "T" + (find_text(ts, "end_DateAndOrTime.time") or "00:00:00Z")[:5] + "Z",
+                    "nominell_mw": float(find_text(ts, "nominalP") or 0) or None,
+                    "tillganglig_mw": min(tillg) if tillg else None,
+                    "orsak": "; ".join(dict.fromkeys(orsak))[:300] or None,
+                    "status": status,
+                }
+                if mrid not in senaste or rev >= senaste[mrid][0]:
+                    senaste[mrid] = (rev, post)
+    return [p for r, p in senaste.values() if p["status"] != "A09"]  # A09 = återkallat
+
+
+def uppdatera_karnkraft(now):
+    """Varje reaktors senaste produktion (A73), dess installerade effekt (A71, en gång per dygn) och
+    aktuella och kommande avbrott (A80) till data/karnkraft.json."""
+    fil = OUT / "karnkraft.json"
+    old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    kap = old.get("kapacitet", {})
+    if old.get("kapacitet_dag") != iso(now)[:10]:
+        kap = {}
+        y = now.year
+        for zone in NUC_ZONES:
+            for u in parse_enheter(fetch(ZONES[zone], datetime(y, 1, 1, tzinfo=timezone.utc), datetime(y + 1, 1, 1, tzinfo=timezone.utc), "A71", "A33")):
+                if u["psr"] == "B14" and u["punkter"]:
+                    kap[u["namn"]] = list(u["punkter"].values())[-1]
+            time.sleep(1)
+    enheter = []
+    for zone in NUC_ZONES:
+        for u in parse_enheter(fetch(ZONES[zone], now - timedelta(hours=HOURS_BACK), now, "A73", "A16")):
+            if u["psr"] != "B14" or not u["punkter"]:
+                continue
+            ts = sorted(u["punkter"])[-1]
+            enheter.append({"zon": zone, "namn": u["namn"], "mw": u["punkter"][ts], "tid": ts, "kapacitet_mw": kap.get(u["namn"])})
+        time.sleep(1)
+    avbrott = []
+    for zone in NUC_ZONES:
+        body = fetch_raw({"documentType": "A80", "BiddingZone_Domain": ZONES[zone],
+                          "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
+        for a in parse_avbrott(body):
+            a["zon"] = zone
+            avbrott.append(a)
+        time.sleep(1)
+    avbrott.sort(key=lambda a: (a["zon"], a["namn"] or "", a["start"]))
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "kapacitet_dag": iso(now)[:10] if kap else None,
+           "kapacitet": kap, "enheter": sorted(enheter, key=lambda e: (e["zon"], e["namn"])), "avbrott": avbrott}
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"kärnkraft: {len(enheter)} reaktorer, {len(avbrott)} avbrott")
+
+
+def fetch_raw(params):
+    url = API + "?" + urllib.parse.urlencode(dict(params, securityToken=TOKEN))
+    try:
+        with urllib.request.urlopen(url, timeout=90) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            raise RateLimit()
+        return e.read()
+
+
 def main():
     now = datetime.now(timezone.utc).replace(second=0, microsecond=0)
     now = now - timedelta(minutes=now.minute % 15)
@@ -189,6 +305,12 @@ def main():
         uppdatera_kapacitet()
     except RateLimit:
         print("429 vid kapacitet, försöker nästa körning")
+    try:
+        uppdatera_karnkraft(now)
+    except RateLimit:
+        print("429 vid kärnkraft, försöker nästa körning")
+    except Exception as e:
+        print(f"kärnkraft: fel {e!r}")
     for zone, code in ZONES.items():
         try:
             body = fetch(code, start, end)
