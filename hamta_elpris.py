@@ -184,31 +184,6 @@ def uppdatera_dygn(zdir, manadsdata):
 NUC_ZONES = ["SE3", "FI", "NL"]  # zoner med kärnkraft bland de som hämtas
 
 
-def parse_enheter(body):
-    """Produktion eller kapacitet per produktionsenhet (A73/A71): [{namn, mrid, psr, punkter{ts: mw}}]."""
-    root = ET.fromstring(body)
-    if localname(root) == "Acknowledgement_MarketDocument":
-        return []
-    out = []
-    for ts in root.iter():
-        if localname(ts) != "TimeSeries":
-            continue
-        psr = find_text(ts, "psrType")
-        res = next((e for e in ts.iter() if localname(e) == "PowerSystemResources"), None)
-        namn = find_text(res, "name") if res is not None else None
-        mrid = find_text(res, "mRID") if res is not None else None
-        pts = {}
-        for per in (e for e in ts.iter() if localname(e) == "Period"):
-            start = datetime.strptime(find_text(per, "start"), "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
-            r = find_text(per, "resolution")
-            step = timedelta(minutes=15) if r == "PT15M" else timedelta(minutes=30) if r == "PT30M" else timedelta(hours=1)
-            for p in per.iter():
-                if localname(p) == "Point":
-                    pts[iso(start + (int(find_text(p, "position")) - 1) * step)] = float(find_text(p, "quantity"))
-        out.append({"namn": namn or mrid, "mrid": mrid, "psr": psr, "punkter": pts})
-    return out
-
-
 def parse_avbrott(body, stats):
     """Avbrott (A80) kommer som zip med en XML per meddelande. Returnerar senaste versionen per meddelande."""
     if not body.startswith(b"PK"):
@@ -220,7 +195,7 @@ def parse_avbrott(body, stats):
         for fn in z.namelist():
             root = ET.fromstring(z.read(fn))
             mrid, rev = find_text(root, "mRID"), int(find_text(root, "revisionNumber") or 0)
-            status = find_text(root, "docStatus")
+            status = next((find_text(e, "value") or (e.text or "").strip() for e in root.iter() if localname(e) == "docStatus"), None)
             for ts in (e for e in root.iter() if localname(e) == "TimeSeries"):
                 psr = None
                 namn = None
@@ -242,7 +217,7 @@ def parse_avbrott(body, stats):
                     "typ": "planerat" if find_text(ts, "businessType") == "A53" else "oplanerat",
                     "start": find_text(ts, "start_DateAndOrTime.date") + "T" + (find_text(ts, "start_DateAndOrTime.time") or "00:00:00Z")[:5] + "Z",
                     "slut": find_text(ts, "end_DateAndOrTime.date") + "T" + (find_text(ts, "end_DateAndOrTime.time") or "00:00:00Z")[:5] + "Z",
-                    "nominell_mw": float(find_text(ts, "nominalP") or 0) or None,
+                    "nominell_mw": next((float(e.text) for e in ts.iter() if localname(e).endswith("nominalP") and e.text), None),
                     "tillganglig_mw": min(tillg) if tillg else None,
                     "orsak": "; ".join(dict.fromkeys(orsak))[:300] or None,
                     "status": status,
@@ -252,41 +227,23 @@ def parse_avbrott(body, stats):
     return [p for r, p in senaste.values() if p["status"] != "A09"]  # A09 = återkallat
 
 
+# Reaktorerna i zonerna (namn som i ENTSO-E:s avbrottsmeddelanden, ungefärlig nettoeffekt i MW).
+# Produktion per reaktor (A73) publiceras först dagar i efterhand, så statusen bygger på avbrotten.
+REAKTORER = {
+    "SE3": [("Forsmark block 1", 984), ("Forsmark block 2", 1120), ("Forsmark block 3", 1167),
+            ("Oskarshamn 3", 1400), ("Ringhals 3", 1074), ("Ringhals 4", 1130)],
+    "FI": [("Loviisa 1", 507), ("Loviisa 2", 507), ("Olkiluoto 1", 890), ("Olkiluoto 2", 890), ("Olkiluoto 3", 1600)],
+    "NL": [("Borssele", 485)],
+}
+
+
 def uppdatera_karnkraft(now):
-    """Varje reaktors senaste produktion (A73), dess installerade effekt (A71, en gång per dygn) och
-    aktuella och kommande avbrott (A80) till data/karnkraft.json."""
+    """Aktuella och kommande avbrott (A77 produktionsenheter, A80 generatorenheter) till data/karnkraft.json."""
     fil = OUT / "karnkraft.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
     if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(minutes=55):
         print("kärnkraft: uppdaterad för mindre än en timme sedan, hoppar över")
         return
-    kap = old.get("kapacitet", {})
-    if old.get("kapacitet_dag") != iso(now)[:10]:
-        kap = {}
-        y = now.year
-        for zone in NUC_ZONES:
-            for u in parse_enheter(fetch(ZONES[zone], datetime(y, 1, 1, tzinfo=timezone.utc), datetime(y + 1, 1, 1, tzinfo=timezone.utc), "A71", "A33")):
-                if u["psr"] == "B14" and u["punkter"]:
-                    kap[u["namn"]] = list(u["punkter"].values())[-1]
-            time.sleep(1)
-    enheter = []
-    for zone in NUC_ZONES:
-        alla, fonster = [], None
-        for back in (HOURS_BACK, 30):
-            body = fetch(ZONES[zone], now - timedelta(hours=back), now, "A73", "A16")
-            alla = parse_enheter(body)
-            if alla:
-                fonster = back
-                break
-            print(f"A73 {zone} ({back} h): {ack_text(body)}")
-            time.sleep(1)
-        print(f"A73 {zone}: {len(alla)} enheter, typer {sorted(set(u['psr'] or '-' for u in alla))}, fönster {fonster} h")
-        for u in alla:
-            if u["psr"] != "B14" or not u["punkter"]:
-                continue
-            ts = sorted(u["punkter"])[-1]
-            enheter.append({"zon": zone, "namn": u["namn"], "mw": u["punkter"][ts], "tid": ts, "kapacitet_mw": kap.get(u["namn"])})
-        time.sleep(1)
     avbrott = []
     for zone in NUC_ZONES:
         for doc in ("A77", "A80"):
@@ -294,17 +251,17 @@ def uppdatera_karnkraft(now):
                               "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
             stats = {"typer": {}}
             res = parse_avbrott(body, stats)
-            print(f"{doc} {zone}: {stats.get('filer', 0)} meddelanden, typer {stats['typer']}, kärnkraft {len(res)}" + (f", svar: {ack_text(body)}" if "inte_zip" in stats else ""))
+            print(f"{doc} {zone}: {stats.get('filer', 0)} meddelanden, kärnkraft {len(res)}" + (f", svar: {ack_text(body)}" if "inte_zip" in stats else ""))
             for a in res:
                 a["zon"] = zone
                 if not any(x["namn"] == a["namn"] and x["start"] == a["start"] for x in avbrott):
                     avbrott.append(a)
             time.sleep(1)
     avbrott.sort(key=lambda a: (a["zon"], a["namn"] or "", a["start"]))
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "kapacitet_dag": iso(now)[:10] if kap else None,
-           "kapacitet": kap, "enheter": sorted(enheter, key=lambda e: (e["zon"], e["namn"])), "avbrott": avbrott}
+    reaktorer = [{"zon": z, "namn": n, "mw": mw} for z, lista in REAKTORER.items() for n, mw in lista]
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "reaktorer": reaktorer, "avbrott": avbrott}
     fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"kärnkraft: {len(enheter)} reaktorer, {len(avbrott)} avbrott")
+    print(f"kärnkraft: {len(avbrott)} avbrott")
 
 
 def ack_text(body):

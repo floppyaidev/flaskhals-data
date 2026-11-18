@@ -8,6 +8,6 @@ GitHub Actions kör `hamta_elpris.py` var 15:e minut. Tokenen ligger som hemligh
 - `data/historik/<zon>/dygn.json`: dygnssnitt per kraftslag, med antal kvartar per dygn (96 = komplett).
 - `data/kapacitet.json`: installerad effekt per kraftslag och zon (A68), uppdateras en gång per dygn.
 - I `data/<zon>.json` finns även `prognos` med vind- och solprognosen (A69).
-- `data/karnkraft.json`: varje reaktors senaste produktion (A73), installerad effekt (A71) och aktuella och kommande avbrott (A80) i SE3, FI och NL.
+- `data/karnkraft.json`: reaktorerna i SE3, FI och NL och deras aktuella och kommande avbrott (A77 och A80), en gång i timmen. Produktion per reaktor (A73) publiceras först dagar i efterhand och hämtas inte.
 
 Läses via GitHub Pages, till exempel https://floppyaidev.github.io/flaskhals-data/data/historik/SE3/dygn.json
