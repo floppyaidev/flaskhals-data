@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T12:31Z",
+ "uppdaterad": "2026-11-19T12:53Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -430,8 +430,163 @@
      "alv": "Stora vattenkraftverk",
      "verk": 42,
      "nominell_mw": 20092,
-     "tillganglig_mw": 20092,
-     "avbrott": [],
+     "tillganglig_mw": 9347.0,
+     "avbrott": [
+      {
+       "namn": "Vorarlberger Illwerke AG",
+       "tillganglig_mw": 1846.0,
+       "nominell_mw": 2142,
+       "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Vorarlberger Illwerke AG",
+       "tillganglig_mw": 1846.0,
+       "nominell_mw": 2142,
+       "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Vianden",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1294,
+       "slut": "2026-11-19T15:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Vianden",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1294,
+       "slut": "2026-11-19T15:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Goldisthal",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1060,
+       "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Goldisthal",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1060,
+       "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Markersbach",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 960,
+       "slut": "2026-12-23T15:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Markersbach",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 960,
+       "slut": "2026-12-23T15:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchsee",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 870,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchsee",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 870,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Waldeck II",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 480,
+       "slut": "2026-11-25T16:00Z",
+       "orsak": "External Factors"
+      },
+      {
+       "namn": "Waldeck II",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 480,
+       "slut": "2026-11-25T16:00Z",
+       "orsak": "External Factors"
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 455,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 455,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 258,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 258,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Erzhausen",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 220,
+       "slut": "2026-11-27T16:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Erzhausen",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 220,
+       "slut": "2026-11-27T16:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 180,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Schluchseewerk AG",
+       "tillganglig_mw": 227.5,
+       "nominell_mw": 180,
+       "slut": "2026-11-22T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Koepchenwerk",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 162,
+       "slut": "2026-11-28T15:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Koepchenwerk",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 162,
+       "slut": "2026-11-28T15:00Z",
+       "orsak": null
+      }
+     ],
      "produktion_mw": 0,
      "med_produktion": 0
     }
@@ -444,8 +599,23 @@
      "alv": "Stora vattenkraftverk",
      "verk": 10,
      "nominell_mw": 3652,
-     "tillganglig_mw": 3652,
-     "avbrott": [],
+     "tillganglig_mw": 2488,
+     "avbrott": [
+      {
+       "namn": "Porąbka Żar",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 582,
+       "slut": "2030-02-10T22:45Z",
+       "orsak": "Long-term planned overhaul"
+      },
+      {
+       "namn": "Porąbka Żar",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 582,
+       "slut": "2030-02-10T22:45Z",
+       "orsak": "Long-term planned overhaul"
+      }
+     ],
      "produktion_mw": 0,
      "med_produktion": 0
     }

@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T12:31Z",
+ "uppdaterad": "2026-11-19T12:53Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -5270,43 +5270,561 @@
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
-     "tillganglig_mw": 2470,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T04:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
-     "tillganglig_mw": 2470,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T04:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Niederaußem",
      "kraftslag": "brunkol",
      "mw": 2197,
-     "tillganglig_mw": 2197,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Niederaußem",
      "kraftslag": "brunkol",
      "mw": 2197,
-     "tillganglig_mw": 2197,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Emsland",
+     "kraftslag": "gas",
+     "mw": 1820,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Emsland",
+     "kraftslag": "gas",
+     "mw": 1820,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Goldisthal",
+     "kraftslag": "pumpkraft",
+     "mw": 1060,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Goldisthal",
+     "kraftslag": "pumpkraft",
+     "mw": 1060,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-23T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-23T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T03:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T03:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Huckingen (HKM)",
+     "kraftslag": "kolgas",
+     "mw": 600,
+     "tillganglig_mw": 3.0,
+     "status": "still",
+     "slut": "2026-12-10T17:00Z",
+     "typ": "oplanerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Huckingen (HKM)",
+     "kraftslag": "kolgas",
+     "mw": 600,
+     "tillganglig_mw": 3.0,
+     "status": "still",
+     "slut": "2026-12-10T17:00Z",
+     "typ": "oplanerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "HKW Altbach/Deizisau",
+     "kraftslag": "kol",
+     "mw": 595,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HKW Altbach/Deizisau",
+     "kraftslag": "kol",
+     "mw": 595,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HKW Reuter West",
+     "kraftslag": "kol",
+     "mw": 564,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "HKW Reuter West",
+     "kraftslag": "kol",
+     "mw": 564,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Waldeck II",
+     "kraftslag": "pumpkraft",
+     "mw": 480,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T16:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Waldeck II",
+     "kraftslag": "pumpkraft",
+     "mw": 480,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T16:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T19:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T19:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Gersteinwerk",
+     "kraftslag": "gas",
+     "mw": 405,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors; Other"
+    },
+    {
+     "namn": "Gersteinwerk",
+     "kraftslag": "gas",
+     "mw": 405,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors; Other"
+    },
+    {
+     "namn": "Voelklingen",
+     "kraftslag": "kol",
+     "mw": 390,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-01-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Voelklingen",
+     "kraftslag": "kol",
+     "mw": 390,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-01-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Erzhausen",
+     "kraftslag": "pumpkraft",
+     "mw": 220,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Erzhausen",
+     "kraftslag": "pumpkraft",
+     "mw": 220,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
-     "tillganglig_mw": 2142,
-     "status": "drift"
+     "tillganglig_mw": 1846.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
-     "tillganglig_mw": 2142,
-     "status": "drift"
+     "tillganglig_mw": 1846.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchsee",
+     "kraftslag": "pumpkraft",
+     "mw": 870,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchsee",
+     "kraftslag": "pumpkraft",
+     "mw": 870,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Bexbach",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 46.0,
+     "status": "begransad",
+     "slut": "2026-11-23T17:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Bexbach",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 46.0,
+     "status": "begransad",
+     "slut": "2026-11-23T17:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 35.0,
+     "status": "begransad",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 35.0,
+     "status": "begransad",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 455,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 455,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HKW Mitte",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 219.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HKW Mitte",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 219.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Nord 2",
+     "kraftslag": "kol",
+     "mw": 373,
+     "tillganglig_mw": 129.0,
+     "status": "begransad",
+     "slut": "2026-11-24T09:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Nord 2",
+     "kraftslag": "kol",
+     "mw": 373,
+     "tillganglig_mw": 129.0,
+     "status": "begransad",
+     "slut": "2026-11-24T09:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 258,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 258,
+     "tillganglig_mw": 227.5,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "begransad",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Neurath",
@@ -5323,20 +5841,6 @@
      "status": "drift"
     },
     {
-     "namn": "Emsland",
-     "kraftslag": "gas",
-     "mw": 1820,
-     "tillganglig_mw": 1820,
-     "status": "drift"
-    },
-    {
-     "namn": "Emsland",
-     "kraftslag": "gas",
-     "mw": 1820,
-     "tillganglig_mw": 1820,
-     "status": "drift"
-    },
-    {
      "namn": "KW Lippendorf",
      "kraftslag": "brunkol",
      "mw": 1782,
@@ -5348,20 +5852,6 @@
      "kraftslag": "brunkol",
      "mw": 1782,
      "tillganglig_mw": 1782,
-     "status": "drift"
-    },
-    {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 1753,
-     "status": "drift"
-    },
-    {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 1753,
      "status": "drift"
     },
     {
@@ -5407,34 +5897,6 @@
      "status": "drift"
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 1294,
-     "status": "drift"
-    },
-    {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 1294,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Goldisthal",
-     "kraftslag": "pumpkraft",
-     "mw": 1060,
-     "tillganglig_mw": 1060,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Goldisthal",
-     "kraftslag": "pumpkraft",
-     "mw": 1060,
-     "tillganglig_mw": 1060,
-     "status": "drift"
-    },
-    {
      "namn": "Datteln",
      "kraftslag": "kol",
      "mw": 1052,
@@ -5446,20 +5908,6 @@
      "kraftslag": "kol",
      "mw": 1052,
      "tillganglig_mw": 1052,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 960,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 960,
      "status": "drift"
     },
     {
@@ -5498,20 +5946,6 @@
      "status": "drift"
     },
     {
-     "namn": "Schluchsee",
-     "kraftslag": "pumpkraft",
-     "mw": 870,
-     "tillganglig_mw": 870,
-     "status": "drift"
-    },
-    {
-     "namn": "Schluchsee",
-     "kraftslag": "pumpkraft",
-     "mw": 870,
-     "tillganglig_mw": 870,
-     "status": "drift"
-    },
-    {
      "namn": "HKW Niehl",
      "kraftslag": "gas",
      "mw": 866,
@@ -5523,20 +5957,6 @@
      "kraftslag": "gas",
      "mw": 866,
      "tillganglig_mw": 866,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Hamm-Uentrop",
-     "kraftslag": "gas",
-     "mw": 850,
-     "tillganglig_mw": 850,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Hamm-Uentrop",
-     "kraftslag": "gas",
-     "mw": 850,
-     "tillganglig_mw": 850,
      "status": "drift"
     },
     {
@@ -5631,34 +6051,6 @@
      "status": "drift"
     },
     {
-     "namn": "Bexbach",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 726,
-     "status": "drift"
-    },
-    {
-     "namn": "Bexbach",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 726,
-     "status": "drift"
-    },
-    {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 725,
-     "status": "drift"
-    },
-    {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 725,
-     "status": "drift"
-    },
-    {
      "namn": "Bergkamen",
      "kraftslag": "kol",
      "mw": 717,
@@ -5729,48 +6121,6 @@
      "status": "drift"
     },
     {
-     "namn": "Huckingen (HKM)",
-     "kraftslag": "kolgas",
-     "mw": 600,
-     "tillganglig_mw": 600,
-     "status": "drift"
-    },
-    {
-     "namn": "Huckingen (HKM)",
-     "kraftslag": "kolgas",
-     "mw": 600,
-     "tillganglig_mw": 600,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Altbach/Deizisau",
-     "kraftslag": "kol",
-     "mw": 595,
-     "tillganglig_mw": 595,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Altbach/Deizisau",
-     "kraftslag": "kol",
-     "mw": 595,
-     "tillganglig_mw": 595,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Reuter West",
-     "kraftslag": "kol",
-     "mw": 564,
-     "tillganglig_mw": 564,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Reuter West",
-     "kraftslag": "kol",
-     "mw": 564,
-     "tillganglig_mw": 564,
-     "status": "drift"
-    },
-    {
      "namn": "GuD Dormagen",
      "kraftslag": "gas",
      "mw": 562,
@@ -5827,20 +6177,6 @@
      "status": "drift"
     },
     {
-     "namn": "Waldeck II",
-     "kraftslag": "pumpkraft",
-     "mw": 480,
-     "tillganglig_mw": 480,
-     "status": "drift"
-    },
-    {
-     "namn": "Waldeck II",
-     "kraftslag": "pumpkraft",
-     "mw": 480,
-     "tillganglig_mw": 480,
-     "status": "drift"
-    },
-    {
      "namn": "UW Bertikow Wind",
      "kraftslag": "vind_land",
      "mw": 475,
@@ -5869,20 +6205,6 @@
      "status": "drift"
     },
     {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 455,
-     "tillganglig_mw": 455,
-     "status": "drift"
-    },
-    {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 455,
-     "tillganglig_mw": 455,
-     "status": "drift"
-    },
-    {
      "namn": "Borkum Riffgrund II",
      "kraftslag": "vind_hav",
      "mw": 450,
@@ -5908,48 +6230,6 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
-     "status": "drift"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Mitte",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Mitte",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Knapsack 2",
-     "kraftslag": "gas",
-     "mw": 426,
-     "tillganglig_mw": 426,
-     "status": "drift"
-    },
-    {
-     "namn": "Knapsack 2",
-     "kraftslag": "gas",
-     "mw": 426,
-     "tillganglig_mw": 426,
      "status": "drift"
     },
     {
@@ -5990,20 +6270,6 @@
     {
      "namn": "GKM AG Amprion",
      "kraftslag": "kol",
-     "mw": 405,
-     "tillganglig_mw": 405,
-     "status": "drift"
-    },
-    {
-     "namn": "Gersteinwerk",
-     "kraftslag": "gas",
-     "mw": 405,
-     "tillganglig_mw": 405,
-     "status": "drift"
-    },
-    {
-     "namn": "Gersteinwerk",
-     "kraftslag": "gas",
      "mw": 405,
      "tillganglig_mw": 405,
      "status": "drift"
@@ -6065,34 +6331,6 @@
      "status": "drift"
     },
     {
-     "namn": "Voelklingen",
-     "kraftslag": "kol",
-     "mw": 390,
-     "tillganglig_mw": 390,
-     "status": "drift"
-    },
-    {
-     "namn": "Voelklingen",
-     "kraftslag": "kol",
-     "mw": 390,
-     "tillganglig_mw": 390,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
-     "status": "drift"
-    },
-    {
      "namn": "Arkona",
      "kraftslag": "vind_hav",
      "mw": 378,
@@ -6104,20 +6342,6 @@
      "kraftslag": "vind_hav",
      "mw": 378,
      "tillganglig_mw": 378,
-     "status": "drift"
-    },
-    {
-     "namn": "Nord 2",
-     "kraftslag": "kol",
-     "mw": 373,
-     "tillganglig_mw": 373,
-     "status": "drift"
-    },
-    {
-     "namn": "Nord 2",
-     "kraftslag": "kol",
-     "mw": 373,
-     "tillganglig_mw": 373,
      "status": "drift"
     },
     {
@@ -6457,20 +6681,6 @@
      "status": "drift"
     },
     {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 258,
-     "tillganglig_mw": 258,
-     "status": "drift"
-    },
-    {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 258,
-     "tillganglig_mw": 258,
-     "status": "drift"
-    },
-    {
      "namn": "Arcadis Ost 1",
      "kraftslag": "vind_hav",
      "mw": 257,
@@ -6552,20 +6762,6 @@
      "kraftslag": "gas",
      "mw": 230,
      "tillganglig_mw": 230,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Erzhausen",
-     "kraftslag": "pumpkraft",
-     "mw": 220,
-     "tillganglig_mw": 220,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Erzhausen",
-     "kraftslag": "pumpkraft",
-     "mw": 220,
-     "tillganglig_mw": 220,
      "status": "drift"
     },
     {
@@ -6646,20 +6842,6 @@
      "status": "drift"
     },
     {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 180,
-     "tillganglig_mw": 180,
-     "status": "drift"
-    },
-    {
-     "namn": "Schluchseewerk AG",
-     "kraftslag": "pumpkraft",
-     "mw": 180,
-     "tillganglig_mw": 180,
-     "status": "drift"
-    },
-    {
      "namn": "HKW Stuttgart-Münster",
      "kraftslag": "avfall",
      "mw": 179,
@@ -6753,20 +6935,6 @@
     {
      "namn": "HKW Halle Dieselstraße",
      "kraftslag": "gas",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
      "mw": 162,
      "tillganglig_mw": 162,
      "status": "drift"
@@ -7151,57 +7319,341 @@
      "namn": "Bełchatów",
      "kraftslag": "brunkol",
      "mw": 4680,
-     "tillganglig_mw": 4680,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T17:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
     },
     {
      "namn": "Bełchatów",
      "kraftslag": "brunkol",
      "mw": 4680,
-     "tillganglig_mw": 4680,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T17:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
     },
     {
      "namn": "Opole",
      "kraftslag": "kol",
      "mw": 3090,
-     "tillganglig_mw": 3090,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Opole",
      "kraftslag": "kol",
      "mw": 3090,
-     "tillganglig_mw": 3090,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Kozienice 2",
      "kraftslag": "kol",
      "mw": 2049,
-     "tillganglig_mw": 2049,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-17T21:00Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
     },
     {
      "namn": "Kozienice 2",
      "kraftslag": "kol",
      "mw": 2049,
-     "tillganglig_mw": 2049,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-17T21:00Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
     },
     {
      "namn": "Turów",
      "kraftslag": "brunkol",
      "mw": 1830,
-     "tillganglig_mw": 1830,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
     },
     {
      "namn": "Turów",
      "kraftslag": "brunkol",
      "mw": 1830,
-     "tillganglig_mw": 1830,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
+    },
+    {
+     "namn": "Połaniec",
+     "kraftslag": "kol",
+     "mw": 1350,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Połaniec",
+     "kraftslag": "kol",
+     "mw": 1350,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Elektrownia Gryfino",
+     "kraftslag": "gas",
+     "mw": 1340,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Elektrownia Gryfino",
+     "kraftslag": "gas",
+     "mw": 1340,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Jaworzno 3",
+     "kraftslag": "kol",
+     "mw": 1258,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
+     "namn": "Jaworzno 3",
+     "kraftslag": "kol",
+     "mw": 1258,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-28T23:00Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
+     "namn": "Łaziska 3",
+     "kraftslag": "kol",
+     "mw": 849,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-06T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Łaziska 3",
+     "kraftslag": "kol",
+     "mw": 849,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-06T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 835,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Ostrołęka B",
+     "kraftslag": "kol",
+     "mw": 651,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-29T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Ostrołęka B",
+     "kraftslag": "kol",
+     "mw": 651,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-29T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 626,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2030-02-10T22:45Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2030-02-10T22:45Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
+     "namn": "EC Żerań 2",
+     "kraftslag": "gas",
+     "mw": 484,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-07T11:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned outage"
+    },
+    {
+     "namn": "EC Żerań 2",
+     "kraftslag": "gas",
+     "mw": 484,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-07T11:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned outage"
+    },
+    {
+     "namn": "Łagisza",
+     "kraftslag": "kol",
+     "mw": 430,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
+    },
+    {
+     "namn": "Łagisza",
+     "kraftslag": "kol",
+     "mw": 430,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Medium-term planned overhaul"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-15T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-15T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Połaniec 2-Pasywna",
+     "kraftslag": "biobransle",
+     "mw": 208,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Połaniec 2-Pasywna",
+     "kraftslag": "biobransle",
+     "mw": 208,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "EC Żerań",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-07T11:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned outage"
+    },
+    {
+     "namn": "EC Żerań",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-07T11:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned outage"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 485.0,
+     "status": "begransad",
+     "slut": "2026-11-19T17:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 485.0,
+     "status": "begransad",
+     "slut": "2026-11-19T17:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Kozienice 1",
@@ -7215,48 +7667,6 @@
      "kraftslag": "kol",
      "mw": 1674,
      "tillganglig_mw": 1674,
-     "status": "drift"
-    },
-    {
-     "namn": "Połaniec",
-     "kraftslag": "kol",
-     "mw": 1350,
-     "tillganglig_mw": 1350,
-     "status": "drift"
-    },
-    {
-     "namn": "Połaniec",
-     "kraftslag": "kol",
-     "mw": 1350,
-     "tillganglig_mw": 1350,
-     "status": "drift"
-    },
-    {
-     "namn": "Elektrownia Gryfino",
-     "kraftslag": "gas",
-     "mw": 1340,
-     "tillganglig_mw": 1340,
-     "status": "drift"
-    },
-    {
-     "namn": "Elektrownia Gryfino",
-     "kraftslag": "gas",
-     "mw": 1340,
-     "tillganglig_mw": 1340,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 3",
-     "kraftslag": "kol",
-     "mw": 1258,
-     "tillganglig_mw": 1258,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 3",
-     "kraftslag": "kol",
-     "mw": 1258,
-     "tillganglig_mw": 1258,
      "status": "drift"
     },
     {
@@ -7267,27 +7677,6 @@
      "status": "drift"
     },
     {
-     "namn": "Łaziska 3",
-     "kraftslag": "kol",
-     "mw": 849,
-     "tillganglig_mw": 849,
-     "status": "drift"
-    },
-    {
-     "namn": "Łaziska 3",
-     "kraftslag": "kol",
-     "mw": 849,
-     "tillganglig_mw": 849,
-     "status": "drift"
-    },
-    {
-     "namn": "Rybnik",
-     "kraftslag": "kol",
-     "mw": 835,
-     "tillganglig_mw": 835,
-     "status": "drift"
-    },
-    {
      "namn": "Jaworzno 2 JWCD",
      "kraftslag": "kol",
      "mw": 834,
@@ -7316,55 +7705,6 @@
      "status": "drift"
     },
     {
-     "namn": "Ostrołęka B",
-     "kraftslag": "kol",
-     "mw": 651,
-     "tillganglig_mw": 651,
-     "status": "drift"
-    },
-    {
-     "namn": "Ostrołęka B",
-     "kraftslag": "kol",
-     "mw": 651,
-     "tillganglig_mw": 651,
-     "status": "drift"
-    },
-    {
-     "namn": "Rybnik",
-     "kraftslag": "kol",
-     "mw": 626,
-     "tillganglig_mw": 626,
-     "status": "drift"
-    },
-    {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 620,
-     "status": "drift"
-    },
-    {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 620,
-     "status": "drift"
-    },
-    {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 582,
-     "status": "drift"
-    },
-    {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 582,
-     "status": "drift"
-    },
-    {
      "namn": "EC Siekierki",
      "kraftslag": "kol",
      "mw": 534,
@@ -7376,20 +7716,6 @@
      "kraftslag": "kol",
      "mw": 534,
      "tillganglig_mw": 534,
-     "status": "drift"
-    },
-    {
-     "namn": "EC Żerań 2",
-     "kraftslag": "gas",
-     "mw": 484,
-     "tillganglig_mw": 484,
-     "status": "drift"
-    },
-    {
-     "namn": "EC Żerań 2",
-     "kraftslag": "gas",
-     "mw": 484,
-     "tillganglig_mw": 484,
      "status": "drift"
     },
     {
@@ -7442,20 +7768,6 @@
      "status": "drift"
     },
     {
-     "namn": "Łagisza",
-     "kraftslag": "kol",
-     "mw": 430,
-     "tillganglig_mw": 430,
-     "status": "drift"
-    },
-    {
-     "namn": "Łagisza",
-     "kraftslag": "kol",
-     "mw": 430,
-     "tillganglig_mw": 430,
-     "status": "drift"
-    },
-    {
      "namn": "Kraków Łęg",
      "kraftslag": "kol",
      "mw": 393,
@@ -7502,20 +7814,6 @@
      "kraftslag": "kol",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Siersza",
-     "kraftslag": "kol",
-     "mw": 278,
-     "tillganglig_mw": 278,
-     "status": "drift"
-    },
-    {
-     "namn": "Siersza",
-     "kraftslag": "kol",
-     "mw": 278,
-     "tillganglig_mw": 278,
      "status": "drift"
     },
     {
@@ -7600,20 +7898,6 @@
      "kraftslag": "vind_land",
      "mw": 211,
      "tillganglig_mw": 211,
-     "status": "drift"
-    },
-    {
-     "namn": "Połaniec 2-Pasywna",
-     "kraftslag": "biobransle",
-     "mw": 208,
-     "tillganglig_mw": 208,
-     "status": "drift"
-    },
-    {
-     "namn": "Połaniec 2-Pasywna",
-     "kraftslag": "biobransle",
-     "mw": 208,
-     "tillganglig_mw": 208,
      "status": "drift"
     },
     {
@@ -8249,20 +8533,6 @@
     {
      "namn": "Pątnów 1",
      "kraftslag": "brunkol",
-     "mw": 0,
-     "tillganglig_mw": 0,
-     "status": "drift"
-    },
-    {
-     "namn": "EC Żerań",
-     "kraftslag": "kol",
-     "mw": 0,
-     "tillganglig_mw": 0,
-     "status": "drift"
-    },
-    {
-     "namn": "EC Żerań",
-     "kraftslag": "kol",
      "mw": 0,
      "tillganglig_mw": 0,
      "status": "drift"
