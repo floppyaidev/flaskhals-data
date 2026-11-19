@@ -562,7 +562,8 @@ def uppdatera_magasin(now, budget_s=150):
     """Magasinens fyllnad per zon (A72, veckovis) mot snittet för samma vecka de tre senaste åren. En gång per dygn."""
     fil = OUT / "magasin.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    if old.get("zoner") and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
+    klar = all(z in old.get("zoner", {}) for z in MAGASIN_ZONER)
+    if klar and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
         return
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
