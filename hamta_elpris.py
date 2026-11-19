@@ -255,25 +255,49 @@ def uppdatera_karnkraft(now):
     """Aktuella och kommande avbrott (A77 produktionsenheter, A80 generatorenheter) till data/karnkraft.json."""
     fil = OUT / "karnkraft.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(minutes=55):
+    if not old.get("fel") and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(minutes=55):
         print("kärnkraft: uppdaterad för mindre än en timme sedan, hoppar över")
         return
     avbrott = []
+    misslyckade = set()
     for zone in NUC_ZONES:
         for doc in ("A77", "A80"):
-            body = fetch_raw({"documentType": doc, "BiddingZone_Domain": ZONES[zone],
-                              "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
-            stats = {"typer": {}}
-            res = parse_avbrott(body, stats)
-            print(f"{doc} {zone}: {stats.get('filer', 0)} meddelanden, kärnkraft {len(res)}" + (f", svar: {ack_text(body)}" if "inte_zip" in stats else ""))
+            for forsok in range(2):
+                body = fetch_raw({"documentType": doc, "BiddingZone_Domain": ZONES[zone],
+                                  "periodStart": fmt(now - timedelta(days=1)), "periodEnd": fmt(now + timedelta(days=60))})
+                stats = {"typer": {}}
+                res = parse_avbrott(body, stats)
+                svar = ack_text(body) if "inte_zip" in stats else ""
+                # Felsvar (t.ex. timeout hos ENTSO-E) är inte samma sak som "inga avbrott"
+                fel = "inte_zip" in stats and "No matching data" not in svar
+                print(f"{doc} {zone}: {stats.get('filer', 0)} meddelanden, kärnkraft {len(res)}" + (f", svar: {svar}" if svar else "") + (" (FEL)" if fel else ""))
+                if not fel:
+                    break
+                time.sleep(5)
+            if fel:
+                misslyckade.add(zone)
             for a in res:
                 a["zon"] = zone
                 if not any(x["namn"] == a["namn"] and x["start"] == a["start"] for x in avbrott):
                     avbrott.append(a)
             time.sleep(1)
+    # Zoner där frågan misslyckades: behåll de gamla avbrotten som inte har tagit slut
+    nu = iso(datetime.now(timezone.utc))
+    reserv = list(old.get("avbrott", []))
+    try:  # även kärnkraftsavbrotten i avbrott.json (extrajobbet) som reserv
+        alla = json.loads((OUT / "avbrott.json").read_text(encoding="utf-8")).get("zoner", {})
+        reserv += [dict(a, zon=z) for z in misslyckade for a in alla.get(z, []) if a.get("kraftslag") == "karnkraft"]
+    except Exception:
+        pass
+    for a in reserv:
+        if a.get("zon") in misslyckade and a.get("slut", "") > nu and not any(x["namn"] == a["namn"] and x["start"] == a["start"] for x in avbrott):
+            avbrott.append(a)
+    if misslyckade:
+        print(f"kärnkraft: fel för {sorted(misslyckade)}, behåller tidigare avbrott där")
     avbrott.sort(key=lambda a: (a["zon"], a["namn"] or "", a["start"]))
     reaktorer = [{"zon": z, "namn": n, "mw": mw} for z, lista in REAKTORER.items() for n, mw in lista]
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "reaktorer": reaktorer, "avbrott": avbrott}
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "reaktorer": reaktorer, "avbrott": avbrott,
+           "fel": sorted(misslyckade)}  # försök igen nästa körning om något misslyckades
     fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"kärnkraft: {len(avbrott)} avbrott")
 
