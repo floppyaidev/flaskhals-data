@@ -724,6 +724,47 @@ def fetch_raw(params):
         return e.read()
 
 
+ENERGINET_FALT = {"OffshoreWindPower": "vind_hav", "OnshoreWindPower": "vind_land", "SolarPower": "sol",
+                  "ProductionGe100MW": "ovrigt", "ProductionLt100MW": "ovrigt"}
+
+
+_ENERGINET = {}
+
+
+def energinet_serier(zone, start, end):
+    """Reserv för DK1/DK2 när ENTSO-E saknar data: Energinets öppna API (Energi Data Service, ingen nyckel).
+    Produktion var 5:e minut, medelvärde per kvart. Värmekraft (central + lokal) blir "ovrigt".
+    API:et tillåter få anrop, så DK1 och DK2 hämtas i ett anrop och sparas för körningen."""
+    if "recs" not in _ENERGINET:
+        q = urllib.parse.urlencode({"start": start.strftime("%Y-%m-%dT%H:%M"), "end": end.strftime("%Y-%m-%dT%H:%M"),
+                                    "filter": json.dumps({"PriceArea": ["DK1", "DK2"]}), "timezone": "UTC", "limit": 4000})
+        req = urllib.request.Request("https://api.energidataservice.dk/dataset/ElectricityProdex5MinRealtime?" + q,
+                                     headers={"User-Agent": "flaskhals-data"})
+        for forsok in range(2):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    _ENERGINET["recs"] = json.loads(r.read().decode("utf-8")).get("records", [])
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or forsok:
+                    raise
+                time.sleep(30)
+    summa = {}  # kraftslag -> kvart -> [summa, antal 5-min]
+    for rec in _ENERGINET["recs"]:
+        if rec.get("PriceArea") != zone:
+            continue
+        t = datetime.strptime(rec["Minutes5UTC"][:16], "%Y-%m-%dT%H:%M").replace(tzinfo=timezone.utc)
+        kv = iso(t - timedelta(minutes=t.minute % 15))
+        per = {}
+        for falt, k in ENERGINET_FALT.items():
+            if rec.get(falt) is not None:
+                per[k] = per.get(k, 0.0) + max(0.0, float(rec[falt]))
+        for k, v in per.items():
+            a = summa.setdefault(k, {}).setdefault(kv, [0.0, 0])
+            a[0] += v; a[1] += 1
+    return {k: {t: round(a[0] / a[1]) for t, a in sorted(d.items())} for k, d in summa.items()}
+
+
 def main():
     t_start = time.time()
     now = datetime.now(timezone.utc).replace(second=0, microsecond=0)
@@ -759,6 +800,14 @@ def main():
             time.sleep(2)
             continue
 
+        if "ack" in data and zone.startswith("DK"):
+            try:
+                ser = energinet_serier(zone, start, end + timedelta(minutes=15))
+                if ser:
+                    data = {"serier": ser}
+                    print(f"{zone}: ENTSO-E saknar data, använder Energinet")
+            except Exception as e:
+                print(f"{zone}: Energinet fel {e!r}")
         if "ack" in data:
             print(f"{zone}: inget data ännu {data['ack']}")
             time.sleep(2)
