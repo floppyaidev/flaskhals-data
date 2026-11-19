@@ -750,8 +750,8 @@ def main():
         time.sleep(2)
 
     # Extra: avbrott för alla kraftslag och produktion per kraftverk. Körs sist så att priser och
-    # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 12 min).
-    SLUT = 480  # sekunder från start som de extra delarna får använda (hård gräns per fråga, se fetch_raw)
+    # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 14 min).
+    SLUT = 600  # sekunder från start som de extra delarna får använda (hård gräns per fråga, se fetch_raw). Arbetsflödet stoppas efter 14 min.
     global EXTRA_DEADLINE
     EXTRA_DEADLINE = t_start + SLUT
     for namn, fn in (("avbrott", uppdatera_avbrott), ("magasin", uppdatera_magasin),
