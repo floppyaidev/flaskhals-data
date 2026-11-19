@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T18:29Z",
+ "uppdaterad": "2026-11-19T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -5589,26 +5589,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Hamm-Uentrop",
-     "kraftslag": "gas",
-     "mw": 850,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T03:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
-     "namn": "KW Hamm-Uentrop",
-     "kraftslag": "gas",
-     "mw": 850,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T03:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Huckingen (HKM)",
      "kraftslag": "kolgas",
      "mw": 600,
@@ -6159,6 +6139,20 @@
      "kraftslag": "gas",
      "mw": 866,
      "tillganglig_mw": 866,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 850,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 850,
      "status": "drift"
     },
     {
