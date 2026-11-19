@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T21:28Z",
+ "uppdaterad": "2026-11-19T21:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -219,6 +219,16 @@
    "produktion_tid": "2026-11-14T19:00Z",
    "verk": [
     {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 178.0,
+     "status": "begransad",
+     "slut": "2026-11-20T09:00Z",
+     "typ": "oplanerat",
+     "orsak": "Windfar severely affected by ice."
+    },
+    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -246,13 +256,6 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
