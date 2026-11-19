@@ -1,5 +1,9013 @@
 {
- "uppdaterad": "2026-11-19T12:23Z",
+ "uppdaterad": "2026-11-19T12:31Z",
  "enhet": "MW",
- "zoner": {}
+ "zoner": {
+  "SE1": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 811,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 811,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "MarkbygdenETT",
+     "kraftslag": "vind_land",
+     "mw": 645,
+     "tillganglig_mw": 645,
+     "status": "drift"
+    },
+    {
+     "namn": "MarkbygdenETT",
+     "kraftslag": "vind_land",
+     "mw": 645,
+     "tillganglig_mw": 645,
+     "status": "drift"
+    },
+    {
+     "namn": "Letsi",
+     "kraftslag": "vattenkraft",
+     "mw": 474,
+     "tillganglig_mw": 474,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Letsi",
+     "kraftslag": "vattenkraft",
+     "mw": 474,
+     "tillganglig_mw": 474,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Messaure",
+     "kraftslag": "vattenkraft",
+     "mw": 428,
+     "tillganglig_mw": 428,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Messaure",
+     "kraftslag": "vattenkraft",
+     "mw": 428,
+     "tillganglig_mw": 428,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Porjus",
+     "kraftslag": "vattenkraft",
+     "mw": 422,
+     "tillganglig_mw": 422,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Porjus",
+     "kraftslag": "vattenkraft",
+     "mw": 422,
+     "tillganglig_mw": 422,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Djupdal",
+     "kraftslag": "vind_land",
+     "mw": 380,
+     "tillganglig_mw": 380,
+     "status": "drift"
+    },
+    {
+     "namn": "Djupdal",
+     "kraftslag": "vind_land",
+     "mw": 380,
+     "tillganglig_mw": 380,
+     "status": "drift"
+    },
+    {
+     "namn": "Kallamossen",
+     "kraftslag": "vind_land",
+     "mw": 374,
+     "tillganglig_mw": 374,
+     "status": "drift"
+    },
+    {
+     "namn": "Kallamossen",
+     "kraftslag": "vind_land",
+     "mw": 374,
+     "tillganglig_mw": 374,
+     "status": "drift"
+    },
+    {
+     "namn": "Ritsem",
+     "kraftslag": "vattenkraft",
+     "mw": 334,
+     "tillganglig_mw": 334,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Ritsem",
+     "kraftslag": "vattenkraft",
+     "mw": 334,
+     "tillganglig_mw": 334,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Ligga",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Ligga",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Vietas",
+     "kraftslag": "vattenkraft",
+     "mw": 307,
+     "tillganglig_mw": 307,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Vietas",
+     "kraftslag": "vattenkraft",
+     "mw": 307,
+     "tillganglig_mw": 307,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Porsi",
+     "kraftslag": "vattenkraft",
+     "mw": 273,
+     "tillganglig_mw": 273,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Porsi",
+     "kraftslag": "vattenkraft",
+     "mw": 273,
+     "tillganglig_mw": 273,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Gråberget",
+     "kraftslag": "vind_land",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Gråberget",
+     "kraftslag": "vind_land",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Markbygden 2 North",
+     "kraftslag": "vind_land",
+     "mw": 253,
+     "tillganglig_mw": 253,
+     "status": "drift"
+    },
+    {
+     "namn": "Markbygden 2 North",
+     "kraftslag": "vind_land",
+     "mw": 253,
+     "tillganglig_mw": 253,
+     "status": "drift"
+    },
+    {
+     "namn": "Gallejaur",
+     "kraftslag": "vattenkraft",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Gallejaur",
+     "kraftslag": "vattenkraft",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Seitevare",
+     "kraftslag": "vattenkraft",
+     "mw": 201,
+     "tillganglig_mw": 201,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Seitevare",
+     "kraftslag": "vattenkraft",
+     "mw": 201,
+     "tillganglig_mw": 201,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Laxede",
+     "kraftslag": "vattenkraft",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Laxede",
+     "kraftslag": "vattenkraft",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Akkats",
+     "kraftslag": "vattenkraft",
+     "mw": 156,
+     "tillganglig_mw": 156,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Akkats",
+     "kraftslag": "vattenkraft",
+     "mw": 156,
+     "tillganglig_mw": 156,
+     "status": "drift",
+     "alv": "Luleälven"
+    },
+    {
+     "namn": "Kvistforsen",
+     "kraftslag": "stromkraft",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Kvistforsen",
+     "kraftslag": "stromkraft",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Lehtirova Wind farm",
+     "kraftslag": "vind_land",
+     "mw": 148,
+     "tillganglig_mw": 148,
+     "status": "drift"
+    },
+    {
+     "namn": "Lehtirova Wind farm",
+     "kraftslag": "vind_land",
+     "mw": 148,
+     "tillganglig_mw": 148,
+     "status": "drift"
+    },
+    {
+     "namn": "Ersträsk North (ERN)",
+     "kraftslag": "vind_land",
+     "mw": 134,
+     "tillganglig_mw": 134,
+     "status": "drift"
+    },
+    {
+     "namn": "Ersträsk North (ERN)",
+     "kraftslag": "vind_land",
+     "mw": 134,
+     "tillganglig_mw": 134,
+     "status": "drift"
+    },
+    {
+     "namn": "Vargfors",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Vargfors",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Snöberget",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Snöberget",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Högaliden Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "Högaliden Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "Ersträsk South (ERS)",
+     "kraftslag": "vind_land",
+     "mw": 101,
+     "tillganglig_mw": 101,
+     "status": "drift"
+    },
+    {
+     "namn": "Ersträsk South (ERS)",
+     "kraftslag": "vind_land",
+     "mw": 101,
+     "tillganglig_mw": 101,
+     "status": "drift"
+    },
+    {
+     "namn": "Bastusel",
+     "kraftslag": "vattenkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Bastusel",
+     "kraftslag": "vattenkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift",
+     "alv": "Skellefteälven"
+    },
+    {
+     "namn": "Blisterliden Vindkraftpark",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Blisterliden Vindkraftpark",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    }
+   ]
+  },
+  "SE2": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T13:00Z",
+     "typ": "planerat",
+     "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T13:00Z",
+     "typ": "planerat",
+     "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
+    },
+    {
+     "namn": "Stornorrfors",
+     "kraftslag": "vattenkraft",
+     "mw": 602,
+     "tillganglig_mw": 602,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Stornorrfors",
+     "kraftslag": "vattenkraft",
+     "mw": 602,
+     "tillganglig_mw": 602,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Björnberget Vindkraft",
+     "kraftslag": "vind_land",
+     "mw": 372,
+     "tillganglig_mw": 372,
+     "status": "drift"
+    },
+    {
+     "namn": "Björnberget Vindkraft",
+     "kraftslag": "vind_land",
+     "mw": 372,
+     "tillganglig_mw": 372,
+     "status": "drift"
+    },
+    {
+     "namn": "Vindpark Björkhöjden",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Vindpark Björkhöjden",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åskälen",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åskälen",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 277,
+     "status": "drift"
+    },
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 277,
+     "status": "drift"
+    },
+    {
+     "namn": "Kilforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 272,
+     "tillganglig_mw": 272,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Kilforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 272,
+     "tillganglig_mw": 272,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Krångede",
+     "kraftslag": "vattenkraft",
+     "mw": 266,
+     "tillganglig_mw": 266,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Krångede",
+     "kraftslag": "vattenkraft",
+     "mw": 266,
+     "tillganglig_mw": 266,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Stor-Skälsjön",
+     "kraftslag": "vind_land",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Stor-Skälsjön",
+     "kraftslag": "vind_land",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Åmot-Lingbo",
+     "kraftslag": "vind_land",
+     "mw": 249,
+     "tillganglig_mw": 249,
+     "status": "drift"
+    },
+    {
+     "namn": "Åmot-Lingbo",
+     "kraftslag": "vind_land",
+     "mw": 249,
+     "tillganglig_mw": 249,
+     "status": "drift"
+    },
+    {
+     "namn": "Turinge",
+     "kraftslag": "vind_land",
+     "mw": 241,
+     "tillganglig_mw": 241,
+     "status": "drift"
+    },
+    {
+     "namn": "Turinge",
+     "kraftslag": "vind_land",
+     "mw": 241,
+     "tillganglig_mw": 241,
+     "status": "drift"
+    },
+    {
+     "namn": "Blaiken",
+     "kraftslag": "vind_land",
+     "mw": 237,
+     "tillganglig_mw": 237,
+     "status": "drift"
+    },
+    {
+     "namn": "Blaiken",
+     "kraftslag": "vind_land",
+     "mw": 237,
+     "tillganglig_mw": 237,
+     "status": "drift"
+    },
+    {
+     "namn": "Skaftåsen",
+     "kraftslag": "vind_land",
+     "mw": 231,
+     "tillganglig_mw": 231,
+     "status": "drift"
+    },
+    {
+     "namn": "Skaftåsen",
+     "kraftslag": "vind_land",
+     "mw": 231,
+     "tillganglig_mw": 231,
+     "status": "drift"
+    },
+    {
+     "namn": "Harrsele",
+     "kraftslag": "stromkraft",
+     "mw": 223,
+     "tillganglig_mw": 223,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Harrsele",
+     "kraftslag": "stromkraft",
+     "mw": 223,
+     "tillganglig_mw": 223,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Hästkullen Norra",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Hästkullen Norra",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Björkvattnet",
+     "kraftslag": "vind_land",
+     "mw": 175,
+     "tillganglig_mw": 175,
+     "status": "drift"
+    },
+    {
+     "namn": "Björkvattnet",
+     "kraftslag": "vind_land",
+     "mw": 175,
+     "tillganglig_mw": 175,
+     "status": "drift"
+    },
+    {
+     "namn": "Vitberget",
+     "kraftslag": "vind_land",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift"
+    },
+    {
+     "namn": "Vitberget",
+     "kraftslag": "vind_land",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift"
+    },
+    {
+     "namn": "Björnlandshöjden",
+     "kraftslag": "vind_land",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "Björnlandshöjden",
+     "kraftslag": "vind_land",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "Sällsjö",
+     "kraftslag": "vattenkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Sällsjö",
+     "kraftslag": "vattenkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Bergeforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Bergeforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Kråktorpet",
+     "kraftslag": "vind_land",
+     "mw": 163,
+     "tillganglig_mw": 163,
+     "status": "drift"
+    },
+    {
+     "namn": "Kråktorpet",
+     "kraftslag": "vind_land",
+     "mw": 163,
+     "tillganglig_mw": 163,
+     "status": "drift"
+    },
+    {
+     "namn": "Lasele",
+     "kraftslag": "vattenkraft",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Lasele",
+     "kraftslag": "vattenkraft",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Ranasjöhöjden",
+     "kraftslag": "vind_land",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Ranasjöhöjden",
+     "kraftslag": "vind_land",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Storhöjden",
+     "kraftslag": "vind_land",
+     "mw": 154,
+     "tillganglig_mw": 154,
+     "status": "drift"
+    },
+    {
+     "namn": "Storhöjden",
+     "kraftslag": "vind_land",
+     "mw": 154,
+     "tillganglig_mw": 154,
+     "status": "drift"
+    },
+    {
+     "namn": "Forsmo",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "tillganglig_mw": 152,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Forsmo",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "tillganglig_mw": 152,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Hölleforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 147,
+     "tillganglig_mw": 147,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Hölleforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 147,
+     "tillganglig_mw": 147,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Midskog",
+     "kraftslag": "vattenkraft",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Midskog",
+     "kraftslag": "vattenkraft",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Klevberget",
+     "kraftslag": "vind_land",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Klevberget",
+     "kraftslag": "vind_land",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Sidensjö",
+     "kraftslag": "vind_land",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Sidensjö",
+     "kraftslag": "vind_land",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Fäbodberget",
+     "kraftslag": "vind_land",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Fäbodberget",
+     "kraftslag": "vind_land",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Stadsforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 141,
+     "tillganglig_mw": 141,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Stadsforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 141,
+     "tillganglig_mw": 141,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Sörlidberget",
+     "kraftslag": "vind_land",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Sörlidberget",
+     "kraftslag": "vind_land",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Stalon",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Stalon",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Hocksjön",
+     "kraftslag": "vind_land",
+     "mw": 131,
+     "tillganglig_mw": 131,
+     "status": "drift"
+    },
+    {
+     "namn": "Hocksjön",
+     "kraftslag": "vind_land",
+     "mw": 131,
+     "tillganglig_mw": 131,
+     "status": "drift"
+    },
+    {
+     "namn": "Korsselbränna",
+     "kraftslag": "stromkraft",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Korsselbränna",
+     "kraftslag": "stromkraft",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Husum Pulp AB",
+     "kraftslag": "biobransle",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Husum Pulp AB",
+     "kraftslag": "biobransle",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Blakliden",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "Blakliden",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "Tönsen",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Tönsen",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Torpshammar",
+     "kraftslag": "vattenkraft",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift",
+     "alv": "Ljungan"
+    },
+    {
+     "namn": "Torpshammar",
+     "kraftslag": "vattenkraft",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift",
+     "alv": "Ljungan"
+    },
+    {
+     "namn": "Järpströmmen",
+     "kraftslag": "vattenkraft",
+     "mw": 114,
+     "tillganglig_mw": 114,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Järpströmmen",
+     "kraftslag": "vattenkraft",
+     "mw": 114,
+     "tillganglig_mw": 114,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Olden (Oldå og Långså)",
+     "kraftslag": "stromkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Olden (Oldå og Långså)",
+     "kraftslag": "stromkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift",
+     "alv": "Indalsälven"
+    },
+    {
+     "namn": "Hästkullen Södra",
+     "kraftslag": "vind_land",
+     "mw": 107,
+     "tillganglig_mw": 107,
+     "status": "drift"
+    },
+    {
+     "namn": "Hästkullen Södra",
+     "kraftslag": "vind_land",
+     "mw": 107,
+     "tillganglig_mw": 107,
+     "status": "drift"
+    },
+    {
+     "namn": "Ögonfägnaden",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Ögonfägnaden",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Nämforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 105,
+     "tillganglig_mw": 105,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Nämforsen",
+     "kraftslag": "vattenkraft",
+     "mw": 105,
+     "tillganglig_mw": 105,
+     "status": "drift",
+     "alv": "Ångermanälven"
+    },
+    {
+     "namn": "Fasikan Vind",
+     "kraftslag": "vind_land",
+     "mw": 105,
+     "tillganglig_mw": 105,
+     "status": "drift"
+    },
+    {
+     "namn": "Fasikan Vind",
+     "kraftslag": "vind_land",
+     "mw": 105,
+     "tillganglig_mw": 105,
+     "status": "drift"
+    },
+    {
+     "namn": "Tuggen",
+     "kraftslag": "vattenkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Tuggen",
+     "kraftslag": "vattenkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Grundfors",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Grundfors",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Krokströmmen",
+     "kraftslag": "stromkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift",
+     "alv": "Ljusnan"
+    },
+    {
+     "namn": "Krokströmmen",
+     "kraftslag": "stromkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift",
+     "alv": "Ljusnan"
+    },
+    {
+     "namn": "Järnvägsforsen",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift",
+     "alv": "Ljungan"
+    },
+    {
+     "namn": "Järnvägsforsen",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift",
+     "alv": "Ljungan"
+    },
+    {
+     "namn": "Knäsjöberget",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Knäsjöberget",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Granliden",
+     "kraftslag": "vind_land",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Granliden",
+     "kraftslag": "vind_land",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Umluspen",
+     "kraftslag": "vattenkraft",
+     "mw": 85,
+     "tillganglig_mw": 85,
+     "status": "drift",
+     "alv": "Umeälven"
+    },
+    {
+     "namn": "Umluspen",
+     "kraftslag": "vattenkraft",
+     "mw": 85,
+     "tillganglig_mw": 85,
+     "status": "drift",
+     "alv": "Umeälven"
+    }
+   ]
+  },
+  "SE3": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Forsmark block 1",
+     "kraftslag": "karnkraft",
+     "mw": 1100,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T22:59Z",
+     "typ": "planerat",
+     "orsak": "Yearly outage, followed by additional maintenance work at turbine 11"
+    },
+    {
+     "namn": "Forsmark block 1",
+     "kraftslag": "karnkraft",
+     "mw": 1100,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T22:59Z",
+     "typ": "planerat",
+     "orsak": "Yearly outage, followed by additional maintenance work at turbine 11"
+    },
+    {
+     "namn": "Ringhals 3",
+     "kraftslag": "karnkraft",
+     "mw": 1063,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-20T22:59Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Ringhals 3",
+     "kraftslag": "karnkraft",
+     "mw": 1063,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-20T22:59Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Oskarshamn 3",
+     "kraftslag": "karnkraft",
+     "mw": 1400,
+     "tillganglig_mw": 1400,
+     "status": "drift"
+    },
+    {
+     "namn": "Oskarshamn 3",
+     "kraftslag": "karnkraft",
+     "mw": 1400,
+     "tillganglig_mw": 1400,
+     "status": "drift"
+    },
+    {
+     "namn": "Forsmark block 3",
+     "kraftslag": "karnkraft",
+     "mw": 1172,
+     "tillganglig_mw": 1172,
+     "status": "drift"
+    },
+    {
+     "namn": "Forsmark block 3",
+     "kraftslag": "karnkraft",
+     "mw": 1172,
+     "tillganglig_mw": 1172,
+     "status": "drift"
+    },
+    {
+     "namn": "Forsmark block 2",
+     "kraftslag": "karnkraft",
+     "mw": 1121,
+     "tillganglig_mw": 1121,
+     "status": "drift"
+    },
+    {
+     "namn": "Forsmark block 2",
+     "kraftslag": "karnkraft",
+     "mw": 1121,
+     "tillganglig_mw": 1121,
+     "status": "drift"
+    },
+    {
+     "namn": "Värtaverket",
+     "kraftslag": "biobransle",
+     "mw": 384,
+     "tillganglig_mw": 384,
+     "status": "drift"
+    },
+    {
+     "namn": "Värtaverket",
+     "kraftslag": "biobransle",
+     "mw": 384,
+     "tillganglig_mw": 384,
+     "status": "drift"
+    },
+    {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift",
+     "alv": "Dalälven"
+    },
+    {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift",
+     "alv": "Dalälven"
+    },
+    {
+     "namn": "Stenungsund B3",
+     "kraftslag": "olja",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Stenungsund B3",
+     "kraftslag": "olja",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Stenungsund B4",
+     "kraftslag": "olja",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Stenungsund B4",
+     "kraftslag": "olja",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Rya KVV",
+     "kraftslag": "gas",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Rya KVV",
+     "kraftslag": "gas",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Storflötten och Lästerhöjden",
+     "kraftslag": "vind_land",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Storflötten och Lästerhöjden",
+     "kraftslag": "vind_land",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Jädraås Vindkraftpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 213,
+     "status": "drift"
+    },
+    {
+     "namn": "Jädraås Vindkraftpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 213,
+     "status": "drift"
+    },
+    {
+     "namn": "Hojum",
+     "kraftslag": "vattenkraft",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift",
+     "alv": "Göta älv"
+    },
+    {
+     "namn": "Hojum",
+     "kraftslag": "vattenkraft",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift",
+     "alv": "Göta älv"
+    },
+    {
+     "namn": "Höljes",
+     "kraftslag": "vattenkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Höljes",
+     "kraftslag": "vattenkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift",
+     "alv": null
+    },
+    {
+     "namn": "Bruzaholm",
+     "kraftslag": "vind_land",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "Bruzaholm",
+     "kraftslag": "vind_land",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "Bäckhammar",
+     "kraftslag": "vind_land",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Bäckhammar",
+     "kraftslag": "vind_land",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Älvkarleby",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift",
+     "alv": "Dalälven"
+    },
+    {
+     "namn": "Älvkarleby",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift",
+     "alv": "Dalälven"
+    },
+    {
+     "namn": "Slite gasturbin",
+     "kraftslag": "olja",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Slite gasturbin",
+     "kraftslag": "olja",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Målarberget",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Målarberget",
+     "kraftslag": "vind_land",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Svartnäs",
+     "kraftslag": "vind_land",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Svartnäs",
+     "kraftslag": "vind_land",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Ånglarna",
+     "kraftslag": "vind_land",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Ånglarna",
+     "kraftslag": "vind_land",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Åbyverket G3",
+     "kraftslag": "biobransle",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Åbyverket G3",
+     "kraftslag": "biobransle",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Älgkullen",
+     "kraftslag": "vind_land",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "Älgkullen",
+     "kraftslag": "vind_land",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "Hultsfred",
+     "kraftslag": "sol",
+     "mw": 91,
+     "tillganglig_mw": 91,
+     "status": "drift"
+    },
+    {
+     "namn": "Hultsfred",
+     "kraftslag": "sol",
+     "mw": 91,
+     "tillganglig_mw": 91,
+     "status": "drift"
+    },
+    {
+     "namn": "Kronoberget",
+     "kraftslag": "vind_land",
+     "mw": 61,
+     "tillganglig_mw": 61,
+     "status": "drift"
+    },
+    {
+     "namn": "Kronoberget",
+     "kraftslag": "vind_land",
+     "mw": 61,
+     "tillganglig_mw": 61,
+     "status": "drift"
+    },
+    {
+     "namn": "Eskilstuna BESS",
+     "kraftslag": "lagring",
+     "mw": 30,
+     "tillganglig_mw": 30,
+     "status": "drift"
+    },
+    {
+     "namn": "Eken",
+     "kraftslag": "sol",
+     "mw": 12,
+     "tillganglig_mw": 12,
+     "status": "drift"
+    },
+    {
+     "namn": "Eken",
+     "kraftslag": "sol",
+     "mw": 12,
+     "tillganglig_mw": 12,
+     "status": "drift"
+    }
+   ]
+  },
+  "SE4": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Öresundsverket CHP",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Outage"
+    },
+    {
+     "namn": "Öresundsverket CHP",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Outage"
+    },
+    {
+     "namn": "Karlshamn",
+     "kraftslag": "olja",
+     "mw": 670,
+     "tillganglig_mw": 670,
+     "status": "drift"
+    },
+    {
+     "namn": "Karlshamn",
+     "kraftslag": "olja",
+     "mw": 670,
+     "tillganglig_mw": 670,
+     "status": "drift"
+    },
+    {
+     "namn": "Gasturbiner Halmstad",
+     "kraftslag": "olja",
+     "mw": 278,
+     "tillganglig_mw": 278,
+     "status": "drift"
+    },
+    {
+     "namn": "Gasturbiner Halmstad",
+     "kraftslag": "olja",
+     "mw": 278,
+     "tillganglig_mw": 278,
+     "status": "drift"
+    },
+    {
+     "namn": "Kilberget",
+     "kraftslag": "vind_land",
+     "mw": 259,
+     "tillganglig_mw": 259,
+     "status": "drift"
+    },
+    {
+     "namn": "Kilberget",
+     "kraftslag": "vind_land",
+     "mw": 259,
+     "tillganglig_mw": 259,
+     "status": "drift"
+    },
+    {
+     "namn": "Tvinnesheda",
+     "kraftslag": "vind_land",
+     "mw": 202,
+     "tillganglig_mw": 202,
+     "status": "drift"
+    },
+    {
+     "namn": "Tvinnesheda",
+     "kraftslag": "vind_land",
+     "mw": 202,
+     "tillganglig_mw": 202,
+     "status": "drift"
+    },
+    {
+     "namn": "Åby-alebo",
+     "kraftslag": "vind_land",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Åby-alebo",
+     "kraftslag": "vind_land",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Horshaga",
+     "kraftslag": "vind_land",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Gasturbiner Malmö",
+     "kraftslag": "olja",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Gasturbiner Malmö",
+     "kraftslag": "olja",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Öresundsverket GT",
+     "kraftslag": "olja",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Öresundsverket GT",
+     "kraftslag": "olja",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Lillgrund",
+     "kraftslag": "vind_hav",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Lillgrund",
+     "kraftslag": "vind_hav",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Lemnhult",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Lemnhult",
+     "kraftslag": "vind_land",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Karskruv",
+     "kraftslag": "vind_land",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Karskruv",
+     "kraftslag": "vind_land",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Marhult",
+     "kraftslag": "vind_land",
+     "mw": 32,
+     "tillganglig_mw": 32,
+     "status": "drift"
+    },
+    {
+     "namn": "Marhult",
+     "kraftslag": "vind_land",
+     "mw": 32,
+     "tillganglig_mw": 32,
+     "status": "drift"
+    }
+   ]
+  },
+  "NO1": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Vamma",
+     "kraftslag": "stromkraft",
+     "mw": 342,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come."
+    },
+    {
+     "namn": "Vamma",
+     "kraftslag": "stromkraft",
+     "mw": 342,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come."
+    },
+    {
+     "namn": "Nedre Vinstra",
+     "kraftslag": "vattenkraft",
+     "mw": 338,
+     "tillganglig_mw": 165.0,
+     "status": "begransad",
+     "slut": "2026-12-04T14:00Z",
+     "typ": "planerat",
+     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+    },
+    {
+     "namn": "Nedre Vinstra",
+     "kraftslag": "vattenkraft",
+     "mw": 338,
+     "tillganglig_mw": 165.0,
+     "status": "begransad",
+     "slut": "2026-12-04T14:00Z",
+     "typ": "planerat",
+     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+    },
+    {
+     "namn": "F.K.F",
+     "kraftslag": "stromkraft",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "F.K.F",
+     "kraftslag": "stromkraft",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Øvre Vinstra",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Øvre Vinstra",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Torpa",
+     "kraftslag": "vattenkraft",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift"
+    },
+    {
+     "namn": "Torpa",
+     "kraftslag": "vattenkraft",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift"
+    },
+    {
+     "namn": "Hunderfossen",
+     "kraftslag": "stromkraft",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Hunderfossen",
+     "kraftslag": "stromkraft",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Solberg1",
+     "kraftslag": "stromkraft",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Solberg1",
+     "kraftslag": "stromkraft",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Raskiftet",
+     "kraftslag": "vind_land",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Raskiftet",
+     "kraftslag": "vind_land",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Songkjølen Vind",
+     "kraftslag": "vind_land",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Songkjølen Vind",
+     "kraftslag": "vind_land",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Harpefossen",
+     "kraftslag": "stromkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Harpefossen",
+     "kraftslag": "stromkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Rendal 2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Rendal 2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Solberg2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Solberg2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Rendalen",
+     "kraftslag": "stromkraft",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Rendalen",
+     "kraftslag": "stromkraft",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Skollenborg",
+     "kraftslag": "stromkraft",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Skollenborg",
+     "kraftslag": "stromkraft",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Åbjøra",
+     "kraftslag": "vattenkraft",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Åbjøra",
+     "kraftslag": "vattenkraft",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Osa",
+     "kraftslag": "vattenkraft",
+     "mw": 90,
+     "tillganglig_mw": 90,
+     "status": "drift"
+    },
+    {
+     "namn": "Osa",
+     "kraftslag": "vattenkraft",
+     "mw": 88,
+     "tillganglig_mw": 88,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaggefoss",
+     "kraftslag": "stromkraft",
+     "mw": 87,
+     "tillganglig_mw": 87,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaggefoss",
+     "kraftslag": "stromkraft",
+     "mw": 87,
+     "tillganglig_mw": 87,
+     "status": "drift"
+    },
+    {
+     "namn": "Rånåsfo1",
+     "kraftslag": "stromkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Rånåsfo1",
+     "kraftslag": "stromkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Sarp",
+     "kraftslag": "stromkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Sarp",
+     "kraftslag": "stromkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    }
+   ]
+  },
+  "NO2": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Kvilldal",
+     "kraftslag": "vattenkraft",
+     "mw": 1240,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "planerat",
+     "orsak": "Repair fine water leak"
+    },
+    {
+     "namn": "Kvilldal",
+     "kraftslag": "vattenkraft",
+     "mw": 1240,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "planerat",
+     "orsak": "Repair fine water leak"
+    },
+    {
+     "namn": "Tonstad",
+     "kraftslag": "vattenkraft",
+     "mw": 992,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+    },
+    {
+     "namn": "Tonstad",
+     "kraftslag": "vattenkraft",
+     "mw": 992,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+    },
+    {
+     "namn": "Tokke",
+     "kraftslag": "vattenkraft",
+     "mw": 440,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T14:00Z",
+     "typ": "planerat",
+     "orsak": "Alignment of generator shaft"
+    },
+    {
+     "namn": "Tokke",
+     "kraftslag": "vattenkraft",
+     "mw": 440,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T14:00Z",
+     "typ": "planerat",
+     "orsak": "Alignment of generator shaft"
+    },
+    {
+     "namn": "Holen",
+     "kraftslag": "vattenkraft",
+     "mw": 415,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "High storage temperature"
+    },
+    {
+     "namn": "Holen",
+     "kraftslag": "vattenkraft",
+     "mw": 415,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "High storage temperature"
+    },
+    {
+     "namn": "Saurdal Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T18:00Z",
+     "typ": "planerat",
+     "orsak": "Work in water way"
+    },
+    {
+     "namn": "Saurdal Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T18:00Z",
+     "typ": "planerat",
+     "orsak": "Work in water way"
+    },
+    {
+     "namn": "Blåfal.V",
+     "kraftslag": "vattenkraft",
+     "mw": 235,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T14:00Z",
+     "typ": "planerat",
+     "orsak": "Runner stress measurement via turbine lab."
+    },
+    {
+     "namn": "Blåfal.V",
+     "kraftslag": "vattenkraft",
+     "mw": 235,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T14:00Z",
+     "typ": "planerat",
+     "orsak": "Runner stress measurement via turbine lab."
+    },
+    {
+     "namn": "Tonstad Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+    },
+    {
+     "namn": "Tonstad Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+    },
+    {
+     "namn": "Brokke",
+     "kraftslag": "vattenkraft",
+     "mw": 379,
+     "tillganglig_mw": 379,
+     "status": "drift"
+    },
+    {
+     "namn": "Brokke",
+     "kraftslag": "vattenkraft",
+     "mw": 379,
+     "tillganglig_mw": 379,
+     "status": "drift"
+    },
+    {
+     "namn": "Lysebotn 2",
+     "kraftslag": "vattenkraft",
+     "mw": 372,
+     "tillganglig_mw": 372,
+     "status": "drift"
+    },
+    {
+     "namn": "Lysebotn 2",
+     "kraftslag": "vattenkraft",
+     "mw": 370,
+     "tillganglig_mw": 370,
+     "status": "drift"
+    },
+    {
+     "namn": "Saurdal Pumpe",
+     "kraftslag": "pumpkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "Saurdal Pumpe",
+     "kraftslag": "pumpkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 309,
+     "status": "drift"
+    },
+    {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 309,
+     "status": "drift"
+    },
+    {
+     "namn": "Sønnå",
+     "kraftslag": "vattenkraft",
+     "mw": 275,
+     "tillganglig_mw": 275,
+     "status": "drift"
+    },
+    {
+     "namn": "Sønnå",
+     "kraftslag": "vattenkraft",
+     "mw": 275,
+     "tillganglig_mw": 275,
+     "status": "drift"
+    },
+    {
+     "namn": "Tysso 2",
+     "kraftslag": "vattenkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "Tysso 2",
+     "kraftslag": "vattenkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "Oksla",
+     "kraftslag": "vattenkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "Oksla",
+     "kraftslag": "vattenkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "Solhom",
+     "kraftslag": "vattenkraft",
+     "mw": 214,
+     "tillganglig_mw": 214,
+     "status": "drift"
+    },
+    {
+     "namn": "Solhom",
+     "kraftslag": "vattenkraft",
+     "mw": 214,
+     "tillganglig_mw": 214,
+     "status": "drift"
+    },
+    {
+     "namn": "Skjerka",
+     "kraftslag": "vattenkraft",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift"
+    },
+    {
+     "namn": "Skjerka",
+     "kraftslag": "vattenkraft",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift"
+    },
+    {
+     "namn": "Vemork",
+     "kraftslag": "vattenkraft",
+     "mw": 204,
+     "tillganglig_mw": 204,
+     "status": "drift"
+    },
+    {
+     "namn": "Vemork",
+     "kraftslag": "vattenkraft",
+     "mw": 204,
+     "tillganglig_mw": 204,
+     "status": "drift"
+    },
+    {
+     "namn": "Duge",
+     "kraftslag": "pumpkraft",
+     "mw": 202,
+     "tillganglig_mw": 202,
+     "status": "drift"
+    },
+    {
+     "namn": "Duge",
+     "kraftslag": "pumpkraft",
+     "mw": 202,
+     "tillganglig_mw": 202,
+     "status": "drift"
+    },
+    {
+     "namn": "Suldal 1",
+     "kraftslag": "vattenkraft",
+     "mw": 187,
+     "tillganglig_mw": 187,
+     "status": "drift"
+    },
+    {
+     "namn": "Suldal 1",
+     "kraftslag": "vattenkraft",
+     "mw": 187,
+     "tillganglig_mw": 187,
+     "status": "drift"
+    },
+    {
+     "namn": "Såheim",
+     "kraftslag": "vattenkraft",
+     "mw": 187,
+     "tillganglig_mw": 187,
+     "status": "drift"
+    },
+    {
+     "namn": "Såheim",
+     "kraftslag": "vattenkraft",
+     "mw": 187,
+     "tillganglig_mw": 187,
+     "status": "drift"
+    },
+    {
+     "namn": "Mår",
+     "kraftslag": "vattenkraft",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "Mår",
+     "kraftslag": "vattenkraft",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "Røldal",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Røldal",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Hylen",
+     "kraftslag": "vattenkraft",
+     "mw": 163,
+     "tillganglig_mw": 163,
+     "status": "drift"
+    },
+    {
+     "namn": "Hylen",
+     "kraftslag": "vattenkraft",
+     "mw": 163,
+     "tillganglig_mw": 163,
+     "status": "drift"
+    },
+    {
+     "namn": "Tellenes",
+     "kraftslag": "vind_land",
+     "mw": 160,
+     "tillganglig_mw": 160,
+     "status": "drift"
+    },
+    {
+     "namn": "Tellenes",
+     "kraftslag": "vind_land",
+     "mw": 160,
+     "tillganglig_mw": 160,
+     "status": "drift"
+    },
+    {
+     "namn": "Bjerkreim Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 159,
+     "tillganglig_mw": 159,
+     "status": "drift"
+    },
+    {
+     "namn": "Bjerkreim Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 159,
+     "tillganglig_mw": 159,
+     "status": "drift"
+    },
+    {
+     "namn": "Åna-Sira",
+     "kraftslag": "vattenkraft",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Åna-Sira",
+     "kraftslag": "vattenkraft",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Midtfjellet",
+     "kraftslag": "vind_land",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Midtfjellet",
+     "kraftslag": "vind_land",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Suldal 2",
+     "kraftslag": "vattenkraft",
+     "mw": 148,
+     "tillganglig_mw": 148,
+     "status": "drift"
+    },
+    {
+     "namn": "Suldal 2",
+     "kraftslag": "vattenkraft",
+     "mw": 148,
+     "tillganglig_mw": 148,
+     "status": "drift"
+    },
+    {
+     "namn": "Skinansfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 142,
+     "tillganglig_mw": 142,
+     "status": "drift"
+    },
+    {
+     "namn": "Skinansfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 142,
+     "tillganglig_mw": 142,
+     "status": "drift"
+    },
+    {
+     "namn": "Songa",
+     "kraftslag": "vattenkraft",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "Songa",
+     "kraftslag": "vattenkraft",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "Lysebotn",
+     "kraftslag": "vattenkraft",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "Lysebotn",
+     "kraftslag": "vattenkraft",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "Tjørhom",
+     "kraftslag": "vattenkraft",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Tjørhom",
+     "kraftslag": "vattenkraft",
+     "mw": 121,
+     "tillganglig_mw": 121,
+     "status": "drift"
+    },
+    {
+     "namn": "Hjartdøla",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Hjartdøla",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Blåfal.3",
+     "kraftslag": "vattenkraft",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Blåfal.3",
+     "kraftslag": "vattenkraft",
+     "mw": 116,
+     "tillganglig_mw": 116,
+     "status": "drift"
+    },
+    {
+     "namn": "Steinsfoss",
+     "kraftslag": "stromkraft",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Steinsfoss",
+     "kraftslag": "stromkraft",
+     "mw": 115,
+     "tillganglig_mw": 115,
+     "status": "drift"
+    },
+    {
+     "namn": "Tjodan",
+     "kraftslag": "vattenkraft",
+     "mw": 113,
+     "tillganglig_mw": 113,
+     "status": "drift"
+    },
+    {
+     "namn": "Tjodan",
+     "kraftslag": "vattenkraft",
+     "mw": 113,
+     "tillganglig_mw": 113,
+     "status": "drift"
+    },
+    {
+     "namn": "Egersund Vindkrv",
+     "kraftslag": "vind_land",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Egersund Vindkrv",
+     "kraftslag": "vind_land",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Sundsbarm",
+     "kraftslag": "vattenkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Sundsbarm",
+     "kraftslag": "vattenkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Finndøla",
+     "kraftslag": "vattenkraft",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "Finndøla",
+     "kraftslag": "vattenkraft",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "Svelgfoss",
+     "kraftslag": "vattenkraft",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Svelgfoss",
+     "kraftslag": "vattenkraft",
+     "mw": 98,
+     "tillganglig_mw": 98,
+     "status": "drift"
+    },
+    {
+     "namn": "Måkaknuten",
+     "kraftslag": "vind_land",
+     "mw": 95,
+     "tillganglig_mw": 95,
+     "status": "drift"
+    },
+    {
+     "namn": "Måkaknuten",
+     "kraftslag": "vind_land",
+     "mw": 95,
+     "tillganglig_mw": 95,
+     "status": "drift"
+    },
+    {
+     "namn": "Flørli",
+     "kraftslag": "vattenkraft",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "Flørli",
+     "kraftslag": "vattenkraft",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvinen",
+     "kraftslag": "vattenkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvinen",
+     "kraftslag": "vattenkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Buheii Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Buheii Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    }
+   ]
+  },
+  "NO3": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Aura",
+     "kraftslag": "vattenkraft",
+     "mw": 301,
+     "tillganglig_mw": 301,
+     "status": "drift"
+    },
+    {
+     "namn": "Aura",
+     "kraftslag": "vattenkraft",
+     "mw": 301,
+     "tillganglig_mw": 301,
+     "status": "drift"
+    },
+    {
+     "namn": "Storheia",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Storheia",
+     "kraftslag": "vind_land",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Guleslettene Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 197,
+     "tillganglig_mw": 197,
+     "status": "drift"
+    },
+    {
+     "namn": "Guleslettene Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 197,
+     "tillganglig_mw": 197,
+     "status": "drift"
+    },
+    {
+     "namn": "Nea magasinkraft",
+     "kraftslag": "vattenkraft",
+     "mw": 186,
+     "tillganglig_mw": 186,
+     "status": "drift"
+    },
+    {
+     "namn": "Nea magasinkraft",
+     "kraftslag": "vattenkraft",
+     "mw": 186,
+     "tillganglig_mw": 186,
+     "status": "drift"
+    },
+    {
+     "namn": "Geitfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "Geitfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "Driva",
+     "kraftslag": "vattenkraft",
+     "mw": 158,
+     "tillganglig_mw": 158,
+     "status": "drift"
+    },
+    {
+     "namn": "Driva",
+     "kraftslag": "vattenkraft",
+     "mw": 158,
+     "tillganglig_mw": 158,
+     "status": "drift"
+    },
+    {
+     "namn": "Smøla",
+     "kraftslag": "vind_land",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Smøla",
+     "kraftslag": "vind_land",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Grytten Kraftver",
+     "kraftslag": "vattenkraft",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Grytten Kraftver",
+     "kraftslag": "vattenkraft",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Haraheia Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 137,
+     "tillganglig_mw": 137,
+     "status": "drift"
+    },
+    {
+     "namn": "Haraheia Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 137,
+     "tillganglig_mw": 137,
+     "status": "drift"
+    },
+    {
+     "namn": "Trolheim",
+     "kraftslag": "vattenkraft",
+     "mw": 135,
+     "tillganglig_mw": 135,
+     "status": "drift"
+    },
+    {
+     "namn": "Trolheim",
+     "kraftslag": "vattenkraft",
+     "mw": 133,
+     "tillganglig_mw": 133,
+     "status": "drift"
+    },
+    {
+     "namn": "Åskåra",
+     "kraftslag": "vattenkraft",
+     "mw": 133,
+     "tillganglig_mw": 133,
+     "status": "drift"
+    },
+    {
+     "namn": "Åskåra",
+     "kraftslag": "vattenkraft",
+     "mw": 133,
+     "tillganglig_mw": 133,
+     "status": "drift"
+    },
+    {
+     "namn": "Bratsberg",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift"
+    },
+    {
+     "namn": "Bratsberg",
+     "kraftslag": "vattenkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift"
+    },
+    {
+     "namn": "Sørmarkfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Sørmarkfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 130,
+     "tillganglig_mw": 130,
+     "status": "drift"
+    },
+    {
+     "namn": "Harbaksfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "Harbaksfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvenndalsfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvenndalsfjellet Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Svelgen",
+     "kraftslag": "vattenkraft",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Svelgen",
+     "kraftslag": "vattenkraft",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Einarsdalen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 119,
+     "tillganglig_mw": 119,
+     "status": "drift"
+    },
+    {
+     "namn": "Einarsdalen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 119,
+     "tillganglig_mw": 119,
+     "status": "drift"
+    },
+    {
+     "namn": "Tafjord4",
+     "kraftslag": "vattenkraft",
+     "mw": 113,
+     "tillganglig_mw": 113,
+     "status": "drift"
+    },
+    {
+     "namn": "Tafjord4",
+     "kraftslag": "vattenkraft",
+     "mw": 113,
+     "tillganglig_mw": 113,
+     "status": "drift"
+    },
+    {
+     "namn": "Øyberget",
+     "kraftslag": "stromkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "Øyberget",
+     "kraftslag": "stromkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "Høya.kr5",
+     "kraftslag": "vattenkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Høya.kr5",
+     "kraftslag": "vattenkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Hitra_2",
+     "kraftslag": "vind_land",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "Hitra_2",
+     "kraftslag": "vind_land",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "Tafjord5",
+     "kraftslag": "vattenkraft",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "Tafjord5",
+     "kraftslag": "vattenkraft",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "Meråker",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Meråker",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Stokkfjellet vind",
+     "kraftslag": "vind_land",
+     "mw": 88,
+     "tillganglig_mw": 88,
+     "status": "drift"
+    },
+    {
+     "namn": "Stokkfjellet vind",
+     "kraftslag": "vind_land",
+     "mw": 88,
+     "tillganglig_mw": 88,
+     "status": "drift"
+    },
+    {
+     "namn": "Eiriksdal",
+     "kraftslag": "vattenkraft",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Eiriksdal",
+     "kraftslag": "vattenkraft",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Nedre Otta",
+     "kraftslag": "stromkraft",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Nedre Otta",
+     "kraftslag": "stromkraft",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Kjøsnesfjorden",
+     "kraftslag": "vattenkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Kjøsnesfjorden",
+     "kraftslag": "vattenkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Grana",
+     "kraftslag": "vattenkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Grana",
+     "kraftslag": "vattenkraft",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    },
+    {
+     "namn": "Framruste",
+     "kraftslag": "vattenkraft",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "Framruste",
+     "kraftslag": "vattenkraft",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "Brattset",
+     "kraftslag": "vattenkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Brattset",
+     "kraftslag": "vattenkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Rosten",
+     "kraftslag": "stromkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    },
+    {
+     "namn": "Rosten",
+     "kraftslag": "stromkraft",
+     "mw": 80,
+     "tillganglig_mw": 80,
+     "status": "drift"
+    }
+   ]
+  },
+  "NO4": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Svartisen",
+     "kraftslag": "vattenkraft",
+     "mw": 628,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T17:00Z",
+     "typ": "planerat",
+     "orsak": "Work on downsteam leek"
+    },
+    {
+     "namn": "Svartisen",
+     "kraftslag": "vattenkraft",
+     "mw": 628,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T17:00Z",
+     "typ": "planerat",
+     "orsak": "Work on downsteam leek"
+    },
+    {
+     "namn": "Rana",
+     "kraftslag": "vattenkraft",
+     "mw": 527,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-01-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Turbine rehabilitation"
+    },
+    {
+     "namn": "Rana",
+     "kraftslag": "vattenkraft",
+     "mw": 507,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-01-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Turbine rehabilitation"
+    },
+    {
+     "namn": "Skjomen",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Water leagage, causing turbine regulator issues."
+    },
+    {
+     "namn": "Skjomen",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Water leagage, causing turbine regulator issues."
+    },
+    {
+     "namn": "Kobbelv",
+     "kraftslag": "vattenkraft",
+     "mw": 300,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-31T13:00Z",
+     "typ": "planerat",
+     "orsak": "Fix issues with generator and turbine rehabilitation"
+    },
+    {
+     "namn": "Kobbelv",
+     "kraftslag": "vattenkraft",
+     "mw": 300,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-31T13:00Z",
+     "typ": "planerat",
+     "orsak": "Fix issues with generator and turbine rehabilitation"
+    },
+    {
+     "namn": "Øyfjellet Vindkraftverk",
+     "kraftslag": "vind_land",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Øyfjellet Vindkraftverk",
+     "kraftslag": "vind_land",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Nedre Røssåga",
+     "kraftslag": "vattenkraft",
+     "mw": 369,
+     "tillganglig_mw": 369,
+     "status": "drift"
+    },
+    {
+     "namn": "Nedre Røssåga",
+     "kraftslag": "vattenkraft",
+     "mw": 369,
+     "tillganglig_mw": 369,
+     "status": "drift"
+    },
+    {
+     "namn": "Melkøya",
+     "kraftslag": "gas",
+     "mw": 248,
+     "tillganglig_mw": 248,
+     "status": "drift"
+    },
+    {
+     "namn": "Melkøya",
+     "kraftslag": "gas",
+     "mw": 230,
+     "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "Siso",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Siso",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Øvre Røssåga",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Øvre Røssåga",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Tunnsjødal",
+     "kraftslag": "vattenkraft",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Tunnsjødal",
+     "kraftslag": "vattenkraft",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Alta krv",
+     "kraftslag": "vattenkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "Alta krv",
+     "kraftslag": "vattenkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "Straumsmo",
+     "kraftslag": "vattenkraft",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "Straumsmo",
+     "kraftslag": "vattenkraft",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "Kolsvik",
+     "kraftslag": "vattenkraft",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "Kolsvik",
+     "kraftslag": "vattenkraft",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "Lomi",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Lomi",
+     "kraftslag": "vattenkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Langvatn",
+     "kraftslag": "vattenkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Langvatn",
+     "kraftslag": "vattenkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvitfjell South Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 103,
+     "tillganglig_mw": 103,
+     "status": "drift"
+    },
+    {
+     "namn": "Innset",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Innset",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Sundsfjord",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Sundsfjord",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvitfjell North Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 101,
+     "tillganglig_mw": 101,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvitfjell North Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Sørfjord Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Sørfjord Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Kvitfjell South Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Raggovidda",
+     "kraftslag": "vind_land",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Raggovidda",
+     "kraftslag": "vind_land",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "NedreFiskumfoss",
+     "kraftslag": "stromkraft",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "NedreFiskumfoss",
+     "kraftslag": "stromkraft",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "Guolas",
+     "kraftslag": "vattenkraft",
+     "mw": 87,
+     "tillganglig_mw": 87,
+     "status": "drift"
+    },
+    {
+     "namn": "Guolas",
+     "kraftslag": "vattenkraft",
+     "mw": 87,
+     "tillganglig_mw": 87,
+     "status": "drift"
+    },
+    {
+     "namn": "Raudfjell Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 86,
+     "tillganglig_mw": 86,
+     "status": "drift"
+    },
+    {
+     "namn": "Raudfjell Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 84,
+     "tillganglig_mw": 84,
+     "status": "drift"
+    }
+   ]
+  },
+  "NO5": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Aurland1",
+     "kraftslag": "vattenkraft",
+     "mw": 840,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-08T14:00Z",
+     "typ": "planerat",
+     "orsak": "Reconstruction of control systems."
+    },
+    {
+     "namn": "Aurland1",
+     "kraftslag": "vattenkraft",
+     "mw": 840,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-08T14:00Z",
+     "typ": "planerat",
+     "orsak": "Reconstruction of control systems."
+    },
+    {
+     "namn": "Sy Sima",
+     "kraftslag": "vattenkraft",
+     "mw": 630,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T14:00Z",
+     "typ": "planerat",
+     "orsak": "Rehabilitation of bulb valve"
+    },
+    {
+     "namn": "Sy Sima",
+     "kraftslag": "vattenkraft",
+     "mw": 630,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T14:00Z",
+     "typ": "planerat",
+     "orsak": "Rehabilitation of bulb valve"
+    },
+    {
+     "namn": "Lang Sima",
+     "kraftslag": "vattenkraft",
+     "mw": 500,
+     "tillganglig_mw": 500,
+     "status": "drift"
+    },
+    {
+     "namn": "Lang Sima",
+     "kraftslag": "vattenkraft",
+     "mw": 500,
+     "tillganglig_mw": 500,
+     "status": "drift"
+    },
+    {
+     "namn": "Tyin",
+     "kraftslag": "vattenkraft",
+     "mw": 390,
+     "tillganglig_mw": 390,
+     "status": "drift"
+    },
+    {
+     "namn": "Tyin",
+     "kraftslag": "vattenkraft",
+     "mw": 390,
+     "tillganglig_mw": 390,
+     "status": "drift"
+    },
+    {
+     "namn": "Evanger",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift"
+    },
+    {
+     "namn": "Evanger",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift"
+    },
+    {
+     "namn": "Jostedal",
+     "kraftslag": "vattenkraft",
+     "mw": 293,
+     "tillganglig_mw": 293,
+     "status": "drift"
+    },
+    {
+     "namn": "Jostedal",
+     "kraftslag": "vattenkraft",
+     "mw": 293,
+     "tillganglig_mw": 293,
+     "status": "drift"
+    },
+    {
+     "namn": "Aurland3",
+     "kraftslag": "pumpkraft",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Aurland3",
+     "kraftslag": "pumpkraft",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Fortun",
+     "kraftslag": "vattenkraft",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Fortun",
+     "kraftslag": "vattenkraft",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Nes OEK",
+     "kraftslag": "vattenkraft",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Nes OEK",
+     "kraftslag": "vattenkraft",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Mauranger",
+     "kraftslag": "vattenkraft",
+     "mw": 256,
+     "tillganglig_mw": 256,
+     "status": "drift"
+    },
+    {
+     "namn": "Mauranger",
+     "kraftslag": "vattenkraft",
+     "mw": 256,
+     "tillganglig_mw": 256,
+     "status": "drift"
+    },
+    {
+     "namn": "Hol 1",
+     "kraftslag": "vattenkraft",
+     "mw": 230,
+     "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "Hol 1",
+     "kraftslag": "vattenkraft",
+     "mw": 230,
+     "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "Usta",
+     "kraftslag": "vattenkraft",
+     "mw": 214,
+     "tillganglig_mw": 214,
+     "status": "drift"
+    },
+    {
+     "namn": "Usta",
+     "kraftslag": "vattenkraft",
+     "mw": 214,
+     "tillganglig_mw": 214,
+     "status": "drift"
+    },
+    {
+     "namn": "Borgund",
+     "kraftslag": "vattenkraft",
+     "mw": 213,
+     "tillganglig_mw": 213,
+     "status": "drift"
+    },
+    {
+     "namn": "Borgund",
+     "kraftslag": "vattenkraft",
+     "mw": 213,
+     "tillganglig_mw": 213,
+     "status": "drift"
+    },
+    {
+     "namn": "Nore 1",
+     "kraftslag": "vattenkraft",
+     "mw": 209,
+     "tillganglig_mw": 209,
+     "status": "drift"
+    },
+    {
+     "namn": "Nore 1",
+     "kraftslag": "vattenkraft",
+     "mw": 209,
+     "tillganglig_mw": 209,
+     "status": "drift"
+    },
+    {
+     "namn": "EVM",
+     "kraftslag": "gas",
+     "mw": 182,
+     "tillganglig_mw": 182,
+     "status": "drift"
+    },
+    {
+     "namn": "EVM",
+     "kraftslag": "gas",
+     "mw": 182,
+     "tillganglig_mw": 182,
+     "status": "drift"
+    },
+    {
+     "namn": "Matre Haugsdal",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Matre Haugsdal",
+     "kraftslag": "vattenkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Steinsland",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Steinsland",
+     "kraftslag": "vattenkraft",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Matre",
+     "kraftslag": "vattenkraft",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Matre",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "tillganglig_mw": 152,
+     "status": "drift"
+    },
+    {
+     "namn": "Dale",
+     "kraftslag": "vattenkraft",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Dale",
+     "kraftslag": "vattenkraft",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Aurland2",
+     "kraftslag": "vattenkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Aurland2",
+     "kraftslag": "vattenkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Leirdøla",
+     "kraftslag": "vattenkraft",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Leirdøla",
+     "kraftslag": "vattenkraft",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Naddvik",
+     "kraftslag": "vattenkraft",
+     "mw": 113,
+     "tillganglig_mw": 113,
+     "status": "drift"
+    },
+    {
+     "namn": "Naddvik",
+     "kraftslag": "vattenkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Myster",
+     "kraftslag": "vattenkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Myster",
+     "kraftslag": "vattenkraft",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Bjølvo",
+     "kraftslag": "vattenkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "Bjølvo",
+     "kraftslag": "vattenkraft",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "Hemsil 2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Hemsil 2",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Refsdal",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Refsdal",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Uvdal 1",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Uvdal 1",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Årøy Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    },
+    {
+     "namn": "Årøy Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 92,
+     "tillganglig_mw": 92,
+     "status": "drift"
+    }
+   ]
+  },
+  "DK1": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Studstrupvaerket",
+     "kraftslag": "kol",
+     "mw": 730,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T22:59Z",
+     "typ": "planerat",
+     "orsak": "Change of low pressure turbine"
+    },
+    {
+     "namn": "Studstrupvaerket",
+     "kraftslag": "kol",
+     "mw": 730,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T22:59Z",
+     "typ": "planerat",
+     "orsak": "Change of low pressure turbine"
+    },
+    {
+     "namn": "Nordjyllandsvaerket",
+     "kraftslag": "kol",
+     "mw": 412,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-08-13T21:59Z",
+     "typ": "planerat",
+     "orsak": "Limitation extended, due to risk assessment on production unit."
+    },
+    {
+     "namn": "Nordjyllandsvaerket",
+     "kraftslag": "kol",
+     "mw": 412,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-08-13T21:59Z",
+     "typ": "planerat",
+     "orsak": "Limitation extended, due to risk assessment on production unit."
+    },
+    {
+     "namn": "Skaerbaekvaerket",
+     "kraftslag": "gas",
+     "mw": 392,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-01T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair."
+    },
+    {
+     "namn": "Skaerbaekvaerket",
+     "kraftslag": "gas",
+     "mw": 392,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-01T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair."
+    },
+    {
+     "namn": "Thor Havvindmøllepark",
+     "kraftslag": "vind_hav",
+     "mw": 1000,
+     "tillganglig_mw": 1000,
+     "status": "drift"
+    },
+    {
+     "namn": "Fynsvaerket",
+     "kraftslag": "kol",
+     "mw": 407,
+     "tillganglig_mw": 407,
+     "status": "drift"
+    },
+    {
+     "namn": "Fynsvaerket",
+     "kraftslag": "kol",
+     "mw": 407,
+     "tillganglig_mw": 407,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev C",
+     "kraftslag": "vind_hav",
+     "mw": 407,
+     "tillganglig_mw": 407,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev C",
+     "kraftslag": "vind_hav",
+     "mw": 407,
+     "tillganglig_mw": 407,
+     "status": "drift"
+    },
+    {
+     "namn": "Anholt",
+     "kraftslag": "vind_hav",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Anholt",
+     "kraftslag": "vind_hav",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Kassø",
+     "kraftslag": "sol",
+     "mw": 303,
+     "tillganglig_mw": 303,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Kassø",
+     "kraftslag": "sol",
+     "mw": 303,
+     "tillganglig_mw": 303,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev B",
+     "kraftslag": "vind_hav",
+     "mw": 209,
+     "tillganglig_mw": 209,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev B",
+     "kraftslag": "vind_hav",
+     "mw": 209,
+     "tillganglig_mw": 209,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Viuf and Håstrup",
+     "kraftslag": "sol",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Viuf and Håstrup",
+     "kraftslag": "sol",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Vesterhav Nord",
+     "kraftslag": "vind_hav",
+     "mw": 176,
+     "tillganglig_mw": 176,
+     "status": "drift"
+    },
+    {
+     "namn": "Vesterhav Nord",
+     "kraftslag": "vind_hav",
+     "mw": 176,
+     "tillganglig_mw": 176,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Holsted",
+     "kraftslag": "sol",
+     "mw": 175,
+     "tillganglig_mw": 175,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Holsted",
+     "kraftslag": "sol",
+     "mw": 175,
+     "tillganglig_mw": 175,
+     "status": "drift"
+    },
+    {
+     "namn": "Vesterhav Syd",
+     "kraftslag": "vind_hav",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift"
+    },
+    {
+     "namn": "Vesterhav Syd",
+     "kraftslag": "vind_hav",
+     "mw": 168,
+     "tillganglig_mw": 168,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Gedmosen",
+     "kraftslag": "sol",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Gedmosen",
+     "kraftslag": "sol",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev A",
+     "kraftslag": "vind_hav",
+     "mw": 160,
+     "tillganglig_mw": 160,
+     "status": "drift"
+    },
+    {
+     "namn": "Horns Rev A",
+     "kraftslag": "vind_hav",
+     "mw": 160,
+     "tillganglig_mw": 160,
+     "status": "drift"
+    },
+    {
+     "namn": "Silkeborgvaerket",
+     "kraftslag": "gas",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "Silkeborgvaerket",
+     "kraftslag": "gas",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    }
+   ]
+  },
+  "DK2": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Avedoerevaerket",
+     "kraftslag": "biobransle",
+     "mw": 815,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Condenser failure and boiler trip"
+    },
+    {
+     "namn": "Avedoerevaerket",
+     "kraftslag": "biobransle",
+     "mw": 815,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Condenser failure and boiler trip"
+    },
+    {
+     "namn": "Amagervaerket",
+     "kraftslag": "kol",
+     "mw": 479,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-06-13T22:00Z",
+     "typ": "oplanerat",
+     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena"
+    },
+    {
+     "namn": "Amagervaerket",
+     "kraftslag": "kol",
+     "mw": 479,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-06-13T22:00Z",
+     "typ": "oplanerat",
+     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena"
+    },
+    {
+     "namn": "Asnaesvaerket",
+     "kraftslag": "kol",
+     "mw": 787,
+     "tillganglig_mw": 787,
+     "status": "drift"
+    },
+    {
+     "namn": "Asnaesvaerket",
+     "kraftslag": "kol",
+     "mw": 787,
+     "tillganglig_mw": 787,
+     "status": "drift"
+    },
+    {
+     "namn": "Kyndbyvaerket",
+     "kraftslag": "olja",
+     "mw": 664,
+     "tillganglig_mw": 664,
+     "status": "drift"
+    },
+    {
+     "namn": "Kyndbyvaerket",
+     "kraftslag": "olja",
+     "mw": 664,
+     "tillganglig_mw": 664,
+     "status": "drift"
+    },
+    {
+     "namn": "DK_KF_AB_PU",
+     "kraftslag": "vind_hav",
+     "mw": 604,
+     "tillganglig_mw": 604,
+     "status": "drift"
+    },
+    {
+     "namn": "DK_KF_AB_PU",
+     "kraftslag": "vind_hav",
+     "mw": 604,
+     "tillganglig_mw": 604,
+     "status": "drift"
+    },
+    {
+     "namn": "Roedsand 2",
+     "kraftslag": "vind_hav",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift"
+    },
+    {
+     "namn": "Roedsand 2",
+     "kraftslag": "vind_hav",
+     "mw": 207,
+     "tillganglig_mw": 207,
+     "status": "drift"
+    },
+    {
+     "namn": "Roedsand 1",
+     "kraftslag": "vind_hav",
+     "mw": 161,
+     "tillganglig_mw": 161,
+     "status": "drift"
+    },
+    {
+     "namn": "Roedsand 1",
+     "kraftslag": "vind_hav",
+     "mw": 161,
+     "tillganglig_mw": 161,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Lidsø",
+     "kraftslag": "sol",
+     "mw": 149,
+     "tillganglig_mw": 149,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Lidsø",
+     "kraftslag": "sol",
+     "mw": 149,
+     "tillganglig_mw": 149,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Vedde",
+     "kraftslag": "sol",
+     "mw": 90,
+     "tillganglig_mw": 90,
+     "status": "drift"
+    },
+    {
+     "namn": "Solar Park Vedde",
+     "kraftslag": "sol",
+     "mw": 90,
+     "tillganglig_mw": 90,
+     "status": "drift"
+    }
+   ]
+  },
+  "FI": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Vuosaari",
+     "kraftslag": "gas",
+     "mw": 480,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T23:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs."
+    },
+    {
+     "namn": "Vuosaari",
+     "kraftslag": "gas",
+     "mw": 480,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T23:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs."
+    },
+    {
+     "namn": "Metsä Fibre Kemi",
+     "kraftslag": "biobransle",
+     "mw": 250,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T05:00Z",
+     "typ": "planerat",
+     "orsak": "Yearly maintenance break."
+    },
+    {
+     "namn": "Metsä Fibre Kemi",
+     "kraftslag": "biobransle",
+     "mw": 250,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T05:00Z",
+     "typ": "planerat",
+     "orsak": "Yearly maintenance break."
+    },
+    {
+     "namn": "Olkiluoto 2",
+     "kraftslag": "karnkraft",
+     "mw": 890,
+     "tillganglig_mw": 735.0,
+     "status": "begransad",
+     "slut": "2027-04-18T15:00Z",
+     "typ": "planerat",
+     "orsak": "Generator rotor limitation"
+    },
+    {
+     "namn": "Olkiluoto 2",
+     "kraftslag": "karnkraft",
+     "mw": 890,
+     "tillganglig_mw": 735.0,
+     "status": "begransad",
+     "slut": "2027-04-18T15:00Z",
+     "typ": "planerat",
+     "orsak": "Generator rotor limitation"
+    },
+    {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 1600,
+     "status": "drift"
+    },
+    {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 1600,
+     "status": "drift"
+    },
+    {
+     "namn": "Olkiluoto 1",
+     "kraftslag": "karnkraft",
+     "mw": 890,
+     "tillganglig_mw": 890,
+     "status": "drift"
+    },
+    {
+     "namn": "Olkiluoto 1",
+     "kraftslag": "karnkraft",
+     "mw": 890,
+     "tillganglig_mw": 890,
+     "status": "drift"
+    },
+    {
+     "namn": "Meri-Pori",
+     "kraftslag": "kol",
+     "mw": 565,
+     "tillganglig_mw": 565,
+     "status": "drift"
+    },
+    {
+     "namn": "Meri-Pori",
+     "kraftslag": "kol",
+     "mw": 565,
+     "tillganglig_mw": 565,
+     "status": "drift"
+    },
+    {
+     "namn": "Loviisa 1",
+     "kraftslag": "karnkraft",
+     "mw": 496,
+     "tillganglig_mw": 496,
+     "status": "drift"
+    },
+    {
+     "namn": "Loviisa 1",
+     "kraftslag": "karnkraft",
+     "mw": 496,
+     "tillganglig_mw": 496,
+     "status": "drift"
+    },
+    {
+     "namn": "Loviisa 2",
+     "kraftslag": "karnkraft",
+     "mw": 496,
+     "tillganglig_mw": 496,
+     "status": "drift"
+    },
+    {
+     "namn": "Loviisa 2",
+     "kraftslag": "karnkraft",
+     "mw": 496,
+     "tillganglig_mw": 496,
+     "status": "drift"
+    },
+    {
+     "namn": "Kristiina",
+     "kraftslag": "kol",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Kristiina",
+     "kraftslag": "kol",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Kosolankankaan tuulivoimapuisto",
+     "kraftslag": "vind_land",
+     "mw": 430,
+     "tillganglig_mw": 430,
+     "status": "drift"
+    },
+    {
+     "namn": "Kosolankankaan tuulivoimapuisto",
+     "kraftslag": "vind_land",
+     "mw": 430,
+     "tillganglig_mw": 430,
+     "status": "drift"
+    },
+    {
+     "namn": "Vaskiluoto",
+     "kraftslag": "kol",
+     "mw": 383,
+     "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Vaskiluoto",
+     "kraftslag": "kol",
+     "mw": 383,
+     "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Pjelax Windfarm",
+     "kraftslag": "vind_land",
+     "mw": 380,
+     "tillganglig_mw": 380,
+     "status": "drift"
+    },
+    {
+     "namn": "Pjelax Windfarm",
+     "kraftslag": "vind_land",
+     "mw": 380,
+     "tillganglig_mw": 380,
+     "status": "drift"
+    },
+    {
+     "namn": "Suomenoja",
+     "kraftslag": "gas",
+     "mw": 354,
+     "tillganglig_mw": 354,
+     "status": "drift"
+    },
+    {
+     "namn": "Suomenoja",
+     "kraftslag": "gas",
+     "mw": 354,
+     "tillganglig_mw": 354,
+     "status": "drift"
+    },
+    {
+     "namn": "Forssa",
+     "kraftslag": "olja",
+     "mw": 326,
+     "tillganglig_mw": 326,
+     "status": "drift"
+    },
+    {
+     "namn": "Forssa",
+     "kraftslag": "olja",
+     "mw": 326,
+     "tillganglig_mw": 326,
+     "status": "drift"
+    },
+    {
+     "namn": "Äänekoski",
+     "kraftslag": "biobransle",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Äänekoski",
+     "kraftslag": "biobransle",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Tahkoluoto",
+     "kraftslag": "kol",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Tahkoluoto",
+     "kraftslag": "kol",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Alholmens Kraft",
+     "kraftslag": "torv",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Alholmens Kraft",
+     "kraftslag": "torv",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Wind Farm Lappfjärd Oy",
+     "kraftslag": "vind_land",
+     "mw": 238,
+     "tillganglig_mw": 238,
+     "status": "drift"
+    },
+    {
+     "namn": "Wind Farm Lappfjärd Oy",
+     "kraftslag": "vind_land",
+     "mw": 238,
+     "tillganglig_mw": 238,
+     "status": "drift"
+    },
+    {
+     "namn": "Louhukangas ja Möksy",
+     "kraftslag": "vind_land",
+     "mw": 221,
+     "tillganglig_mw": 221,
+     "status": "drift"
+    },
+    {
+     "namn": "Louhukangas ja Möksy",
+     "kraftslag": "vind_land",
+     "mw": 221,
+     "tillganglig_mw": 221,
+     "status": "drift"
+    },
+    {
+     "namn": "Piiparinmäki tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 211,
+     "tillganglig_mw": 211,
+     "status": "drift"
+    },
+    {
+     "namn": "Piiparinmäki tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 211,
+     "tillganglig_mw": 211,
+     "status": "drift"
+    },
+    {
+     "namn": "Karhukangas-Navettakangas",
+     "kraftslag": "vind_land",
+     "mw": 211,
+     "tillganglig_mw": 211,
+     "status": "drift"
+    },
+    {
+     "namn": "Karhukangas-Navettakangas",
+     "kraftslag": "vind_land",
+     "mw": 211,
+     "tillganglig_mw": 211,
+     "status": "drift"
+    },
+    {
+     "namn": "Hanasaari",
+     "kraftslag": "kol",
+     "mw": 210,
+     "tillganglig_mw": 210,
+     "status": "drift"
+    },
+    {
+     "namn": "Hanasaari",
+     "kraftslag": "kol",
+     "mw": 210,
+     "tillganglig_mw": 210,
+     "status": "drift"
+    },
+    {
+     "namn": "Mutkalampi North",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Mutkalampi North",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Mutkalampi South",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Mutkalampi South",
+     "kraftslag": "vind_land",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Imatra",
+     "kraftslag": "stromkraft",
+     "mw": 192,
+     "tillganglig_mw": 192,
+     "status": "drift",
+     "alv": "Vuoksi"
+    },
+    {
+     "namn": "Imatra",
+     "kraftslag": "stromkraft",
+     "mw": 192,
+     "tillganglig_mw": 192,
+     "status": "drift",
+     "alv": "Vuoksi"
+    },
+    {
+     "namn": "Keljonlahti",
+     "kraftslag": "torv",
+     "mw": 190,
+     "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "Keljonlahti",
+     "kraftslag": "torv",
+     "mw": 190,
+     "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "Karhunnevankankaan Tuulipuisto Oy",
+     "kraftslag": "vind_land",
+     "mw": 188,
+     "tillganglig_mw": 188,
+     "status": "drift"
+    },
+    {
+     "namn": "Karhunnevankankaan Tuulipuisto Oy",
+     "kraftslag": "vind_land",
+     "mw": 188,
+     "tillganglig_mw": 188,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaukopää",
+     "kraftslag": "biobransle",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaukopää",
+     "kraftslag": "biobransle",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "Huutokoski kt",
+     "kraftslag": "olja",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Huutokoski kt",
+     "kraftslag": "olja",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Kymijärvi",
+     "kraftslag": "kol",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Kymijärvi",
+     "kraftslag": "kol",
+     "mw": 170,
+     "tillganglig_mw": 170,
+     "status": "drift"
+    },
+    {
+     "namn": "Martinlaakso",
+     "kraftslag": "ovrigt",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "Martinlaakso",
+     "kraftslag": "ovrigt",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "Salmisaari",
+     "kraftslag": "kol",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Salmisaari",
+     "kraftslag": "kol",
+     "mw": 155,
+     "tillganglig_mw": 155,
+     "status": "drift"
+    },
+    {
+     "namn": "Haapavesi",
+     "kraftslag": "torv",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Haapavesi",
+     "kraftslag": "torv",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Naantali",
+     "kraftslag": "biobransle",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Naantali",
+     "kraftslag": "biobransle",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Haapaniemi",
+     "kraftslag": "torv",
+     "mw": 145,
+     "tillganglig_mw": 145,
+     "status": "drift"
+    },
+    {
+     "namn": "Haapaniemi",
+     "kraftslag": "torv",
+     "mw": 145,
+     "tillganglig_mw": 145,
+     "status": "drift"
+    },
+    {
+     "namn": "Pietarsaari",
+     "kraftslag": "biobransle",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Pietarsaari",
+     "kraftslag": "biobransle",
+     "mw": 143,
+     "tillganglig_mw": 143,
+     "status": "drift"
+    },
+    {
+     "namn": "Lielahti",
+     "kraftslag": "gas",
+     "mw": 142,
+     "tillganglig_mw": 142,
+     "status": "drift"
+    },
+    {
+     "namn": "Lielahti",
+     "kraftslag": "gas",
+     "mw": 142,
+     "tillganglig_mw": 142,
+     "status": "drift"
+    },
+    {
+     "namn": "Ossauskoski",
+     "kraftslag": "stromkraft",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift",
+     "alv": "Kemijoki"
+    },
+    {
+     "namn": "Ossauskoski",
+     "kraftslag": "stromkraft",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift",
+     "alv": "Kemijoki"
+    },
+    {
+     "namn": "Naistenlahti 1",
+     "kraftslag": "gas",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Naistenlahti 1",
+     "kraftslag": "gas",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Kellosaari",
+     "kraftslag": "olja",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "Kellosaari",
+     "kraftslag": "olja",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "Isohaara",
+     "kraftslag": "stromkraft",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift",
+     "alv": "Kemijoki"
+    },
+    {
+     "namn": "Isohaara",
+     "kraftslag": "stromkraft",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift",
+     "alv": "Kemijoki"
+    },
+    {
+     "namn": "Raahen Voima",
+     "kraftslag": "ovrigt",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Raahen Voima",
+     "kraftslag": "ovrigt",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Olkiluoto kt",
+     "kraftslag": "olja",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Olkiluoto kt",
+     "kraftslag": "olja",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaukaan Voima",
+     "kraftslag": "biobransle",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaukaan Voima",
+     "kraftslag": "biobransle",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Paskoonharju",
+     "kraftslag": "vind_land",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "Paskoonharju",
+     "kraftslag": "vind_land",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "Seinäjoki",
+     "kraftslag": "torv",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Seinäjoki",
+     "kraftslag": "torv",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Toppila",
+     "kraftslag": "torv",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Toppila",
+     "kraftslag": "torv",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Metsälä",
+     "kraftslag": "vind_land",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Metsälä",
+     "kraftslag": "vind_land",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Uimaharju",
+     "kraftslag": "biobransle",
+     "mw": 107,
+     "tillganglig_mw": 107,
+     "status": "drift"
+    },
+    {
+     "namn": "Uimaharju",
+     "kraftslag": "biobransle",
+     "mw": 107,
+     "tillganglig_mw": 107,
+     "status": "drift"
+    },
+    {
+     "namn": "Mikonkeitaan tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Mikonkeitaan tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Norrskogenin tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Norrskogenin tuulipuisto",
+     "kraftslag": "vind_land",
+     "mw": 102,
+     "tillganglig_mw": 102,
+     "status": "drift"
+    },
+    {
+     "namn": "Kuusaanniemi",
+     "kraftslag": "biobransle",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Kuusaanniemi",
+     "kraftslag": "biobransle",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    }
+   ]
+  },
+  "EE": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Eesti Elektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 1369,
+     "tillganglig_mw": 1369,
+     "status": "drift"
+    },
+    {
+     "namn": "Eesti Elektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 1369,
+     "tillganglig_mw": 1369,
+     "status": "drift"
+    },
+    {
+     "namn": "Balti Elektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 472,
+     "tillganglig_mw": 472,
+     "status": "drift"
+    },
+    {
+     "namn": "Balti Elektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 472,
+     "tillganglig_mw": 472,
+     "status": "drift"
+    },
+    {
+     "namn": "Auvere kondensatsioonielektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "Auvere kondensatsioonielektrijaam",
+     "kraftslag": "oljeskiffer",
+     "mw": 270,
+     "tillganglig_mw": 270,
+     "status": "drift"
+    },
+    {
+     "namn": "IRU Elektrijaam",
+     "kraftslag": "gas",
+     "mw": 173,
+     "tillganglig_mw": 173,
+     "status": "drift"
+    },
+    {
+     "namn": "IRU Elektrijaam",
+     "kraftslag": "gas",
+     "mw": 173,
+     "tillganglig_mw": 173,
+     "status": "drift"
+    },
+    {
+     "namn": "Kiisa AREJ 2",
+     "kraftslag": "gas",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Kiisa AREJ 2",
+     "kraftslag": "gas",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Kiisa AREJ 1",
+     "kraftslag": "gas",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "Kiisa AREJ 1",
+     "kraftslag": "gas",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    }
+   ]
+  },
+  "LV": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Plavinas HPP",
+     "kraftslag": "stromkraft",
+     "mw": 894,
+     "tillganglig_mw": 894,
+     "status": "drift"
+    },
+    {
+     "namn": "Plavinas HPP",
+     "kraftslag": "stromkraft",
+     "mw": 894,
+     "tillganglig_mw": 894,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC2-1",
+     "kraftslag": "gas",
+     "mw": 441,
+     "tillganglig_mw": 441,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC2-1",
+     "kraftslag": "gas",
+     "mw": 441,
+     "tillganglig_mw": 441,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC2-2",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 440,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC2-2",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 440,
+     "status": "drift"
+    },
+    {
+     "namn": "Riga HPP",
+     "kraftslag": "stromkraft",
+     "mw": 402,
+     "tillganglig_mw": 402,
+     "status": "drift"
+    },
+    {
+     "namn": "Riga HPP",
+     "kraftslag": "stromkraft",
+     "mw": 402,
+     "tillganglig_mw": 402,
+     "status": "drift"
+    },
+    {
+     "namn": "Kegums HPP",
+     "kraftslag": "stromkraft",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Kegums HPP",
+     "kraftslag": "stromkraft",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC1",
+     "kraftslag": "gas",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "RTEC1",
+     "kraftslag": "gas",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    }
+   ]
+  },
+  "DE": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 2470,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 2470,
+     "status": "drift"
+    },
+    {
+     "namn": "Niederaußem",
+     "kraftslag": "brunkol",
+     "mw": 2197,
+     "tillganglig_mw": 2197,
+     "status": "drift"
+    },
+    {
+     "namn": "Niederaußem",
+     "kraftslag": "brunkol",
+     "mw": 2197,
+     "tillganglig_mw": 2197,
+     "status": "drift"
+    },
+    {
+     "namn": "Vorarlberger Illwerke AG",
+     "kraftslag": "pumpkraft",
+     "mw": 2142,
+     "tillganglig_mw": 2142,
+     "status": "drift"
+    },
+    {
+     "namn": "Vorarlberger Illwerke AG",
+     "kraftslag": "pumpkraft",
+     "mw": 2142,
+     "tillganglig_mw": 2142,
+     "status": "drift"
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "Emsland",
+     "kraftslag": "gas",
+     "mw": 1820,
+     "tillganglig_mw": 1820,
+     "status": "drift"
+    },
+    {
+     "namn": "Emsland",
+     "kraftslag": "gas",
+     "mw": 1820,
+     "tillganglig_mw": 1820,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 1782,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 1782,
+     "status": "drift"
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 1753,
+     "status": "drift"
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 1753,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 1500,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 1500,
+     "status": "drift"
+    },
+    {
+     "namn": "Irsching",
+     "kraftslag": "gas",
+     "mw": 1422,
+     "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Irsching",
+     "kraftslag": "gas",
+     "mw": 1422,
+     "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Goldisthal",
+     "kraftslag": "pumpkraft",
+     "mw": 1060,
+     "tillganglig_mw": 1060,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Goldisthal",
+     "kraftslag": "pumpkraft",
+     "mw": 1060,
+     "tillganglig_mw": 1060,
+     "status": "drift"
+    },
+    {
+     "namn": "Datteln",
+     "kraftslag": "kol",
+     "mw": 1052,
+     "tillganglig_mw": 1052,
+     "status": "drift"
+    },
+    {
+     "namn": "Datteln",
+     "kraftslag": "kol",
+     "mw": 1052,
+     "tillganglig_mw": 1052,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 960,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 960,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark He Dreiht",
+     "kraftslag": "vind_hav",
+     "mw": 900,
+     "tillganglig_mw": 900,
+     "status": "drift"
+    },
+    {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 900,
+     "status": "drift"
+    },
+    {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 900,
+     "status": "drift"
+    },
+    {
+     "namn": "KMW_GENERATION",
+     "kraftslag": "gas",
+     "mw": 870,
+     "tillganglig_mw": 870,
+     "status": "drift"
+    },
+    {
+     "namn": "KMW_GENERATION",
+     "kraftslag": "gas",
+     "mw": 870,
+     "tillganglig_mw": 870,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchsee",
+     "kraftslag": "pumpkraft",
+     "mw": 870,
+     "tillganglig_mw": 870,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchsee",
+     "kraftslag": "pumpkraft",
+     "mw": 870,
+     "tillganglig_mw": 870,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Niehl",
+     "kraftslag": "gas",
+     "mw": 866,
+     "tillganglig_mw": 866,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Niehl",
+     "kraftslag": "gas",
+     "mw": 866,
+     "tillganglig_mw": 866,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 850,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 850,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Lausward",
+     "kraftslag": "gas",
+     "mw": 845,
+     "tillganglig_mw": 845,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Lausward",
+     "kraftslag": "gas",
+     "mw": 845,
+     "tillganglig_mw": 845,
+     "status": "drift"
+    },
+    {
+     "namn": "Rheinhafen-Dampfkraftwerk Karlsruhe",
+     "kraftslag": "kol",
+     "mw": 842,
+     "tillganglig_mw": 842,
+     "status": "drift"
+    },
+    {
+     "namn": "Rheinhafen-Dampfkraftwerk Karlsruhe",
+     "kraftslag": "kol",
+     "mw": 842,
+     "tillganglig_mw": 842,
+     "status": "drift"
+    },
+    {
+     "namn": "Franken I",
+     "kraftslag": "gas",
+     "mw": 823,
+     "tillganglig_mw": 823,
+     "status": "drift"
+    },
+    {
+     "namn": "Franken I",
+     "kraftslag": "gas",
+     "mw": 823,
+     "tillganglig_mw": 823,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 1",
+     "kraftslag": "gas",
+     "mw": 784,
+     "tillganglig_mw": 784,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 1",
+     "kraftslag": "gas",
+     "mw": 784,
+     "tillganglig_mw": 784,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Heilbronn",
+     "kraftslag": "kol",
+     "mw": 778,
+     "tillganglig_mw": 778,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lünen",
+     "kraftslag": "kol",
+     "mw": 746,
+     "tillganglig_mw": 746,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lünen",
+     "kraftslag": "kol",
+     "mw": 746,
+     "tillganglig_mw": 746,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Wilhelmshaven",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Wilhelmshaven",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Bexbach",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Bexbach",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 725,
+     "status": "drift"
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 725,
+     "status": "drift"
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 717,
+     "status": "drift"
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 717,
+     "status": "drift"
+    },
+    {
+     "namn": "Weiher",
+     "kraftslag": "kol",
+     "mw": 656,
+     "tillganglig_mw": 656,
+     "status": "drift"
+    },
+    {
+     "namn": "Weiher",
+     "kraftslag": "kol",
+     "mw": 656,
+     "tillganglig_mw": 656,
+     "status": "drift"
+    },
+    {
+     "namn": "Energiepark Witznitz",
+     "kraftslag": "sol",
+     "mw": 646,
+     "tillganglig_mw": 646,
+     "status": "drift"
+    },
+    {
+     "namn": "Energiepark Witznitz",
+     "kraftslag": "sol",
+     "mw": 646,
+     "tillganglig_mw": 646,
+     "status": "drift"
+    },
+    {
+     "namn": "Herne",
+     "kraftslag": "gas",
+     "mw": 608,
+     "tillganglig_mw": 608,
+     "status": "drift"
+    },
+    {
+     "namn": "Herne",
+     "kraftslag": "gas",
+     "mw": 608,
+     "tillganglig_mw": 608,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG TNG",
+     "kraftslag": "kol",
+     "mw": 607,
+     "tillganglig_mw": 607,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG TNG",
+     "kraftslag": "kol",
+     "mw": 607,
+     "tillganglig_mw": 607,
+     "status": "drift"
+    },
+    {
+     "namn": "Huckingen (HKM)",
+     "kraftslag": "kolgas",
+     "mw": 600,
+     "tillganglig_mw": 600,
+     "status": "drift"
+    },
+    {
+     "namn": "Huckingen (HKM)",
+     "kraftslag": "kolgas",
+     "mw": 600,
+     "tillganglig_mw": 600,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Altbach/Deizisau",
+     "kraftslag": "kol",
+     "mw": 595,
+     "tillganglig_mw": 595,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Altbach/Deizisau",
+     "kraftslag": "kol",
+     "mw": 595,
+     "tillganglig_mw": 595,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Reuter West",
+     "kraftslag": "kol",
+     "mw": 564,
+     "tillganglig_mw": 564,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Reuter West",
+     "kraftslag": "kol",
+     "mw": 564,
+     "tillganglig_mw": 564,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Dormagen",
+     "kraftslag": "gas",
+     "mw": 562,
+     "tillganglig_mw": 562,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Dormagen",
+     "kraftslag": "gas",
+     "mw": 562,
+     "tillganglig_mw": 562,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Rostock",
+     "kraftslag": "kol",
+     "mw": 514,
+     "tillganglig_mw": 514,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Rostock",
+     "kraftslag": "kol",
+     "mw": 514,
+     "tillganglig_mw": 514,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Silz",
+     "kraftslag": "vattenkraft",
+     "mw": 500,
+     "tillganglig_mw": 500,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Silz",
+     "kraftslag": "vattenkraft",
+     "mw": 500,
+     "tillganglig_mw": 500,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Hohe See",
+     "kraftslag": "vind_hav",
+     "mw": 497,
+     "tillganglig_mw": 497,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Hohe See",
+     "kraftslag": "vind_hav",
+     "mw": 497,
+     "tillganglig_mw": 497,
+     "status": "drift"
+    },
+    {
+     "namn": "Waldeck II",
+     "kraftslag": "pumpkraft",
+     "mw": 480,
+     "tillganglig_mw": 480,
+     "status": "drift"
+    },
+    {
+     "namn": "Waldeck II",
+     "kraftslag": "pumpkraft",
+     "mw": 480,
+     "tillganglig_mw": 480,
+     "status": "drift"
+    },
+    {
+     "namn": "UW Bertikow Wind",
+     "kraftslag": "vind_land",
+     "mw": 475,
+     "tillganglig_mw": 475,
+     "status": "drift"
+    },
+    {
+     "namn": "UW Bertikow Wind",
+     "kraftslag": "vind_land",
+     "mw": 475,
+     "tillganglig_mw": 475,
+     "status": "drift"
+    },
+    {
+     "namn": "Herne",
+     "kraftslag": "kol",
+     "mw": 460,
+     "tillganglig_mw": 460,
+     "status": "drift"
+    },
+    {
+     "namn": "Herne",
+     "kraftslag": "kol",
+     "mw": 460,
+     "tillganglig_mw": 460,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 455,
+     "tillganglig_mw": 455,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 455,
+     "tillganglig_mw": 455,
+     "status": "drift"
+    },
+    {
+     "namn": "Borkum Riffgrund II",
+     "kraftslag": "vind_hav",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Borkum Riffgrund II",
+     "kraftslag": "vind_hav",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "GKB Mittelsbueren",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "GKB Mittelsbueren",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Mitte",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Mitte",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
+     "status": "drift"
+    },
+    {
+     "namn": "HERDECKE",
+     "kraftslag": "gas",
+     "mw": 424,
+     "tillganglig_mw": 424,
+     "status": "drift"
+    },
+    {
+     "namn": "HERDECKE",
+     "kraftslag": "gas",
+     "mw": 424,
+     "tillganglig_mw": 424,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Ludwigshafen Mitte",
+     "kraftslag": "gas",
+     "mw": 412,
+     "tillganglig_mw": 412,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Ludwigshafen Mitte",
+     "kraftslag": "gas",
+     "mw": 412,
+     "tillganglig_mw": 412,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG Amprion",
+     "kraftslag": "kol",
+     "mw": 405,
+     "tillganglig_mw": 405,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG Amprion",
+     "kraftslag": "kol",
+     "mw": 405,
+     "tillganglig_mw": 405,
+     "status": "drift"
+    },
+    {
+     "namn": "Gersteinwerk",
+     "kraftslag": "gas",
+     "mw": 405,
+     "tillganglig_mw": 405,
+     "status": "drift"
+    },
+    {
+     "namn": "Gersteinwerk",
+     "kraftslag": "gas",
+     "mw": 405,
+     "tillganglig_mw": 405,
+     "status": "drift"
+    },
+    {
+     "namn": "Offshore-Windpark Veja Mate",
+     "kraftslag": "vind_hav",
+     "mw": 402,
+     "tillganglig_mw": 402,
+     "status": "drift"
+    },
+    {
+     "namn": "Offshore-Windpark Veja Mate",
+     "kraftslag": "vind_hav",
+     "mw": 402,
+     "tillganglig_mw": 402,
+     "status": "drift"
+    },
+    {
+     "namn": "Bard Offshore 1",
+     "kraftslag": "vind_hav",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Bard Offshore 1",
+     "kraftslag": "vind_hav",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD2",
+     "kraftslag": "gas",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD2",
+     "kraftslag": "gas",
+     "mw": 400,
+     "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
+     "status": "drift"
+    },
+    {
+     "namn": "Voelklingen",
+     "kraftslag": "kol",
+     "mw": 390,
+     "tillganglig_mw": 390,
+     "status": "drift"
+    },
+    {
+     "namn": "Voelklingen",
+     "kraftslag": "kol",
+     "mw": 390,
+     "tillganglig_mw": 390,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
+     "status": "drift"
+    },
+    {
+     "namn": "Arkona",
+     "kraftslag": "vind_hav",
+     "mw": 378,
+     "tillganglig_mw": 378,
+     "status": "drift"
+    },
+    {
+     "namn": "Arkona",
+     "kraftslag": "vind_hav",
+     "mw": 378,
+     "tillganglig_mw": 378,
+     "status": "drift"
+    },
+    {
+     "namn": "Nord 2",
+     "kraftslag": "kol",
+     "mw": 373,
+     "tillganglig_mw": 373,
+     "status": "drift"
+    },
+    {
+     "namn": "Nord 2",
+     "kraftslag": "kol",
+     "mw": 373,
+     "tillganglig_mw": 373,
+     "status": "drift"
+    },
+    {
+     "namn": "Industriekraftwerk PCK",
+     "kraftslag": "olja",
+     "mw": 359,
+     "tillganglig_mw": 359,
+     "status": "drift"
+    },
+    {
+     "namn": "Industriekraftwerk PCK",
+     "kraftslag": "olja",
+     "mw": 359,
+     "tillganglig_mw": 359,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Ludwigshafen Süd",
+     "kraftslag": "gas",
+     "mw": 345,
+     "tillganglig_mw": 345,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Ludwigshafen Süd",
+     "kraftslag": "gas",
+     "mw": 345,
+     "tillganglig_mw": 345,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Baltic 1 and 2",
+     "kraftslag": "vind_hav",
+     "mw": 336,
+     "tillganglig_mw": 336,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Nordsee One",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 332,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Nordsee One",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 332,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind I",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 332,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind I",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 332,
+     "status": "drift"
+    },
+    {
+     "namn": "Huntorf",
+     "kraftslag": "gas",
+     "mw": 321,
+     "tillganglig_mw": 321,
+     "status": "drift"
+    },
+    {
+     "namn": "Huntorf",
+     "kraftslag": "gas",
+     "mw": 321,
+     "tillganglig_mw": 321,
+     "status": "drift"
+    },
+    {
+     "namn": "RUHRORT-KW",
+     "kraftslag": "kolgas",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "RUHRORT-KW",
+     "kraftslag": "kolgas",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Hohenwarte II",
+     "kraftslag": "pumpkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Hohenwarte II",
+     "kraftslag": "pumpkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Borkum Riffgrund III",
+     "kraftslag": "vind_hav",
+     "mw": 319,
+     "tillganglig_mw": 319,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Borkum Riffgrund III",
+     "kraftslag": "vind_hav",
+     "mw": 319,
+     "tillganglig_mw": 319,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 316,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 316,
+     "status": "drift"
+    },
+    {
+     "namn": "Windanker",
+     "kraftslag": "vind_hav",
+     "mw": 315,
+     "tillganglig_mw": 315,
+     "status": "drift"
+    },
+    {
+     "namn": "Borkum Riffgrund I",
+     "kraftslag": "vind_hav",
+     "mw": 312,
+     "tillganglig_mw": 312,
+     "status": "drift"
+    },
+    {
+     "namn": "Borkum Riffgrund I",
+     "kraftslag": "vind_hav",
+     "mw": 312,
+     "tillganglig_mw": 312,
+     "status": "drift"
+    },
+    {
+     "namn": "Amrumbank West",
+     "kraftslag": "vind_hav",
+     "mw": 301,
+     "tillganglig_mw": 301,
+     "status": "drift"
+    },
+    {
+     "namn": "Amrumbank West",
+     "kraftslag": "vind_hav",
+     "mw": 301,
+     "tillganglig_mw": 301,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Lichterfelde",
+     "kraftslag": "gas",
+     "mw": 300,
+     "tillganglig_mw": 300,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Lichterfelde",
+     "kraftslag": "gas",
+     "mw": 300,
+     "tillganglig_mw": 300,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Kühtai",
+     "kraftslag": "pumpkraft",
+     "mw": 289,
+     "tillganglig_mw": 289,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Kühtai",
+     "kraftslag": "pumpkraft",
+     "mw": 289,
+     "tillganglig_mw": 289,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Butendiek",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Butendiek",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "DanTysk",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "DanTysk",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Offshore Windpark",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Offshore Windpark",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Meerwind Süd|Ost",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Meerwind Süd|Ost",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Sandbank",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Sandbank",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Baltic",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW III",
+     "kraftslag": "gas",
+     "mw": 274,
+     "tillganglig_mw": 274,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW III",
+     "kraftslag": "gas",
+     "mw": 274,
+     "tillganglig_mw": 274,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW West",
+     "kraftslag": "gas",
+     "mw": 273,
+     "tillganglig_mw": 273,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW West",
+     "kraftslag": "gas",
+     "mw": 273,
+     "tillganglig_mw": 273,
+     "status": "drift"
+    },
+    {
+     "namn": "GKW Hannover (GKH)",
+     "kraftslag": "kol",
+     "mw": 272,
+     "tillganglig_mw": 272,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Marzahn",
+     "kraftslag": "gas",
+     "mw": 264,
+     "tillganglig_mw": 264,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Marzahn",
+     "kraftslag": "gas",
+     "mw": 264,
+     "tillganglig_mw": 264,
+     "status": "drift"
+    },
+    {
+     "namn": "GTHKW Nossener Bruecke",
+     "kraftslag": "gas",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "GTHKW Nossener Bruecke",
+     "kraftslag": "gas",
+     "mw": 260,
+     "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 258,
+     "tillganglig_mw": 258,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 258,
+     "tillganglig_mw": 258,
+     "status": "drift"
+    },
+    {
+     "namn": "Arcadis Ost 1",
+     "kraftslag": "vind_hav",
+     "mw": 257,
+     "tillganglig_mw": 257,
+     "status": "drift"
+    },
+    {
+     "namn": "Arcadis Ost 1",
+     "kraftslag": "vind_hav",
+     "mw": 257,
+     "tillganglig_mw": 257,
+     "status": "drift"
+    },
+    {
+     "namn": "Deutsche Bucht",
+     "kraftslag": "vind_hav",
+     "mw": 252,
+     "tillganglig_mw": 252,
+     "status": "drift"
+    },
+    {
+     "namn": "Deutsche Bucht",
+     "kraftslag": "vind_hav",
+     "mw": 252,
+     "tillganglig_mw": 252,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind II",
+     "kraftslag": "vind_hav",
+     "mw": 252,
+     "tillganglig_mw": 252,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind II",
+     "kraftslag": "vind_hav",
+     "mw": 252,
+     "tillganglig_mw": 252,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Wedel",
+     "kraftslag": "kol",
+     "mw": 250,
+     "tillganglig_mw": 250,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Wedel",
+     "kraftslag": "kol",
+     "mw": 250,
+     "tillganglig_mw": 250,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind III",
+     "kraftslag": "vind_hav",
+     "mw": 242,
+     "tillganglig_mw": 242,
+     "status": "drift"
+    },
+    {
+     "namn": "Gode Wind III",
+     "kraftslag": "vind_hav",
+     "mw": 242,
+     "tillganglig_mw": 242,
+     "status": "drift"
+    },
+    {
+     "namn": "GKW Linden (GKL)",
+     "kraftslag": "gas",
+     "mw": 230,
+     "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "GKW Linden (GKL)",
+     "kraftslag": "gas",
+     "mw": 230,
+     "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Erzhausen",
+     "kraftslag": "pumpkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Erzhausen",
+     "kraftslag": "pumpkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "Trianel Windpark Borkum II",
+     "kraftslag": "vind_hav",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Trianel Windpark Borkum II",
+     "kraftslag": "vind_hav",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Dradenau",
+     "kraftslag": "gas",
+     "mw": 195,
+     "tillganglig_mw": 195,
+     "status": "drift"
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Merkenich",
+     "kraftslag": "gas",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Merkenich",
+     "kraftslag": "gas",
+     "mw": 185,
+     "tillganglig_mw": 185,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW-Nürnberg-Sandreuth",
+     "kraftslag": "gas",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW-Nürnberg-Sandreuth",
+     "kraftslag": "gas",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "PV Boitzenburger Land",
+     "kraftslag": "sol",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "PV Boitzenburger Land",
+     "kraftslag": "sol",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "Schluchseewerk AG",
+     "kraftslag": "pumpkraft",
+     "mw": 180,
+     "tillganglig_mw": 180,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Stuttgart-Münster",
+     "kraftslag": "avfall",
+     "mw": 179,
+     "tillganglig_mw": 179,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Stuttgart-Münster",
+     "kraftslag": "avfall",
+     "mw": 179,
+     "tillganglig_mw": 179,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Mittelsbueren",
+     "kraftslag": "gas",
+     "mw": 176,
+     "tillganglig_mw": 176,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Mittelsbueren",
+     "kraftslag": "gas",
+     "mw": 176,
+     "tillganglig_mw": 176,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaskasi 1",
+     "kraftslag": "vind_hav",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaskasi 1",
+     "kraftslag": "vind_hav",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaskasi 2",
+     "kraftslag": "vind_hav",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Kaskasi 2",
+     "kraftslag": "vind_hav",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Nord",
+     "kraftslag": "gas",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Nord",
+     "kraftslag": "gas",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Klingenberg",
+     "kraftslag": "gas",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Klingenberg",
+     "kraftslag": "gas",
+     "mw": 164,
+     "tillganglig_mw": 164,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Halle Dieselstraße",
+     "kraftslag": "gas",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Halle Dieselstraße",
+     "kraftslag": "gas",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD 40",
+     "kraftslag": "gas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD 40",
+     "kraftslag": "gas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD 50",
+     "kraftslag": "gas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD 50",
+     "kraftslag": "gas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Rheinkraftwerk Iffezheim",
+     "kraftslag": "stromkraft",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Rheinkraftwerk Iffezheim",
+     "kraftslag": "stromkraft",
+     "mw": 146,
+     "tillganglig_mw": 146,
+     "status": "drift"
+    },
+    {
+     "namn": "Charlottenburg",
+     "kraftslag": "gas",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Charlottenburg",
+     "kraftslag": "gas",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Flingern",
+     "kraftslag": "avfall",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Flingern",
+     "kraftslag": "avfall",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW-ROENK-KW",
+     "kraftslag": "pumpkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW-ROENK-KW",
+     "kraftslag": "pumpkraft",
+     "mw": 140,
+     "tillganglig_mw": 140,
+     "status": "drift"
+    },
+    {
+     "namn": "Scholven",
+     "kraftslag": "gas",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "Scholven",
+     "kraftslag": "gas",
+     "mw": 138,
+     "tillganglig_mw": 138,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Sued",
+     "kraftslag": "gas",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Sued",
+     "kraftslag": "gas",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "GKW Hannover (GKH)",
+     "kraftslag": "kol",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Walheim",
+     "kraftslag": "olja",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Walheim",
+     "kraftslag": "olja",
+     "mw": 136,
+     "tillganglig_mw": 136,
+     "status": "drift"
+    },
+    {
+     "namn": "Töging",
+     "kraftslag": "stromkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift"
+    },
+    {
+     "namn": "Töging",
+     "kraftslag": "stromkraft",
+     "mw": 132,
+     "tillganglig_mw": 132,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Römerbrücke",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Römerbrücke",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Stuttgart-Muenster GTX",
+     "kraftslag": "gas",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Stuttgart-Muenster GTX",
+     "kraftslag": "gas",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Nord",
+     "kraftslag": "kol",
+     "mw": 123,
+     "tillganglig_mw": 123,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Nord",
+     "kraftslag": "kol",
+     "mw": 123,
+     "tillganglig_mw": 123,
+     "status": "drift"
+    },
+    {
+     "namn": "SP Gottesgabe",
+     "kraftslag": "sol",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "SP Gottesgabe",
+     "kraftslag": "sol",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "SP Alttrebbin",
+     "kraftslag": "sol",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "SP Alttrebbin",
+     "kraftslag": "sol",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Burghausen_GT",
+     "kraftslag": "gas",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Burghausen_GT",
+     "kraftslag": "gas",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Geesthacht",
+     "kraftslag": "pumpkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Geesthacht",
+     "kraftslag": "pumpkraft",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Radag",
+     "kraftslag": "stromkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Radag",
+     "kraftslag": "stromkraft",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Albatros",
+     "kraftslag": "vind_hav",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Albatros",
+     "kraftslag": "vind_hav",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG DBEnergie",
+     "kraftslag": "kol",
+     "mw": 111,
+     "tillganglig_mw": 111,
+     "status": "drift"
+    },
+    {
+     "namn": "GKM AG DBEnergie",
+     "kraftslag": "kol",
+     "mw": 111,
+     "tillganglig_mw": 111,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Freimann",
+     "kraftslag": "gas",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Freimann",
+     "kraftslag": "gas",
+     "mw": 110,
+     "tillganglig_mw": 110,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Nordergründe GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "OWP Nordergründe GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hastedt",
+     "kraftslag": "gas",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Hastedt",
+     "kraftslag": "gas",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Laufenburg",
+     "kraftslag": "stromkraft",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Laufenburg",
+     "kraftslag": "stromkraft",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Nordseecluster A",
+     "kraftslag": "vind_hav",
+     "mw": 105,
+     "tillganglig_mw": 105,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Herrenhausen (KWH)",
+     "kraftslag": "gas",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Rheinfelden DE",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Rheinfelden DE",
+     "kraftslag": "stromkraft",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    }
+   ]
+  },
+  "PL": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Bełchatów",
+     "kraftslag": "brunkol",
+     "mw": 4680,
+     "tillganglig_mw": 4680,
+     "status": "drift"
+    },
+    {
+     "namn": "Bełchatów",
+     "kraftslag": "brunkol",
+     "mw": 4680,
+     "tillganglig_mw": 4680,
+     "status": "drift"
+    },
+    {
+     "namn": "Opole",
+     "kraftslag": "kol",
+     "mw": 3090,
+     "tillganglig_mw": 3090,
+     "status": "drift"
+    },
+    {
+     "namn": "Opole",
+     "kraftslag": "kol",
+     "mw": 3090,
+     "tillganglig_mw": 3090,
+     "status": "drift"
+    },
+    {
+     "namn": "Kozienice 2",
+     "kraftslag": "kol",
+     "mw": 2049,
+     "tillganglig_mw": 2049,
+     "status": "drift"
+    },
+    {
+     "namn": "Kozienice 2",
+     "kraftslag": "kol",
+     "mw": 2049,
+     "tillganglig_mw": 2049,
+     "status": "drift"
+    },
+    {
+     "namn": "Turów",
+     "kraftslag": "brunkol",
+     "mw": 1830,
+     "tillganglig_mw": 1830,
+     "status": "drift"
+    },
+    {
+     "namn": "Turów",
+     "kraftslag": "brunkol",
+     "mw": 1830,
+     "tillganglig_mw": 1830,
+     "status": "drift"
+    },
+    {
+     "namn": "Kozienice 1",
+     "kraftslag": "kol",
+     "mw": 1674,
+     "tillganglig_mw": 1674,
+     "status": "drift"
+    },
+    {
+     "namn": "Kozienice 1",
+     "kraftslag": "kol",
+     "mw": 1674,
+     "tillganglig_mw": 1674,
+     "status": "drift"
+    },
+    {
+     "namn": "Połaniec",
+     "kraftslag": "kol",
+     "mw": 1350,
+     "tillganglig_mw": 1350,
+     "status": "drift"
+    },
+    {
+     "namn": "Połaniec",
+     "kraftslag": "kol",
+     "mw": 1350,
+     "tillganglig_mw": 1350,
+     "status": "drift"
+    },
+    {
+     "namn": "Elektrownia Gryfino",
+     "kraftslag": "gas",
+     "mw": 1340,
+     "tillganglig_mw": 1340,
+     "status": "drift"
+    },
+    {
+     "namn": "Elektrownia Gryfino",
+     "kraftslag": "gas",
+     "mw": 1340,
+     "tillganglig_mw": 1340,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 3",
+     "kraftslag": "kol",
+     "mw": 1258,
+     "tillganglig_mw": 1258,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 3",
+     "kraftslag": "kol",
+     "mw": 1258,
+     "tillganglig_mw": 1258,
+     "status": "drift"
+    },
+    {
+     "namn": "Baltic Power",
+     "kraftslag": "vind_hav",
+     "mw": 1140,
+     "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Łaziska 3",
+     "kraftslag": "kol",
+     "mw": 849,
+     "tillganglig_mw": 849,
+     "status": "drift"
+    },
+    {
+     "namn": "Łaziska 3",
+     "kraftslag": "kol",
+     "mw": 849,
+     "tillganglig_mw": 849,
+     "status": "drift"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 835,
+     "tillganglig_mw": 835,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
+     "status": "drift"
+    },
+    {
+     "namn": "Żarnowiec",
+     "kraftslag": "pumpkraft",
+     "mw": 714,
+     "tillganglig_mw": 714,
+     "status": "drift"
+    },
+    {
+     "namn": "Żarnowiec",
+     "kraftslag": "pumpkraft",
+     "mw": 714,
+     "tillganglig_mw": 714,
+     "status": "drift"
+    },
+    {
+     "namn": "Ostrołęka B",
+     "kraftslag": "kol",
+     "mw": 651,
+     "tillganglig_mw": 651,
+     "status": "drift"
+    },
+    {
+     "namn": "Ostrołęka B",
+     "kraftslag": "kol",
+     "mw": 651,
+     "tillganglig_mw": 651,
+     "status": "drift"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 626,
+     "tillganglig_mw": 626,
+     "status": "drift"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 620,
+     "status": "drift"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 620,
+     "status": "drift"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 582,
+     "status": "drift"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 582,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Siekierki",
+     "kraftslag": "kol",
+     "mw": 534,
+     "tillganglig_mw": 534,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Siekierki",
+     "kraftslag": "kol",
+     "mw": 534,
+     "tillganglig_mw": 534,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań 2",
+     "kraftslag": "gas",
+     "mw": 484,
+     "tillganglig_mw": 484,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań 2",
+     "kraftslag": "gas",
+     "mw": 484,
+     "tillganglig_mw": 484,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Włocławek",
+     "kraftslag": "gas",
+     "mw": 457,
+     "tillganglig_mw": 457,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Włocławek",
+     "kraftslag": "gas",
+     "mw": 457,
+     "tillganglig_mw": 457,
+     "status": "drift"
+    },
+    {
+     "namn": "Dolna Odra",
+     "kraftslag": "kol",
+     "mw": 446,
+     "tillganglig_mw": 446,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Stalowa Wola",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Stalowa Wola",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 441,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 441,
+     "status": "drift"
+    },
+    {
+     "namn": "Łagisza",
+     "kraftslag": "kol",
+     "mw": 430,
+     "tillganglig_mw": 430,
+     "status": "drift"
+    },
+    {
+     "namn": "Łagisza",
+     "kraftslag": "kol",
+     "mw": 430,
+     "tillganglig_mw": 430,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraków Łęg",
+     "kraftslag": "kol",
+     "mw": 393,
+     "tillganglig_mw": 393,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraków Łęg",
+     "kraftslag": "kol",
+     "mw": 393,
+     "tillganglig_mw": 393,
+     "status": "drift"
+    },
+    {
+     "namn": "PKN Orlen",
+     "kraftslag": "olja",
+     "mw": 341,
+     "tillganglig_mw": 341,
+     "status": "drift"
+    },
+    {
+     "namn": "PKN Orlen",
+     "kraftslag": "olja",
+     "mw": 341,
+     "tillganglig_mw": 341,
+     "status": "drift"
+    },
+    {
+     "namn": "Skawina",
+     "kraftslag": "kol",
+     "mw": 300,
+     "tillganglig_mw": 300,
+     "status": "drift"
+    },
+    {
+     "namn": "Karolin 2",
+     "kraftslag": "kol",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Karolin 2",
+     "kraftslag": "kol",
+     "mw": 288,
+     "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 278,
+     "status": "drift"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 278,
+     "status": "drift"
+    },
+    {
+     "namn": "Łaziska 2",
+     "kraftslag": "kol",
+     "mw": 250,
+     "tillganglig_mw": 250,
+     "status": "drift"
+    },
+    {
+     "namn": "Łaziska 2",
+     "kraftslag": "kol",
+     "mw": 250,
+     "tillganglig_mw": 250,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań 1",
+     "kraftslag": "kol",
+     "mw": 246,
+     "tillganglig_mw": 246,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań 1",
+     "kraftslag": "kol",
+     "mw": 246,
+     "tillganglig_mw": 246,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Dunowo",
+     "kraftslag": "vind_land",
+     "mw": 243,
+     "tillganglig_mw": 243,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Darłowo",
+     "kraftslag": "vind_land",
+     "mw": 239,
+     "tillganglig_mw": 239,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Darłowo",
+     "kraftslag": "vind_land",
+     "mw": 239,
+     "tillganglig_mw": 239,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Wrotków",
+     "kraftslag": "gas",
+     "mw": 226,
+     "tillganglig_mw": 226,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Wrotków",
+     "kraftslag": "gas",
+     "mw": 226,
+     "tillganglig_mw": 226,
+     "status": "drift"
+    },
+    {
+     "namn": "Wrocław",
+     "kraftslag": "kol",
+     "mw": 218,
+     "tillganglig_mw": 218,
+     "status": "drift"
+    },
+    {
+     "namn": "Wrocław",
+     "kraftslag": "kol",
+     "mw": 218,
+     "tillganglig_mw": 218,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Dunowo",
+     "kraftslag": "vind_land",
+     "mw": 211,
+     "tillganglig_mw": 211,
+     "status": "drift"
+    },
+    {
+     "namn": "Połaniec 2-Pasywna",
+     "kraftslag": "biobransle",
+     "mw": 208,
+     "tillganglig_mw": 208,
+     "status": "drift"
+    },
+    {
+     "namn": "Połaniec 2-Pasywna",
+     "kraftslag": "biobransle",
+     "mw": 208,
+     "tillganglig_mw": 208,
+     "status": "drift"
+    },
+    {
+     "namn": "Chorzów",
+     "kraftslag": "kol",
+     "mw": 208,
+     "tillganglig_mw": 208,
+     "status": "drift"
+    },
+    {
+     "namn": "Chorzów",
+     "kraftslag": "kol",
+     "mw": 208,
+     "tillganglig_mw": 208,
+     "status": "drift"
+    },
+    {
+     "namn": "Elektrownia fotowoltaiczna Zwartowo",
+     "kraftslag": "sol",
+     "mw": 206,
+     "tillganglig_mw": 206,
+     "status": "drift"
+    },
+    {
+     "namn": "Elektrownia fotowoltaiczna Zwartowo",
+     "kraftslag": "sol",
+     "mw": 206,
+     "tillganglig_mw": 206,
+     "status": "drift"
+    },
+    {
+     "namn": "Skawina",
+     "kraftslag": "kol",
+     "mw": 200,
+     "tillganglig_mw": 200,
+     "status": "drift"
+    },
+    {
+     "namn": "Gdańsk 2",
+     "kraftslag": "kol",
+     "mw": 199,
+     "tillganglig_mw": 199,
+     "status": "drift"
+    },
+    {
+     "namn": "Gdańsk 2",
+     "kraftslag": "kol",
+     "mw": 199,
+     "tillganglig_mw": 199,
+     "status": "drift"
+    },
+    {
+     "namn": "Solina",
+     "kraftslag": "pumpkraft",
+     "mw": 198,
+     "tillganglig_mw": 198,
+     "status": "drift"
+    },
+    {
+     "namn": "Solina",
+     "kraftslag": "pumpkraft",
+     "mw": 198,
+     "tillganglig_mw": 198,
+     "status": "drift"
+    },
+    {
+     "namn": "Zielona Góra",
+     "kraftslag": "gas",
+     "mw": 194,
+     "tillganglig_mw": 194,
+     "status": "drift"
+    },
+    {
+     "namn": "Zielona Góra",
+     "kraftslag": "gas",
+     "mw": 194,
+     "tillganglig_mw": 194,
+     "status": "drift"
+    },
+    {
+     "namn": "Mondi Świecie",
+     "kraftslag": "kol",
+     "mw": 193,
+     "tillganglig_mw": 193,
+     "status": "drift"
+    },
+    {
+     "namn": "Mondi Świecie",
+     "kraftslag": "kol",
+     "mw": 193,
+     "tillganglig_mw": 193,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Łódź-3",
+     "kraftslag": "kol",
+     "mw": 184,
+     "tillganglig_mw": 184,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Łódź-3",
+     "kraftslag": "kol",
+     "mw": 184,
+     "tillganglig_mw": 184,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Łódź-4",
+     "kraftslag": "kol",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Łódź-4",
+     "kraftslag": "kol",
+     "mw": 181,
+     "tillganglig_mw": 181,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Czechnica-2",
+     "kraftslag": "gas",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Czechnica-2",
+     "kraftslag": "gas",
+     "mw": 171,
+     "tillganglig_mw": 171,
+     "status": "drift"
+    },
+    {
+     "namn": "Żydowo",
+     "kraftslag": "pumpkraft",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "Żydowo",
+     "kraftslag": "pumpkraft",
+     "mw": 167,
+     "tillganglig_mw": 167,
+     "status": "drift"
+    },
+    {
+     "namn": "EW Włocławek",
+     "kraftslag": "stromkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "EW Włocławek",
+     "kraftslag": "stromkraft",
+     "mw": 165,
+     "tillganglig_mw": 165,
+     "status": "drift"
+    },
+    {
+     "namn": "Bydgoszcz 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Bydgoszcz 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Blachownia",
+     "kraftslag": "kolgas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Blachownia",
+     "kraftslag": "kolgas",
+     "mw": 150,
+     "tillganglig_mw": 150,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Biały Bór",
+     "kraftslag": "vind_land",
+     "mw": 145,
+     "tillganglig_mw": 145,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Biały Bór",
+     "kraftslag": "vind_land",
+     "mw": 141,
+     "tillganglig_mw": 141,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Białystok",
+     "kraftslag": "kol",
+     "mw": 137,
+     "tillganglig_mw": 137,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Białystok",
+     "kraftslag": "kol",
+     "mw": 137,
+     "tillganglig_mw": 137,
+     "status": "drift"
+    },
+    {
+     "namn": "Gorzów 2",
+     "kraftslag": "gas",
+     "mw": 135,
+     "tillganglig_mw": 135,
+     "status": "drift"
+    },
+    {
+     "namn": "Gorzów 2",
+     "kraftslag": "gas",
+     "mw": 135,
+     "tillganglig_mw": 135,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Nowa Sarzyna",
+     "kraftslag": "gas",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Nowa Sarzyna",
+     "kraftslag": "gas",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Jasna",
+     "kraftslag": "vind_land",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Jasna",
+     "kraftslag": "vind_land",
+     "mw": 126,
+     "tillganglig_mw": 126,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Margonin",
+     "kraftslag": "vind_land",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Margonin",
+     "kraftslag": "vind_land",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Potegowo Zachód",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Potegowo Zachód",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "Katowice",
+     "kraftslag": "kol",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Azoty Tarnów",
+     "kraftslag": "kol",
+     "mw": 114,
+     "tillganglig_mw": 114,
+     "status": "drift"
+    },
+    {
+     "namn": "Azoty Tarnów",
+     "kraftslag": "kol",
+     "mw": 114,
+     "tillganglig_mw": 114,
+     "status": "drift"
+    },
+    {
+     "namn": "Katowice",
+     "kraftslag": "kol",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Banie",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Banie",
+     "kraftslag": "vind_land",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Przyjaźń",
+     "kraftslag": "kolgas",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Przyjaźń",
+     "kraftslag": "kolgas",
+     "mw": 106,
+     "tillganglig_mw": 106,
+     "status": "drift"
+    },
+    {
+     "namn": "Pomorzany",
+     "kraftslag": "kol",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "Pomorzany",
+     "kraftslag": "kol",
+     "mw": 104,
+     "tillganglig_mw": 104,
+     "status": "drift"
+    },
+    {
+     "namn": "International Paper Kwidzyn",
+     "kraftslag": "kol",
+     "mw": 103,
+     "tillganglig_mw": 103,
+     "status": "drift"
+    },
+    {
+     "namn": "International Paper Kwidzyn",
+     "kraftslag": "kol",
+     "mw": 103,
+     "tillganglig_mw": 103,
+     "status": "drift"
+    },
+    {
+     "namn": "ZA Puławy",
+     "kraftslag": "kol",
+     "mw": 101,
+     "tillganglig_mw": 101,
+     "status": "drift"
+    },
+    {
+     "namn": "ZA Puławy",
+     "kraftslag": "kol",
+     "mw": 101,
+     "tillganglig_mw": 101,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Marszewo",
+     "kraftslag": "vind_land",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Marszewo",
+     "kraftslag": "vind_land",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Drzeżewo IV",
+     "kraftslag": "vind_land",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma wiatrowa Drzeżewo IV",
+     "kraftslag": "vind_land",
+     "mw": 100,
+     "tillganglig_mw": 100,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Rzeszów",
+     "kraftslag": "gas",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Rzeszów",
+     "kraftslag": "gas",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma Wiatrowa Potęgowo Wschód",
+     "kraftslag": "vind_land",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "Farma Wiatrowa Potęgowo Wschód",
+     "kraftslag": "vind_land",
+     "mw": 99,
+     "tillganglig_mw": 99,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Toruń",
+     "kraftslag": "gas",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Toruń",
+     "kraftslag": "gas",
+     "mw": 97,
+     "tillganglig_mw": 97,
+     "status": "drift"
+    },
+    {
+     "namn": "Gdynia 3",
+     "kraftslag": "kol",
+     "mw": 96,
+     "tillganglig_mw": 96,
+     "status": "drift"
+    },
+    {
+     "namn": "Gdynia 3",
+     "kraftslag": "kol",
+     "mw": 96,
+     "tillganglig_mw": 96,
+     "status": "drift"
+    },
+    {
+     "namn": "Tychy",
+     "kraftslag": "kol",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "Tychy",
+     "kraftslag": "kol",
+     "mw": 94,
+     "tillganglig_mw": 94,
+     "status": "drift"
+    },
+    {
+     "namn": "Zakłady Chemiczne Police SA",
+     "kraftslag": "kol",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "Zakłady Chemiczne Police SA",
+     "kraftslag": "kol",
+     "mw": 93,
+     "tillganglig_mw": 93,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Korytnica",
+     "kraftslag": "vind_land",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "FW Korytnica",
+     "kraftslag": "vind_land",
+     "mw": 82,
+     "tillganglig_mw": 82,
+     "status": "drift"
+    },
+    {
+     "namn": "Zofiówka",
+     "kraftslag": "kol",
+     "mw": 74,
+     "tillganglig_mw": 74,
+     "status": "drift"
+    },
+    {
+     "namn": "Zofiówka",
+     "kraftslag": "kol",
+     "mw": 74,
+     "tillganglig_mw": 74,
+     "status": "drift"
+    },
+    {
+     "namn": "Gorzów",
+     "kraftslag": "gas",
+     "mw": 70,
+     "tillganglig_mw": 70,
+     "status": "drift"
+    },
+    {
+     "namn": "Gorzów",
+     "kraftslag": "gas",
+     "mw": 70,
+     "tillganglig_mw": 70,
+     "status": "drift"
+    },
+    {
+     "namn": "Zabrze",
+     "kraftslag": "kol",
+     "mw": 70,
+     "tillganglig_mw": 70,
+     "status": "drift"
+    },
+    {
+     "namn": "Zabrze",
+     "kraftslag": "kol",
+     "mw": 70,
+     "tillganglig_mw": 70,
+     "status": "drift"
+    },
+    {
+     "namn": "Konin",
+     "kraftslag": "brunkol",
+     "mw": 46,
+     "tillganglig_mw": 46,
+     "status": "drift"
+    },
+    {
+     "namn": "Konin",
+     "kraftslag": "brunkol",
+     "mw": 46,
+     "tillganglig_mw": 46,
+     "status": "drift"
+    },
+    {
+     "namn": "Karolin 1",
+     "kraftslag": "kol",
+     "mw": 45,
+     "tillganglig_mw": 45,
+     "status": "drift"
+    },
+    {
+     "namn": "FW EGL",
+     "kraftslag": "vind_land",
+     "mw": 41,
+     "tillganglig_mw": 41,
+     "status": "drift"
+    },
+    {
+     "namn": "FW EGL",
+     "kraftslag": "vind_land",
+     "mw": 41,
+     "tillganglig_mw": 41,
+     "status": "drift"
+    },
+    {
+     "namn": "Karolin 1",
+     "kraftslag": "kol",
+     "mw": 41,
+     "tillganglig_mw": 41,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 1",
+     "kraftslag": "brunkol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 1",
+     "kraftslag": "brunkol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Żerań",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    },
+    {
+     "namn": "Stalowa Wola Pasywna blok 7",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    },
+    {
+     "namn": "Stalowa Wola Pasywna blok 7",
+     "kraftslag": "kol",
+     "mw": 0,
+     "tillganglig_mw": 0,
+     "status": "drift"
+    }
+   ]
+  },
+  "NL": {
+   "produktion_tid": null,
+   "verk": [
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "gas",
+     "mw": 1410,
+     "tillganglig_mw": 1410,
+     "status": "drift"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "gas",
+     "mw": 1410,
+     "tillganglig_mw": 1410,
+     "status": "drift"
+    },
+    {
+     "namn": "Claus",
+     "kraftslag": "gas",
+     "mw": 1304,
+     "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Claus",
+     "kraftslag": "gas",
+     "mw": 1304,
+     "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
+     "status": "drift"
+    },
+    {
+     "namn": "Enecogen",
+     "kraftslag": "gas",
+     "mw": 928,
+     "tillganglig_mw": 928,
+     "status": "drift"
+    },
+    {
+     "namn": "Enecogen",
+     "kraftslag": "gas",
+     "mw": 928,
+     "tillganglig_mw": 928,
+     "status": "drift"
+    },
+    {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 869,
+     "status": "drift"
+    },
+    {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 869,
+     "status": "drift"
+    },
+    {
+     "namn": "Moerdijk",
+     "kraftslag": "gas",
+     "mw": 766,
+     "tillganglig_mw": 766,
+     "status": "drift"
+    },
+    {
+     "namn": "Moerdijk",
+     "kraftslag": "gas",
+     "mw": 766,
+     "tillganglig_mw": 766,
+     "status": "drift"
+    },
+    {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
+     "namn": "Hollandse Kust West VI",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
+     "namn": "Rijnmond 1",
+     "kraftslag": "gas",
+     "mw": 750,
+     "tillganglig_mw": 750,
+     "status": "drift"
+    },
+    {
+     "namn": "Rijnmond 1",
+     "kraftslag": "gas",
+     "mw": 750,
+     "tillganglig_mw": 750,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele Windfarm III and IV",
+     "kraftslag": "vind_hav",
+     "mw": 732,
+     "tillganglig_mw": 732,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele Windfarm III and IV",
+     "kraftslag": "vind_hav",
+     "mw": 732,
+     "tillganglig_mw": 732,
+     "status": "drift"
+    },
+    {
+     "namn": "NLROTTETH__1",
+     "kraftslag": "kol",
+     "mw": 731,
+     "tillganglig_mw": 731,
+     "status": "drift"
+    },
+    {
+     "namn": "NLROTTETH__1",
+     "kraftslag": "kol",
+     "mw": 731,
+     "tillganglig_mw": 731,
+     "status": "drift"
+    },
+    {
+     "namn": "Diemen",
+     "kraftslag": "gas",
+     "mw": 684,
+     "tillganglig_mw": 684,
+     "status": "drift"
+    },
+    {
+     "namn": "Diemen",
+     "kraftslag": "gas",
+     "mw": 684,
+     "tillganglig_mw": 684,
+     "status": "drift"
+    },
+    {
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 631,
+     "status": "drift"
+    },
+    {
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 631,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Gemini",
+     "kraftslag": "vind_hav",
+     "mw": 600,
+     "tillganglig_mw": 600,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Gemini",
+     "kraftslag": "vind_hav",
+     "mw": 600,
+     "tillganglig_mw": 600,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 30",
+     "kraftslag": "karnkraft",
+     "mw": 485,
+     "tillganglig_mw": 485,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 30",
+     "kraftslag": "karnkraft",
+     "mw": 485,
+     "tillganglig_mw": 485,
+     "status": "drift"
+    },
+    {
+     "namn": "FLEVO 5",
+     "kraftslag": "gas",
+     "mw": 464,
+     "tillganglig_mw": 464,
+     "status": "drift"
+    },
+    {
+     "namn": "FLEVO 5",
+     "kraftslag": "gas",
+     "mw": 464,
+     "tillganglig_mw": 464,
+     "status": "drift"
+    },
+    {
+     "namn": "TNZ150 ELSTA",
+     "kraftslag": "gas",
+     "mw": 455,
+     "tillganglig_mw": 455,
+     "status": "drift"
+    },
+    {
+     "namn": "TNZ150 ELSTA",
+     "kraftslag": "gas",
+     "mw": 455,
+     "tillganglig_mw": 455,
+     "status": "drift"
+    },
+    {
+     "namn": "FLEVO 4",
+     "kraftslag": "gas",
+     "mw": 443,
+     "tillganglig_mw": 443,
+     "status": "drift"
+    },
+    {
+     "namn": "FLEVO 4",
+     "kraftslag": "gas",
+     "mw": 443,
+     "tillganglig_mw": 443,
+     "status": "drift"
+    },
+    {
+     "namn": "Hemweg",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 440,
+     "status": "drift"
+    },
+    {
+     "namn": "Hemweg",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 440,
+     "status": "drift"
+    },
+    {
+     "namn": "Sloe Centrale 20",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 435,
+     "status": "drift"
+    },
+    {
+     "namn": "Sloe Centrale 20",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 435,
+     "status": "drift"
+    },
+    {
+     "namn": "Sloe Centrale 10",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 435,
+     "status": "drift"
+    },
+    {
+     "namn": "Sloe Centrale 10",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 435,
+     "status": "drift"
+    },
+    {
+     "namn": "Maastroom Energie CV",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
+     "status": "drift"
+    },
+    {
+     "namn": "Maastroom Energie CV",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Fryslan",
+     "kraftslag": "vind_land",
+     "mw": 383,
+     "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Fryslan",
+     "kraftslag": "vind_land",
+     "mw": 383,
+     "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 1",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 1",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 2",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 2",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 7",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 7",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 6",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 6",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 5",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 5",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 4",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 4",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 3",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 3",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 360,
+     "status": "drift"
+    },
+    {
+     "namn": "Delesto 2",
+     "kraftslag": "gas",
+     "mw": 343,
+     "tillganglig_mw": 343,
+     "status": "drift"
+    },
+    {
+     "namn": "Delesto 2",
+     "kraftslag": "gas",
+     "mw": 343,
+     "tillganglig_mw": 343,
+     "status": "drift"
+    },
+    {
+     "namn": "Lage Weide 6",
+     "kraftslag": "gas",
+     "mw": 248,
+     "tillganglig_mw": 248,
+     "status": "drift"
+    },
+    {
+     "namn": "Lage Weide 6",
+     "kraftslag": "gas",
+     "mw": 248,
+     "tillganglig_mw": 248,
+     "status": "drift"
+    },
+    {
+     "namn": "Merwedekanaal 12",
+     "kraftslag": "gas",
+     "mw": 225,
+     "tillganglig_mw": 225,
+     "status": "drift"
+    },
+    {
+     "namn": "Merwedekanaal 12",
+     "kraftslag": "gas",
+     "mw": 225,
+     "tillganglig_mw": 225,
+     "status": "drift"
+    },
+    {
+     "namn": "RoCa",
+     "kraftslag": "gas",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "RoCa",
+     "kraftslag": "gas",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
+    },
+    {
+     "namn": "WP NOP Agrowind",
+     "kraftslag": "vind_land",
+     "mw": 195,
+     "tillganglig_mw": 195,
+     "status": "drift"
+    },
+    {
+     "namn": "WP NOP Agrowind",
+     "kraftslag": "vind_land",
+     "mw": 195,
+     "tillganglig_mw": 195,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Wieringermeer",
+     "kraftslag": "vind_land",
+     "mw": 184,
+     "tillganglig_mw": 184,
+     "status": "drift"
+    },
+    {
+     "namn": "Windpark Wieringermeer",
+     "kraftslag": "vind_land",
+     "mw": 184,
+     "tillganglig_mw": 184,
+     "status": "drift"
+    },
+    {
+     "namn": "Westermeerwind",
+     "kraftslag": "vind_hav",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Westermeerwind",
+     "kraftslag": "vind_hav",
+     "mw": 144,
+     "tillganglig_mw": 144,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 20",
+     "kraftslag": "gas",
+     "mw": 131,
+     "tillganglig_mw": 131,
+     "status": "drift"
+    },
+    {
+     "namn": "Eems 20",
+     "kraftslag": "gas",
+     "mw": 131,
+     "tillganglig_mw": 131,
+     "status": "drift"
+    },
+    {
+     "namn": "Windfarm Luchterduinen",
+     "kraftslag": "vind_hav",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "Windfarm Luchterduinen",
+     "kraftslag": "vind_hav",
+     "mw": 129,
+     "tillganglig_mw": 129,
+     "status": "drift"
+    },
+    {
+     "namn": "NAM Schoonebeek",
+     "kraftslag": "gas",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "NAM Schoonebeek",
+     "kraftslag": "gas",
+     "mw": 128,
+     "tillganglig_mw": 128,
+     "status": "drift"
+    },
+    {
+     "namn": "PERGEN 1",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "PERGEN 1",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "PERGEN 2",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "PERGEN 2",
+     "kraftslag": "gas",
+     "mw": 125,
+     "tillganglig_mw": 125,
+     "status": "drift"
+    },
+    {
+     "namn": "Prinses Alexia Windpark",
+     "kraftslag": "vind_land",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Prinses Alexia Windpark",
+     "kraftslag": "vind_land",
+     "mw": 122,
+     "tillganglig_mw": 122,
+     "status": "drift"
+    },
+    {
+     "namn": "Westereems",
+     "kraftslag": "vind_land",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Westereems",
+     "kraftslag": "vind_land",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Windfarm Princess Amalia",
+     "kraftslag": "vind_hav",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Windfarm Princess Amalia",
+     "kraftslag": "vind_hav",
+     "mw": 120,
+     "tillganglig_mw": 120,
+     "status": "drift"
+    },
+    {
+     "namn": "Wieringermeer Extension",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "Wieringermeer Extension",
+     "kraftslag": "vind_land",
+     "mw": 118,
+     "tillganglig_mw": 118,
+     "status": "drift"
+    },
+    {
+     "namn": "WP Maasvlakte 2",
+     "kraftslag": "vind_land",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "WP Maasvlakte 2",
+     "kraftslag": "vind_land",
+     "mw": 117,
+     "tillganglig_mw": 117,
+     "status": "drift"
+    },
+    {
+     "namn": "Den Haag",
+     "kraftslag": "gas",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "Den Haag",
+     "kraftslag": "gas",
+     "mw": 112,
+     "tillganglig_mw": 112,
+     "status": "drift"
+    },
+    {
+     "namn": "OWEZ",
+     "kraftslag": "vind_hav",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "OWEZ",
+     "kraftslag": "vind_hav",
+     "mw": 108,
+     "tillganglig_mw": 108,
+     "status": "drift"
+    },
+    {
+     "namn": "BESS Maxima",
+     "kraftslag": "ovrigt",
+     "mw": 35,
+     "tillganglig_mw": 35,
+     "status": "drift"
+    },
+    {
+     "namn": "BESS Maxima",
+     "kraftslag": "ovrigt",
+     "mw": 35,
+     "tillganglig_mw": 35,
+     "status": "drift"
+    }
+   ]
+  }
+ }
 }
