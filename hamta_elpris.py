@@ -492,9 +492,6 @@ def uppdatera_enheter(now, budget_s=150):
     Publiceras med flera dagars fördröjning för vissa länder, därför letar vi bakåt dag för dag. Var tredje timme."""
     fil = OUT / "enheter.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    if old.get("zoner") and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
-        print("enheter: uppdaterade för mindre än tre timmar sedan, hoppar över")
-        return
     af = OUT / "anlaggningar.json"
     anl = json.loads(af.read_text(encoding="utf-8")).get("zoner", {}) if af.exists() else {}
     if not anl:
@@ -503,8 +500,22 @@ def uppdatera_enheter(now, budget_s=150):
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
     lagar = dict(old.get("lag_land", {}))
+    land_tid = dict(old.get("land_tid", {}))
     dag0 = now.replace(hour=0, minute=0)
-    for cc, code in CONTROL.items():
+    nu_utc = datetime.now(timezone.utc)
+
+    def spara():
+        out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "lag_land": lagar, "land_tid": land_tid, "zoner": zoner}
+        tmp = OUT / "enheter.json.tmp"
+        tmp.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp.replace(fil)
+
+    # Länder som är äldst (eller saknas) först; ett land hämtas högst var tredje timme
+    ordning = sorted(CONTROL, key=lambda cc: land_tid.get(cc, ""))
+    for cc in ordning:
+        code = CONTROL[cc]
+        if land_tid.get(cc) and nu_utc - datetime.strptime(land_tid[cc], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
+            continue
         if time.time() - t0 > budget_s:
             print("enheter: tidsgränsen nådd, behåller gamla värden för resten")
             break
@@ -523,8 +534,10 @@ def uppdatera_enheter(now, budget_s=150):
                 hittat = (lag, enh)
                 break
             sista = ack_text(body)
+        land_tid[cc] = iso(datetime.now(timezone.utc))
         if not hittat:
             print(f"enheter {cc}: ingen data senaste veckan, svar: {sista}")
+            spara()
             continue
         lag, enh = hittat
         lagar[cc] = lag
@@ -537,8 +550,8 @@ def uppdatera_enheter(now, budget_s=150):
             lista = sorted(lista, key=lambda x: -x["mw"])[:60]
             zoner[z] = {"lag_dagar": lag, "data_tid": max(x["t"] for x in lista), "enheter": lista}
         print(f"enheter {cc}: {len(enh)} enheter, {lag} dagar bakåt, kopplade till {sorted(per_zon)}")
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "lag_land": lagar, "zoner": zoner}
-    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+        spara()
+    spara()
 
 
 MAGASIN_ZONER = ["SE1", "SE2", "SE3", "SE4", "NO1", "NO2", "NO3", "NO4", "NO5", "FI"]
@@ -562,12 +575,24 @@ def uppdatera_magasin(now, budget_s=150):
     """Magasinens fyllnad per zon (A72, veckovis) mot snittet för samma vecka de tre senaste åren. En gång per dygn."""
     fil = OUT / "magasin.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    klar = all(z in old.get("zoner", {}) for z in MAGASIN_ZONER)
-    if klar and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
-        return
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
-    for zone in MAGASIN_ZONER:
+    nu_utc = datetime.now(timezone.utc)
+
+    def farsk(z):
+        h = zoner.get(z, {}).get("hamtad") or (old.get("uppdaterad") if z in zoner else None)
+        return h and nu_utc - datetime.strptime(h, "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20)
+
+    def spara():
+        out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MWh", "zoner": zoner}
+        tmp = OUT / "magasin.json.tmp"
+        tmp.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp.replace(fil)
+
+    att_gora = [z for z in MAGASIN_ZONER if not farsk(z)]
+    if not att_gora:
+        return
+    for zone in att_gora:
         if time.time() - t0 > budget_s:
             print("magasin: tidsgränsen nådd, fortsätter nästa körning")
             break
@@ -585,6 +610,8 @@ def uppdatera_magasin(now, budget_s=150):
             varden[ar] = v
             time.sleep(0.5)
         if not varden.get(0):
+            zoner[zone] = {"hamtad": iso(datetime.now(timezone.utc)), "andel_av_snitt": None, "mwh": None}
+            spara()
             continue
         senaste = max(varden[0])
         nu = varden[0][senaste]
@@ -598,10 +625,11 @@ def uppdatera_magasin(now, budget_s=150):
                 jmf.append(min(nara)[1])
         snitt = sum(jmf) / len(jmf) if jmf else None
         zoner[zone] = {"vecka": senaste, "mwh": round(nu), "snitt_mwh": round(snitt) if snitt else None,
-                       "andel_av_snitt": round(nu / snitt * 100) if snitt else None, "ar_i_snitt": len(jmf)}
+                       "andel_av_snitt": round(nu / snitt * 100) if snitt else None, "ar_i_snitt": len(jmf),
+                       "hamtad": iso(datetime.now(timezone.utc))}
+        spara()
         print(f"magasin {zone}: {round(nu)} MWh" + (f", {round(nu / snitt * 100)} % av snittet" if snitt else ""))
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MWh", "zoner": zoner}
-    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    spara()
 
 
 def uppdatera_vattenkraft():
