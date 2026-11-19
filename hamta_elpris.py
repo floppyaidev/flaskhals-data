@@ -277,7 +277,9 @@ def uppdatera_avbrott(now, budget_s=150):
     t0 = time.time()
     zoner = {}
     klara = 0
-    for zone, code in ZONES.items():
+    zon_tid = dict(old.get("zon_tid", {}))
+    # Zonerna med äldst data först, så att alla hinns med över flera körningar
+    for zone, code in sorted(ZONES.items(), key=lambda kv: zon_tid.get(kv[0], "")):
         if time.time() - t0 > budget_s:
             print(f"avbrott: tidsgränsen nådd efter {klara} zoner, behåller gamla värden för resten")
             break
@@ -308,13 +310,14 @@ def uppdatera_avbrott(now, budget_s=150):
         lista.sort(key=lambda a: -((a.get("nominell_mw") or 0) - (a.get("tillganglig_mw") or 0)))
         if ok or lista:
             zoner[zone] = lista[:40]
+            zon_tid[zone] = iso(now)
             klara += 1
         elif zone in old.get("zoner", {}):
             zoner[zone] = old["zoner"][zone]
     for zone in ZONES:
         if zone not in zoner and zone in old.get("zoner", {}):
             zoner[zone] = old["zoner"][zone]
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": zoner}
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zon_tid": zon_tid, "zoner": zoner}
     fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"avbrott: {sum(len(v) for v in zoner.values())} avbrott i {len(zoner)} zoner")
 
