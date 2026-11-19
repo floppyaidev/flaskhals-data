@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T18:59Z",
+ "uppdaterad": "2026-11-19T19:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -5689,26 +5689,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "Knapsack 2",
-     "kraftslag": "gas",
-     "mw": 426,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T19:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Knapsack 2",
-     "kraftslag": "gas",
-     "mw": 426,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T19:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -6412,6 +6392,20 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
+     "status": "drift"
+    },
+    {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 426,
      "status": "drift"
     },
     {
