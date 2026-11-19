@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T22:30Z",
+ "uppdaterad": "2026-11-19T22:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -219,16 +219,6 @@
    "produktion_tid": "2026-11-14T22:00Z",
    "verk": [
     {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 178.0,
-     "status": "begransad",
-     "slut": "2026-11-20T09:00Z",
-     "typ": "oplanerat",
-     "orsak": "Windfar severely affected by ice."
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -256,6 +246,13 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -2055,7 +2052,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-18T19:15Z",
+   "produktion_tid": "2026-11-18T22:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2077,7 +2074,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 210
+     "produktion_mw": 174
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2088,7 +2085,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 35
+     "produktion_mw": 21
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2133,7 +2130,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 43
+     "produktion_mw": 1
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2149,7 +2146,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 61
+     "produktion_mw": 52
     },
     {
      "namn": "Solar Park Holsted",
@@ -2165,7 +2162,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 93
+     "produktion_mw": 17
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2181,7 +2178,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 49
+     "produktion_mw": 1
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2194,7 +2191,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-18T19:15Z",
+   "produktion_tid": "2026-11-18T22:30Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -2205,7 +2202,7 @@
      "slut": "2026-11-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Condenser failure and boiler trip",
-     "produktion_mw": 280
+     "produktion_mw": 326
     },
     {
      "namn": "Amagervaerket",
@@ -2216,7 +2213,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 148
+     "produktion_mw": 145
     },
     {
      "namn": "Asnaesvaerket",
@@ -2246,7 +2243,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 114
+     "produktion_mw": 147
     },
     {
      "namn": "Roedsand 1",
@@ -2254,7 +2251,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 68
+     "produktion_mw": 72
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2816,16 +2813,6 @@
      "orsak": null
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3061,6 +3048,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
