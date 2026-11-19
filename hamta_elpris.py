@@ -454,6 +454,19 @@ def alv_for(namn):
     return None
 
 
+def unika_verk(verk):
+    """ENTSO-E har ibland två tidsserier för samma verk. Behåll ett per namn (största effekten), i ursprunglig ordning."""
+    bast = {}
+    for v in verk:
+        if v["namn"] not in bast or v["mw"] > bast[v["namn"]]["mw"]:
+            bast[v["namn"]] = v
+    sett, ut = set(), []
+    for v in verk:
+        if v["namn"] not in sett:
+            sett.add(v["namn"]); ut.append(bast[v["namn"]])
+    return ut
+
+
 def parse_kapacitet_enheter(body):
     """14.1.B (A71/A33): installerad effekt per produktionsenhet. Returnerar [{namn, kraftslag, mw}]."""
     root = ET.fromstring(body)
@@ -473,7 +486,7 @@ def parse_kapacitet_enheter(body):
         pts = [float(find_text(q, "quantity")) for q in ts.iter() if localname(q) == "Point" and find_text(q, "quantity")]
         if namn and pts:
             out.append({"namn": namn, "kraftslag": PSR.get(find_text(ts, "psrType"), "ovrigt"), "mw": round(pts[-1])})
-    return out
+    return unika_verk(out)
 
 
 def uppdatera_anlaggningar(now, budget_s=150):
@@ -676,6 +689,7 @@ def uppdatera_vattenkraft():
         f = OUT / n
         return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     anl, avb, enh = las("anlaggningar.json").get("zoner", {}), las("avbrott.json").get("zoner", {}), las("enheter.json").get("zoner", {})
+    anl = {z: unika_verk(v) for z, v in anl.items()}
     nu = iso(datetime.now(timezone.utc))
     zoner = {}
     for zone in ZONES:
