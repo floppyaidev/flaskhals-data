@@ -392,6 +392,14 @@ ALVAR = {
     "Dalälven": ["Trängslet", "Lanforsen", "Älvkarleby", "Mockfjärd", "Untra", "Kvarnsveden", "Avesta", "Spjutmo",
                  "Lima", "Blyberg", "Väsa", "Forshuvud", "Domnarvet"],
     "Göta älv": ["Olidan", "Hojum", "Trollhättan", "Lilla Edet", "Vargön"],
+    # Finland
+    "Kemijoki": ["Petäjäskoski", "Pirttikoski", "Valajaskoski", "Isohaara", "Ossauskoski", "Taivalkoski", "Vanttauskoski",
+                 "Seitakorva", "Kelukoski", "Rytikoski", "Kokkosniva", "Permantokoski", "Juotas", "Matarakoski", "Vajukoski",
+                 "Kurittaankoski", "Kemijoki"],
+    "Oulujoki": ["Pyhäkoski", "Montta", "Merikoski", "Nuojua", "Utanen", "Jylhämä", "Pälli", "Leppiniemi", "Oulujoki"],
+    "Iijoki": ["Raasakka", "Maalismaa", "Kierikki", "Pahkakoski", "Haapakoski", "Iijoki"],
+    "Kokemäenjoki": ["Harjavalta", "Kolsi", "Äetsä", "Kokemäenjoki"],
+    "Vuoksi": ["Imatra", "Tainionkoski", "Vuoksi"],
 }
 VATTEN = ("vattenkraft", "stromkraft", "pumpkraft")
 
@@ -594,7 +602,8 @@ def uppdatera_vattenkraft():
         prod = (enh.get(zone) or {}).get("enheter", [])
         grupper = {}
         for v in verk:
-            g = (alv_for(v["namn"]) if zone.startswith("SE") else None) or ("Övriga stora verk" if zone.startswith("SE") else "Stora vattenkraftverk")
+            per_alv = zone.startswith("SE") or zone == "FI"
+            g = (alv_for(v["namn"]) if per_alv else None) or ("Övriga stora verk" if per_alv else "Stora vattenkraftverk")
             x = grupper.setdefault(g, {"alv": g, "verk": 0, "nominell_mw": 0, "tillganglig_mw": 0, "avbrott": [], "produktion_mw": 0, "med_produktion": 0})
             x["verk"] += 1
             x["nominell_mw"] += v["mw"]
