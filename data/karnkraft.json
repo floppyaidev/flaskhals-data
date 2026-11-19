@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T15:14Z",
+ "uppdaterad": "2026-11-19T16:14Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -63,5 +63,18 @@
    "mw": 485
   }
  ],
- "avbrott": []
+ "avbrott": [
+  {
+   "namn": "Olkiluoto 2",
+   "typ": "planerat",
+   "start": "2026-10-15T11:15Z",
+   "slut": "2027-04-18T15:00Z",
+   "nominell_mw": 890.0,
+   "tillganglig_mw": 735.0,
+   "orsak": "Generator rotor limitation",
+   "status": null,
+   "kraftslag": "karnkraft",
+   "zon": "FI"
+  }
+ ]
 }
