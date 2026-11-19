@@ -749,10 +749,15 @@ def main():
         print(f"{zone}: sparade {antal} värden")
         time.sleep(2)
 
-    # Extra: avbrott för alla kraftslag och produktion per kraftverk. Körs sist så att priser och
-    # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 14 min).
-    SLUT = 600  # sekunder från start som de extra delarna får använda (hård gräns per fråga, se fetch_raw). Arbetsflödet stoppas efter 14 min.
+
+def main_extra():
+    """Extra data i ett eget parallellt jobb (python hamta_elpris.py --extra), så att priser och produktion
+    aldrig väntar på det: avbrott, magasin, kraftverk per elområde, produktion per verk och sammanfattningarna."""
     global EXTRA_DEADLINE
+    t_start = time.time()
+    now = datetime.now(timezone.utc).replace(second=0, microsecond=0)
+    now = now - timedelta(minutes=now.minute % 15)
+    SLUT = 600  # sekunder; jobbet stoppas efter 14 min. Hård gräns per fråga, se fetch_raw.
     EXTRA_DEADLINE = t_start + SLUT
     for namn, fn in (("avbrott", uppdatera_avbrott), ("magasin", uppdatera_magasin),
                      ("anläggningar", uppdatera_anlaggningar), ("enheter", uppdatera_enheter)):
@@ -761,7 +766,7 @@ def main():
             print(f"{namn}: för lite tid kvar ({int(kvar)} s), tar det nästa körning")
             continue
         try:
-            fn(now, budget_s=min(150, kvar - 30))
+            fn(now, budget_s=min(240, kvar - 30))
         except RateLimit:
             print(f"429 vid {namn}, försöker nästa körning")
         except SlutPaTid:
@@ -775,4 +780,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--extra" in sys.argv:
+        main_extra()
+    else:
+        main()

@@ -36,5 +36,39 @@ jobs:
             exit 0
           fi
           git commit -m "Uppdatera elpriser"
-          git pull --rebase --autostash -X theirs origin main
-          git push
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash -X theirs origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+
+  extra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hämta extra data från ENTSO-E (avbrott, magasin, kraftverk)
+        env:
+          ENTSOE_TOKEN: ${{ secrets.ENTSOE_TOKEN }}
+        run: python hamta_elpris.py --extra
+
+      - name: Spara ändringar
+        run: |
+          git config user.name "elpris-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Inga ändringar"
+            exit 0
+          fi
+          git commit -m "Uppdatera extra data"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash -X theirs origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
