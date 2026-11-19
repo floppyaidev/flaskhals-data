@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T13:08Z",
+ "uppdaterad": "2026-11-19T13:21Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4048,7 +4048,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-18T12:45Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -4058,7 +4058,8 @@
      "status": "still",
      "slut": "2026-11-28T22:59Z",
      "typ": "planerat",
-     "orsak": "Change of low pressure turbine"
+     "orsak": "Change of low pressure turbine",
+     "produktion_mw": 0
     },
     {
      "namn": "Studstrupvaerket",
@@ -4068,7 +4069,8 @@
      "status": "still",
      "slut": "2026-11-28T22:59Z",
      "typ": "planerat",
-     "orsak": "Change of low pressure turbine"
+     "orsak": "Change of low pressure turbine",
+     "produktion_mw": 0
     },
     {
      "namn": "Nordjyllandsvaerket",
@@ -4078,7 +4080,8 @@
      "status": "still",
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
-     "orsak": "Limitation extended, due to risk assessment on production unit."
+     "orsak": "Limitation extended, due to risk assessment on production unit.",
+     "produktion_mw": 103
     },
     {
      "namn": "Nordjyllandsvaerket",
@@ -4088,7 +4091,8 @@
      "status": "still",
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
-     "orsak": "Limitation extended, due to risk assessment on production unit."
+     "orsak": "Limitation extended, due to risk assessment on production unit.",
+     "produktion_mw": 103
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -4098,7 +4102,8 @@
      "status": "still",
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
-     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair."
+     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
+     "produktion_mw": 21
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -4108,7 +4113,8 @@
      "status": "still",
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
-     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair."
+     "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
+     "produktion_mw": 21
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -4122,14 +4128,16 @@
      "kraftslag": "kol",
      "mw": 407,
      "tillganglig_mw": 407,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Fynsvaerket",
      "kraftslag": "kol",
      "mw": 407,
      "tillganglig_mw": 407,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Horns Rev C",
@@ -4164,131 +4172,149 @@
      "kraftslag": "sol",
      "mw": 303,
      "tillganglig_mw": 303,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 16
     },
     {
      "namn": "Solar Park Kassø",
      "kraftslag": "sol",
      "mw": 303,
      "tillganglig_mw": 303,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 16
     },
     {
      "namn": "Horns Rev B",
      "kraftslag": "vind_hav",
      "mw": 209,
      "tillganglig_mw": 209,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 187
     },
     {
      "namn": "Horns Rev B",
      "kraftslag": "vind_hav",
      "mw": 209,
      "tillganglig_mw": 209,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 187
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
      "kraftslag": "sol",
      "mw": 200,
      "tillganglig_mw": 200,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 16
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
      "kraftslag": "sol",
      "mw": 200,
      "tillganglig_mw": 200,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 16
     },
     {
      "namn": "Vesterhav Nord",
      "kraftslag": "vind_hav",
      "mw": 176,
      "tillganglig_mw": 176,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 176
     },
     {
      "namn": "Vesterhav Nord",
      "kraftslag": "vind_hav",
      "mw": 176,
      "tillganglig_mw": 176,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 176
     },
     {
      "namn": "Solar Park Holsted",
      "kraftslag": "sol",
      "mw": 175,
      "tillganglig_mw": 175,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 6
     },
     {
      "namn": "Solar Park Holsted",
      "kraftslag": "sol",
      "mw": 175,
      "tillganglig_mw": 175,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 6
     },
     {
      "namn": "Vesterhav Syd",
      "kraftslag": "vind_hav",
      "mw": 168,
      "tillganglig_mw": 168,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 166
     },
     {
      "namn": "Vesterhav Syd",
      "kraftslag": "vind_hav",
      "mw": 168,
      "tillganglig_mw": 168,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 166
     },
     {
      "namn": "Solar Park Gedmosen",
      "kraftslag": "sol",
      "mw": 165,
      "tillganglig_mw": 165,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 9
     },
     {
      "namn": "Solar Park Gedmosen",
      "kraftslag": "sol",
      "mw": 165,
      "tillganglig_mw": 165,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 9
     },
     {
      "namn": "Horns Rev A",
      "kraftslag": "vind_hav",
      "mw": 160,
      "tillganglig_mw": 160,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 147
     },
     {
      "namn": "Horns Rev A",
      "kraftslag": "vind_hav",
      "mw": 160,
      "tillganglig_mw": 160,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 147
     },
     {
      "namn": "Silkeborgvaerket",
      "kraftslag": "gas",
      "mw": 108,
      "tillganglig_mw": 108,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Silkeborgvaerket",
      "kraftslag": "gas",
      "mw": 108,
      "tillganglig_mw": 108,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     }
    ]
   },
   "DK2": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-18T12:45Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -4298,7 +4324,8 @@
      "status": "still",
      "slut": "2026-11-20T14:00Z",
      "typ": "oplanerat",
-     "orsak": "Condenser failure and boiler trip"
+     "orsak": "Condenser failure and boiler trip",
+     "produktion_mw": 258
     },
     {
      "namn": "Avedoerevaerket",
@@ -4308,7 +4335,8 @@
      "status": "still",
      "slut": "2026-11-20T14:00Z",
      "typ": "oplanerat",
-     "orsak": "Condenser failure and boiler trip"
+     "orsak": "Condenser failure and boiler trip",
+     "produktion_mw": 258
     },
     {
      "namn": "Amagervaerket",
@@ -4318,7 +4346,8 @@
      "status": "still",
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
-     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena"
+     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
+     "produktion_mw": 148
     },
     {
      "namn": "Amagervaerket",
@@ -4328,7 +4357,8 @@
      "status": "still",
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
-     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena"
+     "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
+     "produktion_mw": 148
     },
     {
      "namn": "Asnaesvaerket",
@@ -4349,14 +4379,16 @@
      "kraftslag": "olja",
      "mw": 664,
      "tillganglig_mw": 664,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 1
     },
     {
      "namn": "Kyndbyvaerket",
      "kraftslag": "olja",
      "mw": 664,
      "tillganglig_mw": 664,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 1
     },
     {
      "namn": "DK_KF_AB_PU",
@@ -4377,61 +4409,69 @@
      "kraftslag": "vind_hav",
      "mw": 207,
      "tillganglig_mw": 207,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 125
     },
     {
      "namn": "Roedsand 2",
      "kraftslag": "vind_hav",
      "mw": 207,
      "tillganglig_mw": 207,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 125
     },
     {
      "namn": "Roedsand 1",
      "kraftslag": "vind_hav",
      "mw": 161,
      "tillganglig_mw": 161,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 78
     },
     {
      "namn": "Roedsand 1",
      "kraftslag": "vind_hav",
      "mw": 161,
      "tillganglig_mw": 161,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 78
     },
     {
      "namn": "Solar Park Lidsø",
      "kraftslag": "sol",
      "mw": 149,
      "tillganglig_mw": 149,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 5
     },
     {
      "namn": "Solar Park Lidsø",
      "kraftslag": "sol",
      "mw": 149,
      "tillganglig_mw": 149,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 5
     },
     {
      "namn": "Solar Park Vedde",
      "kraftslag": "sol",
      "mw": 90,
      "tillganglig_mw": 90,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 3
     },
     {
      "namn": "Solar Park Vedde",
      "kraftslag": "sol",
      "mw": 90,
      "tillganglig_mw": 90,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 3
     }
    ]
   },
   "FI": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-14T13:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -4441,7 +4481,8 @@
      "status": "still",
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
-     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs."
+     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
+     "produktion_mw": 1
     },
     {
      "namn": "Vuosaari",
@@ -4451,7 +4492,8 @@
      "status": "still",
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
-     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs."
+     "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
+     "produktion_mw": 1
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -4461,7 +4503,8 @@
      "status": "still",
      "slut": "2026-11-30T05:00Z",
      "typ": "planerat",
-     "orsak": "Yearly maintenance break."
+     "orsak": "Yearly maintenance break.",
+     "produktion_mw": 0
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -4471,7 +4514,8 @@
      "status": "still",
      "slut": "2026-11-30T05:00Z",
      "typ": "planerat",
-     "orsak": "Yearly maintenance break."
+     "orsak": "Yearly maintenance break.",
+     "produktion_mw": 0
     },
     {
      "namn": "Olkiluoto 2",
@@ -4481,7 +4525,8 @@
      "status": "begransad",
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
-     "orsak": "Generator rotor limitation"
+     "orsak": "Generator rotor limitation",
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 2",
@@ -4491,77 +4536,88 @@
      "status": "begransad",
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
-     "orsak": "Generator rotor limitation"
+     "orsak": "Generator rotor limitation",
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
      "kraftslag": "karnkraft",
      "mw": 1600,
      "tillganglig_mw": 1600,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Olkiluoto 3",
      "kraftslag": "karnkraft",
      "mw": 1600,
      "tillganglig_mw": 1600,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Olkiluoto 1",
      "kraftslag": "karnkraft",
      "mw": 890,
      "tillganglig_mw": 890,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 892
     },
     {
      "namn": "Olkiluoto 1",
      "kraftslag": "karnkraft",
      "mw": 890,
      "tillganglig_mw": 890,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
      "kraftslag": "kol",
      "mw": 565,
      "tillganglig_mw": 565,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 3
     },
     {
      "namn": "Meri-Pori",
      "kraftslag": "kol",
      "mw": 565,
      "tillganglig_mw": 565,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 3
     },
     {
      "namn": "Loviisa 1",
      "kraftslag": "karnkraft",
      "mw": 496,
      "tillganglig_mw": 496,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 500
     },
     {
      "namn": "Loviisa 1",
      "kraftslag": "karnkraft",
      "mw": 496,
      "tillganglig_mw": 496,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 500
     },
     {
      "namn": "Loviisa 2",
      "kraftslag": "karnkraft",
      "mw": 496,
      "tillganglig_mw": 496,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 512
     },
     {
      "namn": "Loviisa 2",
      "kraftslag": "karnkraft",
      "mw": 496,
      "tillganglig_mw": 496,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 512
     },
     {
      "namn": "Kristiina",
@@ -4596,14 +4652,16 @@
      "kraftslag": "kol",
      "mw": 383,
      "tillganglig_mw": 383,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Vaskiluoto",
      "kraftslag": "kol",
      "mw": 383,
      "tillganglig_mw": 383,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Pjelax Windfarm",
@@ -4624,42 +4682,48 @@
      "kraftslag": "gas",
      "mw": 354,
      "tillganglig_mw": 354,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Suomenoja",
      "kraftslag": "gas",
      "mw": 354,
      "tillganglig_mw": 354,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Forssa",
      "kraftslag": "olja",
      "mw": 326,
      "tillganglig_mw": 326,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Forssa",
      "kraftslag": "olja",
      "mw": 326,
      "tillganglig_mw": 326,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Äänekoski",
      "kraftslag": "biobransle",
      "mw": 260,
      "tillganglig_mw": 260,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 177
     },
     {
      "namn": "Äänekoski",
      "kraftslag": "biobransle",
      "mw": 260,
      "tillganglig_mw": 260,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 177
     },
     {
      "namn": "Tahkoluoto",
@@ -4750,14 +4814,16 @@
      "kraftslag": "kol",
      "mw": 210,
      "tillganglig_mw": 210,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Hanasaari",
      "kraftslag": "kol",
      "mw": 210,
      "tillganglig_mw": 210,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Mutkalampi North",
@@ -4808,14 +4874,16 @@
      "kraftslag": "torv",
      "mw": 190,
      "tillganglig_mw": 190,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 46
     },
     {
      "namn": "Keljonlahti",
      "kraftslag": "torv",
      "mw": 190,
      "tillganglig_mw": 190,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 46
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -4864,14 +4932,16 @@
      "kraftslag": "kol",
      "mw": 170,
      "tillganglig_mw": 170,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 5
     },
     {
      "namn": "Kymijärvi",
      "kraftslag": "kol",
      "mw": 170,
      "tillganglig_mw": 170,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 5
     },
     {
      "namn": "Martinlaakso",
@@ -4892,14 +4962,16 @@
      "kraftslag": "kol",
      "mw": 155,
      "tillganglig_mw": 155,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Salmisaari",
      "kraftslag": "kol",
      "mw": 155,
      "tillganglig_mw": 155,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Haapavesi",
@@ -4920,14 +4992,16 @@
      "kraftslag": "biobransle",
      "mw": 146,
      "tillganglig_mw": 146,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Naantali",
      "kraftslag": "biobransle",
      "mw": 146,
      "tillganglig_mw": 146,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Haapaniemi",
@@ -5036,14 +5110,16 @@
      "kraftslag": "ovrigt",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 82
     },
     {
      "namn": "Raahen Voima",
      "kraftslag": "ovrigt",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 82
     },
     {
      "namn": "Olkiluoto kt",
@@ -5064,14 +5140,16 @@
      "kraftslag": "biobransle",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 28
     },
     {
      "namn": "Kaukaan Voima",
      "kraftslag": "biobransle",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 28
     },
     {
      "namn": "Paskoonharju",
@@ -5092,28 +5170,32 @@
      "kraftslag": "torv",
      "mw": 120,
      "tillganglig_mw": 120,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Seinäjoki",
      "kraftslag": "torv",
      "mw": 120,
      "tillganglig_mw": 120,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Toppila",
      "kraftslag": "torv",
      "mw": 120,
      "tillganglig_mw": 120,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 34
     },
     {
      "namn": "Toppila",
      "kraftslag": "torv",
      "mw": 120,
      "tillganglig_mw": 120,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 34
     },
     {
      "namn": "Metsälä",
@@ -5188,35 +5270,39 @@
    ]
   },
   "EE": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-19T12:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 1369,
      "tillganglig_mw": 1369,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 170
     },
     {
      "namn": "Eesti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 1369,
      "tillganglig_mw": 1369,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 170
     },
     {
      "namn": "Balti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 472,
      "tillganglig_mw": 472,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 173
     },
     {
      "namn": "Balti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 472,
      "tillganglig_mw": 472,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 173
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -5277,7 +5363,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-19T12:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
