@@ -11,6 +11,11 @@ import zipfile
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+try:
+    sys.stdout.reconfigure(line_buffering=True)  # loggen ska finnas kvar även om körningen avbryts
+except Exception:
+    pass
+
 TOKEN = os.environ.get("ENTSOE_TOKEN")
 if not TOKEN:
     sys.exit("Sätt miljövariabeln ENTSOE_TOKEN först.")
@@ -37,6 +42,13 @@ HIST = OUT / "historik"  # data/historik/SE3/2026-11.json (kvartar) och data/his
 
 class RateLimit(Exception):
     pass
+
+
+class SlutPaTid(Exception):
+    """De extra delarna har ingen tid kvar (arbetsflödet stoppas efter 12 minuter)."""
+
+
+EXTRA_DEADLINE = None  # sätts i main() innan de extra delarna körs
 
 
 def localname(el):
@@ -291,7 +303,7 @@ def uppdatera_avbrott(now, budget_s=150):
                                   "periodStart": fmt(now - timedelta(hours=1)), "periodEnd": fmt(now + timedelta(hours=24))})
                 stats = {"typer": {}}
                 res = parse_avbrott(body, stats, psr_keep=None)
-            except RateLimit:
+            except (RateLimit, SlutPaTid):
                 raise
             except Exception as e:
                 print(f"avbrott {doc} {zone}: fel {e!r}")
@@ -665,8 +677,14 @@ def ack_text(body):
 
 def fetch_raw(params):
     url = API + "?" + urllib.parse.urlencode(dict(params, securityToken=TOKEN))
+    timeout = 90
+    if EXTRA_DEADLINE is not None:
+        kvar = EXTRA_DEADLINE - time.time()
+        if kvar < 8:
+            raise SlutPaTid()
+        timeout = min(90, kvar)
     try:
-        with urllib.request.urlopen(url, timeout=90) as r:
+        with urllib.request.urlopen(url, timeout=timeout) as r:
             return r.read()
     except urllib.error.HTTPError as e:
         if e.code == 429:
@@ -733,7 +751,9 @@ def main():
 
     # Extra: avbrott för alla kraftslag och produktion per kraftverk. Körs sist så att priser och
     # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 12 min).
-    SLUT = 480  # sekunder från start som de extra delarna får använda
+    SLUT = 480  # sekunder från start som de extra delarna får använda (hård gräns per fråga, se fetch_raw)
+    global EXTRA_DEADLINE
+    EXTRA_DEADLINE = t_start + SLUT
     for namn, fn in (("avbrott", uppdatera_avbrott), ("magasin", uppdatera_magasin),
                      ("anläggningar", uppdatera_anlaggningar), ("enheter", uppdatera_enheter)):
         kvar = SLUT - (time.time() - t_start)
@@ -744,6 +764,8 @@ def main():
             fn(now, budget_s=min(150, kvar - 30))
         except RateLimit:
             print(f"429 vid {namn}, försöker nästa körning")
+        except SlutPaTid:
+            print(f"{namn}: tiden slut mitt i, fortsätter nästa körning")
         except Exception as e:
             print(f"{namn}: fel {e!r}")
     try:
