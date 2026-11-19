@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T15:28Z",
+ "uppdaterad": "2026-11-19T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -123,8 +123,37 @@
      "alv": "Stora vattenkraftverk",
      "verk": 34,
      "nominell_mw": 4864,
-     "tillganglig_mw": 4864,
-     "avbrott": [],
+     "tillganglig_mw": 3834.0,
+     "avbrott": [
+      {
+       "namn": "Vamma",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 342,
+       "slut": "2027-03-20T14:00Z",
+       "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come."
+      },
+      {
+       "namn": "Vamma",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 342,
+       "slut": "2027-03-20T14:00Z",
+       "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come."
+      },
+      {
+       "namn": "Nedre Vinstra",
+       "tillganglig_mw": 165.0,
+       "nominell_mw": 338,
+       "slut": "2026-12-04T14:00Z",
+       "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+      },
+      {
+       "namn": "Nedre Vinstra",
+       "tillganglig_mw": 165.0,
+       "nominell_mw": 338,
+       "slut": "2026-12-04T14:00Z",
+       "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+      }
+     ],
      "produktion_mw": 504,
      "med_produktion": 6
     }
@@ -137,8 +166,93 @@
      "alv": "Stora vattenkraftverk",
      "verk": 72,
      "nominell_mw": 18153,
-     "tillganglig_mw": 18153,
-     "avbrott": [],
+     "tillganglig_mw": 10869,
+     "avbrott": [
+      {
+       "namn": "Kvilldal",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1240,
+       "slut": "2026-12-11T14:00Z",
+       "orsak": "Repair fine water leak"
+      },
+      {
+       "namn": "Kvilldal",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 1240,
+       "slut": "2026-12-11T14:00Z",
+       "orsak": "Repair fine water leak"
+      },
+      {
+       "namn": "Tonstad",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 992,
+       "slut": "2027-09-01T13:00Z",
+       "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+      },
+      {
+       "namn": "Tonstad",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 992,
+       "slut": "2027-09-01T13:00Z",
+       "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+      },
+      {
+       "namn": "Tokke",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 440,
+       "slut": "2026-11-27T14:00Z",
+       "orsak": "Alignment of generator shaft"
+      },
+      {
+       "namn": "Tokke",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 440,
+       "slut": "2026-11-27T14:00Z",
+       "orsak": "Alignment of generator shaft"
+      },
+      {
+       "namn": "Holen",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 415,
+       "slut": "2026-12-11T14:00Z",
+       "orsak": "High storage temperature"
+      },
+      {
+       "namn": "Holen",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 415,
+       "slut": "2026-12-11T14:00Z",
+       "orsak": "High storage temperature"
+      },
+      {
+       "namn": "Saurdal Magasin",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 320,
+       "slut": "2026-11-20T18:00Z",
+       "orsak": "Work in water way"
+      },
+      {
+       "namn": "Saurdal Magasin",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 320,
+       "slut": "2026-11-20T18:00Z",
+       "orsak": "Work in water way"
+      },
+      {
+       "namn": "Blåfal.V",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 235,
+       "slut": "2026-11-25T14:00Z",
+       "orsak": "Runner stress measurement via turbine lab."
+      },
+      {
+       "namn": "Blåfal.V",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 235,
+       "slut": "2026-11-25T14:00Z",
+       "orsak": "Runner stress measurement via turbine lab."
+      }
+     ],
      "produktion_mw": 2276,
      "med_produktion": 30
     }

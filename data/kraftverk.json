@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T15:28Z",
+ "uppdaterad": "2026-11-19T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -427,6 +427,26 @@
    "produktion_tid": "2026-11-14T13:00Z",
    "verk": [
     {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": "Site still isn't back from the grid outage test to increase the capacity between SE2>SE3."
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": "Site still isn't back from the grid outage test to increase the capacity between SE2>SE3."
+    },
+    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -484,20 +504,6 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 286,
-     "status": "drift"
-    },
-    {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -1208,6 +1214,68 @@
    "produktion_tid": "2026-11-14T13:00Z",
    "verk": [
     {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Forsmark block 1",
+     "kraftslag": "karnkraft",
+     "mw": 1100,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T22:59Z",
+     "typ": "planerat",
+     "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Forsmark block 1",
+     "kraftslag": "karnkraft",
+     "mw": 1100,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T22:59Z",
+     "typ": "planerat",
+     "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Ringhals 3",
+     "kraftslag": "karnkraft",
+     "mw": 1063,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-20T22:59Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
+     "namn": "Ringhals 3",
+     "kraftslag": "karnkraft",
+     "mw": 1063,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-20T22:59Z",
+     "typ": "planerat",
+     "orsak": "Delayed startup after yearly maintenance."
+    },
+    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -1238,20 +1306,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 1134,
-     "status": "drift"
-    },
-    {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 1134,
-     "status": "drift"
-    },
-    {
      "namn": "Forsmark block 2",
      "kraftslag": "karnkraft",
      "mw": 1121,
@@ -1266,36 +1320,6 @@
      "tillganglig_mw": 1121,
      "status": "drift",
      "produktion_mw": 1119
-    },
-    {
-     "namn": "Forsmark block 1",
-     "kraftslag": "karnkraft",
-     "mw": 1100,
-     "tillganglig_mw": 1100,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Forsmark block 1",
-     "kraftslag": "karnkraft",
-     "mw": 1100,
-     "tillganglig_mw": 1100,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Ringhals 3",
-     "kraftslag": "karnkraft",
-     "mw": 1063,
-     "tillganglig_mw": 1063,
-     "status": "drift"
-    },
-    {
-     "namn": "Ringhals 3",
-     "kraftslag": "karnkraft",
-     "mw": 1063,
-     "tillganglig_mw": 1063,
-     "status": "drift"
     },
     {
      "namn": "Värtaverket",
@@ -1616,6 +1640,28 @@
    "produktion_tid": "2026-11-14T13:00Z",
    "verk": [
     {
+     "namn": "Öresundsverket CHP",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Outage",
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Öresundsverket CHP",
+     "kraftslag": "gas",
+     "mw": 450,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-18T22:59Z",
+     "typ": "planerat",
+     "orsak": "Outage",
+     "produktion_mw": 0
+    },
+    {
      "namn": "Karlshamn",
      "kraftslag": "olja",
      "mw": 670,
@@ -1630,22 +1676,6 @@
      "tillganglig_mw": 670,
      "status": "drift",
      "produktion_mw": 4
-    },
-    {
-     "namn": "Öresundsverket CHP",
-     "kraftslag": "gas",
-     "mw": 450,
-     "tillganglig_mw": 450,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Öresundsverket CHP",
-     "kraftslag": "gas",
-     "mw": 450,
-     "tillganglig_mw": 450,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -1803,31 +1833,43 @@
      "namn": "Vamma",
      "kraftslag": "stromkraft",
      "mw": 342,
-     "tillganglig_mw": 342,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
      "produktion_mw": 112
     },
     {
      "namn": "Vamma",
      "kraftslag": "stromkraft",
      "mw": 342,
-     "tillganglig_mw": 342,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-03-20T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
      "produktion_mw": 112
     },
     {
      "namn": "Nedre Vinstra",
      "kraftslag": "vattenkraft",
      "mw": 338,
-     "tillganglig_mw": 338,
-     "status": "drift"
+     "tillganglig_mw": 165.0,
+     "status": "begransad",
+     "slut": "2026-12-04T14:00Z",
+     "typ": "planerat",
+     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
     },
     {
      "namn": "Nedre Vinstra",
      "kraftslag": "vattenkraft",
      "mw": 338,
-     "tillganglig_mw": 338,
-     "status": "drift"
+     "tillganglig_mw": 165.0,
+     "status": "begransad",
+     "slut": "2026-12-04T14:00Z",
+     "typ": "planerat",
+     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
     },
     {
      "namn": "F.K.F",
@@ -2080,65 +2122,149 @@
      "namn": "Kvilldal",
      "kraftslag": "vattenkraft",
      "mw": 1240,
-     "tillganglig_mw": 1240,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "planerat",
+     "orsak": "Repair fine water leak",
      "produktion_mw": 0
     },
     {
      "namn": "Kvilldal",
      "kraftslag": "vattenkraft",
      "mw": 1240,
-     "tillganglig_mw": 1240,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "planerat",
+     "orsak": "Repair fine water leak",
      "produktion_mw": 0
     },
     {
      "namn": "Tonstad",
      "kraftslag": "vattenkraft",
      "mw": 992,
-     "tillganglig_mw": 992,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
      "produktion_mw": 121
     },
     {
      "namn": "Tonstad",
      "kraftslag": "vattenkraft",
      "mw": 992,
-     "tillganglig_mw": 992,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
      "produktion_mw": 121
     },
     {
      "namn": "Tokke",
      "kraftslag": "vattenkraft",
      "mw": 440,
-     "tillganglig_mw": 440,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T14:00Z",
+     "typ": "planerat",
+     "orsak": "Alignment of generator shaft",
      "produktion_mw": 172
     },
     {
      "namn": "Tokke",
      "kraftslag": "vattenkraft",
      "mw": 440,
-     "tillganglig_mw": 440,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T14:00Z",
+     "typ": "planerat",
+     "orsak": "Alignment of generator shaft",
      "produktion_mw": 172
     },
     {
      "namn": "Holen",
      "kraftslag": "vattenkraft",
      "mw": 415,
-     "tillganglig_mw": 415,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "High storage temperature",
      "produktion_mw": 95
     },
     {
      "namn": "Holen",
      "kraftslag": "vattenkraft",
      "mw": 415,
-     "tillganglig_mw": 415,
-     "status": "drift",
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "oplanerat",
+     "orsak": "High storage temperature",
      "produktion_mw": 95
+    },
+    {
+     "namn": "Saurdal Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T18:00Z",
+     "typ": "planerat",
+     "orsak": "Work in water way"
+    },
+    {
+     "namn": "Saurdal Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T18:00Z",
+     "typ": "planerat",
+     "orsak": "Work in water way"
+    },
+    {
+     "namn": "Blåfal.V",
+     "kraftslag": "vattenkraft",
+     "mw": 235,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T14:00Z",
+     "typ": "planerat",
+     "orsak": "Runner stress measurement via turbine lab."
+    },
+    {
+     "namn": "Blåfal.V",
+     "kraftslag": "vattenkraft",
+     "mw": 235,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T14:00Z",
+     "typ": "planerat",
+     "orsak": "Runner stress measurement via turbine lab."
+    },
+    {
+     "namn": "Tonstad Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
+    },
+    {
+     "namn": "Tonstad Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 213,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-09-01T13:00Z",
+     "typ": "oplanerat",
+     "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
     },
     {
      "namn": "Brokke",
@@ -2171,20 +2297,6 @@
      "status": "drift"
     },
     {
-     "namn": "Saurdal Magasin",
-     "kraftslag": "vattenkraft",
-     "mw": 320,
-     "tillganglig_mw": 320,
-     "status": "drift"
-    },
-    {
-     "namn": "Saurdal Magasin",
-     "kraftslag": "vattenkraft",
-     "mw": 320,
-     "tillganglig_mw": 320,
-     "status": "drift"
-    },
-    {
      "namn": "Saurdal Pumpe",
      "kraftslag": "pumpkraft",
      "mw": 320,
@@ -2229,20 +2341,6 @@
      "tillganglig_mw": 275,
      "status": "drift",
      "produktion_mw": 0
-    },
-    {
-     "namn": "Blåfal.V",
-     "kraftslag": "vattenkraft",
-     "mw": 235,
-     "tillganglig_mw": 235,
-     "status": "drift"
-    },
-    {
-     "namn": "Blåfal.V",
-     "kraftslag": "vattenkraft",
-     "mw": 235,
-     "tillganglig_mw": 235,
-     "status": "drift"
     },
     {
      "namn": "Tysso 2",
@@ -2291,20 +2389,6 @@
      "tillganglig_mw": 214,
      "status": "drift",
      "produktion_mw": 0
-    },
-    {
-     "namn": "Tonstad Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 213,
-     "tillganglig_mw": 213,
-     "status": "drift"
-    },
-    {
-     "namn": "Tonstad Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 213,
-     "tillganglig_mw": 213,
-     "status": "drift"
     },
     {
      "namn": "Skjerka",
