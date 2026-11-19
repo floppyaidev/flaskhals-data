@@ -333,6 +333,10 @@ def uppdatera_avbrott(now, budget_s=150):
                 print(f"avbrott {doc} {zone}: fel {e!r}")
                 ok = False
                 continue
+            if felsvar(body, stats):
+                print(f"avbrott {doc} {zone}: felsvar, behåller tidigare: {ack_text(body)[:120]}")
+                ok = False
+                continue
             for a in res:
                 a.pop("status", None)
                 if a.get("orsak"):
@@ -344,7 +348,7 @@ def uppdatera_avbrott(now, budget_s=150):
         lim = iso(now + timedelta(hours=24))
         lista = [a for a in lista if a["slut"] > iso(now) and a["start"] <= lim]
         lista.sort(key=lambda a: -((a.get("nominell_mw") or 0) - (a.get("tillganglig_mw") or 0)))
-        if ok or lista:
+        if ok:
             zoner[zone] = lista[:40]
             zon_tid[zone] = iso(now)
             klara += 1
@@ -621,6 +625,7 @@ def uppdatera_magasin(now, budget_s=150):
             print("magasin: tidsgränsen nådd, fortsätter nästa körning")
             break
         varden = {}
+        fel = False
         for ar in range(0, 4):
             mitt = now - timedelta(days=365 * ar)
             body = fetch_raw({"documentType": "A72", "processType": "A16", "in_Domain": ZONES[zone],
@@ -629,11 +634,19 @@ def uppdatera_magasin(now, budget_s=150):
                 v = parse_magasin(body)
             except ET.ParseError:
                 v = {}
+            if not v and ar == 0 and "No matching data" not in ack_text(body):
+                fel = True
             if not v and ar == 0:
                 print(f"magasin {zone}: inget, svar: {ack_text(body)}")
             varden[ar] = v
             time.sleep(0.5)
         if not varden.get(0):
+            if fel or zoner.get(zone, {}).get("andel_av_snitt") is not None:
+                print(f"magasin {zone}: inget nytt värde, behåller tidigare")  # felsvar skriver aldrig över ett bra värde
+                if not fel and zone in zoner:  # bara "ingen data": vänta ett dygn innan nästa försök
+                    zoner[zone] = dict(zoner[zone], hamtad=iso(datetime.now(timezone.utc)))
+                    spara()
+                continue
             zoner[zone] = {"hamtad": iso(datetime.now(timezone.utc)), "andel_av_snitt": None, "mwh": None}
             spara()
             continue
@@ -721,6 +734,11 @@ def uppdatera_vattenkraft():
         lista.sort(key=lambda x: (ordning[x["status"]], -x["mw"]))
         kv[zone] = {"produktion_tid": (enh.get(zone) or {}).get("data_tid"), "verk": lista}
     (OUT / "kraftverk.json").write_text(json.dumps({"uppdaterad": nu, "enhet": "MW", "zoner": kv}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def felsvar(body, stats):
+    """Sant om svaret är ett fel (t.ex. timeout hos ENTSO-E) och inte ett vanligt "ingen data"."""
+    return "inte_zip" in stats and "No matching data" not in ack_text(body)
 
 
 def ack_text(body):
