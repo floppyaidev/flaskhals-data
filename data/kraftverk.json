@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T23:29Z",
+ "uppdaterad": "2026-11-19T23:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1854,6 +1854,16 @@
      "produktion_mw": 104
     },
     {
+     "namn": "Mauranger",
+     "kraftslag": "vattenkraft",
+     "mw": 256,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T07:00Z",
+     "typ": "oplanerat",
+     "orsak": "Failed to enter start mode after stop."
+    },
+    {
      "namn": "Sy Sima",
      "kraftslag": "vattenkraft",
      "mw": 630,
@@ -1911,13 +1921,6 @@
      "kraftslag": "vattenkraft",
      "mw": 260,
      "tillganglig_mw": 260,
-     "status": "drift"
-    },
-    {
-     "namn": "Mauranger",
-     "kraftslag": "vattenkraft",
-     "mw": 256,
-     "tillganglig_mw": 256,
      "status": "drift"
     },
     {
@@ -2879,16 +2882,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -3219,6 +3212,13 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
@@ -3904,16 +3904,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2030-02-10T22:45Z",
-     "typ": "planerat",
-     "orsak": "Long-term planned overhaul"
-    },
-    {
      "namn": "EC Żerań 2",
      "kraftslag": "gas",
      "mw": 484,
@@ -3942,16 +3932,6 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Medium-term planned overhaul"
-    },
-    {
-     "namn": "Siersza",
-     "kraftslag": "kol",
-     "mw": 278,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-15T23:00Z",
-     "typ": "planerat",
-     "orsak": "Short-term planned outage"
     },
     {
      "namn": "Połaniec 2-Pasywna",
@@ -3999,6 +3979,13 @@
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 620,
+     "status": "drift"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 582,
      "status": "drift"
     },
     {
@@ -4055,6 +4042,13 @@
      "kraftslag": "kol",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 278,
      "status": "drift"
     },
     {
