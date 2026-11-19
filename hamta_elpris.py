@@ -626,6 +626,34 @@ def uppdatera_vattenkraft():
         zoner[zone] = {"produktion_tid": (enh.get(zone) or {}).get("data_tid"), "alvar": lista}
     (OUT / "vattenkraft.json").write_text(json.dumps({"uppdaterad": nu, "enhet": "MW", "zoner": zoner}, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    # Alla stora verk (alla kraftslag) med status, som reaktorerna: i drift / begränsad / står still
+    kv = {}
+    for zone in ZONES:
+        verk = anl.get(zone, [])
+        if not verk:
+            continue
+        outs = [a for a in avb.get(zone, []) if a["start"] <= nu < a["slut"]]
+        prod = (enh.get(zone) or {}).get("enheter", [])
+        lista = []
+        for v in verk:
+            mine = [a for a in outs if samma(a["namn"], v["namn"])]
+            post = {"namn": v["namn"], "kraftslag": v["kraftslag"], "mw": v["mw"], "tillganglig_mw": v["mw"], "status": "drift"}
+            if mine:
+                a = min(mine, key=lambda a: a.get("tillganglig_mw") or 0)
+                t = min(v["mw"], a.get("tillganglig_mw") or 0)
+                post.update({"tillganglig_mw": t, "status": "still" if t < 5 else "begransad", "slut": a["slut"],
+                             "typ": a.get("typ"), "orsak": a.get("orsak")})
+            if v["kraftslag"] in VATTEN and (zone.startswith("SE") or zone == "FI"):
+                post["alv"] = alv_for(v["namn"])
+            p = [e for e in prod if samma(e["namn"], v["namn"])]
+            if p:
+                post["produktion_mw"] = sum(e["mw"] for e in p)
+            lista.append(post)
+        ordning = {"still": 0, "begransad": 1, "drift": 2}
+        lista.sort(key=lambda x: (ordning[x["status"]], -x["mw"]))
+        kv[zone] = {"produktion_tid": (enh.get(zone) or {}).get("data_tid"), "verk": lista}
+    (OUT / "kraftverk.json").write_text(json.dumps({"uppdaterad": nu, "enhet": "MW", "zoner": kv}, ensure_ascii=False, indent=1), encoding="utf-8")
+
 
 def ack_text(body):
     try:
