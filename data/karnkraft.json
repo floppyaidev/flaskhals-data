@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T08:59Z",
+ "uppdaterad": "2026-11-19T10:01Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -73,6 +73,7 @@
    "tillganglig_mw": 735.0,
    "orsak": "Generator rotor limitation",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "FI"
   },
   {
@@ -84,6 +85,7 @@
    "tillganglig_mw": 0.0,
    "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "SE3"
   },
   {
@@ -95,6 +97,7 @@
    "tillganglig_mw": 0.0,
    "orsak": "Transition to cold shutdown for inspections of electric motors.",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "SE3"
   },
   {
@@ -106,6 +109,7 @@
    "tillganglig_mw": 0.0,
    "orsak": "Failure in power cable and inspections of electrical motors.",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "SE3"
   },
   {
@@ -117,6 +121,7 @@
    "tillganglig_mw": 0.0,
    "orsak": "Delayed startup after yearly maintenance.",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "SE3"
   },
   {
@@ -128,6 +133,7 @@
    "tillganglig_mw": 0.0,
    "orsak": "Delayed startup after yearly maintenance.",
    "status": null,
+   "kraftslag": "karnkraft",
    "zon": "SE3"
   }
  ]
