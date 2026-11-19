@@ -492,11 +492,14 @@ def uppdatera_enheter(now, budget_s=150):
     Publiceras med flera dagars fördröjning för vissa länder, därför letar vi bakåt dag för dag. Var tredje timme."""
     fil = OUT / "enheter.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
+    if old.get("zoner") and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
         print("enheter: uppdaterade för mindre än tre timmar sedan, hoppar över")
         return
     af = OUT / "anlaggningar.json"
     anl = json.loads(af.read_text(encoding="utf-8")).get("zoner", {}) if af.exists() else {}
+    if not anl:
+        print("enheter: anlaggningar.json saknas ännu, väntar")
+        return
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
     lagar = dict(old.get("lag_land", {}))
@@ -559,7 +562,7 @@ def uppdatera_magasin(now, budget_s=150):
     """Magasinens fyllnad per zon (A72, veckovis) mot snittet för samma vecka de tre senaste åren. En gång per dygn."""
     fil = OUT / "magasin.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
-    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
+    if old.get("zoner") and old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
         return
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
