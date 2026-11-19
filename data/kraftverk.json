@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T21:59Z",
+ "uppdaterad": "2026-11-19T22:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4440,16 +4440,6 @@
      "orsak": null
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T22:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Velsen",
      "kraftslag": "gas",
      "mw": 869,
@@ -4470,26 +4460,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "OWF Hollandse Kust Noord",
-     "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 1.0,
-     "status": "still",
-     "slut": "2026-11-19T22:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
-     "namn": "Borssele Windfarm III and IV",
-     "kraftslag": "vind_hav",
-     "mw": 732,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T22:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Amer",
      "kraftslag": "biobransle",
      "mw": 631,
@@ -4508,26 +4478,6 @@
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "Borssele 1",
-     "kraftslag": "vind_hav",
-     "mw": 376,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T22:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
-     "namn": "Borssele 2",
-     "kraftslag": "vind_hav",
-     "mw": 376,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T22:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
     },
     {
      "namn": "Eems 6",
@@ -4606,6 +4556,13 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
+    },
+    {
      "namn": "Claus",
      "kraftslag": "gas",
      "mw": 1304,
@@ -4628,10 +4585,24 @@
      "produktion_mw": 393
     },
     {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
      "namn": "Rijnmond 1",
      "kraftslag": "gas",
      "mw": 750,
      "tillganglig_mw": 750,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele Windfarm III and IV",
+     "kraftslag": "vind_hav",
+     "mw": 732,
+     "tillganglig_mw": 732,
      "status": "drift"
     },
     {
@@ -4713,6 +4684,20 @@
      "kraftslag": "vind_land",
      "mw": 383,
      "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 1",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 2",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
      "status": "drift"
     },
     {
