@@ -184,8 +184,9 @@ def uppdatera_dygn(zdir, manadsdata):
 NUC_ZONES = ["SE3", "FI", "NL"]  # zoner med kärnkraft bland de som hämtas
 
 
-def parse_avbrott(body, stats):
-    """Avbrott (A80) kommer som zip med en XML per meddelande. Returnerar senaste versionen per meddelande."""
+def parse_avbrott(body, stats, psr_keep=("B14",)):
+    """Avbrott (A77/A80) kommer som zip med en XML per meddelande. Returnerar senaste versionen per meddelande.
+    psr_keep: kraftslag att behålla (None = alla)."""
     if not body.startswith(b"PK"):
         stats["inte_zip"] = body[:200].decode("utf-8", "replace")
         return []
@@ -208,7 +209,7 @@ def parse_avbrott(body, stats):
                     if ln.endswith("PowerSystemResources.name") and e.text:
                         namn = e.text.strip()  # själva reaktorn går före anläggningen
                 stats["typer"][psr] = stats["typer"].get(psr, 0) + 1
-                if psr != "B14":
+                if psr_keep is not None and psr not in psr_keep:
                     continue
                 tillg = [float(find_text(p, "quantity")) for p in ts.iter() if localname(p) == "Point"]
                 orsak = [e.text.strip() for e in root.iter() if localname(e) == "text" and e.text]
@@ -221,6 +222,7 @@ def parse_avbrott(body, stats):
                     "tillganglig_mw": min(tillg) if tillg else None,
                     "orsak": "; ".join(dict.fromkeys(orsak))[:300] or None,
                     "status": status,
+                    "kraftslag": PSR.get(psr, "ovrigt"),
                 }
                 if mrid not in senaste or rev >= senaste[mrid][0]:
                     senaste[mrid] = (rev, post)
@@ -264,6 +266,132 @@ def uppdatera_karnkraft(now):
     print(f"kärnkraft: {len(avbrott)} avbrott")
 
 
+def uppdatera_avbrott(now, budget_s=150):
+    """Pågående avbrott för alla zoner och kraftslag (A77 + A80) till data/avbrott.json.
+    Kraftverk utan avbrott syns inte här. Körs högst en gång i timmen och har en tidsgräns."""
+    fil = OUT / "avbrott.json"
+    old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(minutes=55):
+        print("avbrott: uppdaterade för mindre än en timme sedan, hoppar över")
+        return
+    t0 = time.time()
+    zoner = {}
+    klara = 0
+    for zone, code in ZONES.items():
+        if time.time() - t0 > budget_s:
+            print(f"avbrott: tidsgränsen nådd efter {klara} zoner, behåller gamla värden för resten")
+            break
+        lista = []
+        ok = True
+        for doc in ("A77", "A80"):
+            try:
+                body = fetch_raw({"documentType": doc, "BiddingZone_Domain": code,
+                                  "periodStart": fmt(now - timedelta(hours=1)), "periodEnd": fmt(now + timedelta(hours=24))})
+                stats = {"typer": {}}
+                res = parse_avbrott(body, stats, psr_keep=None)
+            except RateLimit:
+                raise
+            except Exception as e:
+                print(f"avbrott {doc} {zone}: fel {e!r}")
+                ok = False
+                continue
+            for a in res:
+                a.pop("status", None)
+                if a.get("orsak"):
+                    a["orsak"] = a["orsak"][:160]
+                if not any(x["namn"] == a["namn"] and x["start"] == a["start"] for x in lista):
+                    lista.append(a)
+            time.sleep(0.5)
+        # bara avbrott som pågår nu eller börjar inom ett dygn, störst bortfall först
+        lim = iso(now + timedelta(hours=24))
+        lista = [a for a in lista if a["slut"] > iso(now) and a["start"] <= lim]
+        lista.sort(key=lambda a: -((a.get("nominell_mw") or 0) - (a.get("tillganglig_mw") or 0)))
+        if ok or lista:
+            zoner[zone] = lista[:40]
+            klara += 1
+        elif zone in old.get("zoner", {}):
+            zoner[zone] = old["zoner"][zone]
+    for zone in ZONES:
+        if zone not in zoner and zone in old.get("zoner", {}):
+            zoner[zone] = old["zoner"][zone]
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": zoner}
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"avbrott: {sum(len(v) for v in zoner.values())} avbrott i {len(zoner)} zoner")
+
+
+def parse_enheter(body):
+    """A73 (produktion per kraftverk/enhet). Returnerar {namn: {kraftslag, mw, t}} med senaste punkten per enhet."""
+    root = ET.fromstring(body)
+    if localname(root) == "Acknowledgement_MarketDocument":
+        return {}
+    out = {}
+    for ts in (e for e in root.iter() if localname(e) == "TimeSeries"):
+        psr = find_text(ts, "psrType")
+        namn = None
+        for e in ts.iter():
+            if localname(e) == "PowerSystemResources":
+                namn = find_text(e, "name") or find_text(e, "mRID")
+                break
+        if not namn:
+            continue
+        for per in (e for e in ts.iter() if localname(e) == "Period"):
+            start = datetime.strptime(find_text(per, "start"), "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+            res = find_text(per, "resolution")
+            step = timedelta(minutes=15) if res == "PT15M" else timedelta(minutes=30) if res == "PT30M" else timedelta(hours=1)
+            pts = [(int(find_text(p, "position")), float(find_text(p, "quantity"))) for p in per.iter() if localname(p) == "Point"]
+            if not pts:
+                continue
+            pos, q = max(pts)
+            t = iso(start + (pos - 1) * step)
+            if namn not in out or t > out[namn]["t"]:
+                out[namn] = {"namn": namn, "kraftslag": PSR.get(psr, "ovrigt"), "mw": round(max(0.0, q)), "t": t}
+    return out
+
+
+def uppdatera_enheter(now, budget_s=150):
+    """Senast publicerade produktion per kraftverk (A73) till data/enheter.json.
+    Publiceras med flera dagars fördröjning för vissa zoner, därför letar vi bakåt dag för dag.
+    Körs högst var tredje timme och har en tidsgräns."""
+    fil = OUT / "enheter.json"
+    old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
+        print("enheter: uppdaterade för mindre än tre timmar sedan, hoppar över")
+        return
+    t0 = time.time()
+    zoner = dict(old.get("zoner", {}))
+    dag0 = now.replace(hour=0, minute=0)
+    for zone, code in ZONES.items():
+        if time.time() - t0 > budget_s:
+            print("enheter: tidsgränsen nådd, behåller gamla värden för resten")
+            break
+        hittat = None
+        lag0 = max(0, (zoner.get(zone) or {}).get("lag_dagar", 0) - 1)
+        for lag in range(lag0, 7):
+            fran = dag0 - timedelta(days=lag)
+            try:
+                body = fetch_raw({"documentType": "A73", "processType": "A16", "in_Domain": code,
+                                  "periodStart": fmt(fran), "periodEnd": fmt(min(now, fran + timedelta(days=1)))})
+                enh = parse_enheter(body)
+            except RateLimit:
+                raise
+            except Exception as e:
+                print(f"enheter {zone}: fel {e!r}")
+                break
+            time.sleep(0.5)
+            if enh:
+                hittat = (lag, enh)
+                break
+        if not hittat:
+            print(f"enheter {zone}: ingen data senaste veckan")
+            continue
+        lag, enh = hittat
+        lista = sorted(enh.values(), key=lambda x: -x["mw"])[:60]
+        zoner[zone] = {"lag_dagar": lag, "data_tid": max(x["t"] for x in lista) if lista else None, "enheter": lista}
+        print(f"enheter {zone}: {len(enh)} enheter, {lag} dagar bakåt")
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": zoner}
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def ack_text(body):
     try:
         root = ET.fromstring(body)
@@ -284,6 +412,7 @@ def fetch_raw(params):
 
 
 def main():
+    t_start = time.time()
     now = datetime.now(timezone.utc).replace(second=0, microsecond=0)
     now = now - timedelta(minutes=now.minute % 15)
     start = now - timedelta(hours=HOURS_BACK)
@@ -338,6 +467,21 @@ def main():
         antal = sum(len(s) for s in data["serier"].values())
         print(f"{zone}: sparade {antal} värden")
         time.sleep(2)
+
+    # Extra: avbrott för alla kraftslag och produktion per kraftverk. Körs sist så att priser och
+    # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 12 min).
+    SLUT = 480  # sekunder från start som de extra delarna får använda
+    for namn, fn in (("avbrott", uppdatera_avbrott), ("enheter", uppdatera_enheter)):
+        kvar = SLUT - (time.time() - t_start)
+        if kvar < 45:
+            print(f"{namn}: för lite tid kvar ({int(kvar)} s), tar det nästa körning")
+            continue
+        try:
+            fn(now, budget_s=min(150, kvar - 30))
+        except RateLimit:
+            print(f"429 vid {namn}, försöker nästa körning")
+        except Exception as e:
+            print(f"{namn}: fel {e!r}")
 
 
 if __name__ == "__main__":
