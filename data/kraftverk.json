@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T22:48Z",
+ "uppdaterad": "2026-11-19T23:00Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -831,6 +831,17 @@
    "produktion_tid": "2026-11-14T22:00Z",
    "verk": [
     {
+     "namn": "Karlshamn",
+     "kraftslag": "olja",
+     "mw": 670,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T22:59Z",
+     "typ": "oplanerat",
+     "orsak": "Problems with production of demineralized water.",
+     "produktion_mw": 3
+    },
+    {
      "namn": "Öresundsverket CHP",
      "kraftslag": "gas",
      "mw": 450,
@@ -840,14 +851,6 @@
      "typ": "planerat",
      "orsak": "Outage",
      "produktion_mw": 0
-    },
-    {
-     "namn": "Karlshamn",
-     "kraftslag": "olja",
-     "mw": 670,
-     "tillganglig_mw": 670,
-     "status": "drift",
-     "produktion_mw": 3
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -2272,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-14T19:45Z",
+   "produktion_tid": "2026-11-14T22:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2295,6 +2298,16 @@
      "typ": "planerat",
      "orsak": "Yearly maintenance break.",
      "produktion_mw": 0
+    },
+    {
+     "namn": "Alholmens Kraft",
+     "kraftslag": "torv",
+     "mw": 240,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": "Steam reduction service."
     },
     {
      "namn": "Olkiluoto 2",
@@ -2398,18 +2411,11 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 178
+     "produktion_mw": 185
     },
     {
      "namn": "Tahkoluoto",
      "kraftslag": "kol",
-     "mw": 240,
-     "tillganglig_mw": 240,
-     "status": "drift"
-    },
-    {
-     "namn": "Alholmens Kraft",
-     "kraftslag": "torv",
      "mw": 240,
      "tillganglig_mw": 240,
      "status": "drift"
@@ -2596,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 88
+     "produktion_mw": 100
     },
     {
      "namn": "Olkiluoto kt",
@@ -2611,7 +2617,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 31
     },
     {
      "namn": "Paskoonharju",
@@ -2674,7 +2680,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-19T18:45Z",
+   "produktion_tid": "2026-11-19T21:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2682,7 +2688,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 166
+     "produktion_mw": 160
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2690,7 +2696,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 167
+     "produktion_mw": 131
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2723,7 +2729,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-19T18:00Z",
+   "produktion_tid": "2026-11-19T21:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2900,16 +2906,6 @@
      "status": "still",
      "slut": "2027-01-31T23:00Z",
      "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T23:00Z",
-     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3279,6 +3275,13 @@
      "kraftslag": "vind_hav",
      "mw": 396,
      "tillganglig_mw": 396,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -3846,9 +3849,9 @@
      "mw": 1340,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-19T23:00Z",
+     "slut": "2026-11-24T23:00Z",
      "typ": "planerat",
-     "orsak": "Short-term planned outage"
+     "orsak": "Unplanned outage"
     },
     {
      "namn": "Jaworzno 3",
@@ -3876,9 +3879,9 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-19T23:00Z",
+     "slut": "2026-11-20T05:00Z",
      "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
+     "orsak": "Short-term planned outage"
     },
     {
      "namn": "Żarnowiec",
@@ -3961,16 +3964,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 485.0,
-     "status": "begransad",
-     "slut": "2026-11-19T23:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -3989,6 +3982,13 @@
      "kraftslag": "kol",
      "mw": 834,
      "tillganglig_mw": 834,
+     "status": "drift"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 620,
      "status": "drift"
     },
     {
