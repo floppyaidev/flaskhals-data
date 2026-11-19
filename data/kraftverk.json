@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T13:29Z",
+ "uppdaterad": "2026-11-19T13:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -8748,134 +8748,379 @@
      "namn": "Eemshaven",
      "kraftslag": "kol",
      "mw": 1580,
-     "tillganglig_mw": 1580,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Eemshaven",
      "kraftslag": "kol",
      "mw": 1580,
-     "tillganglig_mw": 1580,
-     "status": "drift"
-    },
-    {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1420,
-     "status": "drift"
-    },
-    {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1420,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Eemshaven",
      "kraftslag": "gas",
      "mw": 1410,
-     "tillganglig_mw": 1410,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Eemshaven",
      "kraftslag": "gas",
      "mw": 1410,
-     "tillganglig_mw": 1410,
-     "status": "drift"
-    },
-    {
-     "namn": "Claus",
-     "kraftslag": "gas",
-     "mw": 1304,
-     "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Claus",
-     "kraftslag": "gas",
-     "mw": 1304,
-     "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
-     "status": "drift"
-    },
-    {
-     "namn": "Enecogen",
-     "kraftslag": "gas",
-     "mw": 928,
-     "tillganglig_mw": 928,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Enecogen",
-     "kraftslag": "gas",
-     "mw": 928,
-     "tillganglig_mw": 928,
-     "status": "drift",
-     "produktion_mw": 0
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T17:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Velsen",
      "kraftslag": "gas",
      "mw": 869,
-     "tillganglig_mw": 869,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "Velsen",
      "kraftslag": "gas",
      "mw": 869,
-     "tillganglig_mw": 869,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
-     "tillganglig_mw": 766,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
-     "tillganglig_mw": 766,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
-     "namn": "OWF Hollandse Kust Noord",
-     "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 760,
-     "status": "drift"
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T05:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
-     "namn": "OWF Hollandse Kust Noord",
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T05:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Hemweg",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Hemweg",
+     "kraftslag": "gas",
+     "mw": 440,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-11T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Eems 6",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-13T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 6",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-13T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 3",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 3",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "NAM Schoonebeek",
+     "kraftslag": "gas",
+     "mw": 128,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-02-02T11:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "NAM Schoonebeek",
+     "kraftslag": "gas",
+     "mw": 128,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2027-02-02T11:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
      "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 760,
-     "status": "drift"
+     "mw": 1420,
+     "tillganglig_mw": 1391.0,
+     "status": "begransad",
+     "slut": "2026-11-19T15:30Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1391.0,
+     "status": "begransad",
+     "slut": "2026-11-19T15:30Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
+     "tillganglig_mw": 240.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "oplanerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "Windpark Gemini",
+     "kraftslag": "vind_hav",
+     "mw": 600,
+     "tillganglig_mw": 490.0,
+     "status": "begransad",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Windpark Gemini",
+     "kraftslag": "vind_hav",
+     "mw": 600,
+     "tillganglig_mw": 490.0,
+     "status": "begransad",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "TNZ150 ELSTA",
+     "kraftslag": "gas",
+     "mw": 455,
+     "tillganglig_mw": 246.0,
+     "status": "begransad",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "TNZ150 ELSTA",
+     "kraftslag": "gas",
+     "mw": 455,
+     "tillganglig_mw": 246.0,
+     "status": "begransad",
+     "slut": "2026-11-19T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Eems 7",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 300.0,
+     "status": "begransad",
+     "slut": "2026-11-19T14:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 7",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 300.0,
+     "status": "begransad",
+     "slut": "2026-11-19T14:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 5",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 350.0,
+     "status": "begransad",
+     "slut": "2026-11-20T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 1
+    },
+    {
+     "namn": "Eems 5",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 350.0,
+     "status": "begransad",
+     "slut": "2026-11-20T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 1
+    },
+    {
+     "namn": "Eems 4",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 350.0,
+     "status": "begransad",
+     "slut": "2026-11-20T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Eems 4",
+     "kraftslag": "gas",
+     "mw": 360,
+     "tillganglig_mw": 350.0,
+     "status": "begransad",
+     "slut": "2026-11-20T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Claus",
+     "kraftslag": "gas",
+     "mw": 1304,
+     "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Claus",
+     "kraftslag": "gas",
+     "mw": 1304,
+     "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
+     "status": "drift"
+    },
+    {
+     "namn": "Enecogen",
+     "kraftslag": "gas",
+     "mw": 928,
+     "tillganglig_mw": 928,
+     "status": "drift",
+     "produktion_mw": 0
+    },
+    {
+     "namn": "Enecogen",
+     "kraftslag": "gas",
+     "mw": 928,
+     "tillganglig_mw": 928,
+     "status": "drift",
+     "produktion_mw": 0
+    },
+    {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
      "tillganglig_mw": 760,
      "status": "drift"
     },
@@ -8938,34 +9183,6 @@
      "status": "drift"
     },
     {
-     "namn": "Amer",
-     "kraftslag": "biobransle",
-     "mw": 631,
-     "tillganglig_mw": 631,
-     "status": "drift"
-    },
-    {
-     "namn": "Amer",
-     "kraftslag": "biobransle",
-     "mw": 631,
-     "tillganglig_mw": 631,
-     "status": "drift"
-    },
-    {
-     "namn": "Windpark Gemini",
-     "kraftslag": "vind_hav",
-     "mw": 600,
-     "tillganglig_mw": 600,
-     "status": "drift"
-    },
-    {
-     "namn": "Windpark Gemini",
-     "kraftslag": "vind_hav",
-     "mw": 600,
-     "tillganglig_mw": 600,
-     "status": "drift"
-    },
-    {
      "namn": "Borssele 30",
      "kraftslag": "karnkraft",
      "mw": 485,
@@ -8998,20 +9215,6 @@
      "produktion_mw": 105
     },
     {
-     "namn": "TNZ150 ELSTA",
-     "kraftslag": "gas",
-     "mw": 455,
-     "tillganglig_mw": 455,
-     "status": "drift"
-    },
-    {
-     "namn": "TNZ150 ELSTA",
-     "kraftslag": "gas",
-     "mw": 455,
-     "tillganglig_mw": 455,
-     "status": "drift"
-    },
-    {
      "namn": "FLEVO 4",
      "kraftslag": "gas",
      "mw": 443,
@@ -9026,20 +9229,6 @@
      "tillganglig_mw": 443,
      "status": "drift",
      "produktion_mw": 49
-    },
-    {
-     "namn": "Hemweg",
-     "kraftslag": "gas",
-     "mw": 440,
-     "tillganglig_mw": 440,
-     "status": "drift"
-    },
-    {
-     "namn": "Hemweg",
-     "kraftslag": "gas",
-     "mw": 440,
-     "tillganglig_mw": 440,
-     "status": "drift"
     },
     {
      "namn": "Sloe Centrale 20",
@@ -9124,86 +9313,6 @@
      "mw": 376,
      "tillganglig_mw": 376,
      "status": "drift"
-    },
-    {
-     "namn": "Eems 7",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 7",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 6",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 6",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 5",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 1
-    },
-    {
-     "namn": "Eems 5",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 1
-    },
-    {
-     "namn": "Eems 4",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 4",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 3",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "Eems 3",
-     "kraftslag": "gas",
-     "mw": 360,
-     "tillganglig_mw": 360,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "Delesto 2",
@@ -9338,22 +9447,6 @@
      "mw": 129,
      "tillganglig_mw": 129,
      "status": "drift"
-    },
-    {
-     "namn": "NAM Schoonebeek",
-     "kraftslag": "gas",
-     "mw": 128,
-     "tillganglig_mw": 128,
-     "status": "drift",
-     "produktion_mw": 0
-    },
-    {
-     "namn": "NAM Schoonebeek",
-     "kraftslag": "gas",
-     "mw": 128,
-     "tillganglig_mw": 128,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "PERGEN 1",
