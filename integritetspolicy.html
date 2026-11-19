@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integritetspolicy – Flaskhals.nu</title>
+<style>
+:root { --bg:#ffffff; --text:#0f172a; --muted:#475569; --link:#0369a1; --line:#e2e8f0; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0b1220; --text:#e2e8f0; --muted:#94a3b8; --link:#38bdf8; --line:#1e293b; } }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+h1 { font-size:1.7rem; line-height:1.25; margin:0 0 8px; }
+h2 { font-size:1.2rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+p, li { color:var(--text); }
+ul { padding-left:22px; }
+a { color:var(--link); }
+hr { border:0; border-top:1px solid var(--line); margin:40px 0 0; }
+main > p:nth-of-type(1) { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Integritetspolicy och ansvarsfriskrivning för Flaskhals.nu</h1>
+<p>Senast uppdaterad: 19 november 2026</p>
+<p>Den här policyn förklarar hur appen Flaskhals.nu (utgiven av FloppyAI) hanterar information, vilka tjänster appen kontaktar och vilka ansvarsfriskrivningar som gäller för uppgifterna som visas.</p>
+<h2>1. Ansvarsfriskrivning</h2>
+<p>Appen visar spotpriser, elproduktion, kärnkraftens status, kraftverk, avbrott och vattenmagasin. Uppgifterna hämtas från öppna källor (se avsnitt 4) och bearbetas automatiskt. De kan vara fördröjda, ofullständiga eller felaktiga, till exempel när en källa inte har publicerat ny data eller när status har räknats fram från avbrottsmeddelanden.</p>
+<p>Uppgifterna är endast avsedda som information. FloppyAI lämnar inga garantier för att de är korrekta och tar inget ansvar för beslut, förluster eller skador som uppstår till följd av att appen används, till exempel vid elhandel eller planering av elförbrukning.</p>
+<h2>2. Insamling och användning av data</h2>
+<p>Appen samlar inte in några personuppgifter. Den har inget konto, ingen reklam, ingen analys- eller spårningstjänst och använder inte din plats, kamera, mikrofon eller andra sensorer.</p>
+<p>Dina inställningar (valda elområden, textstorlek, tårtans storlek och liknande) och nedladdad data sparas endast lokalt på din enhet.</p>
+<p>När appen hämtar data tar tjänsterna i avsnitt 4 emot din IP-adress och själva förfrågan (vilka datafiler som hämtas). Appen skickar inga andra uppgifter om dig eller din enhet.</p>
+<h2>3. Behörigheter</h2>
+<ul>
+<li><strong>Internet och nätverksstatus:</strong> för att hämta priser och produktionsdata och för att bara försöka hämta när enheten är uppkopplad.</li>
+<li><strong>Köp i appen (Google Play Billing):</strong> för Pro och gåvor, se avsnitt 5.</li>
+</ul>
+<p>Appen begär inga andra behörigheter.</p>
+<h2>4. Datakällor och tjänster som appen kontaktar</h2>
+<p>Appen hämtar färdigbearbetade datafiler, inte uppgifter om dig:</p>
+<ul>
+<li><strong>GitHub Pages</strong> (floppyaidev.github.io): datafiler med produktion, kärnkraft, kraftverk, avbrott och magasin. Tar emot din IP-adress.</li>
+<li><strong>Google Apps Script</strong> (script.google.com): spotpriser. Tar emot din IP-adress.</li>
+</ul>
+<p>Datafilerna sammanställs av FloppyAI från:</p>
+<ul>
+<li><strong>ENTSO-E Transparency Platform:</strong> produktion, avbrott, kraftverk och magasin (licens CC BY 4.0, bearbetad av FloppyAI).</li>
+<li><strong>Energinet, Energi Data Service:</strong> produktion i DK1 och DK2.</li>
+<li><strong>Nord Pool via ENTSO-E:</strong> spotpriser.</li>
+</ul>
+<p>Läs mer i <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHubs integritetspolicy</a> och <a href="https://policies.google.com/privacy">Googles integritetspolicy</a>.</p>
+<h2>5. Köp i appen</h2>
+<p>Pro (engångsköp) och gåvor hanteras helt av Google Play. FloppyAI får inte tillgång till dina kort- eller betaluppgifter. Appen sparar endast lokalt om Pro är köpt, och kontrollerar det mot Google Play.</p>
+<h2>6. Bakgrundsuppdateringar</h2>
+<p>Widgeten uppdateras ungefär var 30:e minut med ett kort bakgrundsjobb via Androids systemtjänster, och bara när enheten är uppkopplad. Uppdateringarna slutar när du tar bort alla Flaskhals-widgetar från hemskärmen.</p>
+<h2>7. Radering av data och dina rättigheter</h2>
+<p>Data som sparas lokalt tas bort när du rensar appens data eller avinstallerar appen. FloppyAI har inget konto kopplat till dig och lagrar inga uppgifter om dig, och kan därför inte identifiera eller radera uppgifter om dig.</p>
+<p>Uppgifter hos Google och GitHub hanteras av respektive leverantör enligt deras villkor. Du har rätt att begära information om, rättelse eller radering av dina personuppgifter hos den som behandlar dem, och att klaga hos Integritetsskyddsmyndigheten (IMY).</p>
+<h2>8. Ändringar i denna policy</h2>
+<p>Policyn kan uppdateras. Datumet högst upp visar när den senast ändrades.</p>
+<h2>9. Kontakt</h2>
+<p>Frågor om policyn eller appen: <a href="mailto:floppyai.dev@gmail.com">floppyai.dev@gmail.com</a></p>
+<hr>
+<h2>Privacy policy (English summary)</h2>
+<p>Flaskhals.nu does not collect any personal data. It has no account, no ads, no analytics or tracking, and does not use location, camera, microphone or other sensors. Settings are stored only on your device. When the app downloads data, GitHub Pages and Google Apps Script receive your IP address and the request. Purchases (Pro and gifts) are handled entirely by Google Play; FloppyAI never sees your payment details. Data comes from the ENTSO-E Transparency Platform (CC BY 4.0, processed), Energinet (Energi Data Service) and Nord Pool via ENTSO-E, and may be delayed or inaccurate. It is provided for information only, without warranty. Contact: <a href="mailto:floppyai.dev@gmail.com">floppyai.dev@gmail.com</a></p>
+<p>© 2026 FloppyAI</p>
+</main>
+</body>
+</html>
