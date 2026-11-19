@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T16:15Z",
+ "uppdaterad": "2026-11-19T16:31Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4012,7 +4012,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-18T12:45Z",
+   "produktion_tid": "2026-11-18T16:00Z",
    "verk": [
     {
      "namn": "Thor Havvindmøllepark",
@@ -4043,7 +4043,7 @@
      "mw": 412,
      "tillganglig_mw": 412,
      "status": "drift",
-     "produktion_mw": 103
+     "produktion_mw": 210
     },
     {
      "namn": "Nordjyllandsvaerket",
@@ -4051,7 +4051,7 @@
      "mw": 412,
      "tillganglig_mw": 412,
      "status": "drift",
-     "produktion_mw": 103
+     "produktion_mw": 210
     },
     {
      "namn": "Fynsvaerket",
@@ -4119,7 +4119,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 16
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Kassø",
@@ -4127,7 +4127,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 16
+     "produktion_mw": 0
     },
     {
      "namn": "Horns Rev B",
@@ -4135,7 +4135,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 187
+     "produktion_mw": 177
     },
     {
      "namn": "Horns Rev B",
@@ -4143,7 +4143,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 187
+     "produktion_mw": 177
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -4151,7 +4151,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 16
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -4159,7 +4159,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 16
+     "produktion_mw": 0
     },
     {
      "namn": "Vesterhav Nord",
@@ -4167,7 +4167,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 176
+     "produktion_mw": 126
     },
     {
      "namn": "Vesterhav Nord",
@@ -4175,7 +4175,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 176
+     "produktion_mw": 126
     },
     {
      "namn": "Solar Park Holsted",
@@ -4183,7 +4183,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 6
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Holsted",
@@ -4191,7 +4191,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 6
+     "produktion_mw": 0
     },
     {
      "namn": "Vesterhav Syd",
@@ -4199,7 +4199,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 166
+     "produktion_mw": 163
     },
     {
      "namn": "Vesterhav Syd",
@@ -4207,7 +4207,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 166
+     "produktion_mw": 163
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -4215,7 +4215,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 9
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -4223,7 +4223,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 9
+     "produktion_mw": 0
     },
     {
      "namn": "Horns Rev A",
@@ -4231,7 +4231,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 147
+     "produktion_mw": 145
     },
     {
      "namn": "Horns Rev A",
@@ -4239,7 +4239,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 147
+     "produktion_mw": 145
     },
     {
      "namn": "Silkeborgvaerket",
@@ -4260,7 +4260,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-18T12:45Z",
+   "produktion_tid": "2026-11-18T16:00Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -4268,7 +4268,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 258
+     "produktion_mw": 245
     },
     {
      "namn": "Avedoerevaerket",
@@ -4276,7 +4276,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 258
+     "produktion_mw": 245
     },
     {
      "namn": "Asnaesvaerket",
@@ -4344,7 +4344,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 125
+     "produktion_mw": 7
     },
     {
      "namn": "Roedsand 2",
@@ -4352,7 +4352,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 125
+     "produktion_mw": 7
     },
     {
      "namn": "Roedsand 1",
@@ -4360,7 +4360,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 78
+     "produktion_mw": 2
     },
     {
      "namn": "Roedsand 1",
@@ -4368,7 +4368,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 78
+     "produktion_mw": 2
     },
     {
      "namn": "Solar Park Lidsø",
@@ -4376,7 +4376,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 5
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Lidsø",
@@ -4384,7 +4384,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 5
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Vedde",
@@ -4392,7 +4392,7 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 3
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Vedde",
@@ -4400,12 +4400,12 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 3
+     "produktion_mw": 0
     }
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-14T13:15Z",
+   "produktion_tid": "2026-11-14T16:15Z",
    "verk": [
     {
      "namn": "Olkiluoto 3",
@@ -4445,7 +4445,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 2",
@@ -4453,7 +4453,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Meri-Pori",
@@ -5027,7 +5027,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 82
+     "produktion_mw": 95
     },
     {
      "namn": "Raahen Voima",
@@ -5035,7 +5035,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 82
+     "produktion_mw": 95
     },
     {
      "namn": "Olkiluoto kt",
@@ -5057,7 +5057,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 28
+     "produktion_mw": 30
     },
     {
      "namn": "Kaukaan Voima",
@@ -5065,7 +5065,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 28
+     "produktion_mw": 30
     },
     {
      "namn": "Paskoonharju",
@@ -5103,7 +5103,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 34
+     "produktion_mw": 33
     },
     {
      "namn": "Toppila",
@@ -5111,7 +5111,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 34
+     "produktion_mw": 33
     },
     {
      "namn": "Metsälä",
@@ -5186,7 +5186,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-19T12:45Z",
+   "produktion_tid": "2026-11-19T15:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -5194,7 +5194,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 170
+     "produktion_mw": 172
     },
     {
      "namn": "Eesti Elektrijaam",
@@ -5202,7 +5202,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 170
+     "produktion_mw": 172
     },
     {
      "namn": "Balti Elektrijaam",
@@ -5210,7 +5210,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 173
+     "produktion_mw": 176
     },
     {
      "namn": "Balti Elektrijaam",
@@ -5218,7 +5218,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 173
+     "produktion_mw": 176
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -5279,7 +5279,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-19T12:00Z",
+   "produktion_tid": "2026-11-19T15:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
