@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-19T15:59Z",
+ "uppdaterad": "2026-11-19T16:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Harsprånget",
@@ -12,7 +12,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 575
+     "produktion_mw": 583
     },
     {
      "namn": "Harsprånget",
@@ -21,7 +21,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 575
+     "produktion_mw": 583
     },
     {
      "namn": "MarkbygdenETT",
@@ -44,7 +44,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 244
+     "produktion_mw": 212
     },
     {
      "namn": "Letsi",
@@ -53,7 +53,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 244
+     "produktion_mw": 212
     },
     {
      "namn": "Messaure",
@@ -62,7 +62,7 @@
      "tillganglig_mw": 428,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 422
+     "produktion_mw": 424
     },
     {
      "namn": "Messaure",
@@ -71,7 +71,7 @@
      "tillganglig_mw": 428,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 422
+     "produktion_mw": 424
     },
     {
      "namn": "Porjus",
@@ -80,7 +80,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 345
+     "produktion_mw": 343
     },
     {
      "namn": "Porjus",
@@ -89,7 +89,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 345
+     "produktion_mw": 343
     },
     {
      "namn": "Djupdal",
@@ -144,7 +144,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 105
+     "produktion_mw": 121
     },
     {
      "namn": "Ligga",
@@ -153,7 +153,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 105
+     "produktion_mw": 121
     },
     {
      "namn": "Vietas",
@@ -162,7 +162,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 117
+     "produktion_mw": 152
     },
     {
      "namn": "Vietas",
@@ -171,7 +171,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 117
+     "produktion_mw": 152
     },
     {
      "namn": "Porsi",
@@ -180,7 +180,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 66
+     "produktion_mw": 68
     },
     {
      "namn": "Porsi",
@@ -189,7 +189,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 66
+     "produktion_mw": 68
     },
     {
      "namn": "Gråberget",
@@ -226,7 +226,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 110
+     "produktion_mw": 112
     },
     {
      "namn": "Gallejaur",
@@ -235,7 +235,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 110
+     "produktion_mw": 112
     },
     {
      "namn": "Seitevare",
@@ -244,7 +244,7 @@
      "tillganglig_mw": 201,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 188
+     "produktion_mw": 0
     },
     {
      "namn": "Seitevare",
@@ -253,7 +253,7 @@
      "tillganglig_mw": 201,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 188
+     "produktion_mw": 0
     },
     {
      "namn": "Laxede",
@@ -396,7 +396,7 @@
      "tillganglig_mw": 100,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 92
+     "produktion_mw": 95
     },
     {
      "namn": "Bastusel",
@@ -405,7 +405,7 @@
      "tillganglig_mw": 100,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 92
+     "produktion_mw": 95
     },
     {
      "namn": "Blisterliden Vindkraftpark",
@@ -424,27 +424,16 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T16:00Z",
-     "typ": "planerat",
-     "orsak": "Site still isn't back from the grid outage test to increase the capacity between SE2>SE3."
-    },
-    {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-19T16:00Z",
-     "typ": "planerat",
-     "orsak": "Site still isn't back from the grid outage test to increase the capacity between SE2>SE3."
+     "namn": "Stornorrfors",
+     "kraftslag": "vattenkraft",
+     "mw": 602,
+     "tillganglig_mw": 602,
+     "status": "drift",
+     "alv": "Umeälven",
+     "produktion_mw": 332
     },
     {
      "namn": "Stornorrfors",
@@ -453,16 +442,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 342
-    },
-    {
-     "namn": "Stornorrfors",
-     "kraftslag": "vattenkraft",
-     "mw": 602,
-     "tillganglig_mw": 602,
-     "status": "drift",
-     "alv": "Umeälven",
-     "produktion_mw": 342
+     "produktion_mw": 332
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -504,6 +484,20 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 286,
+     "status": "drift"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -911,7 +905,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 106
+     "produktion_mw": 121
     },
     {
      "namn": "Stalon",
@@ -920,7 +914,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 106
+     "produktion_mw": 121
     },
     {
      "namn": "Hocksjön",
@@ -1211,7 +1205,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Ringhals 4",
@@ -1342,7 +1336,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 133
+     "produktion_mw": 185
     },
     {
      "namn": "Trängslet",
@@ -1351,7 +1345,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 133
+     "produktion_mw": 185
     },
     {
      "namn": "Stenungsund B3",
@@ -1387,7 +1381,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 14
+     "produktion_mw": 15
     },
     {
      "namn": "Rya KVV",
@@ -1395,7 +1389,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 14
+     "produktion_mw": 15
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -1637,7 +1631,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -1667,7 +1661,7 @@
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
-     "produktion_mw": 4
+     "produktion_mw": 3
     },
     {
      "namn": "Karlshamn",
@@ -1675,7 +1669,7 @@
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
-     "produktion_mw": 4
+     "produktion_mw": 3
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -1827,7 +1821,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Vamma",
@@ -1838,7 +1832,7 @@
      "slut": "2027-03-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
-     "produktion_mw": 112
+     "produktion_mw": 110
     },
     {
      "namn": "Vamma",
@@ -1849,7 +1843,7 @@
      "slut": "2027-03-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
-     "produktion_mw": 112
+     "produktion_mw": 110
     },
     {
      "namn": "Nedre Vinstra",
@@ -1989,7 +1983,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 68
     },
     {
      "namn": "Rendal 2",
@@ -1997,7 +1991,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 68
     },
     {
      "namn": "Solberg2",
@@ -2116,7 +2110,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Kvilldal",
@@ -2127,7 +2121,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 0
+     "produktion_mw": 605
     },
     {
      "namn": "Kvilldal",
@@ -2138,7 +2132,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 0
+     "produktion_mw": 605
     },
     {
      "namn": "Tonstad",
@@ -2149,7 +2143,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 121
+     "produktion_mw": 480
     },
     {
      "namn": "Tonstad",
@@ -2160,7 +2154,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 121
+     "produktion_mw": 480
     },
     {
      "namn": "Tokke",
@@ -2171,7 +2165,7 @@
      "slut": "2026-11-27T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 172
+     "produktion_mw": 388
     },
     {
      "namn": "Tokke",
@@ -2182,7 +2176,7 @@
      "slut": "2026-11-27T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 172
+     "produktion_mw": 388
     },
     {
      "namn": "Holen",
@@ -2193,7 +2187,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "oplanerat",
      "orsak": "High storage temperature",
-     "produktion_mw": 95
+     "produktion_mw": 107
     },
     {
      "namn": "Holen",
@@ -2204,7 +2198,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "oplanerat",
      "orsak": "High storage temperature",
-     "produktion_mw": 95
+     "produktion_mw": 107
     },
     {
      "namn": "Saurdal Magasin",
@@ -2272,7 +2266,7 @@
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
-     "produktion_mw": 17
+     "produktion_mw": 84
     },
     {
      "namn": "Brokke",
@@ -2280,7 +2274,7 @@
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
-     "produktion_mw": 17
+     "produktion_mw": 84
     },
     {
      "namn": "Lysebotn 2",
@@ -2316,7 +2310,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 4
+     "produktion_mw": 283
     },
     {
      "namn": "Vinje",
@@ -2324,7 +2318,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 4
+     "produktion_mw": 283
     },
     {
      "namn": "Sønnå",
@@ -2348,7 +2342,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 153
+     "produktion_mw": 209
     },
     {
      "namn": "Tysso 2",
@@ -2356,7 +2350,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 153
+     "produktion_mw": 209
     },
     {
      "namn": "Oksla",
@@ -2364,7 +2358,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 196
+     "produktion_mw": 206
     },
     {
      "namn": "Oksla",
@@ -2372,7 +2366,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 196
+     "produktion_mw": 206
     },
     {
      "namn": "Solhom",
@@ -2380,7 +2374,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 179
     },
     {
      "namn": "Solhom",
@@ -2388,7 +2382,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 179
     },
     {
      "namn": "Skjerka",
@@ -2396,7 +2390,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 76
     },
     {
      "namn": "Skjerka",
@@ -2404,7 +2398,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 76
     },
     {
      "namn": "Vemork",
@@ -2428,7 +2422,7 @@
      "mw": 202,
      "tillganglig_mw": 202,
      "status": "drift",
-     "produktion_mw": 72
+     "produktion_mw": 149
     },
     {
      "namn": "Duge",
@@ -2436,7 +2430,7 @@
      "mw": 202,
      "tillganglig_mw": 202,
      "status": "drift",
-     "produktion_mw": 72
+     "produktion_mw": 149
     },
     {
      "namn": "Suldal 1",
@@ -2598,7 +2592,7 @@
      "mw": 136,
      "tillganglig_mw": 136,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 131
     },
     {
      "namn": "Songa",
@@ -2606,7 +2600,7 @@
      "mw": 136,
      "tillganglig_mw": 136,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 131
     },
     {
      "namn": "Lysebotn",
@@ -2684,7 +2678,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 105
     },
     {
      "namn": "Tjodan",
@@ -2692,7 +2686,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 105
     },
     {
      "namn": "Egersund Vindkrv",
@@ -3248,7 +3242,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Svartisen",
@@ -3314,7 +3308,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 67
+     "produktion_mw": 124
     },
     {
      "namn": "Skjomen",
@@ -3322,7 +3316,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 67
+     "produktion_mw": 124
     },
     {
      "namn": "Kobbelv",
@@ -3330,7 +3324,7 @@
      "mw": 300,
      "tillganglig_mw": 300,
      "status": "drift",
-     "produktion_mw": 145
+     "produktion_mw": 151
     },
     {
      "namn": "Kobbelv",
@@ -3338,7 +3332,7 @@
      "mw": 300,
      "tillganglig_mw": 300,
      "status": "drift",
-     "produktion_mw": 145
+     "produktion_mw": 151
     },
     {
      "namn": "Melkøya",
@@ -3360,7 +3354,7 @@
      "mw": 180,
      "tillganglig_mw": 180,
      "status": "drift",
-     "produktion_mw": 99
+     "produktion_mw": 97
     },
     {
      "namn": "Siso",
@@ -3368,7 +3362,7 @@
      "mw": 180,
      "tillganglig_mw": 180,
      "status": "drift",
-     "produktion_mw": 99
+     "produktion_mw": 97
     },
     {
      "namn": "Øvre Røssåga",
@@ -3404,7 +3398,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 64
+     "produktion_mw": 62
     },
     {
      "namn": "Alta krv",
@@ -3412,7 +3406,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 64
+     "produktion_mw": 62
     },
     {
      "namn": "Straumsmo",
@@ -3599,7 +3593,7 @@
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-14T13:00Z",
+   "produktion_tid": "2026-11-14T16:00Z",
    "verk": [
     {
      "namn": "Aurland1",
@@ -3607,7 +3601,7 @@
      "mw": 840,
      "tillganglig_mw": 840,
      "status": "drift",
-     "produktion_mw": 248
+     "produktion_mw": 305
     },
     {
      "namn": "Aurland1",
@@ -3615,7 +3609,7 @@
      "mw": 840,
      "tillganglig_mw": 840,
      "status": "drift",
-     "produktion_mw": 248
+     "produktion_mw": 305
     },
     {
      "namn": "Sy Sima",
@@ -3651,7 +3645,7 @@
      "mw": 390,
      "tillganglig_mw": 390,
      "status": "drift",
-     "produktion_mw": 376
+     "produktion_mw": 351
     },
     {
      "namn": "Tyin",
@@ -3659,7 +3653,7 @@
      "mw": 390,
      "tillganglig_mw": 390,
      "status": "drift",
-     "produktion_mw": 376
+     "produktion_mw": 351
     },
     {
      "namn": "Evanger",
@@ -3667,7 +3661,7 @@
      "mw": 330,
      "tillganglig_mw": 330,
      "status": "drift",
-     "produktion_mw": 71
+     "produktion_mw": 253
     },
     {
      "namn": "Evanger",
@@ -3675,7 +3669,7 @@
      "mw": 330,
      "tillganglig_mw": 330,
      "status": "drift",
-     "produktion_mw": 71
+     "produktion_mw": 253
     },
     {
      "namn": "Jostedal",
@@ -3683,7 +3677,7 @@
      "mw": 293,
      "tillganglig_mw": 293,
      "status": "drift",
-     "produktion_mw": 275
+     "produktion_mw": 247
     },
     {
      "namn": "Jostedal",
@@ -3691,7 +3685,7 @@
      "mw": 293,
      "tillganglig_mw": 293,
      "status": "drift",
-     "produktion_mw": 275
+     "produktion_mw": 247
     },
     {
      "namn": "Aurland3",
@@ -3771,7 +3765,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 102
+     "produktion_mw": 206
     },
     {
      "namn": "Usta",
@@ -3779,7 +3773,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 102
+     "produktion_mw": 206
     },
     {
      "namn": "Borgund",
@@ -3787,7 +3781,7 @@
      "mw": 213,
      "tillganglig_mw": 213,
      "status": "drift",
-     "produktion_mw": 80
+     "produktion_mw": 91
     },
     {
      "namn": "Borgund",
@@ -3795,7 +3789,7 @@
      "mw": 213,
      "tillganglig_mw": 213,
      "status": "drift",
-     "produktion_mw": 80
+     "produktion_mw": 91
     },
     {
      "namn": "Nore 1",
@@ -3875,7 +3869,7 @@
      "mw": 144,
      "tillganglig_mw": 144,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 104
     },
     {
      "namn": "Dale",
@@ -3883,7 +3877,7 @@
      "mw": 144,
      "tillganglig_mw": 144,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 104
     },
     {
      "namn": "Aurland2",
@@ -3919,7 +3913,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 42
+     "produktion_mw": 48
     },
     {
      "namn": "Naddvik",
@@ -3927,7 +3921,7 @@
      "mw": 112,
      "tillganglig_mw": 112,
      "status": "drift",
-     "produktion_mw": 42
+     "produktion_mw": 48
     },
     {
      "namn": "Myster",
@@ -3935,7 +3929,7 @@
      "mw": 110,
      "tillganglig_mw": 110,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 28
     },
     {
      "namn": "Myster",
@@ -3943,7 +3937,7 @@
      "mw": 110,
      "tillganglig_mw": 110,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 28
     },
     {
      "namn": "Bjølvo",
