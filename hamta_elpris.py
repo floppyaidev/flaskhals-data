@@ -348,48 +348,271 @@ def parse_enheter(body):
     return out
 
 
+# A73 (produktion per enhet) frågas per kontrollområde, inte per elområde.
+CONTROL = {"SE": "10YSE-1--------K", "NO": "10YNO-0--------C", "DK": "10Y1001A1001A796", "FI": "10YFI-1--------U",
+           "EE": "10Y1001A1001A39I", "LV": "10YLV-1001A00074", "LT": "10YLT-1001A0008Q", "PL": "10YPL-AREA-----S",
+           "NL": "10YNL----------L"}  # DE har fyra kontrollområden och många enheter, hoppas över
+
+
+def land(zone):
+    return zone[:2] if zone[:2] in ("SE", "NO", "DK") else zone
+
+
+def norm(x):
+    x = (x or "").lower()
+    for a, b in (("å", "a"), ("ä", "a"), ("ö", "o"), ("ø", "o"), ("æ", "a")):
+        x = x.replace(a, b)
+    return "".join(ch for ch in x if ch.isalnum())
+
+
+def samma(a, b):
+    a, b = norm(a), norm(b)
+    return bool(a) and bool(b) and (a == b or a.startswith(b) or b.startswith(a))
+
+
+# Stora svenska vattenkraftverk och vilken älv de ligger i (namnet räcker för att känna igen dem i ENTSO-E:s data).
+ALVAR = {
+    "Luleälven": ["Harsprånget", "Porjus", "Messaure", "Letsi", "Ligga", "Vietas", "Seitevare", "Porsi", "Laxede", "Boden",
+                  "Parki", "Akkats", "Ritsem", "Edefors", "Vittjärv", "Randi", "Abelvattnet"],
+    "Skellefteälven": ["Bastusel", "Kvistforsen", "Rebnis", "Sädva", "Rengård", "Båtfors", "Finnfors", "Granfors", "Krångfors",
+                       "Selsfors", "Slagnäs", "Grytfors", "Gallejaur", "Vargfors"],
+    "Umeälven": ["Stornorrfors", "Harrsele", "Pengfors", "Juktan", "Gejmån", "Bålforsen", "Betsele", "Rusfors", "Tuggen",
+                 "Grundfors", "Ajaure", "Gardiken", "Umluspen", "Stensele", "Hällforsen"],
+    "Ångermanälven": ["Kilforsen", "Stalon", "Hällby", "Forsmo", "Nämforsen", "Moforsen", "Storfinnforsen", "Ramsele",
+                      "Långbjörn", "Sollefteå", "Edensforsen", "Bågede", "Gulsele", "Junsterforsen", "Hjälta", "Kultsjön",
+                      "Lövön", "Tåsan", "Korsselbränna", "Stenkullafors", "Volgsjöfors", "Bodum", "Fjällsjö", "Hoting",
+                      "Gäddede", "Linnvasselv", "Stalon"],
+    "Indalsälven": ["Bergeforsen", "Krångede", "Stadsforsen", "Hammarforsen", "Järkvissle", "Midskog", "Gammelänge",
+                    "Hölleforsen", "Ragunda", "Bispgården", "Kattstrupeforsen", "Näverede", "Stugun", "Svarthålsforsen",
+                    "Järpströmmen", "Olden", "Tännforsen", "Granboforsen", "Sillre", "Lit", "Storfinnforsen"],
+    "Ljungan": ["Järnvägsforsen", "Nederede", "Viforsen", "Matfors", "Ljunga", "Parteboda", "Torpshammar", "Flaten",
+                "Bursnäs", "Gidböle", "Rätan", "Hissmofors"],
+    "Ljusnan": ["Laforsen", "Ljusne", "Lassbyn", "Sveg", "Byarforsen", "Krokströmmen", "Storåforsen", "Halvfari", "Höljebro",
+                "Edeforsen", "Kolsjön", "Landafors", "Ljusnefors"],
+    "Dalälven": ["Trängslet", "Lanforsen", "Älvkarleby", "Mockfjärd", "Untra", "Kvarnsveden", "Avesta", "Spjutmo",
+                 "Lima", "Blyberg", "Väsa", "Forshuvud", "Domnarvet"],
+    "Göta älv": ["Olidan", "Hojum", "Trollhättan", "Lilla Edet", "Vargön"],
+}
+VATTEN = ("vattenkraft", "stromkraft", "pumpkraft")
+
+
+def alv_for(namn):
+    for alv, lista in ALVAR.items():
+        if any(samma(namn, x) for x in lista):
+            return alv
+    return None
+
+
+def parse_kapacitet_enheter(body):
+    """14.1.B (A71/A33): installerad effekt per produktionsenhet. Returnerar [{namn, kraftslag, mw}]."""
+    root = ET.fromstring(body)
+    if localname(root) == "Acknowledgement_MarketDocument":
+        return []
+    out = []
+    for ts in (e for e in root.iter() if localname(e) == "TimeSeries"):
+        namn = None
+        for e in ts.iter():
+            ln = localname(e)
+            if ln.endswith("registeredResource.name") and e.text:
+                namn = e.text.strip(); break
+        if not namn:
+            for e in ts.iter():
+                if localname(e) == "PowerSystemResources":
+                    namn = find_text(e, "name"); break
+        pts = [float(find_text(q, "quantity")) for q in ts.iter() if localname(q) == "Point" and find_text(q, "quantity")]
+        if namn and pts:
+            out.append({"namn": namn, "kraftslag": PSR.get(find_text(ts, "psrType"), "ovrigt"), "mw": round(pts[-1])})
+    return out
+
+
+def uppdatera_anlaggningar(now, budget_s=150):
+    """Stora kraftverk per elområde med installerad effekt (14.1.B) till data/anlaggningar.json. En gång i veckan."""
+    fil = OUT / "anlaggningar.json"
+    old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(days=7) and len(old.get("zoner", {})) >= len(ZONES) - 1:
+        return
+    t0 = time.time()
+    zoner = dict(old.get("zoner", {}))
+    y = now.year
+    for zone, code in ZONES.items():
+        if time.time() - t0 > budget_s:
+            print("anläggningar: tidsgränsen nådd, fortsätter nästa körning")
+            break
+        if zone in zoner and old.get("uppdaterad", "")[:4] == str(y) and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(days=7):
+            continue
+        body = fetch_raw({"documentType": "A71", "processType": "A33", "in_Domain": code,
+                          "periodStart": fmt(datetime(y, 1, 1, tzinfo=timezone.utc)), "periodEnd": fmt(datetime(y + 1, 1, 1, tzinfo=timezone.utc))})
+        try:
+            lista = parse_kapacitet_enheter(body)
+        except ET.ParseError:
+            lista = []
+        if not lista:
+            print(f"anläggningar {zone}: inget, svar: {ack_text(body)}")
+        else:
+            zoner[zone] = sorted(lista, key=lambda x: -x["mw"])
+            print(f"anläggningar {zone}: {len(lista)} verk")
+        time.sleep(0.5)
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": zoner}
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def zon_for_enhet(namn, cc, anl):
+    for zone, lista in anl.items():
+        if land(zone) == cc and any(samma(namn, x["namn"]) for x in lista):
+            return zone
+    return None
+
+
 def uppdatera_enheter(now, budget_s=150):
     """Senast publicerade produktion per kraftverk (A73) till data/enheter.json.
-    Publiceras med flera dagars fördröjning för vissa zoner, därför letar vi bakåt dag för dag.
-    Körs högst var tredje timme och har en tidsgräns."""
+    Frågas per kontrollområde (land) och kopplas till elområde via anlaggningar.json.
+    Publiceras med flera dagars fördröjning för vissa länder, därför letar vi bakåt dag för dag. Var tredje timme."""
     fil = OUT / "enheter.json"
     old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
     if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=3):
         print("enheter: uppdaterade för mindre än tre timmar sedan, hoppar över")
         return
+    af = OUT / "anlaggningar.json"
+    anl = json.loads(af.read_text(encoding="utf-8")).get("zoner", {}) if af.exists() else {}
     t0 = time.time()
     zoner = dict(old.get("zoner", {}))
+    lagar = dict(old.get("lag_land", {}))
     dag0 = now.replace(hour=0, minute=0)
-    for zone, code in ZONES.items():
+    for cc, code in CONTROL.items():
         if time.time() - t0 > budget_s:
             print("enheter: tidsgränsen nådd, behåller gamla värden för resten")
             break
         hittat = None
-        lag0 = max(0, (zoner.get(zone) or {}).get("lag_dagar", 0) - 1)
-        for lag in range(lag0, 7):
+        sista = ""
+        for lag in range(max(0, lagar.get(cc, 0) - 1), 8):
             fran = dag0 - timedelta(days=lag)
+            body = fetch_raw({"documentType": "A73", "processType": "A16", "in_Domain": code,
+                              "periodStart": fmt(fran), "periodEnd": fmt(min(now, fran + timedelta(days=1)))})
             try:
-                body = fetch_raw({"documentType": "A73", "processType": "A16", "in_Domain": code,
-                                  "periodStart": fmt(fran), "periodEnd": fmt(min(now, fran + timedelta(days=1)))})
                 enh = parse_enheter(body)
-            except RateLimit:
-                raise
-            except Exception as e:
-                print(f"enheter {zone}: fel {e!r}")
-                break
+            except ET.ParseError:
+                enh = {}
             time.sleep(0.5)
             if enh:
                 hittat = (lag, enh)
                 break
+            sista = ack_text(body)
         if not hittat:
-            print(f"enheter {zone}: ingen data senaste veckan")
+            print(f"enheter {cc}: ingen data senaste veckan, svar: {sista}")
             continue
         lag, enh = hittat
-        lista = sorted(enh.values(), key=lambda x: -x["mw"])[:60]
-        zoner[zone] = {"lag_dagar": lag, "data_tid": max(x["t"] for x in lista) if lista else None, "enheter": lista}
-        print(f"enheter {zone}: {len(enh)} enheter, {lag} dagar bakåt")
-    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "zoner": zoner}
+        lagar[cc] = lag
+        per_zon = {}
+        for e in enh.values():
+            z = zon_for_enhet(e["namn"], cc, anl) or (cc if cc in ZONES else None)
+            if z:
+                per_zon.setdefault(z, []).append(e)
+        for z, lista in per_zon.items():
+            lista = sorted(lista, key=lambda x: -x["mw"])[:60]
+            zoner[z] = {"lag_dagar": lag, "data_tid": max(x["t"] for x in lista), "enheter": lista}
+        print(f"enheter {cc}: {len(enh)} enheter, {lag} dagar bakåt, kopplade till {sorted(per_zon)}")
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MW", "lag_land": lagar, "zoner": zoner}
     fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+MAGASIN_ZONER = ["SE1", "SE2", "SE3", "SE4", "NO1", "NO2", "NO3", "NO4", "NO5", "FI"]
+
+
+def parse_magasin(body):
+    """16.1.D (A72): lagrad energi i vattenmagasin, veckovärden i MWh. Returnerar {veckostart_iso: mwh}."""
+    root = ET.fromstring(body)
+    if localname(root) == "Acknowledgement_MarketDocument":
+        return {}
+    out = {}
+    for per in (e for e in root.iter() if localname(e) == "Period"):
+        start = datetime.strptime(find_text(per, "start"), "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+        for q in per.iter():
+            if localname(q) == "Point":
+                out[iso(start + timedelta(days=7 * (int(find_text(q, "position")) - 1)))] = float(find_text(q, "quantity"))
+    return out
+
+
+def uppdatera_magasin(now, budget_s=150):
+    """Magasinens fyllnad per zon (A72, veckovis) mot snittet för samma vecka de tre senaste åren. En gång per dygn."""
+    fil = OUT / "magasin.json"
+    old = json.loads(fil.read_text(encoding="utf-8")) if fil.exists() else {}
+    if old.get("uppdaterad") and datetime.now(timezone.utc) - datetime.strptime(old["uppdaterad"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) < timedelta(hours=20):
+        return
+    t0 = time.time()
+    zoner = dict(old.get("zoner", {}))
+    for zone in MAGASIN_ZONER:
+        if time.time() - t0 > budget_s:
+            print("magasin: tidsgränsen nådd, fortsätter nästa körning")
+            break
+        varden = {}
+        for ar in range(0, 4):
+            mitt = now - timedelta(days=365 * ar)
+            body = fetch_raw({"documentType": "A72", "processType": "A16", "in_Domain": ZONES[zone],
+                              "periodStart": fmt(mitt - timedelta(days=21)), "periodEnd": fmt(mitt + (timedelta(days=1) if ar == 0 else timedelta(days=7)))})
+            try:
+                v = parse_magasin(body)
+            except ET.ParseError:
+                v = {}
+            if not v and ar == 0:
+                print(f"magasin {zone}: inget, svar: {ack_text(body)}")
+            varden[ar] = v
+            time.sleep(0.5)
+        if not varden.get(0):
+            continue
+        senaste = max(varden[0])
+        nu = varden[0][senaste]
+        t = datetime.strptime(senaste, "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+        jmf = []
+        for ar in (1, 2, 3):
+            mal = t - timedelta(days=364 * ar)  # samma veckodag ett år tidigare
+            nara = [(abs((datetime.strptime(k, "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) - mal).days), val) for k, val in varden.get(ar, {}).items()]
+            nara = [x for x in nara if x[0] <= 4]
+            if nara:
+                jmf.append(min(nara)[1])
+        snitt = sum(jmf) / len(jmf) if jmf else None
+        zoner[zone] = {"vecka": senaste, "mwh": round(nu), "snitt_mwh": round(snitt) if snitt else None,
+                       "andel_av_snitt": round(nu / snitt * 100) if snitt else None, "ar_i_snitt": len(jmf)}
+        print(f"magasin {zone}: {round(nu)} MWh" + (f", {round(nu / snitt * 100)} % av snittet" if snitt else ""))
+    out = {"uppdaterad": iso(datetime.now(timezone.utc)), "enhet": "MWh", "zoner": zoner}
+    fil.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def uppdatera_vattenkraft():
+    """Sammanfattning per älv (Sverige) eller per zon (övriga): installerat, tillgängligt nu (från avbrott)
+    och senast publicerad produktion. Inga anrop, bara de andra filerna. Till data/vattenkraft.json."""
+    def las(n):
+        f = OUT / n
+        return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    anl, avb, enh = las("anlaggningar.json").get("zoner", {}), las("avbrott.json").get("zoner", {}), las("enheter.json").get("zoner", {})
+    nu = iso(datetime.now(timezone.utc))
+    zoner = {}
+    for zone in ZONES:
+        verk = [v for v in anl.get(zone, []) if v["kraftslag"] in VATTEN]
+        if not verk:
+            continue
+        outs = [a for a in avb.get(zone, []) if a.get("kraftslag") in VATTEN and a["start"] <= nu < a["slut"]]
+        prod = (enh.get(zone) or {}).get("enheter", [])
+        grupper = {}
+        for v in verk:
+            g = (alv_for(v["namn"]) if zone.startswith("SE") else None) or ("Övriga stora verk" if zone.startswith("SE") else "Stora vattenkraftverk")
+            x = grupper.setdefault(g, {"alv": g, "verk": 0, "nominell_mw": 0, "tillganglig_mw": 0, "avbrott": [], "produktion_mw": 0, "med_produktion": 0})
+            x["verk"] += 1
+            x["nominell_mw"] += v["mw"]
+            mine = [a for a in outs if samma(a["namn"], v["namn"])]
+            tillg = v["mw"]
+            if mine:
+                a = min(mine, key=lambda a: a.get("tillganglig_mw") or 0)
+                tillg = min(v["mw"], a.get("tillganglig_mw") or 0)
+                x["avbrott"].append({"namn": v["namn"], "tillganglig_mw": a.get("tillganglig_mw"), "nominell_mw": v["mw"],
+                                     "slut": a["slut"], "orsak": a.get("orsak")})
+            x["tillganglig_mw"] += tillg
+            p = [e for e in prod if samma(e["namn"], v["namn"])]
+            if p:
+                x["produktion_mw"] += sum(e["mw"] for e in p)
+                x["med_produktion"] += 1
+        lista = sorted(grupper.values(), key=lambda g: (g["alv"].startswith("Övriga"), -g["nominell_mw"]))
+        zoner[zone] = {"produktion_tid": (enh.get(zone) or {}).get("data_tid"), "alvar": lista}
+    (OUT / "vattenkraft.json").write_text(json.dumps({"uppdaterad": nu, "enhet": "MW", "zoner": zoner}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def ack_text(body):
@@ -471,7 +694,8 @@ def main():
     # Extra: avbrott för alla kraftslag och produktion per kraftverk. Körs sist så att priser och
     # produktion alltid hinner sparas, och bara om körningen har tid kvar (arbetsflödet har 12 min).
     SLUT = 480  # sekunder från start som de extra delarna får använda
-    for namn, fn in (("avbrott", uppdatera_avbrott), ("enheter", uppdatera_enheter)):
+    for namn, fn in (("avbrott", uppdatera_avbrott), ("magasin", uppdatera_magasin),
+                     ("anläggningar", uppdatera_anlaggningar), ("enheter", uppdatera_enheter)):
         kvar = SLUT - (time.time() - t_start)
         if kvar < 45:
             print(f"{namn}: för lite tid kvar ({int(kvar)} s), tar det nästa körning")
@@ -482,6 +706,10 @@ def main():
             print(f"429 vid {namn}, försöker nästa körning")
         except Exception as e:
             print(f"{namn}: fel {e!r}")
+    try:
+        uppdatera_vattenkraft()
+    except Exception as e:
+        print(f"vattenkraft: fel {e!r}")
 
 
 if __name__ == "__main__":
