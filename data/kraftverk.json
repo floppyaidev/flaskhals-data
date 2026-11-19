@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-19T13:21Z",
+ "uppdaterad": "2026-11-19T13:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -8742,7 +8742,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": null,
+   "produktion_tid": "2026-11-17T22:00Z",
    "verk": [
     {
      "namn": "Eemshaven",
@@ -8819,14 +8819,16 @@
      "kraftslag": "gas",
      "mw": 928,
      "tillganglig_mw": 928,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Enecogen",
      "kraftslag": "gas",
      "mw": 928,
      "tillganglig_mw": 928,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Velsen",
@@ -8910,14 +8912,16 @@
      "kraftslag": "kol",
      "mw": 731,
      "tillganglig_mw": 731,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 379
     },
     {
      "namn": "NLROTTETH__1",
      "kraftslag": "kol",
      "mw": 731,
      "tillganglig_mw": 731,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 379
     },
     {
      "namn": "Diemen",
@@ -8966,28 +8970,32 @@
      "kraftslag": "karnkraft",
      "mw": 485,
      "tillganglig_mw": 485,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 483
     },
     {
      "namn": "Borssele 30",
      "kraftslag": "karnkraft",
      "mw": 485,
      "tillganglig_mw": 485,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 483
     },
     {
      "namn": "FLEVO 5",
      "kraftslag": "gas",
      "mw": 464,
      "tillganglig_mw": 464,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 105
     },
     {
      "namn": "FLEVO 5",
      "kraftslag": "gas",
      "mw": 464,
      "tillganglig_mw": 464,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 105
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -9008,14 +9016,16 @@
      "kraftslag": "gas",
      "mw": 443,
      "tillganglig_mw": 443,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 49
     },
     {
      "namn": "FLEVO 4",
      "kraftslag": "gas",
      "mw": 443,
      "tillganglig_mw": 443,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 49
     },
     {
      "namn": "Hemweg",
@@ -9120,112 +9130,128 @@
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 7",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 5",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 1
     },
     {
      "namn": "Eems 5",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 1
     },
     {
      "namn": "Eems 4",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 4",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 3",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 3",
      "kraftslag": "gas",
      "mw": 360,
      "tillganglig_mw": 360,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Delesto 2",
      "kraftslag": "gas",
      "mw": 343,
      "tillganglig_mw": 343,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Delesto 2",
      "kraftslag": "gas",
      "mw": 343,
      "tillganglig_mw": 343,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Lage Weide 6",
      "kraftslag": "gas",
      "mw": 248,
      "tillganglig_mw": 248,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 161
     },
     {
      "namn": "Lage Weide 6",
      "kraftslag": "gas",
      "mw": 248,
      "tillganglig_mw": 248,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 161
     },
     {
      "namn": "Merwedekanaal 12",
      "kraftslag": "gas",
      "mw": 225,
      "tillganglig_mw": 225,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Merwedekanaal 12",
      "kraftslag": "gas",
      "mw": 225,
      "tillganglig_mw": 225,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "RoCa",
@@ -9288,14 +9314,16 @@
      "kraftslag": "gas",
      "mw": 131,
      "tillganglig_mw": 131,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 20",
      "kraftslag": "gas",
      "mw": 131,
      "tillganglig_mw": 131,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Windfarm Luchterduinen",
@@ -9316,42 +9344,48 @@
      "kraftslag": "gas",
      "mw": 128,
      "tillganglig_mw": 128,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 128,
      "tillganglig_mw": 128,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "PERGEN 1",
      "kraftslag": "gas",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 69
     },
     {
      "namn": "PERGEN 1",
      "kraftslag": "gas",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 69
     },
     {
      "namn": "PERGEN 2",
      "kraftslag": "gas",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 71
     },
     {
      "namn": "PERGEN 2",
      "kraftslag": "gas",
      "mw": 125,
      "tillganglig_mw": 125,
-     "status": "drift"
+     "status": "drift",
+     "produktion_mw": 71
     },
     {
      "namn": "Prinses Alexia Windpark",
