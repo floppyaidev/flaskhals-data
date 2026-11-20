@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T15:29Z",
+ "uppdaterad": "2026-11-20T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -839,7 +839,7 @@
      "mw": 670,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-21T22:59Z",
+     "slut": "2026-11-20T18:00Z",
      "typ": "oplanerat",
      "orsak": "Problems with production of demineralized water.",
      "produktion_mw": 3
@@ -2794,7 +2794,7 @@
      "mw": 2197,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T18:00Z",
+     "slut": "2026-11-21T23:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2895,16 +2895,6 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-27T16:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
-     "mw": 162,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3601,6 +3591,13 @@
      "status": "drift"
     },
     {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
      "namn": "GuD 40",
      "kraftslag": "gas",
      "mw": 150,
@@ -3918,6 +3915,16 @@
      "orsak": "Medium-term planned overhaul"
     },
     {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-15T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
      "namn": "Połaniec 2-Pasywna",
      "kraftslag": "biobransle",
      "mw": 208,
@@ -4033,13 +4040,6 @@
      "kraftslag": "kol",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Siersza",
-     "kraftslag": "kol",
-     "mw": 278,
-     "tillganglig_mw": 278,
      "status": "drift"
     },
     {
@@ -4495,16 +4495,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1391.0,
-     "status": "begransad",
-     "slut": "2026-11-20T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4546,6 +4536,13 @@
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
     },
     {
      "namn": "Claus",
