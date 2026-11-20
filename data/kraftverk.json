@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T00:29Z",
+ "uppdaterad": "2026-11-20T00:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2932,16 +2932,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Lippendorf",
-     "kraftslag": "brunkol",
-     "mw": 1782,
-     "tillganglig_mw": 700.0,
-     "status": "begransad",
-     "slut": "2026-11-20T19:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Schluchsee",
      "kraftslag": "pumpkraft",
      "mw": 870,
@@ -3016,6 +3006,13 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 1782,
      "status": "drift"
     },
     {
