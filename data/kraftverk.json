@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T17:59Z",
+ "uppdaterad": "2026-11-20T18:16Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -831,17 +831,6 @@
    "produktion_tid": "2026-11-15T17:00Z",
    "verk": [
     {
-     "namn": "Karlshamn",
-     "kraftslag": "olja",
-     "mw": 670,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T18:00Z",
-     "typ": "oplanerat",
-     "orsak": "Problems with production of demineralized water.",
-     "produktion_mw": 3
-    },
-    {
      "namn": "Öresundsverket CHP",
      "kraftslag": "gas",
      "mw": 450,
@@ -851,6 +840,14 @@
      "typ": "planerat",
      "orsak": "Outage",
      "produktion_mw": 0
+    },
+    {
+     "namn": "Karlshamn",
+     "kraftslag": "olja",
+     "mw": 670,
+     "tillganglig_mw": 670,
+     "status": "drift",
+     "produktion_mw": 3
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -1126,16 +1123,6 @@
      "produktion_mw": 100
     },
     {
-     "namn": "Saurdal Magasin",
-     "kraftslag": "vattenkraft",
-     "mw": 320,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T18:00Z",
-     "typ": "planerat",
-     "orsak": "Work in water way"
-    },
-    {
      "namn": "Blåfal.V",
      "kraftslag": "vattenkraft",
      "mw": 235,
@@ -1168,6 +1155,13 @@
      "kraftslag": "vattenkraft",
      "mw": 372,
      "tillganglig_mw": 372,
+     "status": "drift"
+    },
+    {
+     "namn": "Saurdal Magasin",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 320,
      "status": "drift"
     },
     {
@@ -2723,7 +2717,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T13:00Z",
+   "produktion_tid": "2026-11-20T17:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -4406,7 +4400,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-18T22:45Z",
+   "produktion_tid": "2026-11-19T22:15Z",
    "verk": [
     {
      "namn": "Velsen",
@@ -4568,7 +4562,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 393
+     "produktion_mw": 876
     },
     {
      "namn": "OWF Hollandse Kust Noord",
@@ -4597,7 +4591,7 @@
      "mw": 731,
      "tillganglig_mw": 731,
      "status": "drift",
-     "produktion_mw": 722
+     "produktion_mw": 719
     },
     {
      "namn": "Diemen",
@@ -4619,7 +4613,7 @@
      "mw": 485,
      "tillganglig_mw": 485,
      "status": "drift",
-     "produktion_mw": 482
+     "produktion_mw": 483
     },
     {
      "namn": "FLEVO 5",
@@ -4627,7 +4621,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 424
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4642,7 +4636,7 @@
      "mw": 443,
      "tillganglig_mw": 443,
      "status": "drift",
-     "produktion_mw": 413
+     "produktion_mw": 60
     },
     {
      "namn": "Sloe Centrale 20",
@@ -4693,7 +4687,7 @@
      "mw": 248,
      "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 165
+     "produktion_mw": 219
     },
     {
      "namn": "Merwedekanaal 12",
@@ -4752,7 +4746,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 93
+     "produktion_mw": 108
     },
     {
      "namn": "PERGEN 2",
@@ -4760,7 +4754,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 102
+     "produktion_mw": 108
     },
     {
      "namn": "Prinses Alexia Windpark",

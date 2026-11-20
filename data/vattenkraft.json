@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T17:59Z",
+ "uppdaterad": "2026-11-20T18:16Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -152,7 +152,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5436,
+     "tillganglig_mw": 5756,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -181,13 +181,6 @@
        "nominell_mw": 415,
        "slut": "2026-12-11T14:00Z",
        "orsak": "High storage temperature"
-      },
-      {
-       "namn": "Saurdal Magasin",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 320,
-       "slut": "2026-11-20T18:00Z",
-       "orsak": "Work in water way"
       },
       {
        "namn": "Blåfal.V",
@@ -291,7 +284,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T13:00Z",
+   "produktion_tid": "2026-11-20T17:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",

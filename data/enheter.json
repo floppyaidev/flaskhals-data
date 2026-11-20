@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T17:59Z",
+ "uppdaterad": "2026-11-20T18:16Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -9,7 +9,7 @@
   "EE": 0,
   "LV": 0,
   "LT": 1,
-  "NL": 2
+  "NL": 1
  },
  "land_tid": {
   "SE": "2026-11-20T17:14Z",
@@ -17,10 +17,10 @@
   "DK": "2026-11-20T17:29Z",
   "FI": "2026-11-20T17:59Z",
   "EE": "2026-11-20T17:59Z",
-  "LV": "2026-11-20T14:59Z",
-  "LT": "2026-11-20T14:59Z",
-  "PL": "2026-11-20T15:00Z",
-  "NL": "2026-11-20T15:01Z"
+  "LV": "2026-11-20T18:14Z",
+  "LT": "2026-11-20T18:14Z",
+  "PL": "2026-11-20T18:16Z",
+  "NL": "2026-11-20T18:16Z"
  },
  "zoner": {
   "SE3": {
@@ -1099,31 +1099,31 @@
   },
   "LV": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-20T13:00Z",
+   "data_tid": "2026-11-20T17:00Z",
    "enheter": [
-    {
-     "namn": "Block-1, Gas Turbine, RTEC2",
-     "kraftslag": "gas",
-     "mw": 182,
-     "t": "2026-11-20T13:00Z"
-    },
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 182,
-     "t": "2026-11-20T13:00Z"
+     "mw": 132,
+     "t": "2026-11-20T17:00Z"
+    },
+    {
+     "namn": "Block-1, Gas Turbine, RTEC2",
+     "kraftslag": "gas",
+     "mw": 95,
+     "t": "2026-11-20T17:00Z"
     },
     {
      "namn": "Block-2, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 89,
-     "t": "2026-11-20T13:00Z"
+     "mw": 68,
+     "t": "2026-11-20T17:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 78,
-     "t": "2026-11-20T13:00Z"
+     "mw": 64,
+     "t": "2026-11-20T16:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
@@ -1135,19 +1135,19 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-19T15:00Z",
+   "data_tid": "2026-11-19T18:15Z",
    "enheter": [
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
-     "mw": 205,
-     "t": "2026-11-19T15:00Z"
+     "mw": 203,
+     "t": "2026-11-19T18:15Z"
     },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-19T09:15Z"
+     "t": "2026-11-19T18:15Z"
     },
     {
      "namn": "KHAE HA3",
@@ -1188,140 +1188,140 @@
    ]
   },
   "NL": {
-   "lag_dagar": 2,
-   "data_tid": "2026-11-18T22:45Z",
+   "lag_dagar": 1,
+   "data_tid": "2026-11-19T22:15Z",
    "enheter": [
+    {
+     "namn": "ENECOGEN-U10",
+     "kraftslag": "gas",
+     "mw": 876,
+     "t": "2026-11-19T22:00Z"
+    },
     {
      "namn": "NLROTTETH__1",
      "kraftslag": "kol",
-     "mw": 722,
-     "t": "2026-11-18T22:00Z"
+     "mw": 719,
+     "t": "2026-11-19T22:00Z"
     },
     {
      "namn": "Borssele 30",
      "kraftslag": "karnkraft",
-     "mw": 482,
-     "t": "2026-11-18T22:00Z"
+     "mw": 483,
+     "t": "2026-11-19T22:00Z"
     },
     {
      "namn": "Unit 10",
      "kraftslag": "gas",
-     "mw": 440,
-     "t": "2026-11-18T22:00Z"
+     "mw": 443,
+     "t": "2026-11-19T22:00Z"
     },
     {
-     "namn": "FLEVO 4",
+     "namn": "FLEVO 5",
      "kraftslag": "gas",
-     "mw": 413,
-     "t": "2026-11-18T22:00Z"
+     "mw": 424,
+     "t": "2026-11-19T22:00Z"
     },
     {
      "namn": "Unit 20",
      "kraftslag": "gas",
-     "mw": 411,
-     "t": "2026-11-18T22:00Z"
+     "mw": 269,
+     "t": "2026-11-19T22:00Z"
     },
     {
-     "namn": "ENECOGEN-U10",
+     "namn": "REC-X",
      "kraftslag": "gas",
-     "mw": 393,
-     "t": "2026-11-18T22:00Z"
-    },
-    {
-     "namn": "Maasstroom Energie",
-     "kraftslag": "gas",
-     "mw": 375,
-     "t": "2026-11-18T22:45Z"
-    },
-    {
-     "namn": "Lage Weide 6",
-     "kraftslag": "gas",
-     "mw": 165,
-     "t": "2026-11-18T22:00Z"
-    },
-    {
-     "namn": "Pergen 2",
-     "kraftslag": "gas",
-     "mw": 102,
-     "t": "2026-11-18T22:00Z"
-    },
-    {
-     "namn": "Pergen 1",
-     "kraftslag": "gas",
-     "mw": 93,
-     "t": "2026-11-18T22:00Z"
+     "mw": 237,
+     "t": "2026-11-19T22:00Z"
     },
     {
      "namn": "REC-B",
      "kraftslag": "gas",
-     "mw": 7,
-     "t": "2026-11-18T22:00Z"
+     "mw": 235,
+     "t": "2026-11-19T22:00Z"
+    },
+    {
+     "namn": "Lage Weide 6",
+     "kraftslag": "gas",
+     "mw": 219,
+     "t": "2026-11-19T22:00Z"
+    },
+    {
+     "namn": "Pergen 1",
+     "kraftslag": "gas",
+     "mw": 108,
+     "t": "2026-11-19T22:00Z"
+    },
+    {
+     "namn": "Pergen 2",
+     "kraftslag": "gas",
+     "mw": 108,
+     "t": "2026-11-19T22:00Z"
+    },
+    {
+     "namn": "FLEVO 4",
+     "kraftslag": "gas",
+     "mw": 60,
+     "t": "2026-11-19T22:00Z"
     },
     {
      "namn": "Merwedekanaal 12",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
+     "t": "2026-11-19T00:00Z"
     },
     {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
-    },
-    {
-     "namn": "FLEVO 5",
-     "kraftslag": "gas",
-     "mw": 0,
-     "t": "2026-11-18T21:00Z"
+     "t": "2026-11-19T00:00Z"
     },
     {
      "namn": "Eems 7",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T17:00Z"
+     "t": "2026-11-19T16:00Z"
     },
     {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
+     "t": "2026-11-19T00:00Z"
     },
     {
      "namn": "Eems 5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T19:00Z"
+     "t": "2026-11-19T16:00Z"
     },
     {
      "namn": "Eems 4",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T14:00Z"
+     "t": "2026-11-19T21:00Z"
     },
     {
      "namn": "Eems 3",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T19:00Z"
+     "t": "2026-11-19T16:00Z"
     },
     {
      "namn": "Eems 20",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
+     "t": "2026-11-19T00:00Z"
     },
     {
-     "namn": "REC-X",
+     "namn": "Maasstroom Energie",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
+     "t": "2026-11-19T22:15Z"
     },
     {
      "namn": "Delesto 2",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-18T00:00Z"
+     "t": "2026-11-19T00:00Z"
     }
    ]
   }
