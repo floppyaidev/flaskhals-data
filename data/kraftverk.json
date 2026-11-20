@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T08:30Z",
+ "uppdaterad": "2026-11-20T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -839,7 +839,7 @@
      "mw": 670,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-20T22:59Z",
+     "slut": "2026-11-21T22:59Z",
      "typ": "oplanerat",
      "orsak": "Problems with production of demineralized water.",
      "produktion_mw": 3
@@ -2208,7 +2208,7 @@
      "mw": 815,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-20T14:00Z",
+     "slut": "2026-11-23T16:00Z",
      "typ": "oplanerat",
      "orsak": "Condenser failure and boiler trip",
      "produktion_mw": 447
@@ -2835,16 +2835,6 @@
      "orsak": null
     },
     {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-23T15:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Huckingen (HKM)",
      "kraftslag": "kolgas",
      "mw": 600,
@@ -2925,16 +2915,6 @@
      "orsak": null
     },
     {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
-     "mw": 162,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-28T15:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
@@ -3005,6 +2985,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 86.0,
+     "status": "begransad",
+     "slut": "2026-11-26T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Nord 2",
      "kraftslag": "kol",
      "mw": 373,
@@ -3061,6 +3051,13 @@
      "kraftslag": "kol",
      "mw": 1052,
      "tillganglig_mw": 1052,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 960,
      "status": "drift"
     },
     {
@@ -3278,13 +3275,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3610,6 +3600,13 @@
      "status": "drift"
     },
     {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
      "namn": "GuD 40",
      "kraftslag": "gas",
      "mw": 150,
@@ -3897,16 +3894,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2030-02-10T22:45Z",
-     "typ": "planerat",
-     "orsak": "Long-term planned overhaul"
-    },
-    {
      "namn": "EC Żerań 2",
      "kraftslag": "gas",
      "mw": 484,
@@ -3999,6 +3986,13 @@
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 620,
+     "status": "drift"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 582,
      "status": "drift"
     },
     {
