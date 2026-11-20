@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T23:14Z",
+ "uppdaterad": "2026-11-20T23:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-19T20:00Z",
+   "produktion_tid": "2026-11-19T23:00Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2065,7 +2065,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 174
+     "produktion_mw": 178
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2076,7 +2076,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 57
+     "produktion_mw": 21
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 35
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2153,7 +2153,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 8
+     "produktion_mw": 72
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 18
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-19T20:00Z",
+   "produktion_tid": "2026-11-19T23:00Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -2193,7 +2193,7 @@
      "slut": "2026-11-23T16:00Z",
      "typ": "oplanerat",
      "orsak": "Condenser failure and boiler trip",
-     "produktion_mw": 460
+     "produktion_mw": 429
     },
     {
      "namn": "Amagervaerket",
@@ -2204,7 +2204,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 147
+     "produktion_mw": 146
     },
     {
      "namn": "Asnaesvaerket",
@@ -2234,7 +2234,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 65
+     "produktion_mw": 14
     },
     {
      "namn": "Roedsand 1",
@@ -2242,7 +2242,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 42
+     "produktion_mw": 7
     },
     {
      "namn": "Solar Park Lidsø",
