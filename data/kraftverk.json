@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T04:47Z",
+ "uppdaterad": "2026-11-20T04:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2058,7 +2058,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-19T01:30Z",
+   "produktion_tid": "2026-11-19T04:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2080,7 +2080,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 179
+     "produktion_mw": 178
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2136,7 +2136,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 26
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2168,7 +2168,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 10
+     "produktion_mw": 4
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2184,7 +2184,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 9
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2197,7 +2197,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-19T01:30Z",
+   "produktion_tid": "2026-11-19T04:30Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -2208,7 +2208,7 @@
      "slut": "2026-11-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Condenser failure and boiler trip",
-     "produktion_mw": 369
+     "produktion_mw": 411
     },
     {
      "namn": "Amagervaerket",
@@ -2219,7 +2219,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 146
+     "produktion_mw": 145
     },
     {
      "namn": "Asnaesvaerket",
@@ -2249,7 +2249,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 130
+     "produktion_mw": 43
     },
     {
      "namn": "Roedsand 1",
@@ -2257,7 +2257,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 85
+     "produktion_mw": 31
     },
     {
      "namn": "Solar Park Lidsø",
