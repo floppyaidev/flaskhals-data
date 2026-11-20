@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T09:30Z",
+ "uppdaterad": "2026-11-20T09:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1680,17 +1680,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Skjomen",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T13:00Z",
-     "typ": "oplanerat",
-     "orsak": "Water leagage, causing turbine regulator issues.",
-     "produktion_mw": 26
-    },
-    {
      "namn": "Kobbelv",
      "kraftslag": "vattenkraft",
      "mw": 300,
@@ -1714,6 +1703,14 @@
      "mw": 369,
      "tillganglig_mw": 369,
      "status": "drift"
+    },
+    {
+     "namn": "Skjomen",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 309,
+     "status": "drift",
+     "produktion_mw": 26
     },
     {
      "namn": "Melkøya",
@@ -2950,7 +2947,7 @@
      "mw": 725,
      "tillganglig_mw": 35.0,
      "status": "begransad",
-     "slut": "2026-11-23T23:00Z",
+     "slut": "2026-11-23T01:00Z",
      "typ": "planerat",
      "orsak": null
     },

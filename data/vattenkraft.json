@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T09:30Z",
+ "uppdaterad": "2026-11-20T09:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -230,7 +230,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 17,
      "nominell_mw": 3712,
-     "tillganglig_mw": 1948,
+     "tillganglig_mw": 2257,
      "avbrott": [
       {
        "namn": "Svartisen",
@@ -245,13 +245,6 @@
        "nominell_mw": 527,
        "slut": "2027-01-18T22:59Z",
        "orsak": "Turbine rehabilitation"
-      },
-      {
-       "namn": "Skjomen",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 309,
-       "slut": "2026-11-20T13:00Z",
-       "orsak": "Water leagage, causing turbine regulator issues."
       },
       {
        "namn": "Kobbelv",
