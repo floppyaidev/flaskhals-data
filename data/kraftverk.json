@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T08:13Z",
+ "uppdaterad": "2026-11-20T08:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2281,7 +2281,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-15T05:00Z",
+   "produktion_tid": "2026-11-15T08:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2324,7 +2324,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 3",
@@ -2417,7 +2417,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 190
+     "produktion_mw": 193
     },
     {
      "namn": "Tahkoluoto",
@@ -2490,7 +2490,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2608,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 80
     },
     {
      "namn": "Olkiluoto kt",
@@ -2623,7 +2623,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 23
+     "produktion_mw": 20
     },
     {
      "namn": "Paskoonharju",
@@ -2686,7 +2686,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-20T04:45Z",
+   "produktion_tid": "2026-11-20T07:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2694,7 +2694,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 151
+     "produktion_mw": 170
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2702,7 +2702,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 167
+     "produktion_mw": 160
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2735,7 +2735,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T04:00Z",
+   "produktion_tid": "2026-11-20T07:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3967,26 +3967,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 574.0,
-     "status": "begransad",
-     "slut": "2026-11-20T08:30Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-20T08:30Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4005,6 +3985,13 @@
      "kraftslag": "kol",
      "mw": 835,
      "tillganglig_mw": 835,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4198,6 +4185,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
