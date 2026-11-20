@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T17:47Z",
+ "uppdaterad": "2026-11-20T17:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -268,7 +268,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-15T14:45Z",
+   "produktion_tid": "2026-11-15T17:45Z",
    "alvar": [
     {
      "alv": "Kemijoki",
