@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T17:29Z",
+ "uppdaterad": "2026-11-20T17:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -223,15 +223,8 @@
      "alv": "Stora vattenkraftverk",
      "verk": 17,
      "nominell_mw": 3712,
-     "tillganglig_mw": 2257,
+     "tillganglig_mw": 2885,
      "avbrott": [
-      {
-       "namn": "Svartisen",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 628,
-       "slut": "2026-11-24T17:00Z",
-       "orsak": "Work on downsteam leek"
-      },
       {
        "namn": "Rana",
        "tillganglig_mw": 0.0,
@@ -375,7 +368,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 5,
      "nominell_mw": 1826,
-     "tillganglig_mw": 1112,
+     "tillganglig_mw": 530,
      "avbrott": [
       {
        "namn": "Żarnowiec",
@@ -383,6 +376,13 @@
        "nominell_mw": 714,
        "slut": "2026-11-22T21:00Z",
        "orsak": "Short-term planned outage"
+      },
+      {
+       "namn": "Porąbka Żar",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 582,
+       "slut": "2030-02-10T22:45Z",
+       "orsak": "Long-term planned overhaul"
       }
      ],
      "produktion_mw": 0,
