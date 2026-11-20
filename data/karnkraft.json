@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T04:15Z",
+ "uppdaterad": "2026-11-20T05:14Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -96,18 +96,6 @@
    "nominell_mw": 1121.0,
    "tillganglig_mw": 0.0,
    "orsak": "Transition to cold shutdown for inspections of electric motors.",
-   "status": null,
-   "kraftslag": "karnkraft",
-   "zon": "SE3"
-  },
-  {
-   "namn": "Forsmark block 3",
-   "typ": "oplanerat",
-   "start": "2026-11-13T23:00Z",
-   "slut": "2026-11-19T05:00Z",
-   "nominell_mw": 1172.0,
-   "tillganglig_mw": 0.0,
-   "orsak": "Failure in power cable and inspections of electrical motors.",
    "status": null,
    "kraftslag": "karnkraft",
    "zon": "SE3"
