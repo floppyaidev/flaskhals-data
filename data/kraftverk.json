@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-20T01:14Z",
+ "uppdaterad": "2026-11-20T01:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-14T22:00Z",
+   "produktion_tid": "2026-11-15T01:00Z",
    "verk": [
     {
      "namn": "Harsprånget",
@@ -28,7 +28,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 124
+     "produktion_mw": 0
     },
     {
      "namn": "Messaure",
@@ -37,7 +37,7 @@
      "tillganglig_mw": 428,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 133
+     "produktion_mw": 370
     },
     {
      "namn": "Porjus",
@@ -46,7 +46,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 1
+     "produktion_mw": 0
     },
     {
      "namn": "Djupdal",
@@ -96,7 +96,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 54
+     "produktion_mw": 56
     },
     {
      "namn": "Gråberget",
@@ -119,7 +119,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 77
+     "produktion_mw": 0
     },
     {
      "namn": "Seitevare",
@@ -204,7 +204,7 @@
      "tillganglig_mw": 100,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 90
+     "produktion_mw": 0
     },
     {
      "namn": "Blisterliden Vindkraftpark",
@@ -216,7 +216,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-14T22:00Z",
+   "produktion_tid": "2026-11-15T01:00Z",
    "verk": [
     {
      "namn": "Stornorrfors",
@@ -225,7 +225,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 182
+     "produktion_mw": 169
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -461,7 +461,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 79
+     "produktion_mw": 0
     },
     {
      "namn": "Hocksjön",
@@ -609,7 +609,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-14T22:00Z",
+   "produktion_tid": "2026-11-15T01:00Z",
    "verk": [
     {
      "namn": "Ringhals 4",
@@ -663,7 +663,7 @@
      "mw": 1121,
      "tillganglig_mw": 1121,
      "status": "drift",
-     "produktion_mw": 1119
+     "produktion_mw": 1120
     },
     {
      "namn": "Värtaverket",
@@ -679,7 +679,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 183
+     "produktion_mw": 0
     },
     {
      "namn": "Stenungsund B3",
@@ -701,7 +701,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 13
+     "produktion_mw": 11
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -828,7 +828,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-14T22:00Z",
+   "produktion_tid": "2026-11-15T01:00Z",
    "verk": [
     {
      "namn": "Karlshamn",
