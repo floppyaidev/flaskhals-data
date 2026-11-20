@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T14:49Z",
+ "uppdaterad": "2026-11-20T15:01Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2729,7 +2729,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T10:00Z",
+   "produktion_tid": "2026-11-20T13:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
