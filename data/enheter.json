@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T21:14Z",
+ "uppdaterad": "2026-11-20T21:32Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -17,10 +17,10 @@
   "DK": "2026-11-20T20:29Z",
   "FI": "2026-11-20T21:14Z",
   "EE": "2026-11-20T21:14Z",
-  "LV": "2026-11-20T18:14Z",
-  "LT": "2026-11-20T18:14Z",
-  "PL": "2026-11-20T18:16Z",
-  "NL": "2026-11-20T18:16Z"
+  "LV": "2026-11-20T21:29Z",
+  "LT": "2026-11-20T21:29Z",
+  "PL": "2026-11-20T21:31Z",
+  "NL": "2026-11-20T21:32Z"
  },
  "zoner": {
   "SE3": {
@@ -1099,31 +1099,31 @@
   },
   "LV": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-20T17:00Z",
+   "data_tid": "2026-11-20T20:00Z",
    "enheter": [
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 132,
-     "t": "2026-11-20T17:00Z"
+     "mw": 140,
+     "t": "2026-11-20T20:00Z"
     },
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 95,
-     "t": "2026-11-20T17:00Z"
+     "mw": 96,
+     "t": "2026-11-20T20:00Z"
     },
     {
      "namn": "Block-2, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 68,
-     "t": "2026-11-20T17:00Z"
+     "mw": 69,
+     "t": "2026-11-20T20:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 64,
-     "t": "2026-11-20T16:00Z"
+     "mw": 63,
+     "t": "2026-11-20T19:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
@@ -1135,13 +1135,13 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-19T18:15Z",
+   "data_tid": "2026-11-19T18:45Z",
    "enheter": [
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
-     "mw": 203,
-     "t": "2026-11-19T18:15Z"
+     "mw": 0,
+     "t": "2026-11-19T18:45Z"
     },
     {
      "namn": "KHAE HA2",
