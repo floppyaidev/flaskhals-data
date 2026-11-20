@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T23:29Z",
+ "uppdaterad": "2026-11-20T23:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2827,16 +2827,6 @@
      "orsak": null
     },
     {
-     "namn": "Schkopau",
-     "kraftslag": "brunkol",
-     "mw": 900,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T13:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Franken I",
      "kraftslag": "gas",
      "mw": 823,
@@ -3058,6 +3048,13 @@
     {
      "namn": "Windpark He Dreiht",
      "kraftslag": "vind_hav",
+     "mw": 900,
+     "tillganglig_mw": 900,
+     "status": "drift"
+    },
+    {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
      "mw": 900,
      "tillganglig_mw": 900,
      "status": "drift"
@@ -3892,6 +3889,16 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2030-02-10T22:45Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
      "namn": "EC Żerań 2",
      "kraftslag": "gas",
      "mw": 484,
@@ -3930,6 +3937,16 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Medium-term planned overhaul"
+    },
+    {
+     "namn": "Siersza",
+     "kraftslag": "kol",
+     "mw": 278,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-15T23:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
     },
     {
      "namn": "Połaniec 2-Pasywna",
@@ -3980,13 +3997,6 @@
      "status": "drift"
     },
     {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 582,
-     "status": "drift"
-    },
-    {
      "namn": "EC Siekierki",
      "kraftslag": "kol",
      "mw": 534,
@@ -4033,13 +4043,6 @@
      "kraftslag": "kol",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Siersza",
-     "kraftslag": "kol",
-     "mw": 278,
-     "tillganglig_mw": 278,
      "status": "drift"
     },
     {
