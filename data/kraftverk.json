@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T00:58Z",
+ "uppdaterad": "2026-11-20T01:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2902,6 +2902,16 @@
      "orsak": null
     },
     {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -3272,13 +3282,6 @@
      "kraftslag": "vind_hav",
      "mw": 396,
      "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -3951,6 +3954,26 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 377.0,
+     "status": "begransad",
+     "slut": "2026-11-20T02:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-20T02:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -3962,13 +3985,6 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4176,13 +4192,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
