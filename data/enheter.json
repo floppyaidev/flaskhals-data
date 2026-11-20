@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T14:29Z",
+ "uppdaterad": "2026-11-20T14:49Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -15,8 +15,8 @@
   "SE": "2026-11-20T14:14Z",
   "NO": "2026-11-20T14:14Z",
   "DK": "2026-11-20T14:15Z",
-  "FI": "2026-11-20T11:48Z",
-  "EE": "2026-11-20T11:48Z",
+  "FI": "2026-11-20T14:49Z",
+  "EE": "2026-11-20T14:49Z",
   "LV": "2026-11-20T11:49Z",
   "LT": "2026-11-20T11:49Z",
   "PL": "2026-11-20T11:50Z",
@@ -871,79 +871,79 @@
   },
   "FI": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-15T11:45Z",
+   "data_tid": "2026-11-15T14:45Z",
    "enheter": [
     {
      "namn": "Olkiluoto 1 B1",
      "kraftslag": "karnkraft",
-     "mw": 893,
-     "t": "2026-11-15T11:45Z"
+     "mw": 892,
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Olkiluoto 2 B2",
      "kraftslag": "karnkraft",
-     "mw": 741,
-     "t": "2026-11-15T11:45Z"
+     "mw": 740,
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Loviisa 2 G21",
      "kraftslag": "karnkraft",
      "mw": 257,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Loviisa 2 G22",
      "kraftslag": "karnkraft",
      "mw": 255,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Loviisa 1 G12",
      "kraftslag": "karnkraft",
      "mw": 252,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Loviisa 1 G11",
      "kraftslag": "karnkraft",
      "mw": 249,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Äänekoski G1",
      "kraftslag": "biobransle",
-     "mw": 195,
-     "t": "2026-11-15T11:45Z"
+     "mw": 200,
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Raahen Voima",
      "kraftslag": "ovrigt",
-     "mw": 59,
-     "t": "2026-11-15T11:45Z"
+     "mw": 69,
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Keljonlahti B1",
      "kraftslag": "torv",
      "mw": 46,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Toppila B2",
      "kraftslag": "torv",
      "mw": 33,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Kaukaan Voima G10",
      "kraftslag": "biobransle",
-     "mw": 22,
-     "t": "2026-11-15T11:45Z"
+     "mw": 20,
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Kymijärvi B1",
      "kraftslag": "kol",
      "mw": 4,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Meri-Pori B1",
@@ -955,7 +955,7 @@
      "namn": "Vuosaari VuB6",
      "kraftslag": "gas",
      "mw": 1,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Naantali B4",
@@ -1033,7 +1033,7 @@
      "namn": "Vuosaari VuB5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-15T11:45Z"
+     "t": "2026-11-15T14:45Z"
     },
     {
      "namn": "Alholmens B2",
@@ -1051,37 +1051,37 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-20T10:45Z",
+   "data_tid": "2026-11-20T13:45Z",
    "enheter": [
     {
      "namn": "Auvere EJ- G1",
      "kraftslag": "oljeskiffer",
-     "mw": 240,
-     "t": "2026-11-20T10:45Z"
-    },
-    {
-     "namn": "Eesti Elektrijaam- TG8",
-     "kraftslag": "oljeskiffer",
-     "mw": 169,
-     "t": "2026-11-20T10:45Z"
+     "mw": 246,
+     "t": "2026-11-20T13:45Z"
     },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
-     "mw": 128,
-     "t": "2026-11-20T10:45Z"
+     "mw": 159,
+     "t": "2026-11-20T13:45Z"
+    },
+    {
+     "namn": "Eesti Elektrijaam- TG8",
+     "kraftslag": "oljeskiffer",
+     "mw": 134,
+     "t": "2026-11-20T13:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG4",
      "kraftslag": "oljeskiffer",
      "mw": 3,
-     "t": "2026-11-20T10:00Z"
+     "t": "2026-11-20T13:15Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
      "mw": 1,
-     "t": "2026-11-20T10:15Z"
+     "t": "2026-11-20T13:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
