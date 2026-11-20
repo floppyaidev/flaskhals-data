@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T06:59Z",
+ "uppdaterad": "2026-11-20T07:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1857,16 +1857,6 @@
      "produktion_mw": 69
     },
     {
-     "namn": "Mauranger",
-     "kraftslag": "vattenkraft",
-     "mw": 256,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T07:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failed to enter start mode after stop."
-    },
-    {
      "namn": "Sy Sima",
      "kraftslag": "vattenkraft",
      "mw": 630,
@@ -1924,6 +1914,13 @@
      "kraftslag": "vattenkraft",
      "mw": 260,
      "tillganglig_mw": 260,
+     "status": "drift"
+    },
+    {
+     "namn": "Mauranger",
+     "kraftslag": "vattenkraft",
+     "mw": 256,
+     "tillganglig_mw": 256,
      "status": "drift"
     },
     {

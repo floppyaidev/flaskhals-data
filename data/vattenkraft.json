@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T06:59Z",
+ "uppdaterad": "2026-11-20T07:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -266,7 +266,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 5426,
+     "tillganglig_mw": 5682,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -274,13 +274,6 @@
        "nominell_mw": 840,
        "slut": "2027-03-08T14:00Z",
        "orsak": "Reconstruction of control systems."
-      },
-      {
-       "namn": "Mauranger",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 256,
-       "slut": "2026-11-20T07:00Z",
-       "orsak": "Failed to enter start mode after stop."
       }
      ],
      "produktion_mw": 787,
