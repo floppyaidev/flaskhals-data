@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T05:28Z",
+ "uppdaterad": "2026-11-20T05:45Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -403,7 +403,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 5,
      "nominell_mw": 1826,
-     "tillganglig_mw": 1112,
+     "tillganglig_mw": 530,
      "avbrott": [
       {
        "namn": "Żarnowiec",
@@ -411,6 +411,13 @@
        "nominell_mw": 714,
        "slut": "2026-11-22T21:00Z",
        "orsak": "Short-term planned outage"
+      },
+      {
+       "namn": "Porąbka Żar",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 582,
+       "slut": "2030-02-10T22:45Z",
+       "orsak": "Long-term planned overhaul"
       }
      ],
      "produktion_mw": 0,
