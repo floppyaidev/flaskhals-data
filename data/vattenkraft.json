@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T07:59Z",
+ "uppdaterad": "2026-11-20T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -152,7 +152,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5436,
+     "tillganglig_mw": 5127,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -188,6 +188,13 @@
        "nominell_mw": 320,
        "slut": "2026-11-20T18:00Z",
        "orsak": "Work in water way"
+      },
+      {
+       "namn": "Vinje",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 309,
+       "slut": "2026-11-20T14:00Z",
+       "orsak": "SF6 system maintenance"
       },
       {
        "namn": "Blåfal.V",

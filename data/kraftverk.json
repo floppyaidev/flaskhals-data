@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T07:59Z",
+ "uppdaterad": "2026-11-20T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1139,6 +1139,17 @@
      "orsak": "Work in water way"
     },
     {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T14:00Z",
+     "typ": "planerat",
+     "orsak": "SF6 system maintenance",
+     "produktion_mw": 0
+    },
+    {
      "namn": "Blåfal.V",
      "kraftslag": "vattenkraft",
      "mw": 235,
@@ -1179,14 +1190,6 @@
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"
-    },
-    {
-     "namn": "Vinje",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 309,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "Sønnå",
@@ -4523,6 +4526,16 @@
      "orsak": null
     },
     {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 750.0,
+     "status": "begransad",
+     "slut": "2026-11-20T09:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4536,9 +4549,9 @@
      "namn": "Eems 7",
      "kraftslag": "gas",
      "mw": 360,
-     "tillganglig_mw": 350.0,
+     "tillganglig_mw": 300.0,
      "status": "begransad",
-     "slut": "2026-11-20T08:00Z",
+     "slut": "2026-11-20T14:00Z",
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
@@ -4570,13 +4583,6 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
