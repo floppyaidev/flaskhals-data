@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T18:29Z",
+ "uppdaterad": "2026-11-20T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4443,16 +4443,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Sloe Centrale 10",
-     "kraftslag": "gas",
-     "mw": 435,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T18:47Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 360,
@@ -4640,6 +4630,13 @@
     },
     {
      "namn": "Sloe Centrale 20",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 435,
+     "status": "drift"
+    },
+    {
+     "namn": "Sloe Centrale 10",
      "kraftslag": "gas",
      "mw": 435,
      "tillganglig_mw": 435,
