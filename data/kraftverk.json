@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T13:29Z",
+ "uppdaterad": "2026-11-20T13:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -850,7 +850,7 @@
      "mw": 450,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-12-18T22:59Z",
+     "slut": "2027-01-15T22:59Z",
      "typ": "planerat",
      "orsak": "Outage",
      "produktion_mw": 0
@@ -1157,7 +1157,7 @@
      "status": "still",
      "slut": "2026-11-25T14:00Z",
      "typ": "planerat",
-     "orsak": "Runner stress measurement via turbine lab."
+     "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
     },
     {
      "namn": "Tonstad Vindpark",
@@ -2817,7 +2817,7 @@
      "mw": 1753,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-20T14:00Z",
+     "slut": "2026-11-20T16:00Z",
      "typ": "oplanerat",
      "orsak": null
     },
@@ -2840,16 +2840,6 @@
      "slut": "2026-12-10T17:00Z",
      "typ": "oplanerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "HKW Altbach/Deizisau",
-     "kraftslag": "kol",
-     "mw": 595,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T17:00Z",
-     "typ": "planerat",
-     "orsak": null
     },
     {
      "namn": "HKW Reuter West",
@@ -2908,6 +2898,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-27T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3167,6 +3167,13 @@
      "kraftslag": "kol",
      "mw": 607,
      "tillganglig_mw": 607,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Altbach/Deizisau",
+     "kraftslag": "kol",
+     "mw": 595,
+     "tillganglig_mw": 595,
      "status": "drift"
     },
     {
@@ -3592,13 +3599,6 @@
     {
      "namn": "HKW Halle Dieselstraße",
      "kraftslag": "gas",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
      "mw": 162,
      "tillganglig_mw": 162,
      "status": "drift"
@@ -4465,6 +4465,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Sloe Centrale 10",
+     "kraftslag": "gas",
+     "mw": 435,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-20T15:27Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 360,
@@ -4648,13 +4658,6 @@
     },
     {
      "namn": "Sloe Centrale 20",
-     "kraftslag": "gas",
-     "mw": 435,
-     "tillganglig_mw": 435,
-     "status": "drift"
-    },
-    {
-     "namn": "Sloe Centrale 10",
      "kraftslag": "gas",
      "mw": 435,
      "tillganglig_mw": 435,
