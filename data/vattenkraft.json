@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T01:29Z",
+ "uppdaterad": "2026-11-20T01:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -117,7 +117,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-14T22:15Z",
+   "produktion_tid": "2026-11-15T01:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -140,13 +140,13 @@
        "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
       }
      ],
-     "produktion_mw": 243,
+     "produktion_mw": 256,
      "med_produktion": 3
     }
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-14T22:15Z",
+   "produktion_tid": "2026-11-15T01:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -197,7 +197,7 @@
        "orsak": "Runner stress measurement via turbine lab."
       }
      ],
-     "produktion_mw": 1645,
+     "produktion_mw": 639,
      "med_produktion": 15
     }
    ]
@@ -217,7 +217,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-14T22:15Z",
+   "produktion_tid": "2026-11-15T01:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -254,13 +254,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 359,
+     "produktion_mw": 346,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-14T22:15Z",
+   "produktion_tid": "2026-11-15T01:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -283,7 +283,7 @@
        "orsak": "Failed to enter start mode after stop."
       }
      ],
-     "produktion_mw": 1039,
+     "produktion_mw": 734,
      "med_produktion": 10
     }
    ]
