@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T04:59Z",
+ "uppdaterad": "2026-11-20T05:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2278,7 +2278,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-15T02:00Z",
+   "produktion_tid": "2026-11-15T05:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2321,7 +2321,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
@@ -2337,7 +2337,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2414,7 +2414,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 188
+     "produktion_mw": 190
     },
     {
      "namn": "Tahkoluoto",
@@ -2605,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 85
+     "produktion_mw": 76
     },
     {
      "namn": "Olkiluoto kt",
@@ -2620,7 +2620,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 23
     },
     {
      "namn": "Paskoonharju",
@@ -2683,7 +2683,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-20T01:45Z",
+   "produktion_tid": "2026-11-20T04:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2691,7 +2691,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 155
+     "produktion_mw": 151
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2699,7 +2699,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 120
+     "produktion_mw": 167
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2732,7 +2732,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T01:00Z",
+   "produktion_tid": "2026-11-20T04:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3874,16 +3874,6 @@
      "orsak": "Short-term planned outage"
     },
     {
-     "namn": "Rybnik",
-     "kraftslag": "kol",
-     "mw": 835,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-20T05:00Z",
-     "typ": "planerat",
-     "orsak": "Short-term planned outage"
-    },
-    {
      "namn": "Żarnowiec",
      "kraftslag": "pumpkraft",
      "mw": 714,
@@ -3965,6 +3955,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 835,
+     "tillganglig_mw": 835,
      "status": "drift"
     },
     {
