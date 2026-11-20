@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T20:58Z",
+ "uppdaterad": "2026-11-20T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2263,7 +2263,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-15T17:45Z",
+   "produktion_tid": "2026-11-15T21:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2322,7 +2322,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2399,7 +2399,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 195
+     "produktion_mw": 192
     },
     {
      "namn": "Tahkoluoto",
@@ -2590,7 +2590,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 81
+     "produktion_mw": 73
     },
     {
      "namn": "Olkiluoto kt",
@@ -2668,7 +2668,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-20T16:45Z",
+   "produktion_tid": "2026-11-20T20:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2676,7 +2676,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 151
+     "produktion_mw": 48
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2684,7 +2684,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 163
+     "produktion_mw": 108
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
