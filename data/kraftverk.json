@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T02:29Z",
+ "uppdaterad": "2026-11-21T02:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,7 +9,7 @@
      "namn": "Djupdal",
      "kraftslag": "vind_land",
      "mw": 380,
-     "tillganglig_mw": 289.0,
+     "tillganglig_mw": 282.0,
      "status": "begransad",
      "slut": "2026-11-21T15:00Z",
      "typ": "oplanerat",
@@ -3025,7 +3025,7 @@
      "mw": 396,
      "tillganglig_mw": 111.0,
      "status": "begransad",
-     "slut": "2026-11-21T03:00Z",
+     "slut": "2026-11-21T04:00Z",
      "typ": "planerat",
      "orsak": null
     },
