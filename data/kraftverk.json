@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T16:29Z",
+ "uppdaterad": "2026-11-21T16:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2815,9 +2815,19 @@
      "mw": 1753,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-12-31T23:00Z",
+     "slut": "2026-11-22T16:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T04:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "PSW Goldisthal",
@@ -2826,6 +2836,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-23T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2926,6 +2946,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-27T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3034,13 +3064,6 @@
      "status": "drift"
     },
     {
-     "namn": "KW Jänschwalde",
-     "kraftslag": "brunkol",
-     "mw": 1500,
-     "tillganglig_mw": 1500,
-     "status": "drift"
-    },
-    {
      "namn": "Irsching",
      "kraftslag": "gas",
      "mw": 1422,
@@ -3059,13 +3082,6 @@
      "kraftslag": "kol",
      "mw": 1052,
      "tillganglig_mw": 1052,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 960,
      "status": "drift"
     },
     {
@@ -3589,13 +3605,6 @@
     {
      "namn": "HKW Halle Dieselstraße",
      "kraftslag": "gas",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
      "mw": 162,
      "tillganglig_mw": 162,
      "status": "drift"

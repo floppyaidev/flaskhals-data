@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T16:29Z",
+ "uppdaterad": "2026-11-21T16:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -312,7 +312,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 6682.0,
+     "tillganglig_mw": 5560.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -326,6 +326,13 @@
        "tillganglig_mw": 0.0,
        "nominell_mw": 1060,
        "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Markersbach",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 960,
+       "slut": "2026-12-23T15:00Z",
        "orsak": null
       },
       {
@@ -354,6 +361,13 @@
        "tillganglig_mw": 0.0,
        "nominell_mw": 220,
        "slut": "2026-11-27T16:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Koepchenwerk",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 162,
+       "slut": "2026-11-28T15:00Z",
        "orsak": null
       }
      ],
