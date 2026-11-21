@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T08:58Z",
+ "uppdaterad": "2026-11-21T09:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2810,16 +2810,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-21T09:00Z",
-     "typ": "oplanerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -2970,6 +2960,26 @@
      "orsak": null
     },
     {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 240.0,
+     "status": "begransad",
+     "slut": "2026-11-21T10:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 280.0,
+     "status": "begransad",
+     "slut": "2026-11-21T14:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3048,13 +3058,6 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 1510,
-     "status": "drift"
     },
     {
      "namn": "KW Jänschwalde",
