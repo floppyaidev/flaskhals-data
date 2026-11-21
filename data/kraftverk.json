@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T15:29Z",
+ "uppdaterad": "2026-11-21T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -646,6 +646,18 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-21T17:00Z",
+     "typ": "oplanerat",
+     "orsak": "Failure",
+     "alv": "Dalälven",
+     "produktion_mw": 199
+    },
+    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -674,15 +686,6 @@
      "mw": 384,
      "tillganglig_mw": 384,
      "status": "drift"
-    },
-    {
-     "namn": "Trängslet",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 330,
-     "status": "drift",
-     "alv": "Dalälven",
-     "produktion_mw": 199
     },
     {
      "namn": "Stenungsund B3",
@@ -4441,16 +4444,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Rijnmond 1",
-     "kraftslag": "gas",
-     "mw": 750,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-21T16:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Amer",
      "kraftslag": "biobransle",
      "mw": 631,
@@ -4536,16 +4529,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1342.0,
-     "status": "begransad",
-     "slut": "2026-11-21T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4576,6 +4559,13 @@
      "orsak": null
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
+    },
+    {
      "namn": "Claus",
      "kraftslag": "gas",
      "mw": 1304,
@@ -4602,6 +4592,13 @@
      "kraftslag": "vind_hav",
      "mw": 760,
      "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
+     "namn": "Rijnmond 1",
+     "kraftslag": "gas",
+     "mw": 750,
+     "tillganglig_mw": 750,
      "status": "drift"
     },
     {
