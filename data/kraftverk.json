@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T02:58Z",
+ "uppdaterad": "2026-11-21T03:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2890,6 +2890,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "HERDECKE",
+     "kraftslag": "gas",
+     "mw": 424,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-21T15:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -3233,13 +3243,6 @@
      "kraftslag": "gas",
      "mw": 426,
      "tillganglig_mw": 426,
-     "status": "drift"
-    },
-    {
-     "namn": "HERDECKE",
-     "kraftslag": "gas",
-     "mw": 424,
-     "tillganglig_mw": 424,
      "status": "drift"
     },
     {
