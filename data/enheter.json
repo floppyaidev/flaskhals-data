@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T14:59Z",
+ "uppdaterad": "2026-11-21T15:14Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -14,7 +14,7 @@
  "land_tid": {
   "SE": "2026-11-21T14:59Z",
   "NO": "2026-11-21T14:59Z",
-  "DK": "2026-11-21T11:59Z",
+  "DK": "2026-11-21T15:14Z",
   "FI": "2026-11-21T12:59Z",
   "EE": "2026-11-21T12:59Z",
   "LV": "2026-11-21T12:59Z",
@@ -727,133 +727,133 @@
   },
   "DK2": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-20T11:30Z",
+   "data_tid": "2026-11-20T14:45Z",
    "enheter": [
     {
      "namn": "Avedoerevaerket 2",
      "kraftslag": "gas",
-     "mw": 226,
-     "t": "2026-11-20T11:30Z"
+     "mw": 337,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Avedoerevaerket 1",
      "kraftslag": "gas",
-     "mw": 211,
-     "t": "2026-11-20T11:30Z"
+     "mw": 205,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Roedsand 2",
      "kraftslag": "vind_hav",
-     "mw": 195,
-     "t": "2026-11-20T11:30Z"
+     "mw": 168,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Amagervaerket 4",
      "kraftslag": "biobransle",
-     "mw": 147,
-     "t": "2026-11-20T11:30Z"
+     "mw": 146,
+     "t": "2026-11-20T14:30Z"
     },
     {
      "namn": "Roedsand 1",
      "kraftslag": "vind_hav",
-     "mw": 135,
-     "t": "2026-11-20T11:30Z"
+     "mw": 101,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Solar Park Lidsø",
      "kraftslag": "sol",
-     "mw": 52,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Solar Park Vedde",
-     "kraftslag": "sol",
-     "mw": 24,
-     "t": "2026-11-20T11:30Z"
+     "mw": 2,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Kyndbyvaerket 21",
      "kraftslag": "olja",
      "mw": 1,
-     "t": "2026-11-20T11:15Z"
+     "t": "2026-11-20T13:45Z"
     },
     {
      "namn": "Kyndbyvaerket 22",
      "kraftslag": "olja",
      "mw": 0,
      "t": "2026-11-20T00:00Z"
+    },
+    {
+     "namn": "Solar Park Vedde",
+     "kraftslag": "sol",
+     "mw": 0,
+     "t": "2026-11-20T14:45Z"
     }
    ]
   },
   "DK1": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-20T11:30Z",
+   "data_tid": "2026-11-20T14:45Z",
    "enheter": [
-    {
-     "namn": "Nordjyllandsvaerket 3",
-     "kraftslag": "kol",
-     "mw": 178,
-     "t": "2026-11-20T11:30Z"
-    },
     {
      "namn": "Horns Rev B",
      "kraftslag": "vind_hav",
-     "mw": 153,
-     "t": "2026-11-20T11:30Z"
+     "mw": 190,
+     "t": "2026-11-20T14:45Z"
     },
     {
-     "namn": "Horns Rev A",
-     "kraftslag": "vind_hav",
-     "mw": 71,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Solar Park Viuf and Håstrup",
-     "kraftslag": "sol",
-     "mw": 63,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Solar Park Gedmosen",
-     "kraftslag": "sol",
-     "mw": 57,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Solar Park Kassoe",
-     "kraftslag": "sol",
-     "mw": 49,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Skaerbaekvaerket 3",
-     "kraftslag": "gas",
-     "mw": 47,
-     "t": "2026-11-20T11:30Z"
-    },
-    {
-     "namn": "Solar Park Holsted",
-     "kraftslag": "sol",
-     "mw": 42,
-     "t": "2026-11-20T11:30Z"
+     "namn": "Nordjyllandsvaerket 3",
+     "kraftslag": "kol",
+     "mw": 183,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Vesterhav Syd",
      "kraftslag": "vind_hav",
-     "mw": 30,
-     "t": "2026-11-20T11:30Z"
+     "mw": 119,
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Horns Rev A",
+     "kraftslag": "vind_hav",
+     "mw": 111,
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Skaerbaekvaerket 3",
+     "kraftslag": "gas",
+     "mw": 58,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Vesterhav Nord",
      "kraftslag": "vind_hav",
+     "mw": 7,
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Solar Park Kassoe",
+     "kraftslag": "sol",
      "mw": 3,
-     "t": "2026-11-20T11:30Z"
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Solar Park Gedmosen",
+     "kraftslag": "sol",
+     "mw": 3,
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Solar Park Viuf and Håstrup",
+     "kraftslag": "sol",
+     "mw": 3,
+     "t": "2026-11-20T14:45Z"
+    },
+    {
+     "namn": "Solar Park Holsted",
+     "kraftslag": "sol",
+     "mw": 2,
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Fynsvaerket 7",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-20T11:30Z"
+     "t": "2026-11-20T14:45Z"
     },
     {
      "namn": "Studstrupvaerket 3",
