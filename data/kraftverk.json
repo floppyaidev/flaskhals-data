@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-20T23:58Z",
+ "uppdaterad": "2026-11-21T00:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2827,6 +2827,16 @@
      "orsak": null
     },
     {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T13:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Franken I",
      "kraftslag": "gas",
      "mw": 823,
@@ -2913,6 +2923,16 @@
      "tillganglig_mw": 1846.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "KMW_GENERATION",
+     "kraftslag": "gas",
+     "mw": 870,
+     "tillganglig_mw": 11.0,
+     "status": "begransad",
+     "slut": "2026-11-23T02:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3050,20 +3070,6 @@
      "kraftslag": "vind_hav",
      "mw": 900,
      "tillganglig_mw": 900,
-     "status": "drift"
-    },
-    {
-     "namn": "Schkopau",
-     "kraftslag": "brunkol",
-     "mw": 900,
-     "tillganglig_mw": 900,
-     "status": "drift"
-    },
-    {
-     "namn": "KMW_GENERATION",
-     "kraftslag": "gas",
-     "mw": 870,
-     "tillganglig_mw": 870,
      "status": "drift"
     },
     {
@@ -4445,6 +4451,17 @@
      "orsak": null
     },
     {
+     "namn": "FLEVO 4",
+     "kraftslag": "gas",
+     "mw": 443,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null,
+     "produktion_mw": 60
+    },
+    {
      "namn": "Hemweg",
      "kraftslag": "gas",
      "mw": 440,
@@ -4601,14 +4618,6 @@
      "mw": 455,
      "tillganglig_mw": 455,
      "status": "drift"
-    },
-    {
-     "namn": "FLEVO 4",
-     "kraftslag": "gas",
-     "mw": 443,
-     "tillganglig_mw": 443,
-     "status": "drift",
-     "produktion_mw": 60
     },
     {
      "namn": "Sloe Centrale 20",
