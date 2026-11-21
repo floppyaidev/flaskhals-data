@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T00:58Z",
+ "uppdaterad": "2026-11-21T01:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2910,6 +2910,16 @@
      "orsak": null
     },
     {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-21T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2928,6 +2938,16 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 288.0,
+     "status": "begransad",
+     "slut": "2026-11-21T06:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "KMW_GENERATION",
@@ -3024,13 +3044,6 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 1510,
      "status": "drift"
     },
     {
@@ -3262,13 +3275,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -4508,16 +4514,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Eemshaven",
-     "kraftslag": "kol",
-     "mw": 1580,
-     "tillganglig_mw": 680.0,
-     "status": "begransad",
-     "slut": "2026-11-21T01:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4526,6 +4522,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
     },
     {
      "namn": "Hollandse Kust Zuid",
