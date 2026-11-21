@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T20:28Z",
+ "uppdaterad": "2026-11-21T20:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2834,16 +2834,6 @@
      "orsak": null
     },
     {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-23T15:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Schkopau",
      "kraftslag": "brunkol",
      "mw": 900,
@@ -2964,6 +2954,16 @@
      "orsak": null
     },
     {
+     "namn": "Irsching",
+     "kraftslag": "gas",
+     "mw": 1422,
+     "tillganglig_mw": 390.0,
+     "status": "begransad",
+     "slut": "2026-11-23T17:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3058,13 +3058,6 @@
      "status": "drift"
     },
     {
-     "namn": "Irsching",
-     "kraftslag": "gas",
-     "mw": 1422,
-     "tillganglig_mw": 1422,
-     "status": "drift"
-    },
-    {
      "namn": "Vianden",
      "kraftslag": "pumpkraft",
      "mw": 1294,
@@ -3076,6 +3069,13 @@
      "kraftslag": "kol",
      "mw": 1052,
      "tillganglig_mw": 1052,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 960,
      "status": "drift"
     },
     {
@@ -3847,7 +3847,7 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-24T23:00Z",
-     "typ": "planerat",
+     "typ": "oplanerat",
      "orsak": "Unplanned outage"
     },
     {
@@ -4447,6 +4447,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Rijnmond 1",
+     "kraftslag": "gas",
+     "mw": 750,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T22:59Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "Amer",
      "kraftslag": "biobransle",
      "mw": 631,
@@ -4532,16 +4542,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 825.0,
-     "status": "begransad",
-     "slut": "2026-11-21T21:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4566,6 +4566,13 @@
      "status": "drift"
     },
     {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
+     "status": "drift"
+    },
+    {
      "namn": "Enecogen",
      "kraftslag": "gas",
      "mw": 928,
@@ -4578,13 +4585,6 @@
      "kraftslag": "vind_hav",
      "mw": 760,
      "tillganglig_mw": 760,
-     "status": "drift"
-    },
-    {
-     "namn": "Rijnmond 1",
-     "kraftslag": "gas",
-     "mw": 750,
-     "tillganglig_mw": 750,
      "status": "drift"
     },
     {
