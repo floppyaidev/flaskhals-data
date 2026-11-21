@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T13:58Z",
+ "uppdaterad": "2026-11-21T14:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2957,26 +2957,6 @@
      "orsak": null
     },
     {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 599.0,
-     "status": "begransad",
-     "slut": "2026-11-21T14:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 280.0,
-     "status": "begransad",
-     "slut": "2026-11-21T14:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3055,6 +3035,20 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
+     "status": "drift"
     },
     {
      "namn": "KW Jänschwalde",
