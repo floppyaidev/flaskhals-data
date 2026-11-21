@@ -1,20 +1,10 @@
 {
- "uppdaterad": "2026-11-21T17:29Z",
+ "uppdaterad": "2026-11-21T17:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-16T14:00Z",
    "verk": [
-    {
-     "namn": "Djupdal",
-     "kraftslag": "vind_land",
-     "mw": 380,
-     "tillganglig_mw": 262.0,
-     "status": "begransad",
-     "slut": "2026-11-21T21:00Z",
-     "typ": "oplanerat",
-     "orsak": "Weather conditions are causing icing on the windfarm, leading to reduced availability. The duration of the event remains highly uncertain, and both available ca"
-    },
     {
      "namn": "Harsprånget",
      "kraftslag": "vattenkraft",
@@ -57,6 +47,13 @@
      "status": "drift",
      "alv": "Luleälven",
      "produktion_mw": 363
+    },
+    {
+     "namn": "Djupdal",
+     "kraftslag": "vind_land",
+     "mw": 380,
+     "tillganglig_mw": 380,
+     "status": "drift"
     },
     {
      "namn": "Kallamossen",
