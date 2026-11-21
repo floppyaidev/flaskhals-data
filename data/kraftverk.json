@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T18:58Z",
+ "uppdaterad": "2026-11-21T19:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-16T15:45Z",
+   "produktion_tid": "2026-11-16T19:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2303,7 +2303,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
@@ -2396,7 +2396,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 172
+     "produktion_mw": 169
     },
     {
      "namn": "Tahkoluoto",
@@ -2498,7 +2498,7 @@
      "mw": 170,
      "tillganglig_mw": 170,
      "status": "drift",
-     "produktion_mw": 7
+     "produktion_mw": 6
     },
     {
      "namn": "Martinlaakso",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 98
+     "produktion_mw": 104
     },
     {
      "namn": "Olkiluoto kt",
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-21T14:45Z",
+   "produktion_tid": "2026-11-21T18:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2673,7 +2673,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 23
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 122
+     "produktion_mw": 127
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-21T14:00Z",
+   "produktion_tid": "2026-11-21T18:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
