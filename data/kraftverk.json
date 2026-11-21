@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T03:28Z",
+ "uppdaterad": "2026-11-21T03:51Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,7 +9,7 @@
      "namn": "Djupdal",
      "kraftslag": "vind_land",
      "mw": 380,
-     "tillganglig_mw": 282.0,
+     "tillganglig_mw": 273.0,
      "status": "begransad",
      "slut": "2026-11-21T15:00Z",
      "typ": "oplanerat",
@@ -2266,7 +2266,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-16T00:15Z",
+   "produktion_tid": "2026-11-16T03:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2309,7 +2309,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 742
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 3",
@@ -2402,7 +2402,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 190
+     "produktion_mw": 186
     },
     {
      "namn": "Tahkoluoto",
@@ -2608,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 21
     },
     {
      "namn": "Paskoonharju",
@@ -2671,7 +2671,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-20T23:45Z",
+   "produktion_tid": "2026-11-21T02:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2679,7 +2679,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 24
+     "produktion_mw": 23
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2720,7 +2720,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-20T23:00Z",
+   "produktion_tid": "2026-11-21T02:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
