@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T21:59Z",
+ "uppdaterad": "2026-11-21T22:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2964,6 +2964,16 @@
      "orsak": null
     },
     {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 292.0,
+     "status": "begransad",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Irsching",
      "kraftslag": "gas",
      "mw": 1422,
@@ -3058,13 +3068,6 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 1510,
      "status": "drift"
     },
     {
