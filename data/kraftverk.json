@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T16:13Z",
+ "uppdaterad": "2026-11-21T16:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4421,7 +4421,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-19T22:15Z",
+   "produktion_tid": "2026-11-20T22:30Z",
    "verk": [
     {
      "namn": "Velsen",
@@ -4452,7 +4452,7 @@
      "slut": "2026-11-22T23:00Z",
      "typ": "planerat",
      "orsak": null,
-     "produktion_mw": 60
+     "produktion_mw": 112
     },
     {
      "namn": "Hemweg",
@@ -4495,7 +4495,7 @@
      "slut": "2026-11-23T17:00Z",
      "typ": "oplanerat",
      "orsak": null,
-     "produktion_mw": 219
+     "produktion_mw": 217
     },
     {
      "namn": "NAM Schoonebeek",
@@ -4562,7 +4562,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 876
+     "produktion_mw": 893
     },
     {
      "namn": "OWF Hollandse Kust Noord",
@@ -4591,7 +4591,7 @@
      "mw": 731,
      "tillganglig_mw": 731,
      "status": "drift",
-     "produktion_mw": 719
+     "produktion_mw": 715
     },
     {
      "namn": "Diemen",
@@ -4613,7 +4613,7 @@
      "mw": 485,
      "tillganglig_mw": 485,
      "status": "drift",
-     "produktion_mw": 483
+     "produktion_mw": 482
     },
     {
      "namn": "FLEVO 5",
@@ -4621,7 +4621,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 424
+     "produktion_mw": 459
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4761,7 +4761,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 108
+     "produktion_mw": 110
     },
     {
      "namn": "PERGEN 2",
@@ -4769,7 +4769,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 108
+     "produktion_mw": 110
     },
     {
      "namn": "Prinses Alexia Windpark",
