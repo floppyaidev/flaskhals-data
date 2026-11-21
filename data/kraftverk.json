@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T04:28Z",
+ "uppdaterad": "2026-11-21T04:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2960,6 +2960,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 303.0,
+     "status": "begransad",
+     "slut": "2026-11-21T14:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3044,13 +3054,6 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Jänschwalde",
-     "kraftslag": "brunkol",
-     "mw": 1500,
-     "tillganglig_mw": 1500,
      "status": "drift"
     },
     {
@@ -4514,6 +4517,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 750.0,
+     "status": "begransad",
+     "slut": "2026-11-21T06:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4542,13 +4555,6 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
