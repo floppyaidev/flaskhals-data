@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T16:58Z",
+ "uppdaterad": "2026-11-21T17:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -91,16 +91,8 @@
      "alv": "Dalälven",
      "verk": 2,
      "nominell_mw": 450,
-     "tillganglig_mw": 120,
-     "avbrott": [
-      {
-       "namn": "Trängslet",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 330,
-       "slut": "2026-11-21T17:00Z",
-       "orsak": "Failure"
-      }
-     ],
+     "tillganglig_mw": 450,
+     "avbrott": [],
      "produktion_mw": 199,
      "med_produktion": 1
     },
