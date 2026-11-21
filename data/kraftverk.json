@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T07:28Z",
+ "uppdaterad": "2026-11-21T07:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2810,16 +2810,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -2957,6 +2947,16 @@
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 240.0,
+     "status": "begransad",
+     "slut": "2026-11-21T09:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -4455,7 +4455,7 @@
      "mw": 631,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-21T13:00Z",
+     "slut": "2026-11-21T20:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -4524,6 +4524,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1342.0,
+     "status": "begransad",
+     "slut": "2026-11-21T15:30Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4552,13 +4562,6 @@
      "slut": "2026-11-21T18:00Z",
      "typ": "planerat",
      "orsak": null
-    },
-    {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1420,
-     "status": "drift"
     },
     {
      "namn": "Claus",
