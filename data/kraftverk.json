@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T05:58Z",
+ "uppdaterad": "2026-11-21T06:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2960,16 +2960,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 288.0,
-     "status": "begransad",
-     "slut": "2026-11-21T06:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3054,6 +3044,13 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
      "status": "drift"
     },
     {
@@ -4527,6 +4524,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Windpark Gemini",
+     "kraftslag": "vind_hav",
+     "mw": 600,
+     "tillganglig_mw": 490.0,
+     "status": "begransad",
+     "slut": "2026-11-21T18:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Eemshaven",
      "kraftslag": "kol",
      "mw": 1580,
@@ -4596,13 +4603,6 @@
      "kraftslag": "gas",
      "mw": 684,
      "tillganglig_mw": 684,
-     "status": "drift"
-    },
-    {
-     "namn": "Windpark Gemini",
-     "kraftslag": "vind_hav",
-     "mw": 600,
-     "tillganglig_mw": 600,
      "status": "drift"
     },
     {
