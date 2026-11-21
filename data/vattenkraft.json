@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T09:47Z",
+ "uppdaterad": "2026-11-21T10:02Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -261,7 +261,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-16T06:45Z",
+   "produktion_tid": "2026-11-16T09:45Z",
    "alvar": [
     {
      "alv": "Kemijoki",
@@ -284,7 +284,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-21T05:00Z",
+   "produktion_tid": "2026-11-21T08:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",

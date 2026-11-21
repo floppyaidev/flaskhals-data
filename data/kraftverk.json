@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T09:47Z",
+ "uppdaterad": "2026-11-21T10:02Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2266,7 +2266,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-16T06:45Z",
+   "produktion_tid": "2026-11-16T09:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2309,7 +2309,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 742
     },
     {
      "namn": "Olkiluoto 3",
@@ -2325,7 +2325,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2341,7 +2341,7 @@
      "mw": 496,
      "tillganglig_mw": 496,
      "status": "drift",
-     "produktion_mw": 499
+     "produktion_mw": 501
     },
     {
      "namn": "Loviisa 2",
@@ -2402,7 +2402,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 181
+     "produktion_mw": 161
     },
     {
      "namn": "Tahkoluoto",
@@ -2475,7 +2475,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 51
+     "produktion_mw": 66
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2534,7 +2534,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 42
+     "produktion_mw": 66
     },
     {
      "namn": "Haapaniemi",
@@ -2593,7 +2593,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 98
+     "produktion_mw": 100
     },
     {
      "namn": "Olkiluoto kt",
@@ -2608,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 23
+     "produktion_mw": 21
     },
     {
      "namn": "Paskoonharju",
@@ -2631,7 +2631,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 33
+     "produktion_mw": 48
     },
     {
      "namn": "Metsälä",
@@ -2671,7 +2671,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-21T05:45Z",
+   "produktion_tid": "2026-11-21T08:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2679,7 +2679,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 23
+     "produktion_mw": 22
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2687,7 +2687,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 113
+     "produktion_mw": 126
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2720,7 +2720,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-21T05:00Z",
+   "produktion_tid": "2026-11-21T08:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2960,16 +2960,6 @@
      "orsak": null
     },
     {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 240.0,
-     "status": "begransad",
-     "slut": "2026-11-21T10:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Schwarze Pumpe",
      "kraftslag": "brunkol",
      "mw": 1510,
@@ -3058,6 +3048,13 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 1753,
+     "status": "drift"
     },
     {
      "namn": "KW Jänschwalde",
@@ -3990,6 +3987,26 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 377.0,
+     "status": "begransad",
+     "slut": "2026-11-21T11:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-21T11:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4001,13 +4018,6 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4194,13 +4204,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
