@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T07:58Z",
+ "uppdaterad": "2026-11-21T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2950,6 +2950,16 @@
      "orsak": null
     },
     {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 475.0,
+     "status": "begransad",
+     "slut": "2026-11-21T14:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Weisweiler",
      "kraftslag": "brunkol",
      "mw": 1753,
@@ -3038,13 +3048,6 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
-    },
-    {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 2011,
-     "status": "drift"
     },
     {
      "namn": "KW Schwarze Pumpe",
