@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T06:28Z",
+ "uppdaterad": "2026-11-21T06:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,7 +9,7 @@
      "namn": "Djupdal",
      "kraftslag": "vind_land",
      "mw": 380,
-     "tillganglig_mw": 273.0,
+     "tillganglig_mw": 262.0,
      "status": "begransad",
      "slut": "2026-11-21T15:00Z",
      "typ": "oplanerat",
@@ -2266,7 +2266,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-16T03:45Z",
+   "produktion_tid": "2026-11-16T06:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2325,7 +2325,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 892
+     "produktion_mw": 893
     },
     {
      "namn": "Meri-Pori",
@@ -2341,7 +2341,7 @@
      "mw": 496,
      "tillganglig_mw": 496,
      "status": "drift",
-     "produktion_mw": 497
+     "produktion_mw": 499
     },
     {
      "namn": "Loviisa 2",
@@ -2402,7 +2402,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 186
+     "produktion_mw": 181
     },
     {
      "namn": "Tahkoluoto",
@@ -2475,7 +2475,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 51
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2534,7 +2534,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 42
     },
     {
      "namn": "Haapaniemi",
@@ -2593,7 +2593,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 96
+     "produktion_mw": 98
     },
     {
      "namn": "Olkiluoto kt",
@@ -2608,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 23
     },
     {
      "namn": "Paskoonharju",
@@ -2671,7 +2671,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-21T02:45Z",
+   "produktion_tid": "2026-11-21T05:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2687,7 +2687,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 108
+     "produktion_mw": 113
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -4514,6 +4514,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 350.0,
+     "status": "begransad",
+     "slut": "2026-11-21T16:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4532,13 +4542,6 @@
      "slut": "2026-11-21T18:00Z",
      "typ": "planerat",
      "orsak": null
-    },
-    {
-     "namn": "Eemshaven",
-     "kraftslag": "kol",
-     "mw": 1580,
-     "tillganglig_mw": 1580,
-     "status": "drift"
     },
     {
      "namn": "Hollandse Kust Zuid",
