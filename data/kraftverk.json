@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T04:58Z",
+ "uppdaterad": "2026-11-21T05:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2890,6 +2890,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "Knapsack 2",
+     "kraftslag": "gas",
+     "mw": 426,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-21T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "HERDECKE",
      "kraftslag": "gas",
      "mw": 424,
@@ -3229,13 +3239,6 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Knapsack 2",
-     "kraftslag": "gas",
-     "mw": 426,
-     "tillganglig_mw": 426,
      "status": "drift"
     },
     {
