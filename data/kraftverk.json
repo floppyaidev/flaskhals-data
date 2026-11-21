@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T10:29Z",
+ "uppdaterad": "2026-11-21T10:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -620,7 +620,7 @@
      "mw": 1134,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T07:00Z",
+     "slut": "2026-11-22T22:00Z",
      "typ": "planerat",
      "orsak": "Delayed startup after yearly maintenance."
     },
@@ -2785,7 +2785,7 @@
      "mw": 2197,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-21T23:00Z",
+     "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2808,6 +2808,16 @@
      "slut": "2026-11-23T09:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Weisweiler",
+     "kraftslag": "brunkol",
+     "mw": 1753,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "PSW Goldisthal",
@@ -2953,7 +2963,7 @@
      "namn": "Neurath",
      "kraftslag": "brunkol",
      "mw": 2011,
-     "tillganglig_mw": 475.0,
+     "tillganglig_mw": 599.0,
      "status": "begransad",
      "slut": "2026-11-21T14:00Z",
      "typ": "planerat",
@@ -3048,13 +3058,6 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
-    },
-    {
-     "namn": "Weisweiler",
-     "kraftslag": "brunkol",
-     "mw": 1753,
-     "tillganglig_mw": 1753,
-     "status": "drift"
     },
     {
      "namn": "KW Jänschwalde",
