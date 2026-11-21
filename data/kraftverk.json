@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T06:59Z",
+ "uppdaterad": "2026-11-21T07:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4534,6 +4534,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Borssele Windfarm III and IV",
+     "kraftslag": "vind_hav",
+     "mw": 732,
+     "tillganglig_mw": 627.0,
+     "status": "begransad",
+     "slut": "2026-11-21T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Windpark Gemini",
      "kraftslag": "vind_hav",
      "mw": 600,
@@ -4584,13 +4594,6 @@
      "kraftslag": "gas",
      "mw": 750,
      "tillganglig_mw": 750,
-     "status": "drift"
-    },
-    {
-     "namn": "Borssele Windfarm III and IV",
-     "kraftslag": "vind_hav",
-     "mw": 732,
-     "tillganglig_mw": 732,
      "status": "drift"
     },
     {
