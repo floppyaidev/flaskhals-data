@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T22:29Z",
+ "uppdaterad": "2026-11-21T22:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2944,16 +2944,6 @@
      "orsak": null
     },
     {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
-     "mw": 162,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-28T15:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
@@ -3605,6 +3595,13 @@
     {
      "namn": "HKW Halle Dieselstraße",
      "kraftslag": "gas",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
      "mw": 162,
      "tillganglig_mw": 162,
      "status": "drift"
