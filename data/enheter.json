@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-21T00:29Z",
+ "uppdaterad": "2026-11-21T00:49Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -7,9 +7,9 @@
   "DK": 1,
   "FI": 5,
   "EE": 1,
-  "LV": 0,
+  "LV": 1,
   "LT": 1,
-  "NL": 1
+  "NL": 2
  },
  "land_tid": {
   "SE": "2026-11-20T23:14Z",
@@ -17,10 +17,10 @@
   "DK": "2026-11-20T23:29Z",
   "FI": "2026-11-21T00:29Z",
   "EE": "2026-11-21T00:29Z",
-  "LV": "2026-11-20T21:29Z",
-  "LT": "2026-11-20T21:29Z",
-  "PL": "2026-11-20T21:31Z",
-  "NL": "2026-11-20T21:32Z"
+  "LV": "2026-11-21T00:47Z",
+  "LT": "2026-11-21T00:47Z",
+  "PL": "2026-11-21T00:48Z",
+  "NL": "2026-11-21T00:49Z"
  },
  "zoner": {
   "SE3": {
@@ -1098,32 +1098,32 @@
    ]
   },
   "LV": {
-   "lag_dagar": 0,
-   "data_tid": "2026-11-20T20:00Z",
+   "lag_dagar": 1,
+   "data_tid": "2026-11-20T23:00Z",
    "enheter": [
-    {
-     "namn": "Block-2, Gas Turbine, RTEC2",
-     "kraftslag": "gas",
-     "mw": 140,
-     "t": "2026-11-20T20:00Z"
-    },
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 96,
-     "t": "2026-11-20T20:00Z"
+     "mw": 102,
+     "t": "2026-11-20T23:00Z"
     },
     {
-     "namn": "Block-2, Steam Turbine, RTEC2",
+     "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 69,
-     "t": "2026-11-20T20:00Z"
+     "mw": 98,
+     "t": "2026-11-20T23:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 63,
-     "t": "2026-11-20T19:00Z"
+     "mw": 66,
+     "t": "2026-11-20T23:00Z"
+    },
+    {
+     "namn": "Block-2, Steam Turbine, RTEC2",
+     "kraftslag": "gas",
+     "mw": 64,
+     "t": "2026-11-20T23:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
@@ -1135,60 +1135,60 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-19T18:45Z",
+   "data_tid": "2026-11-20T00:00Z",
    "enheter": [
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-19T18:45Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "KHAE HA3",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-19T10:45Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "KHAE HA4",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-19T00:00Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "KTE",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-19T00:00Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "LE TG-7",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-19T00:00Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "LE TG-8",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-19T00:00Z"
+     "t": "2026-11-20T00:00Z"
     },
     {
      "namn": "LE TG-9",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-19T00:00Z"
+     "t": "2026-11-20T00:00Z"
     }
    ]
   },
   "NL": {
-   "lag_dagar": 1,
+   "lag_dagar": 2,
    "data_tid": "2026-11-19T22:15Z",
    "enheter": [
     {
