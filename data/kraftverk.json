@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T05:28Z",
+ "uppdaterad": "2026-11-22T05:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -643,6 +643,18 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T07:00Z",
+     "typ": "oplanerat",
+     "orsak": "Failure",
+     "alv": "Dalälven",
+     "produktion_mw": 150
+    },
+    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -671,15 +683,6 @@
      "mw": 384,
      "tillganglig_mw": 384,
      "status": "drift"
-    },
-    {
-     "namn": "Trängslet",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 330,
-     "status": "drift",
-     "alv": "Dalälven",
-     "produktion_mw": 150
     },
     {
      "namn": "Stenungsund B3",
