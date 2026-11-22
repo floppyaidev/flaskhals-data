@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T23:28Z",
+ "uppdaterad": "2026-11-22T23:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-17T20:15Z",
+   "produktion_tid": "2026-11-17T23:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2311,7 +2311,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 310
+     "produktion_mw": 313
     },
     {
      "namn": "Olkiluoto 1",
@@ -2319,7 +2319,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 892
+     "produktion_mw": 893
     },
     {
      "namn": "Meri-Pori",
@@ -2365,7 +2365,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 39
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2396,7 +2396,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 182
+     "produktion_mw": 176
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 65
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2528,7 +2528,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 33
     },
     {
      "namn": "Haapaniemi",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 74
+     "produktion_mw": 76
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 30
+     "produktion_mw": 36
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 77
+     "produktion_mw": 35
     },
     {
      "namn": "Metsälä",
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-22T19:45Z",
+   "produktion_tid": "2026-11-22T22:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 166
+     "produktion_mw": 168
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-22T19:00Z",
+   "produktion_tid": "2026-11-22T22:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2894,6 +2894,16 @@
      "orsak": null
     },
     {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -3000,6 +3010,16 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 98.0,
+     "status": "begransad",
+     "slut": "2026-11-23T07:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3259,13 +3279,6 @@
      "status": "drift"
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
      "namn": "HAMBORN-KW",
      "kraftslag": "kolgas",
      "mw": 385,
@@ -3340,13 +3353,6 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 316,
      "status": "drift"
     },
     {
