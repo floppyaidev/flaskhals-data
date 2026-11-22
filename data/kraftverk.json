@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T15:29Z",
+ "uppdaterad": "2026-11-22T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4539,16 +4539,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1320.0,
-     "status": "begransad",
-     "slut": "2026-11-22T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4557,6 +4547,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
     },
     {
      "namn": "Claus",
