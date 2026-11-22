@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T00:14Z",
+ "uppdaterad": "2026-11-22T00:28Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2854,16 +2854,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "Kraftwerk Wilhelmshaven",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T00:15Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Herne",
      "kraftslag": "gas",
      "mw": 608,
@@ -2990,6 +2980,16 @@
      "tillganglig_mw": 227.5,
      "status": "begransad",
      "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Kraftwerk Wilhelmshaven",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 150.0,
+     "status": "begransad",
+     "slut": "2026-11-22T00:45Z",
      "typ": "planerat",
      "orsak": null
     },
