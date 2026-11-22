@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T00:58Z",
+ "uppdaterad": "2026-11-22T01:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2934,6 +2934,16 @@
      "orsak": null
     },
     {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -3268,13 +3278,6 @@
      "kraftslag": "vind_hav",
      "mw": 396,
      "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
