@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T17:58Z",
+ "uppdaterad": "2026-11-22T18:16Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2764,16 +2764,6 @@
    "produktion_tid": null,
    "verk": [
     {
-     "namn": "KW Boxberg",
-     "kraftslag": "brunkol",
-     "mw": 2470,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T18:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Emsland",
      "kraftslag": "gas",
      "mw": 1820,
@@ -2799,8 +2789,8 @@
      "mw": 1753,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T18:00Z",
-     "typ": "planerat",
+     "slut": "2026-11-22T20:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3042,6 +3032,13 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
+    },
+    {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 2470,
+     "status": "drift"
     },
     {
      "namn": "Niederaußem",
@@ -4421,7 +4418,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-20T22:30Z",
+   "produktion_tid": "2026-11-21T22:30Z",
    "verk": [
     {
      "namn": "Velsen",
@@ -4494,7 +4491,7 @@
      "slut": "2026-11-23T15:00Z",
      "typ": "oplanerat",
      "orsak": "Other",
-     "produktion_mw": 0
+     "produktion_mw": 187
     },
     {
      "namn": "NAM Schoonebeek",
@@ -4551,7 +4548,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 579
     },
     {
      "namn": "OWF Hollandse Kust Noord",
@@ -4573,7 +4570,7 @@
      "mw": 731,
      "tillganglig_mw": 731,
      "status": "drift",
-     "produktion_mw": 715
+     "produktion_mw": 719
     },
     {
      "namn": "Diemen",
@@ -4602,7 +4599,7 @@
      "mw": 485,
      "tillganglig_mw": 485,
      "status": "drift",
-     "produktion_mw": 482
+     "produktion_mw": 483
     },
     {
      "namn": "FLEVO 5",
@@ -4610,7 +4607,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 459
+     "produktion_mw": 451
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4625,7 +4622,7 @@
      "mw": 443,
      "tillganglig_mw": 443,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 0
     },
     {
      "namn": "Sloe Centrale 20",
@@ -4707,7 +4704,7 @@
      "mw": 248,
      "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 217
+     "produktion_mw": 0
     },
     {
      "namn": "RoCa",
@@ -4758,7 +4755,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 110
+     "produktion_mw": 105
     },
     {
      "namn": "PERGEN 2",
@@ -4766,7 +4763,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 110
+     "produktion_mw": 109
     },
     {
      "namn": "Prinses Alexia Windpark",
