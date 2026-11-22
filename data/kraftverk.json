@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T19:29Z",
+ "uppdaterad": "2026-11-22T19:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4483,17 +4483,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Merwedekanaal 12",
-     "kraftslag": "gas",
-     "mw": 225,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T15:00Z",
-     "typ": "oplanerat",
-     "orsak": "Other",
-     "produktion_mw": 187
-    },
-    {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 128,
@@ -4705,6 +4694,14 @@
      "tillganglig_mw": 248,
      "status": "drift",
      "produktion_mw": 0
+    },
+    {
+     "namn": "Merwedekanaal 12",
+     "kraftslag": "gas",
+     "mw": 225,
+     "tillganglig_mw": 225,
+     "status": "drift",
+     "produktion_mw": 187
     },
     {
      "namn": "RoCa",
