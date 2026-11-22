@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T12:28Z",
+ "uppdaterad": "2026-11-22T12:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2774,16 +2774,6 @@
      "orsak": null
     },
     {
-     "namn": "Niederaußem",
-     "kraftslag": "brunkol",
-     "mw": 2197,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-01T19:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Emsland",
      "kraftslag": "gas",
      "mw": 1820,
@@ -2854,6 +2844,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other; External Factors"
+    },
+    {
      "namn": "Herne",
      "kraftslag": "gas",
      "mw": 608,
@@ -2899,7 +2899,7 @@
      "mw": 450,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T22:30Z",
+     "slut": "2026-11-22T13:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
     },
@@ -2994,16 +2994,6 @@
      "orsak": null
     },
     {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 35.0,
-     "status": "begransad",
-     "slut": "2026-11-23T01:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Weiher",
      "kraftslag": "kol",
      "mw": 656,
@@ -3034,6 +3024,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 129.0,
+     "status": "begransad",
+     "slut": "2026-11-22T21:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Nord 2",
      "kraftslag": "kol",
      "mw": 373,
@@ -3042,6 +3042,13 @@
      "slut": "2026-11-24T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
+    },
+    {
+     "namn": "Niederaußem",
+     "kraftslag": "brunkol",
+     "mw": 2197,
+     "tillganglig_mw": 2197,
+     "status": "drift"
     },
     {
      "namn": "Neurath",
@@ -3265,13 +3272,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3901,6 +3901,16 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2030-02-10T22:45Z",
+     "typ": "planerat",
+     "orsak": "Long-term planned overhaul"
+    },
+    {
      "namn": "EC Żerań 2",
      "kraftslag": "gas",
      "mw": 484,
@@ -3996,13 +4006,6 @@
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 620,
-     "status": "drift"
-    },
-    {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 582,
      "status": "drift"
     },
     {
@@ -4497,15 +4500,15 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Lage Weide 6",
+     "namn": "Merwedekanaal 12",
      "kraftslag": "gas",
-     "mw": 248,
+     "mw": 225,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T23:00Z",
+     "slut": "2026-11-23T15:00Z",
      "typ": "oplanerat",
-     "orsak": null,
-     "produktion_mw": 217
+     "orsak": "Other",
+     "produktion_mw": 0
     },
     {
      "namn": "NAM Schoonebeek",
@@ -4714,12 +4717,12 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Merwedekanaal 12",
+     "namn": "Lage Weide 6",
      "kraftslag": "gas",
-     "mw": 225,
-     "tillganglig_mw": 225,
+     "mw": 248,
+     "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 217
     },
     {
      "namn": "RoCa",
