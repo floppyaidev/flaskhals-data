@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T01:59Z",
+ "uppdaterad": "2026-11-22T02:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4538,16 +4538,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Eemshaven",
-     "kraftslag": "kol",
-     "mw": 1580,
-     "tillganglig_mw": 660.0,
-     "status": "begransad",
-     "slut": "2026-11-22T02:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4556,6 +4546,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
     },
     {
      "namn": "Hollandse Kust Zuid",
