@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T15:58Z",
+ "uppdaterad": "2026-11-22T16:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-21T12:45Z",
+   "produktion_tid": "2026-11-21T15:45Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2065,7 +2065,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 178
+     "produktion_mw": 179
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2076,7 +2076,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 7
+     "produktion_mw": 6
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2113,7 +2113,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 43
+     "produktion_mw": 0
     },
     {
      "namn": "Horns Rev B",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 130
+     "produktion_mw": 184
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2129,7 +2129,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 42
+     "produktion_mw": 0
     },
     {
      "namn": "Vesterhav Nord",
@@ -2145,7 +2145,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 26
+     "produktion_mw": 0
     },
     {
      "namn": "Vesterhav Syd",
@@ -2161,7 +2161,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 38
+     "produktion_mw": 0
     },
     {
      "namn": "Horns Rev A",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 133
+     "produktion_mw": 150
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-21T12:45Z",
+   "produktion_tid": "2026-11-21T15:45Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2201,7 +2201,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 285
+     "produktion_mw": 487
     },
     {
      "namn": "Asnaesvaerket",
@@ -2231,7 +2231,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 188
+     "produktion_mw": 185
     },
     {
      "namn": "Roedsand 1",
@@ -2239,7 +2239,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 140
+     "produktion_mw": 138
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2247,7 +2247,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 30
+     "produktion_mw": 0
     },
     {
      "namn": "Solar Park Vedde",
@@ -2255,7 +2255,7 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 7
+     "produktion_mw": 0
     }
    ]
   },
@@ -4529,16 +4529,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Eemshaven",
-     "kraftslag": "kol",
-     "mw": 1580,
-     "tillganglig_mw": 310.0,
-     "status": "begransad",
-     "slut": "2026-11-22T16:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4547,6 +4537,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
     },
     {
      "namn": "Hollandse Kust Zuid",
