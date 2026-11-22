@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T14:28Z",
+ "uppdaterad": "2026-11-22T14:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -91,16 +91,8 @@
      "alv": "Dalälven",
      "verk": 2,
      "nominell_mw": 450,
-     "tillganglig_mw": 120,
-     "avbrott": [
-      {
-       "namn": "Trängslet",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 330,
-       "slut": "2026-11-22T14:30Z",
-       "orsak": "Failure"
-      }
-     ],
+     "tillganglig_mw": 450,
+     "avbrott": [],
      "produktion_mw": 181,
      "med_produktion": 1
     },
@@ -312,7 +304,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 6682.0,
+     "tillganglig_mw": 5560.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -326,6 +318,13 @@
        "tillganglig_mw": 0.0,
        "nominell_mw": 1060,
        "slut": "2026-12-31T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Markersbach",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 960,
+       "slut": "2026-12-23T15:00Z",
        "orsak": null
       },
       {
@@ -355,6 +354,13 @@
        "nominell_mw": 220,
        "slut": "2026-11-27T16:00Z",
        "orsak": null
+      },
+      {
+       "namn": "Koepchenwerk",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 162,
+       "slut": "2026-11-28T15:00Z",
+       "orsak": null
       }
      ],
      "produktion_mw": 0,
@@ -369,15 +375,8 @@
      "alv": "Stora vattenkraftverk",
      "verk": 5,
      "nominell_mw": 1826,
-     "tillganglig_mw": 530,
+     "tillganglig_mw": 1244,
      "avbrott": [
-      {
-       "namn": "Żarnowiec",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 714,
-       "slut": "2026-11-22T21:00Z",
-       "orsak": "Short-term planned outage"
-      },
       {
        "namn": "Porąbka Żar",
        "tillganglig_mw": 0.0,

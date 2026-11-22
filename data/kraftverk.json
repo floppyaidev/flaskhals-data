@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T14:28Z",
+ "uppdaterad": "2026-11-22T14:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -643,18 +643,6 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
-     "namn": "Trängslet",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T14:30Z",
-     "typ": "oplanerat",
-     "orsak": "Failure",
-     "alv": "Dalälven",
-     "produktion_mw": 181
-    },
-    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -683,6 +671,15 @@
      "mw": 384,
      "tillganglig_mw": 384,
      "status": "drift"
+    },
+    {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift",
+     "alv": "Dalälven",
+     "produktion_mw": 181
     },
     {
      "namn": "Stenungsund B3",
@@ -2792,7 +2789,7 @@
      "mw": 1782,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T09:00Z",
+     "slut": "2026-11-23T10:00Z",
      "typ": "planerat",
      "orsak": "Other"
     },
@@ -2823,6 +2820,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Markersbach",
+     "kraftslag": "pumpkraft",
+     "mw": 960,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-23T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2923,6 +2930,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-27T16:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3059,13 +3076,6 @@
      "kraftslag": "kol",
      "mw": 1052,
      "tillganglig_mw": 1052,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Markersbach",
-     "kraftslag": "pumpkraft",
-     "mw": 960,
-     "tillganglig_mw": 960,
      "status": "drift"
     },
     {
@@ -3594,13 +3604,6 @@
      "status": "drift"
     },
     {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
      "namn": "GuD 40",
      "kraftslag": "gas",
      "mw": 150,
@@ -3878,16 +3881,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Żarnowiec",
-     "kraftslag": "pumpkraft",
-     "mw": 714,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T21:00Z",
-     "typ": "planerat",
-     "orsak": "Short-term planned outage"
-    },
-    {
      "namn": "Ostrołęka B",
      "kraftslag": "kol",
      "mw": 651,
@@ -3996,6 +3989,13 @@
      "kraftslag": "kol",
      "mw": 834,
      "tillganglig_mw": 834,
+     "status": "drift"
+    },
+    {
+     "namn": "Żarnowiec",
+     "kraftslag": "pumpkraft",
+     "mw": 714,
+     "tillganglig_mw": 714,
      "status": "drift"
     },
     {
@@ -4508,6 +4508,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "RoCa",
+     "kraftslag": "gas",
+     "mw": 220,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T22:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 128,
@@ -4720,13 +4730,6 @@
      "tillganglig_mw": 248,
      "status": "drift",
      "produktion_mw": 217
-    },
-    {
-     "namn": "RoCa",
-     "kraftslag": "gas",
-     "mw": 220,
-     "tillganglig_mw": 220,
-     "status": "drift"
     },
     {
      "namn": "WP NOP Agrowind",
