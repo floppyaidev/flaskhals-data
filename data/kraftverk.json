@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T00:28Z",
+ "uppdaterad": "2026-11-22T00:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-20T21:00Z",
+   "produktion_tid": "2026-11-21T00:15Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2065,7 +2065,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 178
+     "produktion_mw": 179
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2076,7 +2076,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 57
+     "produktion_mw": 22
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 179
+     "produktion_mw": 188
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2137,7 +2137,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 103
+     "produktion_mw": 184
     },
     {
      "namn": "Solar Park Holsted",
@@ -2153,7 +2153,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 145
+     "produktion_mw": 161
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 104
+     "produktion_mw": 95
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-20T21:00Z",
+   "produktion_tid": "2026-11-21T00:15Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2201,7 +2201,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 381
+     "produktion_mw": 433
     },
     {
      "namn": "Asnaesvaerket",
@@ -2231,7 +2231,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 28
+     "produktion_mw": 48
     },
     {
      "namn": "Roedsand 1",
@@ -2239,7 +2239,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 18
+     "produktion_mw": 21
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2854,6 +2854,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "Kraftwerk Wilhelmshaven",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-22T03:15Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Herne",
      "kraftslag": "gas",
      "mw": 608,
@@ -2980,16 +2990,6 @@
      "tillganglig_mw": 227.5,
      "status": "begransad",
      "slut": "2026-11-22T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Kraftwerk Wilhelmshaven",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 150.0,
-     "status": "begransad",
-     "slut": "2026-11-22T00:45Z",
      "typ": "planerat",
      "orsak": null
     },
