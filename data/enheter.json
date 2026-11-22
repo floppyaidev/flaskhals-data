@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T01:28Z",
+ "uppdaterad": "2026-11-22T01:48Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -15,10 +15,10 @@
   "SE": "2026-11-22T00:14Z",
   "NO": "2026-11-22T00:14Z",
   "DK": "2026-11-22T00:46Z",
-  "FI": "2026-11-21T22:29Z",
-  "EE": "2026-11-21T22:29Z",
-  "LV": "2026-11-21T22:29Z",
-  "LT": "2026-11-21T22:29Z",
+  "FI": "2026-11-22T01:47Z",
+  "EE": "2026-11-22T01:47Z",
+  "LV": "2026-11-22T01:47Z",
+  "LT": "2026-11-22T01:48Z",
   "PL": "2026-11-21T22:59Z",
   "NL": "2026-11-21T22:59Z"
  },
@@ -871,319 +871,319 @@
   },
   "FI": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-16T22:15Z",
+   "data_tid": "2026-11-17T01:45Z",
    "enheter": [
     {
      "namn": "Olkiluoto 1 B1",
      "kraftslag": "karnkraft",
      "mw": 894,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Olkiluoto 2 B2",
      "kraftslag": "karnkraft",
      "mw": 741,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Loviisa 2 G21",
      "kraftslag": "karnkraft",
      "mw": 257,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Loviisa 2 G22",
      "kraftslag": "karnkraft",
      "mw": 255,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Loviisa 1 G12",
      "kraftslag": "karnkraft",
      "mw": 252,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Loviisa 1 G11",
      "kraftslag": "karnkraft",
      "mw": 249,
-     "t": "2026-11-16T22:15Z"
-    },
-    {
-     "namn": "Alholmens B2",
-     "kraftslag": "torv",
-     "mw": 206,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Äänekoski G1",
      "kraftslag": "biobransle",
-     "mw": 173,
-     "t": "2026-11-16T22:15Z"
+     "mw": 171,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Keljonlahti B1",
      "kraftslag": "torv",
-     "mw": 164,
-     "t": "2026-11-16T22:15Z"
+     "mw": 161,
+     "t": "2026-11-17T01:45Z"
+    },
+    {
+     "namn": "Alholmens B2",
+     "kraftslag": "torv",
+     "mw": 131,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Naantali B4",
      "kraftslag": "biobransle",
-     "mw": 142,
-     "t": "2026-11-16T22:15Z"
+     "mw": 107,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Raahen Voima",
      "kraftslag": "ovrigt",
-     "mw": 99,
-     "t": "2026-11-16T22:15Z"
-    },
-    {
-     "namn": "Toppila B2",
-     "kraftslag": "torv",
-     "mw": 68,
-     "t": "2026-11-16T22:15Z"
+     "mw": 104,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Kaukaan Voima G10",
      "kraftslag": "biobransle",
      "mw": 59,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
+    },
+    {
+     "namn": "Vuosaari VuB4",
+     "kraftslag": "gas",
+     "mw": 54,
+     "t": "2026-11-17T01:45Z"
+    },
+    {
+     "namn": "Toppila B2",
+     "kraftslag": "torv",
+     "mw": 53,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Kymijärvi B1",
      "kraftslag": "kol",
-     "mw": 6,
-     "t": "2026-11-16T22:15Z"
+     "mw": 5,
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Meri-Pori B1",
      "kraftslag": "kol",
      "mw": 3,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Vuosaari VuB6",
      "kraftslag": "gas",
      "mw": 1,
-     "t": "2026-11-16T22:00Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Metsä Fibre Kemi G1",
      "kraftslag": "biobransle",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Forssa GT1",
      "kraftslag": "olja",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Forssa GT2",
      "kraftslag": "olja",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Vaskiluoto B3",
      "kraftslag": "olja",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Hanasaari B3",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Hanasaari B4",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Salmisaari SaB",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Seinäjoki B1",
      "kraftslag": "torv",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Suomenoja 2 GT",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Vaskiluoto B2",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
-    },
-    {
-     "namn": "Vuosaari VuB4",
-     "kraftslag": "gas",
-     "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     },
     {
      "namn": "Vuosaari VuB5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-16T22:15Z"
+     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Olkiluoto 3 B3",
      "kraftslag": "karnkraft",
      "mw": 0,
-     "t": "2026-11-16T00:00Z"
+     "t": "2026-11-17T00:00Z"
     }
    ]
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-21T21:45Z",
+   "data_tid": "2026-11-22T00:45Z",
    "enheter": [
-    {
-     "namn": "Auvere EJ- G1",
-     "kraftslag": "oljeskiffer",
-     "mw": 180,
-     "t": "2026-11-21T21:45Z"
-    },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
-     "mw": 111,
-     "t": "2026-11-21T21:45Z"
+     "mw": 122,
+     "t": "2026-11-22T00:45Z"
+    },
+    {
+     "namn": "Auvere EJ- G1",
+     "kraftslag": "oljeskiffer",
+     "mw": 110,
+     "t": "2026-11-22T00:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 16,
-     "t": "2026-11-21T21:45Z"
+     "mw": 17,
+     "t": "2026-11-22T00:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
      "mw": 4,
-     "t": "2026-11-21T19:30Z"
+     "t": "2026-11-22T00:15Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG6",
      "kraftslag": "oljeskiffer",
      "mw": 1,
-     "t": "2026-11-21T21:15Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
      "kraftslag": "oljeskiffer",
      "mw": 0,
-     "t": "2026-11-21T09:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG4",
      "kraftslag": "oljeskiffer",
      "mw": 0,
-     "t": "2026-11-21T21:15Z"
+     "t": "2026-11-22T00:00Z"
     }
    ]
   },
   "LV": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-21T21:00Z",
+   "data_tid": "2026-11-22T00:00Z",
    "enheter": [
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 98,
-     "t": "2026-11-21T21:00Z"
+     "mw": 97,
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
      "kraftslag": "gas",
      "mw": 95,
-     "t": "2026-11-21T21:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
      "mw": 63,
-     "t": "2026-11-21T21:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Block-2, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 63,
-     "t": "2026-11-21T21:00Z"
+     "mw": 62,
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
      "kraftslag": "stromkraft",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     }
    ]
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-20T22:30Z",
+   "data_tid": "2026-11-21T01:00Z",
    "enheter": [
     {
      "namn": "KHAE HA3",
      "kraftslag": "pumpkraft",
-     "mw": 226,
-     "t": "2026-11-20T22:00Z"
+     "mw": 224,
+     "t": "2026-11-21T01:00Z"
     },
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
-     "mw": 211,
-     "t": "2026-11-20T22:30Z"
+     "mw": 217,
+     "t": "2026-11-21T01:00Z"
     },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-20T08:45Z"
+     "t": "2026-11-21T00:00Z"
     },
     {
      "namn": "KHAE HA4",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-21T00:00Z"
     },
     {
      "namn": "KTE",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-21T00:00Z"
     },
     {
      "namn": "LE TG-7",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-21T00:00Z"
     },
     {
      "namn": "LE TG-8",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-21T00:00Z"
     },
     {
      "namn": "LE TG-9",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-21T00:00Z"
     }
    ]
   },
