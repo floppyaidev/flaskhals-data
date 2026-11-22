@@ -1,197 +1,100 @@
 {
- "uppdaterad": "2026-11-22T20:48Z",
+ "uppdaterad": "2026-11-22T21:48Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-22T19:30Z",
-  "SE2": "2026-11-22T19:30Z",
-  "SE3": "2026-11-22T19:30Z",
-  "SE4": "2026-11-22T19:30Z",
+  "SE1": "2026-11-22T21:30Z",
+  "SE2": "2026-11-22T21:30Z",
+  "SE3": "2026-11-22T21:30Z",
+  "SE4": "2026-11-22T21:30Z",
   "NO1": "2026-11-22T20:30Z",
   "NO2": "2026-11-22T20:30Z",
   "NO3": "2026-11-22T20:30Z",
-  "NO4": "2026-11-22T19:30Z",
+  "NO4": "2026-11-22T21:30Z",
   "NO5": "2026-11-22T20:30Z",
   "DK1": "2026-11-22T20:30Z",
   "DK2": "2026-11-22T20:30Z",
-  "FI": "2026-11-22T18:30Z",
-  "EE": "2026-11-22T18:30Z",
+  "FI": "2026-11-22T21:30Z",
+  "EE": "2026-11-22T21:30Z",
   "LV": "2026-11-22T20:30Z",
-  "LT": "2026-11-22T18:30Z",
-  "DE": "2026-11-22T19:30Z",
-  "PL": "2026-11-22T19:30Z",
-  "NL": "2026-11-22T19:30Z"
+  "LT": "2026-11-22T21:30Z",
+  "DE": "2026-11-22T21:30Z",
+  "PL": "2026-11-22T21:30Z",
+  "NL": "2026-11-22T21:30Z"
  },
  "zoner": {
-  "NO5": [
+  "FI": [
    {
-    "namn": "Sy Sima",
+    "namn": "Metsä Fibre Kemi",
     "typ": "planerat",
-    "start": "2026-11-23T06:00Z",
-    "slut": "2026-11-25T10:00Z",
-    "nominell_mw": 315.0,
+    "start": "2026-10-07T00:00Z",
+    "slut": "2026-11-30T05:00Z",
+    "nominell_mw": 250.0,
     "tillganglig_mw": 0.0,
-    "orsak": "Revision of earthing switch and repair of earthing switch coils.",
-    "kraftslag": "vattenkraft"
+    "orsak": "Yearly maintenance break.",
+    "kraftslag": "biobransle"
    },
    {
-    "namn": "Aurland1",
+    "namn": "Alholmens Kraft",
     "typ": "planerat",
-    "start": "2026-04-07T05:00Z",
-    "slut": "2027-03-08T14:00Z",
-    "nominell_mw": 280.0,
+    "start": "2026-11-19T23:00Z",
+    "slut": "2026-11-23T23:00Z",
+    "nominell_mw": 240.0,
     "tillganglig_mw": 0.0,
-    "orsak": "Reconstruction of control systems.",
-    "kraftslag": "vattenkraft"
+    "orsak": "Steam reduction service.",
+    "kraftslag": "torv"
    },
    {
-    "namn": "Fortun",
+    "namn": "Vuosaari",
     "typ": "planerat",
-    "start": "2026-11-23T06:00Z",
-    "slut": "2026-12-11T14:00Z",
-    "nominell_mw": 270.0,
-    "tillganglig_mw": 126.0,
-    "orsak": "Annual controls for G4, G5 and G6",
-    "kraftslag": "vattenkraft"
-   }
-  ],
-  "DK1": [
-   {
-    "namn": "Skaerbaekvaerket",
-    "typ": "oplanerat",
-    "start": "2026-10-21T06:35Z",
-    "slut": "2026-12-01T14:00Z",
-    "nominell_mw": 392.0,
+    "start": "2026-11-17T23:00Z",
+    "slut": "2026-12-11T23:00Z",
+    "nominell_mw": 160.0,
     "tillganglig_mw": 0.0,
-    "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
+    "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
     "kraftslag": "gas"
    },
    {
-    "namn": "Nordjyllandsvaerket",
+    "namn": "Olkiluoto 2",
     "typ": "planerat",
-    "start": "2026-09-03T21:59Z",
-    "slut": "2027-08-13T21:59Z",
-    "nominell_mw": 380.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Limitation extended, due to risk assessment on production unit.",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Nordjyllandsvaerket",
-    "typ": "oplanerat",
-    "start": "2026-06-12T08:40Z",
-    "slut": "2027-02-28T22:59Z",
-    "nominell_mw": 380.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Period 1: Fire in high-voltage distributer. Period 2: Limitation due to repair of high-voltage distributer. Period 3: New available capacity after test. Period ",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Studstrupvaerket",
-    "typ": "planerat",
-    "start": "2026-10-30T22:59Z",
-    "slut": "2026-11-28T22:59Z",
-    "nominell_mw": 359.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Change of low pressure turbine",
-    "kraftslag": "kol"
+    "start": "2026-10-15T11:15Z",
+    "slut": "2027-04-18T15:00Z",
+    "nominell_mw": 890.0,
+    "tillganglig_mw": 735.0,
+    "orsak": "Generator rotor limitation",
+    "kraftslag": "karnkraft"
    }
   ],
-  "LV": [],
-  "NO1": [
+  "EE": [],
+  "LT": [
    {
-    "namn": "Nedre Vinstra",
+    "namn": "Lietuvos elektrine",
     "typ": "planerat",
-    "start": "2026-10-12T06:00Z",
-    "slut": "2026-12-04T14:00Z",
-    "nominell_mw": 337.5,
-    "tillganglig_mw": 165.0,
-    "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4",
-    "kraftslag": "vattenkraft"
+    "start": "2026-10-22T22:00Z",
+    "slut": "2026-12-17T22:59Z",
+    "nominell_mw": 445.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Technical maintenance.",
+    "kraftslag": "gas"
    },
    {
-    "namn": "Vamma",
-    "typ": "oplanerat",
-    "start": "2026-08-10T05:00Z",
-    "slut": "2027-03-20T14:00Z",
-    "nominell_mw": 105.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
-    "kraftslag": "stromkraft"
-   }
-  ],
-  "NO2": [
-   {
-    "namn": "Kvilldal",
+    "namn": "Lietuvos elektrine",
     "typ": "planerat",
-    "start": "2026-10-12T08:00Z",
-    "slut": "2026-12-11T14:00Z",
-    "nominell_mw": 310.0,
+    "start": "2025-08-11T05:00Z",
+    "slut": "2027-02-07T22:59Z",
+    "nominell_mw": 300.0,
     "tillganglig_mw": 0.0,
-    "orsak": "Repair fine water leak",
-    "kraftslag": "vattenkraft"
+    "orsak": "Planned maintenance.",
+    "kraftslag": "gas"
    },
    {
-    "namn": "Kvilldal",
+    "namn": "KruonioHAE",
     "typ": "planerat",
-    "start": "2026-11-11T07:00Z",
-    "slut": "2026-11-24T09:00Z",
-    "nominell_mw": 310.0,
+    "start": "2026-05-26T05:00Z",
+    "slut": "2027-04-02T21:59Z",
+    "nominell_mw": 225.0,
     "tillganglig_mw": 0.0,
-    "orsak": "NVS and regulator testing and work on hatch",
-    "kraftslag": "vattenkraft"
-   },
-   {
-    "namn": "Blåfal.V",
-    "typ": "planerat",
-    "start": "2026-11-16T07:00Z",
-    "slut": "2026-11-25T14:00Z",
-    "nominell_mw": 235.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load.",
-    "kraftslag": "vattenkraft"
-   },
-   {
-    "namn": "Tonstad",
-    "typ": "oplanerat",
-    "start": "2025-04-05T09:00Z",
-    "slut": "2027-09-01T13:00Z",
-    "nominell_mw": 168.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-    "kraftslag": "vattenkraft"
-   },
-   {
-    "namn": "Holen",
-    "typ": "oplanerat",
-    "start": "2026-10-09T05:30Z",
-    "slut": "2026-12-11T14:00Z",
-    "nominell_mw": 120.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "High storage temperature",
-    "kraftslag": "vattenkraft"
-   },
-   {
-    "namn": "Tokke",
-    "typ": "planerat",
-    "start": "2026-11-16T07:00Z",
-    "slut": "2026-11-27T14:00Z",
-    "nominell_mw": 110.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Alignment of generator shaft",
-    "kraftslag": "vattenkraft"
-   }
-  ],
-  "NO3": [],
-  "DK2": [
-   {
-    "namn": "Amagervaerket",
-    "typ": "oplanerat",
-    "start": "2026-10-23T13:00Z",
-    "slut": "2027-06-13T22:00Z",
-    "nominell_mw": 149.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-    "kraftslag": "kol"
+    "orsak": "Planned maintenance",
+    "kraftslag": "pumpkraft"
    }
   ],
   "SE1": [
@@ -294,97 +197,12 @@
     "kraftslag": "vattenkraft"
    }
   ],
-  "FI": [
-   {
-    "namn": "Metsä Fibre Kemi",
-    "typ": "planerat",
-    "start": "2026-10-07T00:00Z",
-    "slut": "2026-11-30T05:00Z",
-    "nominell_mw": 250.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Yearly maintenance break.",
-    "kraftslag": "biobransle"
-   },
-   {
-    "namn": "Alholmens Kraft",
-    "typ": "planerat",
-    "start": "2026-11-19T23:00Z",
-    "slut": "2026-11-23T23:00Z",
-    "nominell_mw": 240.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Steam reduction service.",
-    "kraftslag": "torv"
-   },
-   {
-    "namn": "Vuosaari",
-    "typ": "planerat",
-    "start": "2026-11-17T23:00Z",
-    "slut": "2026-12-11T23:00Z",
-    "nominell_mw": 160.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Olkiluoto 2",
-    "typ": "planerat",
-    "start": "2026-10-15T11:15Z",
-    "slut": "2027-04-18T15:00Z",
-    "nominell_mw": 890.0,
-    "tillganglig_mw": 735.0,
-    "orsak": "Generator rotor limitation",
-    "kraftslag": "karnkraft"
-   }
-  ],
-  "EE": [],
-  "LT": [
-   {
-    "namn": "Lietuvos elektrine",
-    "typ": "planerat",
-    "start": "2026-10-22T22:00Z",
-    "slut": "2026-12-17T22:59Z",
-    "nominell_mw": 445.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Technical maintenance.",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Lietuvos elektrine",
-    "typ": "planerat",
-    "start": "2025-08-11T05:00Z",
-    "slut": "2027-02-07T22:59Z",
-    "nominell_mw": 300.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Planned maintenance.",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "KruonioHAE",
-    "typ": "planerat",
-    "start": "2026-05-26T05:00Z",
-    "slut": "2027-04-02T21:59Z",
-    "nominell_mw": 225.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Planned maintenance",
-    "kraftslag": "pumpkraft"
-   }
-  ],
   "DE": [
    {
     "namn": "KW Lippendorf",
     "typ": "planerat",
     "start": "2026-11-20T20:00Z",
     "slut": "2026-11-23T10:00Z",
-    "nominell_mw": 891.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Other",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "KW Lippendorf",
-    "typ": "planerat",
-    "start": "2026-11-20T22:00Z",
-    "slut": "2026-11-22T20:30Z",
     "nominell_mw": 891.0,
     "tillganglig_mw": 0.0,
     "orsak": "Other",
@@ -419,6 +237,26 @@
     "tillganglig_mw": 55.0,
     "orsak": null,
     "kraftslag": "kol"
+   },
+   {
+    "namn": "Neurath",
+    "typ": "oplanerat",
+    "start": "2026-11-22T20:59Z",
+    "slut": "2026-11-23T00:59Z",
+    "nominell_mw": 1053.0,
+    "tillganglig_mw": 549.0,
+    "orsak": null,
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Neurath",
+    "typ": "oplanerat",
+    "start": "2026-11-22T21:00Z",
+    "slut": "2026-11-23T01:00Z",
+    "nominell_mw": 1058.0,
+    "tillganglig_mw": 554.0,
+    "orsak": null,
+    "kraftslag": "brunkol"
    },
    {
     "namn": "KW Jänschwalde",
@@ -471,6 +309,16 @@
     "kraftslag": "gas"
    },
    {
+    "namn": "Schkopau",
+    "typ": "planerat",
+    "start": "2026-11-22T22:00Z",
+    "slut": "2026-11-23T23:00Z",
+    "nominell_mw": 450.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "brunkol"
+   },
+   {
     "namn": "KMW_GENERATION",
     "typ": "planerat",
     "start": "2026-11-21T00:00Z",
@@ -491,14 +339,14 @@
     "kraftslag": "gas"
    },
    {
-    "namn": "Franken I",
+    "namn": "Merkur Offshore GmbH",
     "typ": "planerat",
-    "start": "2026-11-20T20:45Z",
-    "slut": "2026-11-22T20:45Z",
-    "nominell_mw": 383.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "External Factors",
-    "kraftslag": "gas"
+    "start": "2026-11-22T11:30Z",
+    "slut": "2026-11-22T23:00Z",
+    "nominell_mw": 396.0,
+    "tillganglig_mw": 98.0,
+    "orsak": null,
+    "kraftslag": "vind_hav"
    },
    {
     "namn": "Huckingen (HKM)",
@@ -539,16 +387,6 @@
     "tillganglig_mw": 0.0,
     "orsak": "Other",
     "kraftslag": "kol"
-   },
-   {
-    "namn": "Merkur Offshore GmbH",
-    "typ": "planerat",
-    "start": "2026-11-22T11:30Z",
-    "slut": "2026-11-22T21:00Z",
-    "nominell_mw": 396.0,
-    "tillganglig_mw": 129.0,
-    "orsak": null,
-    "kraftslag": "vind_hav"
    },
    {
     "namn": "PSW Goldisthal",
@@ -669,16 +507,6 @@
     "tillganglig_mw": 129.0,
     "orsak": "External Factors",
     "kraftslag": "kol"
-   },
-   {
-    "namn": "Weisweiler",
-    "typ": "oplanerat",
-    "start": "2026-11-21T22:06Z",
-    "slut": "2026-11-22T20:00Z",
-    "nominell_mw": 202.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "brunkol"
    },
    {
     "namn": "Weisweiler",
@@ -1145,6 +973,16 @@
    {
     "namn": "Turów",
     "typ": "planerat",
+    "start": "2026-11-23T21:15Z",
+    "slut": "2026-11-23T23:00Z",
+    "nominell_mw": 236.0,
+    "tillganglig_mw": 103.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
     "start": "2026-11-22T22:15Z",
     "slut": "2026-11-22T23:00Z",
     "nominell_mw": 236.0,
@@ -1159,16 +997,6 @@
     "slut": "2026-11-23T14:00Z",
     "nominell_mw": 236.0,
     "tillganglig_mw": 104.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-23T08:00Z",
-    "slut": "2026-11-23T08:15Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 313.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "brunkol"
    }
@@ -1255,6 +1083,16 @@
     "kraftslag": "vind_hav"
    },
    {
+    "namn": "Velsen",
+    "typ": "planerat",
+    "start": "2026-11-23T20:00Z",
+    "slut": "2026-11-27T19:00Z",
+    "nominell_mw": 375.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
     "namn": "Eems 6",
     "typ": "planerat",
     "start": "2026-10-08T05:00Z",
@@ -1334,6 +1172,178 @@
     "orsak": null,
     "kraftslag": "vind_hav"
    }
-  ]
+  ],
+  "NO1": [
+   {
+    "namn": "Nedre Vinstra",
+    "typ": "planerat",
+    "start": "2026-10-12T06:00Z",
+    "slut": "2026-12-04T14:00Z",
+    "nominell_mw": 337.5,
+    "tillganglig_mw": 165.0,
+    "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Vamma",
+    "typ": "oplanerat",
+    "start": "2026-08-10T05:00Z",
+    "slut": "2027-03-20T14:00Z",
+    "nominell_mw": 105.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
+    "kraftslag": "stromkraft"
+   }
+  ],
+  "NO2": [
+   {
+    "namn": "Kvilldal",
+    "typ": "planerat",
+    "start": "2026-10-12T08:00Z",
+    "slut": "2026-12-11T14:00Z",
+    "nominell_mw": 310.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Repair fine water leak",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Kvilldal",
+    "typ": "planerat",
+    "start": "2026-11-11T07:00Z",
+    "slut": "2026-11-24T09:00Z",
+    "nominell_mw": 310.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "NVS and regulator testing and work on hatch",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Blåfal.V",
+    "typ": "planerat",
+    "start": "2026-11-16T07:00Z",
+    "slut": "2026-11-25T14:00Z",
+    "nominell_mw": 235.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load.",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Tonstad",
+    "typ": "oplanerat",
+    "start": "2025-04-05T09:00Z",
+    "slut": "2027-09-01T13:00Z",
+    "nominell_mw": 168.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Holen",
+    "typ": "oplanerat",
+    "start": "2026-10-09T05:30Z",
+    "slut": "2026-12-11T14:00Z",
+    "nominell_mw": 120.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "High storage temperature",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Tokke",
+    "typ": "planerat",
+    "start": "2026-11-16T07:00Z",
+    "slut": "2026-11-27T14:00Z",
+    "nominell_mw": 110.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Alignment of generator shaft",
+    "kraftslag": "vattenkraft"
+   }
+  ],
+  "NO3": [],
+  "NO5": [
+   {
+    "namn": "Sy Sima",
+    "typ": "planerat",
+    "start": "2026-11-23T06:00Z",
+    "slut": "2026-11-25T10:00Z",
+    "nominell_mw": 315.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Revision of earthing switch and repair of earthing switch coils.",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Aurland1",
+    "typ": "planerat",
+    "start": "2026-04-07T05:00Z",
+    "slut": "2027-03-08T14:00Z",
+    "nominell_mw": 280.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Reconstruction of control systems.",
+    "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Fortun",
+    "typ": "planerat",
+    "start": "2026-11-23T06:00Z",
+    "slut": "2026-12-11T14:00Z",
+    "nominell_mw": 270.0,
+    "tillganglig_mw": 126.0,
+    "orsak": "Annual controls for G4, G5 and G6",
+    "kraftslag": "vattenkraft"
+   }
+  ],
+  "DK1": [
+   {
+    "namn": "Skaerbaekvaerket",
+    "typ": "oplanerat",
+    "start": "2026-10-21T06:35Z",
+    "slut": "2026-12-01T14:00Z",
+    "nominell_mw": 392.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Nordjyllandsvaerket",
+    "typ": "planerat",
+    "start": "2026-09-03T21:59Z",
+    "slut": "2027-08-13T21:59Z",
+    "nominell_mw": 380.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Limitation extended, due to risk assessment on production unit.",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Nordjyllandsvaerket",
+    "typ": "oplanerat",
+    "start": "2026-06-12T08:40Z",
+    "slut": "2027-02-28T22:59Z",
+    "nominell_mw": 380.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Period 1: Fire in high-voltage distributer. Period 2: Limitation due to repair of high-voltage distributer. Period 3: New available capacity after test. Period ",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Studstrupvaerket",
+    "typ": "planerat",
+    "start": "2026-10-30T22:59Z",
+    "slut": "2026-11-28T22:59Z",
+    "nominell_mw": 359.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Change of low pressure turbine",
+    "kraftslag": "kol"
+   }
+  ],
+  "DK2": [
+   {
+    "namn": "Amagervaerket",
+    "typ": "oplanerat",
+    "start": "2026-10-23T13:00Z",
+    "slut": "2027-06-13T22:00Z",
+    "nominell_mw": 149.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
+    "kraftslag": "kol"
+   }
+  ],
+  "LV": []
  }
 }
