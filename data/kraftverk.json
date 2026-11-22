@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T21:53Z",
+ "uppdaterad": "2026-11-22T22:04Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2824,6 +2824,16 @@
      "orsak": null
     },
     {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Walsum",
      "kraftslag": "kol",
      "mw": 725,
@@ -2922,6 +2932,16 @@
      "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 290.0,
+     "status": "begransad",
+     "slut": "2026-11-23T04:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "Vorarlberger Illwerke AG",
@@ -3034,13 +3054,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "KW Boxberg",
-     "kraftslag": "brunkol",
-     "mw": 2470,
-     "tillganglig_mw": 2470,
-     "status": "drift"
-    },
-    {
      "namn": "Niederaußem",
      "kraftslag": "brunkol",
      "mw": 2197,
@@ -3071,13 +3084,6 @@
     {
      "namn": "Windpark He Dreiht",
      "kraftslag": "vind_hav",
-     "mw": 900,
-     "tillganglig_mw": 900,
-     "status": "drift"
-    },
-    {
-     "namn": "Schkopau",
-     "kraftslag": "brunkol",
      "mw": 900,
      "tillganglig_mw": 900,
      "status": "drift"

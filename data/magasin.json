@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T21:52Z",
+ "uppdaterad": "2026-11-22T22:04Z",
  "enhet": "MWh",
  "zoner": {
   "SE1": {
@@ -48,7 +48,7 @@
    "snitt_mwh": 26167231,
    "andel_av_snitt": 69,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-22T01:47Z"
+   "hamtad": "2026-11-22T21:59Z"
   },
   "NO3": {
    "vecka": "2026-11-08T23:00Z",
@@ -56,7 +56,7 @@
    "snitt_mwh": 7666404,
    "andel_av_snitt": 81,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-22T01:59Z"
+   "hamtad": "2026-11-22T22:00Z"
   },
   "NO4": {
    "vecka": "2026-11-08T23:00Z",
@@ -64,7 +64,7 @@
    "snitt_mwh": 17133720,
    "andel_av_snitt": 113,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-22T01:59Z"
+   "hamtad": "2026-11-22T22:02Z"
   },
   "NO5": {
    "vecka": "2026-11-08T23:00Z",
@@ -72,7 +72,7 @@
    "snitt_mwh": 14689756,
    "andel_av_snitt": 81,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-22T01:59Z"
+   "hamtad": "2026-11-22T22:04Z"
   },
   "FI": {
    "vecka": "2026-11-08T23:00Z",
