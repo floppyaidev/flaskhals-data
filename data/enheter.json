@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T19:13Z",
+ "uppdaterad": "2026-11-22T19:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -14,7 +14,7 @@
  "land_tid": {
   "SE": "2026-11-22T18:48Z",
   "NO": "2026-11-22T18:49Z",
-  "DK": "2026-11-22T16:14Z",
+  "DK": "2026-11-22T19:29Z",
   "FI": "2026-11-22T17:29Z",
   "EE": "2026-11-22T17:29Z",
   "LV": "2026-11-22T17:29Z",
@@ -727,43 +727,43 @@
   },
   "DK2": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-21T15:45Z",
+   "data_tid": "2026-11-21T19:00Z",
    "enheter": [
-    {
-     "namn": "Avedoerevaerket 2",
-     "kraftslag": "gas",
-     "mw": 278,
-     "t": "2026-11-21T15:45Z"
-    },
     {
      "namn": "Avedoerevaerket 1",
      "kraftslag": "gas",
-     "mw": 209,
-     "t": "2026-11-21T15:45Z"
+     "mw": 212,
+     "t": "2026-11-21T19:00Z"
+    },
+    {
+     "namn": "Avedoerevaerket 2",
+     "kraftslag": "gas",
+     "mw": 193,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Roedsand 2",
      "kraftslag": "vind_hav",
-     "mw": 185,
-     "t": "2026-11-21T15:45Z"
+     "mw": 165,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Amagervaerket 4",
      "kraftslag": "biobransle",
      "mw": 146,
-     "t": "2026-11-21T15:45Z"
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Roedsand 1",
      "kraftslag": "vind_hav",
-     "mw": 138,
-     "t": "2026-11-21T15:45Z"
+     "mw": 96,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Kyndbyvaerket 21",
      "kraftslag": "olja",
      "mw": 1,
-     "t": "2026-11-21T15:45Z"
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Kyndbyvaerket 22",
@@ -787,49 +787,49 @@
   },
   "DK1": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-21T15:45Z",
+   "data_tid": "2026-11-21T19:00Z",
    "enheter": [
     {
      "namn": "Horns Rev B",
      "kraftslag": "vind_hav",
-     "mw": 184,
-     "t": "2026-11-21T15:45Z"
+     "mw": 194,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Nordjyllandsvaerket 3",
      "kraftslag": "kol",
-     "mw": 179,
-     "t": "2026-11-21T15:45Z"
-    },
-    {
-     "namn": "Vesterhav Nord",
-     "kraftslag": "vind_hav",
-     "mw": 175,
-     "t": "2026-11-21T15:45Z"
+     "mw": 178,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Vesterhav Syd",
      "kraftslag": "vind_hav",
-     "mw": 161,
-     "t": "2026-11-21T15:45Z"
+     "mw": 160,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Horns Rev A",
      "kraftslag": "vind_hav",
-     "mw": 150,
-     "t": "2026-11-21T15:45Z"
+     "mw": 146,
+     "t": "2026-11-21T19:00Z"
+    },
+    {
+     "namn": "Vesterhav Nord",
+     "kraftslag": "vind_hav",
+     "mw": 116,
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Skaerbaekvaerket 3",
      "kraftslag": "gas",
      "mw": 6,
-     "t": "2026-11-21T15:45Z"
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Fynsvaerket 7",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-21T15:45Z"
+     "t": "2026-11-21T19:00Z"
     },
     {
      "namn": "Studstrupvaerket 3",
