@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T07:28Z",
+ "uppdaterad": "2026-11-22T07:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -91,8 +91,16 @@
      "alv": "Dalälven",
      "verk": 2,
      "nominell_mw": 450,
-     "tillganglig_mw": 450,
-     "avbrott": [],
+     "tillganglig_mw": 120,
+     "avbrott": [
+      {
+       "namn": "Trängslet",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 330,
+       "slut": "2026-11-22T08:00Z",
+       "orsak": "Failure"
+      }
+     ],
      "produktion_mw": 169,
      "med_produktion": 1
     },
@@ -261,7 +269,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-17T04:45Z",
+   "produktion_tid": "2026-11-17T07:45Z",
    "alvar": [
     {
      "alv": "Kemijoki",
@@ -284,7 +292,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-22T03:00Z",
+   "produktion_tid": "2026-11-22T06:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
