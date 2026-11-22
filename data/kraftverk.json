@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T12:58Z",
+ "uppdaterad": "2026-11-22T13:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-21T09:30Z",
+   "produktion_tid": "2026-11-21T12:45Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2076,7 +2076,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 21
+     "produktion_mw": 7
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2113,7 +2113,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 26
+     "produktion_mw": 43
     },
     {
      "namn": "Horns Rev B",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 165
+     "produktion_mw": 130
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2129,7 +2129,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 49
+     "produktion_mw": 42
     },
     {
      "namn": "Vesterhav Nord",
@@ -2137,7 +2137,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 184
+     "produktion_mw": 175
     },
     {
      "namn": "Solar Park Holsted",
@@ -2145,7 +2145,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 34
+     "produktion_mw": 26
     },
     {
      "namn": "Vesterhav Syd",
@@ -2161,7 +2161,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 40
+     "produktion_mw": 38
     },
     {
      "namn": "Horns Rev A",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 59
+     "produktion_mw": 133
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-21T09:30Z",
+   "produktion_tid": "2026-11-21T12:45Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2193,7 +2193,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 147
+     "produktion_mw": 146
     },
     {
      "namn": "Avedoerevaerket",
@@ -2201,7 +2201,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 306
+     "produktion_mw": 285
     },
     {
      "namn": "Asnaesvaerket",
@@ -2231,7 +2231,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 182
+     "produktion_mw": 188
     },
     {
      "namn": "Roedsand 1",
@@ -2239,7 +2239,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 136
+     "produktion_mw": 140
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2247,7 +2247,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 54
+     "produktion_mw": 30
     },
     {
      "namn": "Solar Park Vedde",
@@ -2255,7 +2255,7 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 7
     }
    ]
   },
@@ -2824,16 +2824,6 @@
      "orsak": null
     },
     {
-     "namn": "Schkopau",
-     "kraftslag": "brunkol",
-     "mw": 900,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T13:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Franken I",
      "kraftslag": "gas",
      "mw": 823,
@@ -2890,16 +2880,6 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-25T16:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
-     "namn": "GKB Mittelsbueren",
-     "kraftslag": "gas",
-     "mw": 450,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T13:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
     },
@@ -3093,6 +3073,13 @@
      "status": "drift"
     },
     {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 900,
+     "status": "drift"
+    },
+    {
      "namn": "HKW Niehl",
      "kraftslag": "gas",
      "mw": 866,
@@ -3214,6 +3201,13 @@
     {
      "namn": "Borkum Riffgrund II",
      "kraftslag": "vind_hav",
+     "mw": 450,
+     "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "GKB Mittelsbueren",
+     "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
      "status": "drift"
