@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T10:28Z",
+ "uppdaterad": "2026-11-22T10:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2809,7 +2809,7 @@
      "mw": 1753,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T16:00Z",
+     "slut": "2026-11-22T18:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3816,9 +3816,9 @@
      "mw": 2049,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T17:00Z",
+     "slut": "2027-03-17T21:00Z",
      "typ": "planerat",
-     "orsak": "Short-term planned outage"
+     "orsak": "Long-term planned overhaul"
     },
     {
      "namn": "Turów",
@@ -3876,7 +3876,7 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T23:00Z",
+     "slut": "2026-11-23T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3926,7 +3926,7 @@
      "mw": 441,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-12-31T23:00Z",
+     "slut": "2026-11-23T15:15Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3971,26 +3971,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 377.0,
-     "status": "begransad",
-     "slut": "2026-11-22T10:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-22T10:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4002,6 +3982,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4195,6 +4182,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
@@ -4460,16 +4454,6 @@
      "orsak": null
     },
     {
-     "namn": "Amer",
-     "kraftslag": "biobransle",
-     "mw": 631,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T11:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "FLEVO 4",
      "kraftslag": "gas",
      "mw": 443,
@@ -4616,6 +4600,13 @@
      "kraftslag": "gas",
      "mw": 684,
      "tillganglig_mw": 684,
+     "status": "drift"
+    },
+    {
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 631,
      "status": "drift"
     },
     {
