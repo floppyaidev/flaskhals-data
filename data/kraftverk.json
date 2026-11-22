@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T17:13Z",
+ "uppdaterad": "2026-11-22T17:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-17T14:00Z",
+   "produktion_tid": "2026-11-17T17:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2303,7 +2303,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
@@ -2311,7 +2311,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 311
     },
     {
      "namn": "Olkiluoto 1",
@@ -2319,7 +2319,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 894
     },
     {
      "namn": "Meri-Pori",
@@ -2396,7 +2396,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 188
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 160
+     "produktion_mw": 166
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2498,7 +2498,7 @@
      "mw": 170,
      "tillganglig_mw": 170,
      "status": "drift",
-     "produktion_mw": 7
+     "produktion_mw": 5
     },
     {
      "namn": "Martinlaakso",
@@ -2528,7 +2528,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 142
+     "produktion_mw": 130
     },
     {
      "namn": "Haapaniemi",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 89
+     "produktion_mw": 59
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 59
+     "produktion_mw": 50
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 75
+     "produktion_mw": 83
     },
     {
      "namn": "Metsälä",
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-22T13:45Z",
+   "produktion_tid": "2026-11-22T16:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2673,7 +2673,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 20
+     "produktion_mw": 19
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-22T13:00Z",
+   "produktion_tid": "2026-11-22T16:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -4497,16 +4497,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "RoCa",
-     "kraftslag": "gas",
-     "mw": 220,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T17:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 128,
@@ -4718,6 +4708,13 @@
      "tillganglig_mw": 248,
      "status": "drift",
      "produktion_mw": 217
+    },
+    {
+     "namn": "RoCa",
+     "kraftslag": "gas",
+     "mw": 220,
+     "tillganglig_mw": 220,
+     "status": "drift"
     },
     {
      "namn": "WP NOP Agrowind",
