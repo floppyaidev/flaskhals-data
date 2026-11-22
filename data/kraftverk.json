@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T03:28Z",
+ "uppdaterad": "2026-11-22T03:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-21T00:15Z",
+   "produktion_tid": "2026-11-21T03:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2076,7 +2076,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 22
+     "produktion_mw": 21
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 188
+     "produktion_mw": 193
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2137,7 +2137,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 184
+     "produktion_mw": 175
     },
     {
      "namn": "Solar Park Holsted",
@@ -2153,7 +2153,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 160
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 95
+     "produktion_mw": 116
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-21T00:15Z",
+   "produktion_tid": "2026-11-21T03:30Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2201,7 +2201,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 433
+     "produktion_mw": 359
     },
     {
      "namn": "Asnaesvaerket",
@@ -2231,7 +2231,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 48
+     "produktion_mw": 89
     },
     {
      "namn": "Roedsand 1",
@@ -2239,7 +2239,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 32
     },
     {
      "namn": "Solar Park Lidsø",

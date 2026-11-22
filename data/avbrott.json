@@ -1,23 +1,23 @@
 {
- "uppdaterad": "2026-11-22T02:47Z",
+ "uppdaterad": "2026-11-22T03:48Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-22T02:30Z",
-  "SE2": "2026-11-22T02:30Z",
-  "SE3": "2026-11-22T02:30Z",
-  "SE4": "2026-11-22T02:30Z",
-  "NO1": "2026-11-22T02:30Z",
-  "NO2": "2026-11-22T02:30Z",
-  "NO3": "2026-11-22T02:30Z",
-  "NO4": "2026-11-22T02:30Z",
-  "NO5": "2026-11-22T02:30Z",
-  "DK1": "2026-11-22T02:30Z",
-  "DK2": "2026-11-22T02:30Z",
-  "FI": "2026-11-22T02:30Z",
-  "EE": "2026-11-22T02:30Z",
-  "LV": "2026-11-22T02:30Z",
-  "LT": "2026-11-22T02:30Z",
-  "DE": "2026-11-22T02:30Z",
+  "SE1": "2026-11-22T03:30Z",
+  "SE2": "2026-11-22T03:30Z",
+  "SE3": "2026-11-22T03:30Z",
+  "SE4": "2026-11-22T03:30Z",
+  "NO1": "2026-11-22T03:30Z",
+  "NO2": "2026-11-22T03:30Z",
+  "NO3": "2026-11-22T03:30Z",
+  "NO4": "2026-11-22T03:30Z",
+  "NO5": "2026-11-22T03:30Z",
+  "DK1": "2026-11-22T03:30Z",
+  "DK2": "2026-11-22T03:30Z",
+  "FI": "2026-11-22T03:30Z",
+  "EE": "2026-11-22T03:30Z",
+  "LV": "2026-11-22T03:30Z",
+  "LT": "2026-11-22T03:30Z",
+  "DE": "2026-11-22T03:30Z",
   "PL": "2026-11-22T02:30Z",
   "NL": "2026-11-22T02:30Z"
  },
@@ -349,16 +349,6 @@
     "kraftslag": "brunkol"
    },
    {
-    "namn": "Kraftwerk Wilhelmshaven",
-    "typ": "planerat",
-    "start": "2026-11-22T00:15Z",
-    "slut": "2026-11-22T03:15Z",
-    "nominell_mw": 726.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "kol"
-   },
-   {
     "namn": "Walsum",
     "typ": "planerat",
     "start": "2026-11-13T23:00Z",
@@ -394,16 +384,6 @@
     "start": "2026-10-30T01:19Z",
     "slut": "2026-12-31T23:00Z",
     "nominell_mw": 638.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "KW Boxberg",
-    "typ": "planerat",
-    "start": "2026-11-13T12:00Z",
-    "slut": "2026-11-22T03:00Z",
-    "nominell_mw": 630.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
     "kraftslag": "brunkol"
@@ -716,6 +696,26 @@
     "nominell_mw": 202.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Weisweiler",
+    "typ": "planerat",
+    "start": "2026-04-06T22:00Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 200.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "KW Jänschwalde",
+    "typ": "planerat",
+    "start": "2026-11-21T20:00Z",
+    "slut": "2026-11-22T13:45Z",
+    "nominell_mw": 500.0,
+    "tillganglig_mw": 303.0,
+    "orsak": "Other",
     "kraftslag": "brunkol"
    }
   ],
