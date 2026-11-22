@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T20:29Z",
+ "uppdaterad": "2026-11-22T20:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2824,16 +2824,6 @@
      "orsak": null
     },
     {
-     "namn": "Franken I",
-     "kraftslag": "gas",
-     "mw": 823,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T20:45Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Walsum",
      "kraftslag": "kol",
      "mw": 725,
@@ -3115,6 +3105,13 @@
      "kraftslag": "kol",
      "mw": 842,
      "tillganglig_mw": 842,
+     "status": "drift"
+    },
+    {
+     "namn": "Franken I",
+     "kraftslag": "gas",
+     "mw": 823,
+     "tillganglig_mw": 823,
      "status": "drift"
     },
     {
