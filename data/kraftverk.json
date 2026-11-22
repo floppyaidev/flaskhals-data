@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T07:59Z",
+ "uppdaterad": "2026-11-22T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -643,18 +643,6 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
-     "namn": "Trängslet",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T08:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failure",
-     "alv": "Dalälven",
-     "produktion_mw": 169
-    },
-    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -683,6 +671,15 @@
      "mw": 384,
      "tillganglig_mw": 384,
      "status": "drift"
+    },
+    {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift",
+     "alv": "Dalälven",
+     "produktion_mw": 169
     },
     {
      "namn": "Stenungsund B3",
@@ -4555,6 +4552,16 @@
      "orsak": null
     },
     {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 644.5,
+     "status": "begransad",
+     "slut": "2026-11-22T15:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4585,13 +4592,6 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 893
-    },
-    {
-     "namn": "OWF Hollandse Kust Noord",
-     "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 760,
-     "status": "drift"
     },
     {
      "namn": "Borssele Windfarm III and IV",
