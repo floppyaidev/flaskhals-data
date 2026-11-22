@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T06:59Z",
+ "uppdaterad": "2026-11-22T07:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -643,18 +643,6 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
-     "namn": "Trängslet",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-22T07:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failure",
-     "alv": "Dalälven",
-     "produktion_mw": 169
-    },
-    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -683,6 +671,15 @@
      "mw": 384,
      "tillganglig_mw": 384,
      "status": "drift"
+    },
+    {
+     "namn": "Trängslet",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 330,
+     "status": "drift",
+     "alv": "Dalälven",
+     "produktion_mw": 169
     },
     {
      "namn": "Stenungsund B3",
@@ -2957,16 +2954,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 277.0,
-     "status": "begransad",
-     "slut": "2026-11-22T07:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Irsching",
      "kraftslag": "gas",
      "mw": 1422,
@@ -3061,6 +3048,13 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
      "status": "drift"
     },
     {
