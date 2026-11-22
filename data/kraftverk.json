@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T20:58Z",
+ "uppdaterad": "2026-11-22T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3004,16 +3004,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 129.0,
-     "status": "begransad",
-     "slut": "2026-11-22T21:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Nord 2",
      "kraftslag": "kol",
      "mw": 373,
@@ -3273,6 +3263,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
