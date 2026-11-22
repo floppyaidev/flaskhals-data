@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T04:28Z",
+ "uppdaterad": "2026-11-22T04:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-17T01:45Z",
+   "produktion_tid": "2026-11-17T04:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2271,7 +2271,7 @@
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
      "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
-     "produktion_mw": 55
+     "produktion_mw": 150
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -2303,7 +2303,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
@@ -2396,7 +2396,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 171
+     "produktion_mw": 165
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 138
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2528,7 +2528,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 107
+     "produktion_mw": 141
     },
     {
      "namn": "Haapaniemi",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 104
+     "produktion_mw": 98
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 59
+     "produktion_mw": 61
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 75
     },
     {
      "namn": "Metsälä",
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-22T00:45Z",
+   "produktion_tid": "2026-11-22T03:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2673,7 +2673,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 21
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 122
+     "produktion_mw": 118
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-22T00:00Z",
+   "produktion_tid": "2026-11-22T03:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -4465,7 +4465,7 @@
      "mw": 631,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T17:00Z",
+     "slut": "2026-11-22T12:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -4545,16 +4545,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1309.0,
-     "status": "begransad",
-     "slut": "2026-11-22T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Maasvlakte",
      "kraftslag": "kol",
      "mw": 1070,
@@ -4573,6 +4563,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
     },
     {
      "namn": "Claus",

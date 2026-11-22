@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T04:28Z",
+ "uppdaterad": "2026-11-22T04:48Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -15,9 +15,9 @@
   "SE": "2026-11-22T03:14Z",
   "NO": "2026-11-22T03:14Z",
   "DK": "2026-11-22T03:48Z",
-  "FI": "2026-11-22T01:47Z",
-  "EE": "2026-11-22T01:47Z",
-  "LV": "2026-11-22T01:47Z",
+  "FI": "2026-11-22T04:47Z",
+  "EE": "2026-11-22T04:47Z",
+  "LV": "2026-11-22T04:48Z",
   "LT": "2026-11-22T01:48Z",
   "PL": "2026-11-22T01:59Z",
   "NL": "2026-11-22T01:59Z"
@@ -871,109 +871,109 @@
   },
   "FI": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-17T01:45Z",
+   "data_tid": "2026-11-17T04:45Z",
    "enheter": [
     {
      "namn": "Olkiluoto 1 B1",
      "kraftslag": "karnkraft",
      "mw": 894,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Olkiluoto 2 B2",
      "kraftslag": "karnkraft",
-     "mw": 741,
-     "t": "2026-11-17T01:45Z"
+     "mw": 740,
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Loviisa 2 G21",
      "kraftslag": "karnkraft",
      "mw": 257,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Loviisa 2 G22",
      "kraftslag": "karnkraft",
      "mw": 255,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Loviisa 1 G12",
      "kraftslag": "karnkraft",
      "mw": 252,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Loviisa 1 G11",
      "kraftslag": "karnkraft",
      "mw": 249,
-     "t": "2026-11-17T01:45Z"
-    },
-    {
-     "namn": "Äänekoski G1",
-     "kraftslag": "biobransle",
-     "mw": 171,
-     "t": "2026-11-17T01:45Z"
-    },
-    {
-     "namn": "Keljonlahti B1",
-     "kraftslag": "torv",
-     "mw": 161,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Alholmens B2",
      "kraftslag": "torv",
-     "mw": 131,
-     "t": "2026-11-17T01:45Z"
+     "mw": 166,
+     "t": "2026-11-17T04:45Z"
+    },
+    {
+     "namn": "Äänekoski G1",
+     "kraftslag": "biobransle",
+     "mw": 165,
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Naantali B4",
      "kraftslag": "biobransle",
-     "mw": 107,
-     "t": "2026-11-17T01:45Z"
+     "mw": 141,
+     "t": "2026-11-17T04:45Z"
     },
     {
-     "namn": "Raahen Voima",
-     "kraftslag": "ovrigt",
-     "mw": 104,
-     "t": "2026-11-17T01:45Z"
-    },
-    {
-     "namn": "Kaukaan Voima G10",
-     "kraftslag": "biobransle",
-     "mw": 59,
-     "t": "2026-11-17T01:45Z"
+     "namn": "Keljonlahti B1",
+     "kraftslag": "torv",
+     "mw": 138,
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Vuosaari VuB4",
      "kraftslag": "gas",
-     "mw": 54,
-     "t": "2026-11-17T01:45Z"
+     "mw": 110,
+     "t": "2026-11-17T04:45Z"
+    },
+    {
+     "namn": "Raahen Voima",
+     "kraftslag": "ovrigt",
+     "mw": 98,
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Toppila B2",
      "kraftslag": "torv",
-     "mw": 53,
-     "t": "2026-11-17T01:45Z"
+     "mw": 75,
+     "t": "2026-11-17T04:45Z"
+    },
+    {
+     "namn": "Kaukaan Voima G10",
+     "kraftslag": "biobransle",
+     "mw": 61,
+     "t": "2026-11-17T04:45Z"
+    },
+    {
+     "namn": "Vuosaari VuB6",
+     "kraftslag": "gas",
+     "mw": 40,
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Kymijärvi B1",
      "kraftslag": "kol",
      "mw": 5,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Meri-Pori B1",
      "kraftslag": "kol",
      "mw": 3,
      "t": "2026-11-17T00:00Z"
-    },
-    {
-     "namn": "Vuosaari VuB6",
-     "kraftslag": "gas",
-     "mw": 1,
-     "t": "2026-11-17T01:45Z"
     },
     {
      "namn": "Metsä Fibre Kemi G1",
@@ -1021,7 +1021,7 @@
      "namn": "Seinäjoki B1",
      "kraftslag": "torv",
      "mw": 0,
-     "t": "2026-11-17T00:00Z"
+     "t": "2026-11-17T02:45Z"
     },
     {
      "namn": "Suomenoja 2 GT",
@@ -1039,7 +1039,7 @@
      "namn": "Vuosaari VuB5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-17T01:45Z"
+     "t": "2026-11-17T04:45Z"
     },
     {
      "namn": "Olkiluoto 3 B3",
@@ -1051,37 +1051,37 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-22T00:45Z",
+   "data_tid": "2026-11-22T03:45Z",
    "enheter": [
-    {
-     "namn": "Balti Elektrijaam -TG11",
-     "kraftslag": "oljeskiffer",
-     "mw": 122,
-     "t": "2026-11-22T00:45Z"
-    },
     {
      "namn": "Auvere EJ- G1",
      "kraftslag": "oljeskiffer",
-     "mw": 110,
-     "t": "2026-11-22T00:45Z"
+     "mw": 119,
+     "t": "2026-11-22T03:45Z"
+    },
+    {
+     "namn": "Balti Elektrijaam -TG11",
+     "kraftslag": "oljeskiffer",
+     "mw": 118,
+     "t": "2026-11-22T03:00Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 17,
-     "t": "2026-11-22T00:45Z"
+     "mw": 16,
+     "t": "2026-11-22T03:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
      "mw": 4,
-     "t": "2026-11-22T00:15Z"
+     "t": "2026-11-22T02:30Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG6",
      "kraftslag": "oljeskiffer",
      "mw": 1,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-22T02:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
@@ -1099,13 +1099,13 @@
   },
   "LV": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-22T00:00Z",
+   "data_tid": "2026-11-22T03:00Z",
    "enheter": [
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 97,
-     "t": "2026-11-22T00:00Z"
+     "mw": 102,
+     "t": "2026-11-22T03:00Z"
     },
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
@@ -1114,15 +1114,15 @@
      "t": "2026-11-22T00:00Z"
     },
     {
+     "namn": "Block-2, Steam Turbine, RTEC2",
+     "kraftslag": "gas",
+     "mw": 64,
+     "t": "2026-11-22T03:00Z"
+    },
+    {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
      "mw": 63,
-     "t": "2026-11-22T00:00Z"
-    },
-    {
-     "namn": "Block-2, Steam Turbine, RTEC2",
-     "kraftslag": "gas",
-     "mw": 62,
      "t": "2026-11-22T00:00Z"
     },
     {
