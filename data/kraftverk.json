@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T10:47Z",
+ "uppdaterad": "2026-11-22T10:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-17T07:45Z",
+   "produktion_tid": "2026-11-17T10:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2271,7 +2271,7 @@
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
      "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
-     "produktion_mw": 191
+     "produktion_mw": 214
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -2365,7 +2365,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 15
+     "produktion_mw": 35
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2396,7 +2396,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 181
+     "produktion_mw": 183
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 162
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2528,7 +2528,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 142
+     "produktion_mw": 141
     },
     {
      "namn": "Haapaniemi",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 103
+     "produktion_mw": 104
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 80
     },
     {
      "namn": "Paskoonharju",
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-22T06:45Z",
+   "produktion_tid": "2026-11-22T09:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 146
+     "produktion_mw": 151
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-22T06:00Z",
+   "produktion_tid": "2026-11-22T09:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
