@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T14:48Z",
+ "uppdaterad": "2026-11-22T15:00Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4549,16 +4549,6 @@
      "orsak": null
     },
     {
-     "namn": "OWF Hollandse Kust Noord",
-     "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 644.5,
-     "status": "begransad",
-     "slut": "2026-11-22T15:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4589,6 +4579,13 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 893
+    },
+    {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
     },
     {
      "namn": "Borssele Windfarm III and IV",
