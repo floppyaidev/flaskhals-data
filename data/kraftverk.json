@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T08:29Z",
+ "uppdaterad": "2026-11-22T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2779,7 +2779,7 @@
      "mw": 2197,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-12-31T23:00Z",
+     "slut": "2026-12-01T19:30Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3836,7 +3836,7 @@
      "mw": 1350,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T23:00Z",
+     "slut": "2026-11-27T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3901,16 +3901,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Porąbka Żar",
-     "kraftslag": "pumpkraft",
-     "mw": 582,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2030-02-10T22:45Z",
-     "typ": "planerat",
-     "orsak": "Long-term planned overhaul"
-    },
-    {
      "namn": "EC Żerań 2",
      "kraftslag": "gas",
      "mw": 484,
@@ -3966,7 +3956,7 @@
      "mw": 208,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-22T23:00Z",
+     "slut": "2026-11-27T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -4006,6 +3996,13 @@
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 620,
+     "status": "drift"
+    },
+    {
+     "namn": "Porąbka Żar",
+     "kraftslag": "pumpkraft",
+     "mw": 582,
+     "tillganglig_mw": 582,
      "status": "drift"
     },
     {
