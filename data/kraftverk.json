@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T04:14Z",
+ "uppdaterad": "2026-11-23T04:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-22T01:00Z",
+   "produktion_tid": "2026-11-22T04:00Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2121,7 +2121,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 27
+     "produktion_mw": 60
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2137,7 +2137,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 78
+     "produktion_mw": 100
     },
     {
      "namn": "Solar Park Holsted",
@@ -2153,7 +2153,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 71
+     "produktion_mw": 112
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2169,7 +2169,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 10
+     "produktion_mw": 53
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2182,7 +2182,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-22T01:00Z",
+   "produktion_tid": "2026-11-22T04:00Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2201,7 +2201,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 460
+     "produktion_mw": 418
     },
     {
      "namn": "Asnaesvaerket",
@@ -2231,7 +2231,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 55
+     "produktion_mw": 90
     },
     {
      "namn": "Roedsand 1",
@@ -2239,7 +2239,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 48
+     "produktion_mw": 82
     },
     {
      "namn": "Solar Park Lidsø",
