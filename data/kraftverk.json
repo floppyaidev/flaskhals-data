@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-23T19:58Z",
+ "uppdaterad": "2026-11-23T20:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-18T16:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -24,7 +24,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 536
+     "produktion_mw": 564
     },
     {
      "namn": "MarkbygdenETT",
@@ -40,7 +40,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 308
+     "produktion_mw": 438
     },
     {
      "namn": "Porjus",
@@ -49,7 +49,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 305
+     "produktion_mw": 366
     },
     {
      "namn": "Djupdal",
@@ -72,7 +72,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 247
+     "produktion_mw": 281
     },
     {
      "namn": "Ligga",
@@ -81,7 +81,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 121
+     "produktion_mw": 146
     },
     {
      "namn": "Vietas",
@@ -90,7 +90,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 184
+     "produktion_mw": 245
     },
     {
      "namn": "Porsi",
@@ -99,7 +99,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 72
+     "produktion_mw": 87
     },
     {
      "namn": "Gråberget",
@@ -122,7 +122,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 187
+     "produktion_mw": 186
     },
     {
      "namn": "Seitevare",
@@ -219,7 +219,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-18T16:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Stornorrfors",
@@ -228,7 +228,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 278
+     "produktion_mw": 319
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -464,7 +464,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 121
+     "produktion_mw": 103
     },
     {
      "namn": "Hocksjön",
@@ -612,7 +612,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-18T16:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Ringhals 4",
@@ -633,7 +633,7 @@
      "slut": "2026-11-27T22:59Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 0
+     "produktion_mw": 137
     },
     {
      "namn": "Ringhals 3",
@@ -666,7 +666,7 @@
      "mw": 1121,
      "tillganglig_mw": 1121,
      "status": "drift",
-     "produktion_mw": 1121
+     "produktion_mw": 1120
     },
     {
      "namn": "Värtaverket",
@@ -682,7 +682,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 205
+     "produktion_mw": 107
     },
     {
      "namn": "Stenungsund B3",
@@ -831,7 +831,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-18T16:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -850,7 +850,7 @@
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
-     "produktion_mw": 308
+     "produktion_mw": 293
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -932,7 +932,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-18T17:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Vamma",
@@ -1017,7 +1017,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 83
+     "produktion_mw": 81
     },
     {
      "namn": "Solberg2",
@@ -1079,7 +1079,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-18T17:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Kvilldal",
@@ -1090,7 +1090,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 548
+     "produktion_mw": 610
     },
     {
      "namn": "Tonstad",
@@ -1101,7 +1101,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 668
+     "produktion_mw": 587
     },
     {
      "namn": "Tokke",
@@ -1112,7 +1112,7 @@
      "slut": "2026-11-27T15:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 307
+     "produktion_mw": 292
     },
     {
      "namn": "Holen",
@@ -1123,7 +1123,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "oplanerat",
      "orsak": "High storage temperature",
-     "produktion_mw": 222
+     "produktion_mw": 233
     },
     {
      "namn": "Blåfal.V",
@@ -1151,7 +1151,7 @@
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
-     "produktion_mw": 97
+     "produktion_mw": 98
     },
     {
      "namn": "Lysebotn 2",
@@ -1180,7 +1180,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 277
+     "produktion_mw": 294
     },
     {
      "namn": "Sønnå",
@@ -1188,7 +1188,7 @@
      "mw": 275,
      "tillganglig_mw": 275,
      "status": "drift",
-     "produktion_mw": 198
+     "produktion_mw": 200
     },
     {
      "namn": "Tysso 2",
@@ -1204,7 +1204,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 197
+     "produktion_mw": 198
     },
     {
      "namn": "Solhom",
@@ -1212,7 +1212,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 169
+     "produktion_mw": 132
     },
     {
      "namn": "Skjerka",
@@ -1220,7 +1220,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 50
+     "produktion_mw": 0
     },
     {
      "namn": "Vemork",
@@ -1228,7 +1228,7 @@
      "mw": 204,
      "tillganglig_mw": 204,
      "status": "drift",
-     "produktion_mw": 196
+     "produktion_mw": 198
     },
     {
      "namn": "Duge",
@@ -1236,7 +1236,7 @@
      "mw": 202,
      "tillganglig_mw": 202,
      "status": "drift",
-     "produktion_mw": 155
+     "produktion_mw": 82
     },
     {
      "namn": "Suldal 1",
@@ -1647,7 +1647,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-18T17:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Rana",
@@ -1669,7 +1669,7 @@
      "slut": "2027-03-31T13:00Z",
      "typ": "planerat",
      "orsak": "Fix issues with generator and turbine rehabilitation",
-     "produktion_mw": 149
+     "produktion_mw": 139
     },
     {
      "namn": "Svartisen",
@@ -1698,7 +1698,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 151
+     "produktion_mw": 170
     },
     {
      "namn": "Melkøya",
@@ -1735,7 +1735,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 54
     },
     {
      "namn": "Straumsmo",
@@ -1831,7 +1831,7 @@
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-18T17:00Z",
+   "produktion_tid": "2026-11-18T20:00Z",
    "verk": [
     {
      "namn": "Aurland1",
@@ -1842,7 +1842,7 @@
      "slut": "2027-03-08T14:00Z",
      "typ": "planerat",
      "orsak": "Reconstruction of control systems.",
-     "produktion_mw": 431
+     "produktion_mw": 511
     },
     {
      "namn": "Sy Sima",
@@ -1885,7 +1885,7 @@
      "mw": 330,
      "tillganglig_mw": 330,
      "status": "drift",
-     "produktion_mw": 136
+     "produktion_mw": 173
     },
     {
      "namn": "Jostedal",
@@ -1901,7 +1901,7 @@
      "mw": 270,
      "tillganglig_mw": 270,
      "status": "drift",
-     "produktion_mw": 230
+     "produktion_mw": 258
     },
     {
      "namn": "Nes OEK",
@@ -1930,7 +1930,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 187
+     "produktion_mw": 185
     },
     {
      "namn": "Borgund",
@@ -1982,7 +1982,7 @@
      "mw": 144,
      "tillganglig_mw": 144,
      "status": "drift",
-     "produktion_mw": 113
+     "produktion_mw": 101
     },
     {
      "namn": "Aurland2",
@@ -2004,7 +2004,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 100
+     "produktion_mw": 91
     },
     {
      "namn": "Myster",
@@ -2012,7 +2012,7 @@
      "mw": 110,
      "tillganglig_mw": 110,
      "status": "drift",
-     "produktion_mw": 22
+     "produktion_mw": 0
     },
     {
      "namn": "Bjølvo",
@@ -2052,7 +2052,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-22T16:30Z",
+   "produktion_tid": "2026-11-22T19:45Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2074,7 +2074,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 178
+     "produktion_mw": 179
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2130,7 +2130,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 102
+     "produktion_mw": 191
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2146,7 +2146,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 157
+     "produktion_mw": 184
     },
     {
      "namn": "Solar Park Holsted",
@@ -2162,7 +2162,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 145
+     "produktion_mw": 147
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2178,7 +2178,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 77
+     "produktion_mw": 73
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2191,7 +2191,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-22T16:30Z",
+   "produktion_tid": "2026-11-22T19:45Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2210,7 +2210,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 462
+     "produktion_mw": 481
     },
     {
      "namn": "Asnaesvaerket",
@@ -2240,7 +2240,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 143
+     "produktion_mw": 95
     },
     {
      "namn": "Roedsand 1",
@@ -2248,7 +2248,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 108
+     "produktion_mw": 61
     },
     {
      "namn": "Solar Park Lidsø",
@@ -4453,6 +4453,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T19:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
@@ -4576,13 +4586,6 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 453
-    },
-    {
-     "namn": "Velsen",
-     "kraftslag": "gas",
-     "mw": 869,
-     "tillganglig_mw": 869,
-     "status": "drift"
     },
     {
      "namn": "Rijnmond 1",
