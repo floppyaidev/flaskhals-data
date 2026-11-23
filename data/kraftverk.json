@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T04:29Z",
+ "uppdaterad": "2026-11-23T04:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2874,6 +2874,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -2934,6 +2944,16 @@
      "orsak": null
     },
     {
+     "namn": "Niederaußem",
+     "kraftslag": "brunkol",
+     "mw": 2197,
+     "tillganglig_mw": 536.0,
+     "status": "begransad",
+     "slut": "2026-12-01T18:45Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
@@ -2941,6 +2961,16 @@
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 549.0,
+     "status": "begransad",
+     "slut": "2026-11-23T05:30Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3018,20 +3048,6 @@
      "kraftslag": "brunkol",
      "mw": 2470,
      "tillganglig_mw": 2470,
-     "status": "drift"
-    },
-    {
-     "namn": "Niederaußem",
-     "kraftslag": "brunkol",
-     "mw": 2197,
-     "tillganglig_mw": 2197,
-     "status": "drift"
-    },
-    {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 2011,
      "status": "drift"
     },
     {
@@ -3221,13 +3237,6 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
-     "status": "drift"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
