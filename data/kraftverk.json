@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T23:29Z",
+ "uppdaterad": "2026-11-23T23:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -615,16 +615,6 @@
    "produktion_tid": "2026-11-18T23:00Z",
    "verk": [
     {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T01:00Z",
-     "typ": "planerat",
-     "orsak": "Delayed startup after yearly maintenance."
-    },
-    {
      "namn": "Forsmark block 1",
      "kraftslag": "karnkraft",
      "mw": 1100,
@@ -659,6 +649,13 @@
      "tillganglig_mw": 1172,
      "status": "drift",
      "produktion_mw": 0
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 1134,
+     "status": "drift"
     },
     {
      "namn": "Forsmark block 2",
@@ -2970,16 +2967,6 @@
      "orsak": null
     },
     {
-     "namn": "Weiher",
-     "kraftslag": "kol",
-     "mw": 656,
-     "tillganglig_mw": 600.0,
-     "status": "begransad",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External factors that cannot be influenced even by invoking Section 13(2) of the Energy Industry Act (EnWG)"
-    },
-    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3147,6 +3134,13 @@
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
+     "status": "drift"
+    },
+    {
+     "namn": "Weiher",
+     "kraftslag": "kol",
+     "mw": 656,
+     "tillganglig_mw": 656,
      "status": "drift"
     },
     {
@@ -4494,6 +4488,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 750.0,
+     "status": "begransad",
+     "slut": "2026-11-24T00:30Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4515,13 +4519,6 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
