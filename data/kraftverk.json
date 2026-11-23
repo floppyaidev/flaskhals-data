@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T07:59Z",
+ "uppdaterad": "2026-11-23T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -18,6 +18,18 @@
      "produktion_mw": 486
     },
     {
+     "namn": "Messaure",
+     "kraftslag": "vattenkraft",
+     "mw": 428,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-18T13:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance",
+     "alv": "Luleälven",
+     "produktion_mw": 424
+    },
+    {
      "namn": "MarkbygdenETT",
      "kraftslag": "vind_land",
      "mw": 645,
@@ -32,15 +44,6 @@
      "status": "drift",
      "alv": "Luleälven",
      "produktion_mw": 272
-    },
-    {
-     "namn": "Messaure",
-     "kraftslag": "vattenkraft",
-     "mw": 428,
-     "tillganglig_mw": 428,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 424
     },
     {
      "namn": "Porjus",
@@ -225,8 +228,11 @@
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
-     "tillganglig_mw": 602,
-     "status": "drift",
+     "tillganglig_mw": 160.0,
+     "status": "begransad",
+     "slut": "2026-11-23T15:00Z",
+     "typ": "planerat",
+     "orsak": "maintenance",
      "alv": "Umeälven",
      "produktion_mw": 276
     },
@@ -3891,9 +3897,9 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T08:00Z",
+     "slut": "2026-11-24T23:00Z",
      "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
+     "orsak": "Short-term planned outage"
     },
     {
      "namn": "Ostrołęka B",
