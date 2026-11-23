@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T22:59Z",
+ "uppdaterad": "2026-11-23T23:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2294,16 +2294,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Alholmens Kraft",
-     "kraftslag": "torv",
-     "mw": 240,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "planerat",
-     "orsak": "Steam reduction service."
-    },
-    {
      "namn": "Olkiluoto 2",
      "kraftslag": "karnkraft",
      "mw": 890,
@@ -2410,6 +2400,13 @@
     {
      "namn": "Tahkoluoto",
      "kraftslag": "kol",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Alholmens Kraft",
+     "kraftslag": "torv",
      "mw": 240,
      "tillganglig_mw": 240,
      "status": "drift"
@@ -2923,26 +2920,6 @@
      "orsak": null
     },
     {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
-     "namn": "RUHRORT-KW",
-     "kraftslag": "kolgas",
-     "mw": 320,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
@@ -3031,16 +3008,6 @@
      "slut": "2026-11-24T02:45Z",
      "typ": "planerat",
      "orsak": null
-    },
-    {
-     "namn": "Nord 2",
-     "kraftslag": "kol",
-     "mw": 373,
-     "tillganglig_mw": 129.0,
-     "status": "begransad",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
     },
     {
      "namn": "KW Boxberg",
@@ -3302,10 +3269,24 @@
      "status": "drift"
     },
     {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
+     "status": "drift"
+    },
+    {
      "namn": "Arkona",
      "kraftslag": "vind_hav",
      "mw": 378,
      "tillganglig_mw": 378,
+     "status": "drift"
+    },
+    {
+     "namn": "Nord 2",
+     "kraftslag": "kol",
+     "mw": 373,
+     "tillganglig_mw": 373,
      "status": "drift"
     },
     {
@@ -3348,6 +3329,13 @@
      "kraftslag": "gas",
      "mw": 321,
      "tillganglig_mw": 321,
+     "status": "drift"
+    },
+    {
+     "namn": "RUHRORT-KW",
+     "kraftslag": "kolgas",
+     "mw": 320,
+     "tillganglig_mw": 320,
      "status": "drift"
     },
     {
@@ -4437,16 +4425,6 @@
      "orsak": null
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Velsen",
      "kraftslag": "gas",
      "mw": 869,
@@ -4465,26 +4443,6 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "OWF Hollandse Kust Noord",
-     "kraftslag": "vind_hav",
-     "mw": 760,
-     "tillganglig_mw": 1.0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
-     "namn": "Borssele Windfarm III and IV",
-     "kraftslag": "vind_hav",
-     "mw": 732,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
     },
     {
      "namn": "Hemweg",
@@ -4540,6 +4498,13 @@
      "orsak": "Other"
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
+     "status": "drift"
+    },
+    {
      "namn": "Claus",
      "kraftslag": "gas",
      "mw": 1304,
@@ -4562,10 +4527,24 @@
      "produktion_mw": 453
     },
     {
+     "namn": "OWF Hollandse Kust Noord",
+     "kraftslag": "vind_hav",
+     "mw": 760,
+     "tillganglig_mw": 760,
+     "status": "drift"
+    },
+    {
      "namn": "Rijnmond 1",
      "kraftslag": "gas",
      "mw": 750,
      "tillganglig_mw": 750,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele Windfarm III and IV",
+     "kraftslag": "vind_hav",
+     "mw": 732,
+     "tillganglig_mw": 732,
      "status": "drift"
     },
     {
