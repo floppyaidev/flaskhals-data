@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T21:29Z",
+ "uppdaterad": "2026-11-23T21:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,7 +9,7 @@
      "alv": "Luleälven",
      "verk": 11,
      "nominell_mw": 3926,
-     "tillganglig_mw": 3498,
+     "tillganglig_mw": 3164,
      "avbrott": [
       {
        "namn": "Messaure",
@@ -17,6 +17,13 @@
        "nominell_mw": 428,
        "slut": "2026-12-18T13:00Z",
        "orsak": "Maintenance"
+      },
+      {
+       "namn": "Ritsem",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 334,
+       "slut": "2026-11-23T23:00Z",
+       "orsak": "Failure"
       }
      ],
      "produktion_mw": 2745,
@@ -306,7 +313,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T17:00Z",
+   "produktion_tid": "2026-11-23T20:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",

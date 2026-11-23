@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T21:29Z",
+ "uppdaterad": "2026-11-23T21:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -16,6 +16,18 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 431
+    },
+    {
+     "namn": "Ritsem",
+     "kraftslag": "vattenkraft",
+     "mw": 334,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "oplanerat",
+     "orsak": "Failure",
+     "alv": "Luleälven",
+     "produktion_mw": 281
     },
     {
      "namn": "Harsprånget",
@@ -64,15 +76,6 @@
      "mw": 374,
      "tillganglig_mw": 374,
      "status": "drift"
-    },
-    {
-     "namn": "Ritsem",
-     "kraftslag": "vattenkraft",
-     "mw": 334,
-     "tillganglig_mw": 334,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 281
     },
     {
      "namn": "Ligga",
@@ -2674,7 +2677,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-23T17:45Z",
+   "produktion_tid": "2026-11-23T20:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2682,7 +2685,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 20
+     "produktion_mw": 26
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2690,7 +2693,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 177
+     "produktion_mw": 121
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2723,7 +2726,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T17:00Z",
+   "produktion_tid": "2026-11-23T20:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2983,16 +2986,6 @@
      "orsak": null
     },
     {
-     "namn": "Bexbach",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 680.0,
-     "status": "begransad",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Bergkamen",
      "kraftslag": "kol",
      "mw": 717,
@@ -3038,7 +3031,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-23T22:45Z",
+     "slut": "2026-11-24T02:45Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3173,6 +3166,13 @@
     },
     {
      "namn": "Kraftwerk Wilhelmshaven",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Bexbach",
      "kraftslag": "kol",
      "mw": 726,
      "tillganglig_mw": 726,
