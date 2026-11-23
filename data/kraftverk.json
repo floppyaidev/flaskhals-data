@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T09:29Z",
+ "uppdaterad": "2026-11-23T09:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2854,7 +2854,7 @@
      "mw": 900,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T23:00Z",
+     "slut": "2026-11-24T23:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3029,16 +3029,6 @@
      "orsak": null
     },
     {
-     "namn": "Bergkamen",
-     "kraftslag": "kol",
-     "mw": 717,
-     "tillganglig_mw": 640.0,
-     "status": "begransad",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3059,12 +3049,32 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-23T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Nord 2",
      "kraftslag": "kol",
      "mw": 373,
      "tillganglig_mw": 129.0,
      "status": "begransad",
      "slut": "2026-11-24T09:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
+     "namn": "Windanker",
+     "kraftslag": "vind_hav",
+     "mw": 315,
+     "tillganglig_mw": 130.0,
+     "status": "begransad",
+     "slut": "2026-11-23T17:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
     },
@@ -3178,6 +3188,13 @@
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
+     "status": "drift"
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 717,
      "status": "drift"
     },
     {
@@ -3307,13 +3324,6 @@
      "status": "drift"
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
      "namn": "Arkona",
      "kraftslag": "vind_hav",
      "mw": 378,
@@ -3374,13 +3384,6 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
-     "status": "drift"
-    },
-    {
-     "namn": "Windanker",
-     "kraftslag": "vind_hav",
-     "mw": 315,
-     "tillganglig_mw": 315,
      "status": "drift"
     },
     {
