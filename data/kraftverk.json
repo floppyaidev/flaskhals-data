@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T20:58Z",
+ "uppdaterad": "2026-11-23T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3970,16 +3970,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 505.0,
-     "status": "begransad",
-     "slut": "2026-11-23T21:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4005,6 +3995,13 @@
      "kraftslag": "pumpkraft",
      "mw": 714,
      "tillganglig_mw": 714,
+     "status": "drift"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 620,
      "status": "drift"
     },
     {
