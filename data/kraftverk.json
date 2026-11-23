@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T08:59Z",
+ "uppdaterad": "2026-11-23T09:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2275,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-18T06:00Z",
+   "produktion_tid": "2026-11-18T09:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2350,7 +2350,7 @@
      "mw": 496,
      "tillganglig_mw": 496,
      "status": "drift",
-     "produktion_mw": 501
+     "produktion_mw": 500
     },
     {
      "namn": "Loviisa 2",
@@ -2380,7 +2380,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 29
+     "produktion_mw": 35
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2411,7 +2411,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 118
+     "produktion_mw": 119
     },
     {
      "namn": "Tahkoluoto",
@@ -2484,7 +2484,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 150
+     "produktion_mw": 161
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2543,7 +2543,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 126
+     "produktion_mw": 143
     },
     {
      "namn": "Haapaniemi",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 84
     },
     {
      "namn": "Olkiluoto kt",
@@ -2617,7 +2617,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 31
+     "produktion_mw": 5
     },
     {
      "namn": "Paskoonharju",
@@ -2640,7 +2640,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 35
+     "produktion_mw": 54
     },
     {
      "namn": "Metsälä",
@@ -2680,7 +2680,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-23T05:45Z",
+   "produktion_tid": "2026-11-23T08:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2729,7 +2729,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T05:00Z",
+   "produktion_tid": "2026-11-23T08:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3059,16 +3059,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-23T09:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Nord 2",
      "kraftslag": "kol",
      "mw": 373,
@@ -3314,6 +3304,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
