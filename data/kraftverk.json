@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-22T23:59Z",
+ "uppdaterad": "2026-11-23T00:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4494,6 +4494,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 750.0,
+     "status": "begransad",
+     "slut": "2026-11-23T01:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4522,13 +4532,6 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
-     "status": "drift"
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
