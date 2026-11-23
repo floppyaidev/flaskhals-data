@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T09:48Z",
+ "uppdaterad": "2026-11-23T10:01Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2799,16 +2799,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Lippendorf",
-     "kraftslag": "brunkol",
-     "mw": 1782,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T10:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Weisweiler",
      "kraftslag": "brunkol",
      "mw": 1753,
@@ -3090,6 +3080,13 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 1782,
      "status": "drift"
     },
     {
