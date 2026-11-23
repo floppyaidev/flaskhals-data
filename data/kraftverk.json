@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T07:28Z",
+ "uppdaterad": "2026-11-23T07:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2052,7 +2052,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-22T04:00Z",
+   "produktion_tid": "2026-11-22T07:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2085,7 +2085,7 @@
      "slut": "2026-12-01T14:00Z",
      "typ": "oplanerat",
      "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-     "produktion_mw": 6
+     "produktion_mw": 7
     },
     {
      "namn": "Thor Havvindmøllepark",
@@ -2122,7 +2122,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 6
     },
     {
      "namn": "Horns Rev B",
@@ -2130,7 +2130,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 60
+     "produktion_mw": 103
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2138,7 +2138,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 3
     },
     {
      "namn": "Vesterhav Nord",
@@ -2146,7 +2146,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 100
+     "produktion_mw": 154
     },
     {
      "namn": "Solar Park Holsted",
@@ -2154,7 +2154,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 1
     },
     {
      "namn": "Vesterhav Syd",
@@ -2162,7 +2162,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 72
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2170,7 +2170,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 1
     },
     {
      "namn": "Horns Rev A",
@@ -2178,7 +2178,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 79
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2191,7 +2191,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-22T04:00Z",
+   "produktion_tid": "2026-11-22T07:30Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2210,7 +2210,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 418
+     "produktion_mw": 451
     },
     {
      "namn": "Asnaesvaerket",
@@ -2240,7 +2240,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 90
+     "produktion_mw": 36
     },
     {
      "namn": "Roedsand 1",
@@ -2248,7 +2248,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 82
+     "produktion_mw": 25
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2256,7 +2256,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 6
     },
     {
      "namn": "Solar Park Vedde",
@@ -2264,7 +2264,7 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 1
     }
    ]
   },
@@ -2943,6 +2943,16 @@
      "orsak": null
     },
     {
+     "namn": "RUHRORT-KW",
+     "kraftslag": "kolgas",
+     "mw": 320,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
@@ -3010,6 +3020,16 @@
      "status": "begransad",
      "slut": "2026-11-23T17:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 640.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3162,13 +3182,6 @@
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
-     "status": "drift"
-    },
-    {
-     "namn": "Bergkamen",
-     "kraftslag": "kol",
-     "mw": 717,
-     "tillganglig_mw": 717,
      "status": "drift"
     },
     {
@@ -3344,13 +3357,6 @@
      "kraftslag": "gas",
      "mw": 321,
      "tillganglig_mw": 321,
-     "status": "drift"
-    },
-    {
-     "namn": "RUHRORT-KW",
-     "kraftslag": "kolgas",
-     "mw": 320,
-     "tillganglig_mw": 320,
      "status": "drift"
     },
     {
@@ -3885,7 +3891,7 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T23:00Z",
+     "slut": "2026-11-23T08:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -4516,6 +4522,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1391.0,
+     "status": "begransad",
+     "slut": "2026-11-23T15:30Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4524,13 +4540,6 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1420,
-     "status": "drift"
     },
     {
      "namn": "Claus",
