@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T17:28Z",
+ "uppdaterad": "2026-11-23T17:49Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2983,6 +2983,16 @@
      "orsak": null
     },
     {
+     "namn": "Bexbach",
+     "kraftslag": "kol",
+     "mw": 726,
+     "tillganglig_mw": 680.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Bergkamen",
      "kraftslag": "kol",
      "mw": 717,
@@ -2991,6 +3001,16 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "Weiher",
+     "kraftslag": "kol",
+     "mw": 656,
+     "tillganglig_mw": 600.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External factors that cannot be influenced even by invoking Section 13(2) of the Energy Industry Act (EnWG)"
     },
     {
      "namn": "Schluchseewerk AG",
@@ -3009,6 +3029,16 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-23T22:45Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3149,24 +3179,10 @@
      "status": "drift"
     },
     {
-     "namn": "Bexbach",
-     "kraftslag": "kol",
-     "mw": 726,
-     "tillganglig_mw": 726,
-     "status": "drift"
-    },
-    {
      "namn": "Walsum",
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
-     "status": "drift"
-    },
-    {
-     "namn": "Weiher",
-     "kraftslag": "kol",
-     "mw": 656,
-     "tillganglig_mw": 656,
      "status": "drift"
     },
     {
@@ -3286,13 +3302,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
