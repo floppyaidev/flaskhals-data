@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T01:29Z",
+ "uppdaterad": "2026-11-23T01:45Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2799,7 +2799,7 @@
      "mw": 1500,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T04:00Z",
+     "slut": "2026-11-23T05:00Z",
      "typ": "planerat",
      "orsak": "Other"
     },
@@ -2901,6 +2901,16 @@
      "status": "still",
      "slut": "2026-11-23T23:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T17:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3017,7 +3027,7 @@
      "namn": "Merkur Offshore GmbH",
      "kraftslag": "vind_hav",
      "mw": 396,
-     "tillganglig_mw": 98.0,
+     "tillganglig_mw": 80.0,
      "status": "begransad",
      "slut": "2026-11-23T07:00Z",
      "typ": "planerat",
@@ -3346,13 +3356,6 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 316,
      "status": "drift"
     },
     {

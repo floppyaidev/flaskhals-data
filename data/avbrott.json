@@ -1,82 +1,27 @@
 {
- "uppdaterad": "2026-11-23T00:46Z",
+ "uppdaterad": "2026-11-23T01:45Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-23T00:30Z",
-  "SE2": "2026-11-23T00:30Z",
-  "SE3": "2026-11-23T00:30Z",
-  "SE4": "2026-11-23T00:30Z",
-  "NO1": "2026-11-23T00:30Z",
-  "NO2": "2026-11-23T00:30Z",
-  "NO3": "2026-11-23T00:30Z",
-  "NO4": "2026-11-23T00:30Z",
-  "NO5": "2026-11-23T00:30Z",
-  "DK1": "2026-11-23T00:30Z",
-  "DK2": "2026-11-23T00:30Z",
-  "FI": "2026-11-23T00:30Z",
-  "EE": "2026-11-23T00:30Z",
-  "LV": "2026-11-23T00:30Z",
-  "LT": "2026-11-23T00:30Z",
-  "DE": "2026-11-23T00:30Z",
-  "PL": "2026-11-23T00:30Z",
-  "NL": "2026-11-23T00:30Z"
+  "SE1": "2026-11-23T01:30Z",
+  "SE2": "2026-11-23T01:30Z",
+  "SE3": "2026-11-23T01:30Z",
+  "SE4": "2026-11-23T01:30Z",
+  "NO1": "2026-11-23T01:30Z",
+  "NO2": "2026-11-23T01:30Z",
+  "NO3": "2026-11-23T01:30Z",
+  "NO4": "2026-11-23T01:30Z",
+  "NO5": "2026-11-23T01:30Z",
+  "DK1": "2026-11-23T01:30Z",
+  "DK2": "2026-11-23T01:30Z",
+  "FI": "2026-11-23T01:30Z",
+  "EE": "2026-11-23T01:30Z",
+  "LV": "2026-11-23T01:30Z",
+  "LT": "2026-11-23T01:30Z",
+  "DE": "2026-11-23T01:30Z",
+  "PL": "2026-11-23T01:30Z",
+  "NL": "2026-11-23T01:30Z"
  },
  "zoner": {
-  "DK1": [
-   {
-    "namn": "Skaerbaekvaerket",
-    "typ": "oplanerat",
-    "start": "2026-10-21T06:35Z",
-    "slut": "2026-12-01T14:00Z",
-    "nominell_mw": 392.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Nordjyllandsvaerket",
-    "typ": "planerat",
-    "start": "2026-09-03T21:59Z",
-    "slut": "2027-08-13T21:59Z",
-    "nominell_mw": 380.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Limitation extended, due to risk assessment on production unit.",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Nordjyllandsvaerket",
-    "typ": "oplanerat",
-    "start": "2026-06-12T08:40Z",
-    "slut": "2027-02-28T22:59Z",
-    "nominell_mw": 380.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Period 1: Fire in high-voltage distributer. Period 2: Limitation due to repair of high-voltage distributer. Period 3: New available capacity after test. Period ",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Studstrupvaerket",
-    "typ": "planerat",
-    "start": "2026-10-30T22:59Z",
-    "slut": "2026-11-28T22:59Z",
-    "nominell_mw": 359.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Change of low pressure turbine",
-    "kraftslag": "kol"
-   }
-  ],
-  "DK2": [
-   {
-    "namn": "Amagervaerket",
-    "typ": "oplanerat",
-    "start": "2026-10-23T13:00Z",
-    "slut": "2027-06-13T22:00Z",
-    "nominell_mw": 149.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-    "kraftslag": "kol"
-   }
-  ],
-  "LV": [],
   "SE1": [
    {
     "namn": "Harsprånget",
@@ -292,6 +237,70 @@
     "tillganglig_mw": 126.0,
     "orsak": "Annual controls for G4, G5 and G6",
     "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Evanger",
+    "typ": "planerat",
+    "start": "2026-11-24T01:00Z",
+    "slut": "2026-11-24T18:00Z",
+    "nominell_mw": 110.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Control of turbine wheel",
+    "kraftslag": "vattenkraft"
+   }
+  ],
+  "DK1": [
+   {
+    "namn": "Skaerbaekvaerket",
+    "typ": "oplanerat",
+    "start": "2026-10-21T06:35Z",
+    "slut": "2026-12-01T14:00Z",
+    "nominell_mw": 392.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Period 1: Limitation on the turbine.\nPeriod 2: Turbine repair.",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Nordjyllandsvaerket",
+    "typ": "planerat",
+    "start": "2026-09-03T21:59Z",
+    "slut": "2027-08-13T21:59Z",
+    "nominell_mw": 380.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Limitation extended, due to risk assessment on production unit.",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Nordjyllandsvaerket",
+    "typ": "oplanerat",
+    "start": "2026-06-12T08:40Z",
+    "slut": "2027-02-28T22:59Z",
+    "nominell_mw": 380.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Period 1: Fire in high-voltage distributer. Period 2: Limitation due to repair of high-voltage distributer. Period 3: New available capacity after test. Period ",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Studstrupvaerket",
+    "typ": "planerat",
+    "start": "2026-10-30T22:59Z",
+    "slut": "2026-11-28T22:59Z",
+    "nominell_mw": 359.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Change of low pressure turbine",
+    "kraftslag": "kol"
+   }
+  ],
+  "DK2": [
+   {
+    "namn": "Amagervaerket",
+    "typ": "oplanerat",
+    "start": "2026-10-23T13:00Z",
+    "slut": "2027-06-13T22:00Z",
+    "nominell_mw": 149.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
+    "kraftslag": "kol"
    }
   ],
   "FI": [
@@ -337,6 +346,7 @@
    }
   ],
   "EE": [],
+  "LV": [],
   "LT": [
    {
     "namn": "Lietuvos elektrine",
@@ -381,16 +391,6 @@
     "kraftslag": "brunkol"
    },
    {
-    "namn": "Walsum",
-    "typ": "planerat",
-    "start": "2026-11-13T23:00Z",
-    "slut": "2026-11-23T01:00Z",
-    "nominell_mw": 725.0,
-    "tillganglig_mw": 35.0,
-    "orsak": null,
-    "kraftslag": "kol"
-   },
-   {
     "namn": "Bexbach",
     "typ": "oplanerat",
     "start": "2026-11-16T02:45Z",
@@ -424,7 +424,7 @@
     "namn": "KW Jänschwalde",
     "typ": "planerat",
     "start": "2026-11-21T00:00Z",
-    "slut": "2026-11-23T04:00Z",
+    "slut": "2026-11-23T05:00Z",
     "nominell_mw": 500.0,
     "tillganglig_mw": 0.0,
     "orsak": "Other",
@@ -506,7 +506,7 @@
     "start": "2026-11-22T11:30Z",
     "slut": "2026-11-23T07:00Z",
     "nominell_mw": 396.0,
-    "tillganglig_mw": 98.0,
+    "tillganglig_mw": 80.0,
     "orsak": null,
     "kraftslag": "vind_hav"
    },
@@ -674,7 +674,7 @@
     "namn": "KW Jänschwalde",
     "typ": "planerat",
     "start": "2026-11-22T21:00Z",
-    "slut": "2026-11-23T04:45Z",
+    "slut": "2026-11-23T04:00Z",
     "nominell_mw": 500.0,
     "tillganglig_mw": 301.0,
     "orsak": "Other",
@@ -769,6 +769,16 @@
     "tillganglig_mw": 0.0,
     "orsak": null,
     "kraftslag": "pumpkraft"
+   },
+   {
+    "namn": "HKW Tiefstack",
+    "typ": "planerat",
+    "start": "2026-11-21T06:00Z",
+    "slut": "2026-11-24T17:00Z",
+    "nominell_mw": 127.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "kol"
    }
   ],
   "PL": [
@@ -941,6 +951,16 @@
     "tillganglig_mw": 524.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "kol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-22T23:45Z",
+    "slut": "2026-11-23T04:45Z",
+    "nominell_mw": 444.0,
+    "tillganglig_mw": 197.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
    },
    {
     "namn": "Połaniec",
@@ -1157,16 +1177,6 @@
     "typ": "planerat",
     "start": "2026-11-23T08:00Z",
     "slut": "2026-11-23T08:15Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 313.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-23T10:45Z",
-    "slut": "2026-11-23T11:00Z",
     "nominell_mw": 444.0,
     "tillganglig_mw": 313.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
