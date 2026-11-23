@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T21:14Z",
+ "uppdaterad": "2026-11-23T21:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2269,7 +2269,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-18T18:15Z",
+   "produktion_tid": "2026-11-18T21:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2312,7 +2312,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 3",
@@ -2320,7 +2320,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 444
+     "produktion_mw": 704
     },
     {
      "namn": "Olkiluoto 1",
@@ -2374,7 +2374,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 36
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2405,7 +2405,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 121
+     "produktion_mw": 150
     },
     {
      "namn": "Tahkoluoto",
@@ -2478,7 +2478,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 101
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2537,7 +2537,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 113
+     "produktion_mw": 76
     },
     {
      "namn": "Haapaniemi",
@@ -2596,7 +2596,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 92
+     "produktion_mw": 94
     },
     {
      "namn": "Olkiluoto kt",
@@ -2611,7 +2611,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 21
     },
     {
      "namn": "Paskoonharju",
@@ -2634,7 +2634,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 68
+     "produktion_mw": 50
     },
     {
      "namn": "Metsälä",
