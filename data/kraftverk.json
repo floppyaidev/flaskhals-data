@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T03:59Z",
+ "uppdaterad": "2026-11-23T04:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2934,16 +2934,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Boxberg",
-     "kraftslag": "brunkol",
-     "mw": 2470,
-     "tillganglig_mw": 290.0,
-     "status": "begransad",
-     "slut": "2026-11-23T04:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
@@ -2951,16 +2941,6 @@
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 549.0,
-     "status": "begransad",
-     "slut": "2026-11-23T04:00Z",
-     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3034,10 +3014,24 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 2470,
+     "status": "drift"
+    },
+    {
      "namn": "Niederaußem",
      "kraftslag": "brunkol",
      "mw": 2197,
      "tillganglig_mw": 2197,
+     "status": "drift"
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
      "status": "drift"
     },
     {
