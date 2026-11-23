@@ -1,22 +1,10 @@
 {
- "uppdaterad": "2026-11-23T12:30Z",
+ "uppdaterad": "2026-11-23T12:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-18T10:00Z",
    "verk": [
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T14:00Z",
-     "typ": "planerat",
-     "orsak": "Grid maintenance",
-     "alv": "Luleälven",
-     "produktion_mw": 533
-    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -28,6 +16,15 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 432
+    },
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 811,
+     "status": "drift",
+     "alv": "Luleälven",
+     "produktion_mw": 533
     },
     {
      "namn": "MarkbygdenETT",
@@ -2779,6 +2776,16 @@
    "produktion_tid": null,
    "verk": [
     {
+     "namn": "Niederaußem",
+     "kraftslag": "brunkol",
+     "mw": 2197,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Vorarlberger Illwerke AG",
      "kraftslag": "pumpkraft",
      "mw": 2142,
@@ -2979,16 +2986,6 @@
      "orsak": null
     },
     {
-     "namn": "Niederaußem",
-     "kraftslag": "brunkol",
-     "mw": 2197,
-     "tillganglig_mw": 536.0,
-     "status": "begransad",
-     "slut": "2026-12-01T18:45Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Irsching",
      "kraftslag": "gas",
      "mw": 1422,
@@ -3016,6 +3013,16 @@
      "status": "begransad",
      "slut": "2026-11-23T17:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 640.0,
+     "status": "begransad",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3054,7 +3061,7 @@
      "mw": 373,
      "tillganglig_mw": 129.0,
      "status": "begransad",
-     "slut": "2026-11-24T09:00Z",
+     "slut": "2026-11-27T09:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
     },
@@ -3185,13 +3192,6 @@
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
-     "status": "drift"
-    },
-    {
-     "namn": "Bergkamen",
-     "kraftslag": "kol",
-     "mw": 717,
-     "tillganglig_mw": 717,
      "status": "drift"
     },
     {
@@ -3989,6 +3989,16 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 500.0,
+     "status": "begransad",
+     "slut": "2026-11-23T15:00Z",
+     "typ": "oplanerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4014,13 +4024,6 @@
      "kraftslag": "pumpkraft",
      "mw": 714,
      "tillganglig_mw": 714,
-     "status": "drift"
-    },
-    {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 620,
      "status": "drift"
     },
     {
