@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T16:14Z",
+ "uppdaterad": "2026-11-23T16:31Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4433,7 +4433,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-21T22:30Z",
+   "produktion_tid": "2026-11-22T22:00Z",
    "verk": [
     {
      "namn": "Eemshaven",
@@ -4545,7 +4545,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 579
+     "produktion_mw": 453
     },
     {
      "namn": "Velsen",
@@ -4574,7 +4574,7 @@
      "mw": 731,
      "tillganglig_mw": 731,
      "status": "drift",
-     "produktion_mw": 719
+     "produktion_mw": 722
     },
     {
      "namn": "Diemen",
@@ -4611,7 +4611,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 451
+     "produktion_mw": 428
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4708,7 +4708,7 @@
      "mw": 248,
      "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 212
     },
     {
      "namn": "Merwedekanaal 12",
@@ -4716,7 +4716,7 @@
      "mw": 225,
      "tillganglig_mw": 225,
      "status": "drift",
-     "produktion_mw": 187
+     "produktion_mw": 0
     },
     {
      "namn": "RoCa",
@@ -4767,7 +4767,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 105
+     "produktion_mw": 92
     },
     {
      "namn": "PERGEN 2",
@@ -4775,7 +4775,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 109
+     "produktion_mw": 97
     },
     {
      "namn": "Prinses Alexia Windpark",

@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T16:14Z",
+ "uppdaterad": "2026-11-23T16:31Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -9,7 +9,7 @@
   "EE": 0,
   "LV": 0,
   "LT": 1,
-  "NL": 2
+  "NL": 1
  },
  "land_tid": {
   "SE": "2026-11-23T13:49Z",
@@ -19,8 +19,8 @@
   "EE": "2026-11-23T15:29Z",
   "LV": "2026-11-23T15:29Z",
   "LT": "2026-11-23T15:49Z",
-  "PL": "2026-11-23T13:16Z",
-  "NL": "2026-11-23T13:17Z"
+  "PL": "2026-11-23T16:31Z",
+  "NL": "2026-11-23T16:31Z"
  },
  "zoner": {
   "SE3": {
@@ -1188,140 +1188,140 @@
    ]
   },
   "NL": {
-   "lag_dagar": 2,
-   "data_tid": "2026-11-21T22:30Z",
+   "lag_dagar": 1,
+   "data_tid": "2026-11-22T22:00Z",
    "enheter": [
     {
      "namn": "NLROTTETH__1",
      "kraftslag": "kol",
-     "mw": 719,
-     "t": "2026-11-21T22:00Z"
-    },
-    {
-     "namn": "ENECOGEN-U10",
-     "kraftslag": "gas",
-     "mw": 579,
-     "t": "2026-11-21T22:00Z"
+     "mw": 722,
+     "t": "2026-11-22T22:00Z"
     },
     {
      "namn": "Borssele 30",
      "kraftslag": "karnkraft",
      "mw": 483,
-     "t": "2026-11-21T22:00Z"
+     "t": "2026-11-22T22:00Z"
     },
     {
-     "namn": "Unit 20",
+     "namn": "ENECOGEN-U10",
      "kraftslag": "gas",
-     "mw": 451,
-     "t": "2026-11-21T22:00Z"
+     "mw": 453,
+     "t": "2026-11-22T22:00Z"
     },
     {
      "namn": "FLEVO 5",
      "kraftslag": "gas",
-     "mw": 451,
-     "t": "2026-11-21T22:00Z"
+     "mw": 428,
+     "t": "2026-11-22T22:00Z"
+    },
+    {
+     "namn": "Unit 20",
+     "kraftslag": "gas",
+     "mw": 352,
+     "t": "2026-11-22T22:00Z"
     },
     {
      "namn": "Unit 10",
      "kraftslag": "gas",
-     "mw": 448,
-     "t": "2026-11-21T22:00Z"
-    },
-    {
-     "namn": "Merwedekanaal 12",
-     "kraftslag": "gas",
-     "mw": 187,
-     "t": "2026-11-21T22:00Z"
-    },
-    {
-     "namn": "Pergen 2",
-     "kraftslag": "gas",
-     "mw": 109,
-     "t": "2026-11-21T22:00Z"
-    },
-    {
-     "namn": "Pergen 1",
-     "kraftslag": "gas",
-     "mw": 105,
-     "t": "2026-11-21T22:00Z"
+     "mw": 338,
+     "t": "2026-11-22T22:00Z"
     },
     {
      "namn": "Lage Weide 6",
      "kraftslag": "gas",
+     "mw": 212,
+     "t": "2026-11-22T22:00Z"
+    },
+    {
+     "namn": "Pergen 2",
+     "kraftslag": "gas",
+     "mw": 97,
+     "t": "2026-11-22T22:00Z"
+    },
+    {
+     "namn": "Pergen 1",
+     "kraftslag": "gas",
+     "mw": 92,
+     "t": "2026-11-22T22:00Z"
+    },
+    {
+     "namn": "Merwedekanaal 12",
+     "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T15:00Z"
+     "t": "2026-11-22T11:00Z"
     },
     {
      "namn": "NAM Schoonebeek",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "FLEVO 4",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T15:00Z"
+     "t": "2026-11-22T15:00Z"
     },
     {
      "namn": "Eems 7",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T13:00Z"
     },
     {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Eems 5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T21:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Eems 4",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T19:00Z"
     },
     {
      "namn": "Eems 3",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T14:00Z"
     },
     {
      "namn": "Eems 20",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Maasstroom Energie",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T22:30Z"
+     "t": "2026-11-22T20:15Z"
     },
     {
      "namn": "REC-B",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "REC-X",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     },
     {
      "namn": "Delesto 2",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-21T00:00Z"
+     "t": "2026-11-22T00:00Z"
     }
    ]
   }
