@@ -1,17 +1,25 @@
 {
- "uppdaterad": "2026-11-23T06:59Z",
+ "uppdaterad": "2026-11-23T07:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-18T03:00Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
      "verk": 11,
      "nominell_mw": 3926,
-     "tillganglig_mw": 3926,
-     "avbrott": [],
-     "produktion_mw": 1877,
+     "tillganglig_mw": 3115,
+     "avbrott": [
+      {
+       "namn": "Harsprånget",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 811,
+       "slut": "2026-11-23T14:00Z",
+       "orsak": "Grid maintenance"
+      }
+     ],
+     "produktion_mw": 1866,
      "med_produktion": 9
     },
     {
@@ -20,13 +28,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 145,
+     "produktion_mw": 181,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-18T03:00Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -34,7 +42,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 299,
+     "produktion_mw": 276,
      "med_produktion": 1
     },
     {
@@ -52,7 +60,7 @@
      "nominell_mw": 791,
      "tillganglig_mw": 791,
      "avbrott": [],
-     "produktion_mw": 113,
+     "produktion_mw": 115,
      "med_produktion": 1
     },
     {
@@ -85,7 +93,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-18T03:00Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -93,7 +101,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 0,
+     "produktion_mw": 258,
      "med_produktion": 1
     },
     {
@@ -117,7 +125,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-18T03:45Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -140,13 +148,13 @@
        "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
       }
      ],
-     "produktion_mw": 271,
+     "produktion_mw": 257,
      "med_produktion": 3
     }
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-18T03:45Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -190,7 +198,7 @@
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
       }
      ],
-     "produktion_mw": 1027,
+     "produktion_mw": 1999,
      "med_produktion": 15
     }
    ]
@@ -210,7 +218,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-18T03:45Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -233,13 +241,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 716,
+     "produktion_mw": 805,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-18T03:45Z",
+   "produktion_tid": "2026-11-18T07:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -269,7 +277,7 @@
        "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
-     "produktion_mw": 1438,
+     "produktion_mw": 1542,
      "med_produktion": 10
     }
    ]
@@ -318,13 +326,13 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 4266.0,
+     "tillganglig_mw": 2420.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
-       "tillganglig_mw": 1846.0,
+       "tillganglig_mw": 0.0,
        "nominell_mw": 2142,
-       "slut": "2026-12-31T23:00Z",
+       "slut": "2026-12-04T15:00Z",
        "orsak": null
       },
       {
