@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T05:28Z",
+ "uppdaterad": "2026-11-23T05:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2794,6 +2794,16 @@
      "orsak": null
     },
     {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -2821,6 +2831,16 @@
      "status": "still",
      "slut": "2026-11-23T23:00Z",
      "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Kraftwerk Lausward",
+     "kraftslag": "gas",
+     "mw": 845,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-23T17:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -2954,16 +2974,6 @@
      "orsak": null
     },
     {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 549.0,
-     "status": "begransad",
-     "slut": "2026-11-23T05:30Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Irsching",
      "kraftslag": "gas",
      "mw": 1422,
@@ -3041,6 +3051,13 @@
      "status": "drift"
     },
     {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
      "namn": "KW Schwarze Pumpe",
      "kraftslag": "brunkol",
      "mw": 1510,
@@ -3052,13 +3069,6 @@
      "kraftslag": "brunkol",
      "mw": 1500,
      "tillganglig_mw": 1500,
-     "status": "drift"
-    },
-    {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -3094,13 +3104,6 @@
      "kraftslag": "gas",
      "mw": 850,
      "tillganglig_mw": 850,
-     "status": "drift"
-    },
-    {
-     "namn": "Kraftwerk Lausward",
-     "kraftslag": "gas",
-     "mw": 845,
-     "tillganglig_mw": 845,
      "status": "drift"
     },
     {
