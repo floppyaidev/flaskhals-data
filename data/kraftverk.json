@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T22:29Z",
+ "uppdaterad": "2026-11-23T22:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -16,18 +16,6 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 431
-    },
-    {
-     "namn": "Ritsem",
-     "kraftslag": "vattenkraft",
-     "mw": 334,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T23:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failure",
-     "alv": "Luleälven",
-     "produktion_mw": 281
     },
     {
      "namn": "Harsprånget",
@@ -76,6 +64,15 @@
      "mw": 374,
      "tillganglig_mw": 374,
      "status": "drift"
+    },
+    {
+     "namn": "Ritsem",
+     "kraftslag": "vattenkraft",
+     "mw": 334,
+     "tillganglig_mw": 334,
+     "status": "drift",
+     "alv": "Luleälven",
+     "produktion_mw": 281
     },
     {
      "namn": "Ligga",
