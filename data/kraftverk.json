@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T14:59Z",
+ "uppdaterad": "2026-11-23T15:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -225,11 +225,8 @@
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
-     "tillganglig_mw": 160.0,
-     "status": "begransad",
-     "slut": "2026-11-23T15:00Z",
-     "typ": "planerat",
-     "orsak": "maintenance",
+     "tillganglig_mw": 602,
+     "status": "drift",
      "alv": "Umeälven",
      "produktion_mw": 276
     },
@@ -3989,16 +3986,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 500.0,
-     "status": "begransad",
-     "slut": "2026-11-23T15:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4024,6 +4011,13 @@
      "kraftslag": "pumpkraft",
      "mw": 714,
      "tillganglig_mw": 714,
+     "status": "drift"
+    },
+    {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 620,
      "status": "drift"
     },
     {

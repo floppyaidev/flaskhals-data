@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T14:59Z",
+ "uppdaterad": "2026-11-23T15:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -40,16 +40,8 @@
      "alv": "Umeälven",
      "verk": 5,
      "nominell_mw": 1116,
-     "tillganglig_mw": 674.0,
-     "avbrott": [
-      {
-       "namn": "Stornorrfors",
-       "tillganglig_mw": 160.0,
-       "nominell_mw": 602,
-       "slut": "2026-11-23T15:00Z",
-       "orsak": "maintenance"
-      }
-     ],
+     "tillganglig_mw": 1116,
+     "avbrott": [],
      "produktion_mw": 276,
      "med_produktion": 1
     },
