@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T10:30Z",
+ "uppdaterad": "2026-11-23T10:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2058,7 +2058,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-22T07:30Z",
+   "produktion_tid": "2026-11-22T10:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2128,7 +2128,7 @@
      "mw": 303,
      "tillganglig_mw": 303,
      "status": "drift",
-     "produktion_mw": 6
+     "produktion_mw": 27
     },
     {
      "namn": "Horns Rev B",
@@ -2136,7 +2136,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 103
+     "produktion_mw": 104
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2144,7 +2144,7 @@
      "mw": 200,
      "tillganglig_mw": 200,
      "status": "drift",
-     "produktion_mw": 3
+     "produktion_mw": 61
     },
     {
      "namn": "Vesterhav Nord",
@@ -2152,7 +2152,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 154
+     "produktion_mw": 107
     },
     {
      "namn": "Solar Park Holsted",
@@ -2160,7 +2160,7 @@
      "mw": 175,
      "tillganglig_mw": 175,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 36
     },
     {
      "namn": "Vesterhav Syd",
@@ -2168,7 +2168,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 72
+     "produktion_mw": 117
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2176,7 +2176,7 @@
      "mw": 165,
      "tillganglig_mw": 165,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 53
     },
     {
      "namn": "Horns Rev A",
@@ -2184,7 +2184,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 83
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2197,7 +2197,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-22T07:30Z",
+   "produktion_tid": "2026-11-22T10:30Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2208,7 +2208,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 146
+     "produktion_mw": 148
     },
     {
      "namn": "Avedoerevaerket",
@@ -2216,7 +2216,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 451
+     "produktion_mw": 389
     },
     {
      "namn": "Asnaesvaerket",
@@ -2246,7 +2246,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 36
+     "produktion_mw": 45
     },
     {
      "namn": "Roedsand 1",
@@ -2254,7 +2254,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 25
+     "produktion_mw": 31
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2262,7 +2262,7 @@
      "mw": 149,
      "tillganglig_mw": 149,
      "status": "drift",
-     "produktion_mw": 6
+     "produktion_mw": 27
     },
     {
      "namn": "Solar Park Vedde",
@@ -2270,7 +2270,7 @@
      "mw": 90,
      "tillganglig_mw": 90,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 12
     }
    ]
   },
@@ -4508,7 +4508,7 @@
      "mw": 360,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-23T23:00Z",
+     "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
