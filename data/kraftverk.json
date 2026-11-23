@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T22:48Z",
+ "uppdaterad": "2026-11-23T22:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4497,26 +4497,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Borssele 1",
-     "kraftslag": "vind_hav",
-     "mw": 376,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T22:59Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
-     "namn": "Borssele 2",
-     "kraftslag": "vind_hav",
-     "mw": 376,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T22:59Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Eems 6",
      "kraftslag": "gas",
      "mw": 360,
@@ -4674,6 +4654,20 @@
      "kraftslag": "vind_land",
      "mw": 383,
      "tillganglig_mw": 383,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 1",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
+     "status": "drift"
+    },
+    {
+     "namn": "Borssele 2",
+     "kraftslag": "vind_hav",
+     "mw": 376,
+     "tillganglig_mw": 376,
      "status": "drift"
     },
     {
