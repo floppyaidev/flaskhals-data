@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T08:29Z",
+ "uppdaterad": "2026-11-23T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -160,7 +160,7 @@
        "tillganglig_mw": 165.0,
        "nominell_mw": 338,
        "slut": "2026-12-04T14:00Z",
-       "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+       "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. November 25, a generator brush replacement on unit 1 "
       }
      ],
      "produktion_mw": 257,

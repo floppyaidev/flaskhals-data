@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T08:29Z",
+ "uppdaterad": "2026-11-23T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -959,7 +959,7 @@
      "status": "begransad",
      "slut": "2026-12-04T14:00Z",
      "typ": "planerat",
-     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. Testing unit 3 and 4"
+     "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. November 25, a generator brush replacement on unit 1 "
     },
     {
      "namn": "F.K.F",
@@ -2066,7 +2066,7 @@
      "mw": 730,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-28T22:59Z",
+     "slut": "2026-12-03T22:59Z",
      "typ": "planerat",
      "orsak": "Change of low pressure turbine",
      "produktion_mw": 0
