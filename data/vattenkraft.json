@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-23T23:13Z",
+ "uppdaterad": "2026-11-23T23:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -19,7 +19,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 2745,
+     "produktion_mw": 2654,
      "med_produktion": 9
     },
     {
@@ -28,13 +28,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 283,
+     "produktion_mw": 246,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -42,7 +42,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 319,
+     "produktion_mw": 286,
      "med_produktion": 1
     },
     {
@@ -60,7 +60,7 @@
      "nominell_mw": 791,
      "tillganglig_mw": 791,
      "avbrott": [],
-     "produktion_mw": 103,
+     "produktion_mw": 114,
      "med_produktion": 1
     },
     {
@@ -93,7 +93,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -101,7 +101,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 107,
+     "produktion_mw": 0,
      "med_produktion": 1
     },
     {
@@ -125,7 +125,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -148,13 +148,13 @@
        "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. November 25, a generator brush replacement on unit 1 "
       }
      ],
-     "produktion_mw": 267,
+     "produktion_mw": 273,
      "med_produktion": 3
     }
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -198,7 +198,7 @@
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
       }
      ],
-     "produktion_mw": 3264,
+     "produktion_mw": 1638,
      "med_produktion": 15
     }
    ]
@@ -218,7 +218,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -241,13 +241,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 847,
+     "produktion_mw": 894,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-18T20:00Z",
+   "produktion_tid": "2026-11-18T23:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -277,7 +277,7 @@
        "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
-     "produktion_mw": 2165,
+     "produktion_mw": 1960,
      "med_produktion": 10
     }
    ]
