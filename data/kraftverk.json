@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T00:28Z",
+ "uppdaterad": "2026-11-23T00:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2894,16 +2894,6 @@
      "orsak": null
     },
     {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T17:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2949,7 +2939,7 @@
      "mw": 2011,
      "tillganglig_mw": 549.0,
      "status": "begransad",
-     "slut": "2026-11-23T00:59Z",
+     "slut": "2026-11-23T03:00Z",
      "typ": "oplanerat",
      "orsak": null
     },
@@ -2991,6 +2981,16 @@
      "status": "begransad",
      "slut": "2026-11-23T17:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 35.0,
+     "status": "begransad",
+     "slut": "2026-11-23T01:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3129,13 +3129,6 @@
      "kraftslag": "kol",
      "mw": 726,
      "tillganglig_mw": 726,
-     "status": "drift"
-    },
-    {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 725,
      "status": "drift"
     },
     {
@@ -3353,6 +3346,13 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 316,
      "status": "drift"
     },
     {
@@ -4494,16 +4494,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 750.0,
-     "status": "begransad",
-     "slut": "2026-11-23T01:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4532,6 +4522,13 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
