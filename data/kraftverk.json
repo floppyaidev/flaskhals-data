@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T15:14Z",
+ "uppdaterad": "2026-11-23T15:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2269,7 +2269,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-18T12:15Z",
+   "produktion_tid": "2026-11-18T15:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2312,7 +2312,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 3",
@@ -2320,7 +2320,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 450
+     "produktion_mw": 444
     },
     {
      "namn": "Olkiluoto 1",
@@ -2328,7 +2328,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 894
     },
     {
      "namn": "Meri-Pori",
@@ -2478,7 +2478,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 144
+     "produktion_mw": 150
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2537,7 +2537,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 128
+     "produktion_mw": 113
     },
     {
      "namn": "Haapaniemi",
@@ -2596,7 +2596,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 87
     },
     {
      "namn": "Olkiluoto kt",
@@ -2634,7 +2634,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 77
+     "produktion_mw": 94
     },
     {
      "namn": "Metsälä",
@@ -2674,7 +2674,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-23T11:45Z",
+   "produktion_tid": "2026-11-23T14:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2682,7 +2682,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 20
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2690,7 +2690,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 178
+     "produktion_mw": 177
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2723,7 +2723,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T11:00Z",
+   "produktion_tid": "2026-11-23T14:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3936,16 +3936,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T15:15Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Łagisza",
      "kraftslag": "kol",
      "mw": 430,
@@ -4039,6 +4029,13 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
