@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T00:59Z",
+ "uppdaterad": "2026-11-23T01:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2984,16 +2984,6 @@
      "orsak": null
     },
     {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 35.0,
-     "status": "begransad",
-     "slut": "2026-11-23T01:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3129,6 +3119,13 @@
      "kraftslag": "kol",
      "mw": 726,
      "tillganglig_mw": 726,
+     "status": "drift"
+    },
+    {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 725,
      "status": "drift"
     },
     {
