@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T05:58Z",
+ "uppdaterad": "2026-11-23T06:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -245,7 +245,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 5682,
+     "tillganglig_mw": 4908.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -253,6 +253,20 @@
        "nominell_mw": 840,
        "slut": "2027-03-08T14:00Z",
        "orsak": "Reconstruction of control systems."
+      },
+      {
+       "namn": "Sy Sima",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 630,
+       "slut": "2026-11-25T10:00Z",
+       "orsak": "Revision of earthing switch and repair of earthing switch coils."
+      },
+      {
+       "namn": "Fortun",
+       "tillganglig_mw": 126.0,
+       "nominell_mw": 270,
+       "slut": "2026-12-11T14:00Z",
+       "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
      "produktion_mw": 1438,
@@ -261,7 +275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-18T02:45Z",
+   "produktion_tid": "2026-11-18T06:00Z",
    "alvar": [
     {
      "alv": "Kemijoki",
@@ -284,7 +298,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T01:00Z",
+   "produktion_tid": "2026-11-23T05:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",

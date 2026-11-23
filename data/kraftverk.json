@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T05:58Z",
+ "uppdaterad": "2026-11-23T06:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1845,8 +1845,21 @@
      "namn": "Sy Sima",
      "kraftslag": "vattenkraft",
      "mw": 630,
-     "tillganglig_mw": 630,
-     "status": "drift"
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T10:00Z",
+     "typ": "planerat",
+     "orsak": "Revision of earthing switch and repair of earthing switch coils."
+    },
+    {
+     "namn": "Fortun",
+     "kraftslag": "vattenkraft",
+     "mw": 270,
+     "tillganglig_mw": 126.0,
+     "status": "begransad",
+     "slut": "2026-12-11T14:00Z",
+     "typ": "planerat",
+     "orsak": "Annual controls for G4, G5 and G6"
     },
     {
      "namn": "Lang Sima",
@@ -1886,13 +1899,6 @@
      "tillganglig_mw": 270,
      "status": "drift",
      "produktion_mw": 0
-    },
-    {
-     "namn": "Fortun",
-     "kraftslag": "vattenkraft",
-     "mw": 270,
-     "tillganglig_mw": 270,
-     "status": "drift"
     },
     {
      "namn": "Nes OEK",
@@ -2260,7 +2266,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-18T02:45Z",
+   "produktion_tid": "2026-11-18T06:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2311,7 +2317,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 303
+     "produktion_mw": 313
     },
     {
      "namn": "Olkiluoto 1",
@@ -2319,7 +2325,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 894
+     "produktion_mw": 893
     },
     {
      "namn": "Meri-Pori",
@@ -2365,7 +2371,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 29
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2396,7 +2402,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 134
+     "produktion_mw": 118
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2475,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 150
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2528,7 +2534,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 43
+     "produktion_mw": 126
     },
     {
      "namn": "Haapaniemi",
@@ -2587,7 +2593,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 83
+     "produktion_mw": 79
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 26
+     "produktion_mw": 31
     },
     {
      "namn": "Paskoonharju",
@@ -2665,7 +2671,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-23T01:45Z",
+   "produktion_tid": "2026-11-23T05:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2681,7 +2687,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 163
+     "produktion_mw": 177
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2714,7 +2720,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-23T01:00Z",
+   "produktion_tid": "2026-11-23T05:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
