@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T11:59Z",
+ "uppdaterad": "2026-11-23T12:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4452,16 +4452,6 @@
      "orsak": null
     },
     {
-     "namn": "Velsen",
-     "kraftslag": "gas",
-     "mw": 869,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T12:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
@@ -4565,6 +4555,13 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 579
+    },
+    {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 869,
+     "status": "drift"
     },
     {
      "namn": "OWF Hollandse Kust Noord",
