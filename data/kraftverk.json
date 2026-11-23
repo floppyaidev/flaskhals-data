@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T18:30Z",
+ "uppdaterad": "2026-11-23T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4473,16 +4473,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "Rijnmond 1",
-     "kraftslag": "gas",
-     "mw": 750,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T19:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Borssele Windfarm III and IV",
      "kraftslag": "vind_hav",
      "mw": 732,
@@ -4592,6 +4582,13 @@
      "kraftslag": "gas",
      "mw": 869,
      "tillganglig_mw": 869,
+     "status": "drift"
+    },
+    {
+     "namn": "Rijnmond 1",
+     "kraftslag": "gas",
+     "mw": 750,
+     "tillganglig_mw": 750,
      "status": "drift"
     },
     {
