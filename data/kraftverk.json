@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T18:59Z",
+ "uppdaterad": "2026-11-23T19:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -615,16 +615,6 @@
    "produktion_tid": "2026-11-18T16:00Z",
    "verk": [
     {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T19:00Z",
-     "typ": "planerat",
-     "orsak": "Delayed startup after yearly maintenance."
-    },
-    {
      "namn": "Forsmark block 1",
      "kraftslag": "karnkraft",
      "mw": 1100,
@@ -659,6 +649,13 @@
      "tillganglig_mw": 1172,
      "status": "drift",
      "produktion_mw": 0
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 1134,
+     "status": "drift"
     },
     {
      "namn": "Forsmark block 2",
