@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-23T04:58Z",
+ "uppdaterad": "2026-11-23T05:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2794,16 +2794,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Jänschwalde",
-     "kraftslag": "brunkol",
-     "mw": 1500,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-23T05:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3055,6 +3045,13 @@
      "kraftslag": "brunkol",
      "mw": 1510,
      "tillganglig_mw": 1510,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 1500,
      "status": "drift"
     },
     {
