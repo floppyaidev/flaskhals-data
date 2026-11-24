@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T09:14Z",
+ "uppdaterad": "2026-11-24T09:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -225,16 +225,6 @@
    "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
-     "namn": "Kölvallen Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 277,
-     "tillganglig_mw": 172.0,
-     "status": "begransad",
-     "slut": "2026-11-24T09:27Z",
-     "typ": "oplanerat",
-     "orsak": "Icing condition."
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -269,6 +259,13 @@
      "kraftslag": "vind_land",
      "mw": 286,
      "tillganglig_mw": 286,
+     "status": "drift"
+    },
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 277,
      "status": "drift"
     },
     {
@@ -2284,7 +2281,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-19T06:15Z",
+   "produktion_tid": "2026-11-19T09:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2295,7 +2292,7 @@
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
      "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
-     "produktion_mw": 227
+     "produktion_mw": 290
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -2317,7 +2314,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 742
     },
     {
      "namn": "Olkiluoto 3",
@@ -2325,7 +2322,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 1069
+     "produktion_mw": 1182
     },
     {
      "namn": "Olkiluoto 1",
@@ -2379,7 +2376,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 55
+     "produktion_mw": 131
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2410,7 +2407,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 195
+     "produktion_mw": 188
     },
     {
      "namn": "Tahkoluoto",
@@ -2490,7 +2487,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 154
+     "produktion_mw": 157
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2549,7 +2546,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 127
+     "produktion_mw": 137
     },
     {
      "namn": "Haapaniemi",
@@ -2608,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 38
+     "produktion_mw": 34
     },
     {
      "namn": "Olkiluoto kt",
@@ -2623,7 +2620,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 63
+     "produktion_mw": 64
     },
     {
      "namn": "Paskoonharju",
@@ -2646,7 +2643,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 59
+     "produktion_mw": 62
     },
     {
      "namn": "Metsälä",
