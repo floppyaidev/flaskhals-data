@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T03:59Z",
+ "uppdaterad": "2026-11-24T04:14Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -18,7 +18,7 @@
   "FI": "2026-11-24T03:29Z",
   "EE": "2026-11-24T03:59Z",
   "LV": "2026-11-24T03:59Z",
-  "LT": "2026-11-24T01:14Z",
+  "LT": "2026-11-24T04:14Z",
   "PL": "2026-11-24T01:59Z",
   "NL": "2026-11-24T01:59Z"
  },
@@ -1135,14 +1135,8 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-23T01:00Z",
+   "data_tid": "2026-11-23T03:45Z",
    "enheter": [
-    {
-     "namn": "KHAE HA3",
-     "kraftslag": "pumpkraft",
-     "mw": 221,
-     "t": "2026-11-23T01:00Z"
-    },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
@@ -1154,6 +1148,12 @@
      "kraftslag": "pumpkraft",
      "mw": 0,
      "t": "2026-11-23T00:00Z"
+    },
+    {
+     "namn": "KHAE HA3",
+     "kraftslag": "pumpkraft",
+     "mw": 0,
+     "t": "2026-11-23T03:45Z"
     },
     {
      "namn": "KHAE HA4",
