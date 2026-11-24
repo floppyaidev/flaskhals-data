@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T03:14Z",
+ "uppdaterad": "2026-11-24T03:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2269,7 +2269,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-19T00:15Z",
+   "produktion_tid": "2026-11-19T03:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2280,7 +2280,7 @@
      "slut": "2026-12-11T23:00Z",
      "typ": "planerat",
      "orsak": "Maintenance postponed. Three weeks of oil firing updates, followed by one week of tuning runs.",
-     "produktion_mw": 40
+     "produktion_mw": 105
     },
     {
      "namn": "Metsä Fibre Kemi",
@@ -2310,7 +2310,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 826
+     "produktion_mw": 948
     },
     {
      "namn": "Olkiluoto 1",
@@ -2364,7 +2364,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 38
+     "produktion_mw": 54
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2395,7 +2395,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 129
+     "produktion_mw": 133
     },
     {
      "namn": "Tahkoluoto",
@@ -2475,7 +2475,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 112
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2534,7 +2534,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 82
+     "produktion_mw": 107
     },
     {
      "namn": "Haapaniemi",
@@ -2593,7 +2593,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 74
+     "produktion_mw": 71
     },
     {
      "namn": "Olkiluoto kt",
@@ -2608,7 +2608,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 23
+     "produktion_mw": 22
     },
     {
      "namn": "Paskoonharju",
@@ -2631,7 +2631,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 49
+     "produktion_mw": 59
     },
     {
      "namn": "Metsälä",
