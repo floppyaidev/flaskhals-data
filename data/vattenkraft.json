@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T14:59Z",
+ "uppdaterad": "2026-11-24T15:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,20 +9,13 @@
      "alv": "Luleälven",
      "verk": 11,
      "nominell_mw": 3926,
-     "tillganglig_mw": 3021.0,
+     "tillganglig_mw": 3191,
      "avbrott": [
       {
        "namn": "Messaure",
        "tillganglig_mw": 0.0,
        "nominell_mw": 428,
        "slut": "2026-12-18T13:00Z",
-       "orsak": "Maintenance"
-      },
-      {
-       "namn": "Ligga",
-       "tillganglig_mw": 150.0,
-       "nominell_mw": 320,
-       "slut": "2026-11-24T15:00Z",
        "orsak": "Maintenance"
       },
       {
