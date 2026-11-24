@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T13:59Z",
+ "uppdaterad": "2026-11-24T14:20Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1132,17 +1132,6 @@
      "produktion_mw": 216
     },
     {
-     "namn": "Vinje",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T14:00Z",
-     "typ": "planerat",
-     "orsak": "Maintenance and brushgear replacement",
-     "produktion_mw": 213
-    },
-    {
      "namn": "Blåfal.V",
      "kraftslag": "vattenkraft",
      "mw": 235,
@@ -1190,6 +1179,14 @@
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"
+    },
+    {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 309,
+     "status": "drift",
+     "produktion_mw": 213
     },
     {
      "namn": "Sønnå",
