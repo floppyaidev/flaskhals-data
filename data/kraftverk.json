@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T17:59Z",
+ "uppdaterad": "2026-11-24T18:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1863,7 +1863,7 @@
      "mw": 330,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T18:00Z",
+     "slut": "2026-11-26T15:00Z",
      "typ": "planerat",
      "orsak": "Control of turbine wheel",
      "produktion_mw": 144
@@ -2976,16 +2976,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-24T18:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3270,6 +3260,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3952,16 +3949,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "EC Włocławek",
-     "kraftslag": "gas",
-     "mw": 457,
-     "tillganglig_mw": 154.0,
-     "status": "begransad",
-     "slut": "2026-11-24T18:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -3994,6 +3981,13 @@
      "kraftslag": "kol",
      "mw": 534,
      "tillganglig_mw": 534,
+     "status": "drift"
+    },
+    {
+     "namn": "EC Włocławek",
+     "kraftslag": "gas",
+     "mw": 457,
+     "tillganglig_mw": 457,
      "status": "drift"
     },
     {
