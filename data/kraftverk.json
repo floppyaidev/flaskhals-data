@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-24T17:30Z",
+ "uppdaterad": "2026-11-24T17:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-19T14:00Z",
+   "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -36,7 +36,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 729
+     "produktion_mw": 715
     },
     {
      "namn": "MarkbygdenETT",
@@ -52,7 +52,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 443
+     "produktion_mw": 345
     },
     {
      "namn": "Porjus",
@@ -61,7 +61,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 401
+     "produktion_mw": 400
     },
     {
      "namn": "Djupdal",
@@ -84,7 +84,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 266
+     "produktion_mw": 279
     },
     {
      "namn": "Ligga",
@@ -102,7 +102,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 87
+     "produktion_mw": 88
     },
     {
      "namn": "Gråberget",
@@ -125,7 +125,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 157
+     "produktion_mw": 150
     },
     {
      "namn": "Seitevare",
@@ -222,7 +222,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-19T14:00Z",
+   "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -241,7 +241,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 346
+     "produktion_mw": 366
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -470,7 +470,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 77
+     "produktion_mw": 117
     },
     {
      "namn": "Hocksjön",
@@ -618,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-19T14:00Z",
+   "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -629,7 +629,7 @@
      "slut": "2026-11-27T22:59Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 553
+     "produktion_mw": 550
     },
     {
      "namn": "Ringhals 3",
@@ -654,7 +654,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 862
+     "produktion_mw": 980
     },
     {
      "namn": "Ringhals 4",
@@ -669,7 +669,7 @@
      "mw": 1121,
      "tillganglig_mw": 1121,
      "status": "drift",
-     "produktion_mw": 1122
+     "produktion_mw": 1121
     },
     {
      "namn": "Värtaverket",
@@ -685,7 +685,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 196
+     "produktion_mw": 163
     },
     {
      "namn": "Stenungsund B3",
@@ -707,7 +707,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 122
+     "produktion_mw": 110
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -834,7 +834,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-19T14:00Z",
+   "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -853,7 +853,7 @@
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
-     "produktion_mw": 285
+     "produktion_mw": 284
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -3867,9 +3867,9 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T23:00Z",
+     "slut": "2026-11-27T23:00Z",
      "typ": "planerat",
-     "orsak": "Short-term planned outage"
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Ostrołęka B",
@@ -3942,13 +3942,23 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 510.0,
+     "status": "begransad",
+     "slut": "2026-11-24T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "EC Włocławek",
      "kraftslag": "gas",
      "mw": 457,
      "tillganglig_mw": 154.0,
      "status": "begransad",
-     "slut": "2026-11-24T23:00Z",
-     "typ": "planerat",
+     "slut": "2026-11-24T18:00Z",
+     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -3977,13 +3987,6 @@
      "kraftslag": "pumpkraft",
      "mw": 714,
      "tillganglig_mw": 714,
-     "status": "drift"
-    },
-    {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 620,
      "status": "drift"
     },
     {
