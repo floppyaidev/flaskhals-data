@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T00:29Z",
+ "uppdaterad": "2026-11-24T00:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2957,16 +2957,6 @@
      "orsak": null
     },
     {
-     "namn": "Bergkamen",
-     "kraftslag": "kol",
-     "mw": 717,
-     "tillganglig_mw": 640.0,
-     "status": "begransad",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3134,6 +3124,13 @@
      "kraftslag": "kol",
      "mw": 725,
      "tillganglig_mw": 725,
+     "status": "drift"
+    },
+    {
+     "namn": "Bergkamen",
+     "kraftslag": "kol",
+     "mw": 717,
+     "tillganglig_mw": 717,
      "status": "drift"
     },
     {
@@ -4488,16 +4485,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 750.0,
-     "status": "begransad",
-     "slut": "2026-11-24T00:30Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4519,6 +4506,13 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
