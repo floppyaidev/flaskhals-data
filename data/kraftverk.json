@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T19:29Z",
+ "uppdaterad": "2026-11-24T19:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3942,10 +3942,10 @@
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
-     "tillganglig_mw": 510.0,
+     "tillganglig_mw": 505.0,
      "status": "begransad",
      "slut": "2026-11-24T23:00Z",
-     "typ": "planerat",
+     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
