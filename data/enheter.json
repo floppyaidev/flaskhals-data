@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T15:14Z",
+ "uppdaterad": "2026-11-24T15:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -15,7 +15,7 @@
   "SE": "2026-11-24T14:48Z",
   "NO": "2026-11-24T14:59Z",
   "DK": "2026-11-24T14:59Z",
-  "FI": "2026-11-24T12:29Z",
+  "FI": "2026-11-24T15:29Z",
   "EE": "2026-11-24T13:14Z",
   "LV": "2026-11-24T13:14Z",
   "LT": "2026-11-24T13:14Z",
@@ -871,121 +871,115 @@
   },
   "FI": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-19T12:15Z",
+   "data_tid": "2026-11-19T15:15Z",
    "enheter": [
     {
      "namn": "Olkiluoto 3 B3",
      "kraftslag": "karnkraft",
-     "mw": 1218,
-     "t": "2026-11-19T12:15Z"
+     "mw": 1216,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Olkiluoto 1 B1",
      "kraftslag": "karnkraft",
      "mw": 893,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Olkiluoto 2 B2",
      "kraftslag": "karnkraft",
      "mw": 741,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Loviisa 2 G21",
      "kraftslag": "karnkraft",
      "mw": 257,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Loviisa 2 G22",
      "kraftslag": "karnkraft",
      "mw": 255,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Loviisa 1 G12",
      "kraftslag": "karnkraft",
      "mw": 251,
-     "t": "2026-11-19T12:00Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Loviisa 1 G11",
      "kraftslag": "karnkraft",
      "mw": 249,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Alholmens B2",
      "kraftslag": "torv",
-     "mw": 196,
-     "t": "2026-11-19T12:15Z"
+     "mw": 185,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Äänekoski G1",
      "kraftslag": "biobransle",
-     "mw": 179,
-     "t": "2026-11-19T12:15Z"
-    },
-    {
-     "namn": "Keljonlahti B1",
-     "kraftslag": "torv",
-     "mw": 149,
-     "t": "2026-11-19T12:15Z"
+     "mw": 175,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Naantali B4",
      "kraftslag": "biobransle",
-     "mw": 137,
-     "t": "2026-11-19T12:15Z"
+     "mw": 135,
+     "t": "2026-11-19T15:15Z"
     },
     {
-     "namn": "Vaskiluoto B2",
-     "kraftslag": "kol",
-     "mw": 120,
-     "t": "2026-11-19T12:15Z"
-    },
-    {
-     "namn": "Vuosaari VuB6",
-     "kraftslag": "gas",
-     "mw": 97,
-     "t": "2026-11-19T12:15Z"
-    },
-    {
-     "namn": "Vuosaari VuB5",
-     "kraftslag": "gas",
-     "mw": 96,
-     "t": "2026-11-19T12:15Z"
+     "namn": "Keljonlahti B1",
+     "kraftslag": "torv",
+     "mw": 135,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Vuosaari VuB4",
      "kraftslag": "gas",
-     "mw": 95,
-     "t": "2026-11-19T12:15Z"
+     "mw": 132,
+     "t": "2026-11-19T15:15Z"
+    },
+    {
+     "namn": "Vaskiluoto B2",
+     "kraftslag": "kol",
+     "mw": 121,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Kaukaan Voima G10",
      "kraftslag": "biobransle",
-     "mw": 64,
-     "t": "2026-11-19T12:15Z"
+     "mw": 66,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Toppila B2",
      "kraftslag": "torv",
-     "mw": 61,
-     "t": "2026-11-19T12:15Z"
+     "mw": 62,
+     "t": "2026-11-19T15:15Z"
+    },
+    {
+     "namn": "Vuosaari VuB6",
+     "kraftslag": "gas",
+     "mw": 48,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Raahen Voima",
      "kraftslag": "ovrigt",
-     "mw": 30,
-     "t": "2026-11-19T12:15Z"
+     "mw": 40,
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Kymijärvi B1",
      "kraftslag": "kol",
      "mw": 4,
-     "t": "2026-11-19T12:15Z"
+     "t": "2026-11-19T15:15Z"
     },
     {
      "namn": "Meri-Pori B1",
@@ -1046,6 +1040,12 @@
      "kraftslag": "gas",
      "mw": 0,
      "t": "2026-11-19T00:00Z"
+    },
+    {
+     "namn": "Vuosaari VuB5",
+     "kraftslag": "gas",
+     "mw": 0,
+     "t": "2026-11-19T15:15Z"
     }
    ]
   },
