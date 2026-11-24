@@ -1,10 +1,22 @@
 {
- "uppdaterad": "2026-11-24T16:29Z",
+ "uppdaterad": "2026-11-24T16:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-19T14:00Z",
    "verk": [
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T17:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned failure.",
+     "alv": "Luleälven",
+     "produktion_mw": 729
+    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -28,15 +40,6 @@
      "orsak": "Maintenance.",
      "alv": "Luleälven",
      "produktion_mw": 249
-    },
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 811,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 729
     },
     {
      "namn": "MarkbygdenETT",
@@ -2926,16 +2929,6 @@
      "orsak": null
     },
     {
-     "namn": "GuD Marzahn",
-     "kraftslag": "gas",
-     "mw": 264,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T17:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2982,6 +2975,16 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-24T18:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3273,13 +3276,6 @@
      "status": "drift"
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
      "namn": "Arkona",
      "kraftslag": "vind_hav",
      "mw": 378,
@@ -3452,6 +3448,13 @@
      "kraftslag": "kol",
      "mw": 272,
      "tillganglig_mw": 272,
+     "status": "drift"
+    },
+    {
+     "namn": "GuD Marzahn",
+     "kraftslag": "gas",
+     "mw": 264,
+     "tillganglig_mw": 264,
      "status": "drift"
     },
     {
