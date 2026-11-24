@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T10:29Z",
+ "uppdaterad": "2026-11-24T10:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -174,7 +174,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 4951,
+     "tillganglig_mw": 5447,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -194,7 +194,7 @@
        "namn": "Tokke",
        "tillganglig_mw": 0.0,
        "nominell_mw": 440,
-       "slut": "2026-11-27T15:00Z",
+       "slut": "2026-11-30T14:00Z",
        "orsak": "Alignment of generator shaft"
       },
       {
@@ -203,13 +203,6 @@
        "nominell_mw": 415,
        "slut": "2026-12-11T14:00Z",
        "orsak": "High storage temperature"
-      },
-      {
-       "namn": "Lysebotn 2",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 372,
-       "slut": "2026-11-24T13:00Z",
-       "orsak": "Maintenance"
       },
       {
        "namn": "Vinje",
@@ -224,13 +217,6 @@
        "nominell_mw": 235,
        "slut": "2026-11-25T14:00Z",
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
-      },
-      {
-       "namn": "Lysebotn",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 124,
-       "slut": "2026-11-24T13:00Z",
-       "orsak": "Maintenance"
       }
      ],
      "produktion_mw": 3258,
