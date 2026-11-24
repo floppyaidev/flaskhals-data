@@ -1,20 +1,20 @@
 {
- "uppdaterad": "2026-11-24T06:47Z",
+ "uppdaterad": "2026-11-24T07:48Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-24T06:30Z",
-  "SE2": "2026-11-24T06:30Z",
-  "SE3": "2026-11-24T06:30Z",
-  "SE4": "2026-11-24T06:30Z",
-  "NO1": "2026-11-24T06:30Z",
-  "NO2": "2026-11-24T06:30Z",
-  "NO3": "2026-11-24T06:30Z",
-  "NO4": "2026-11-24T06:30Z",
-  "NO5": "2026-11-24T06:30Z",
-  "DK1": "2026-11-24T06:30Z",
-  "DK2": "2026-11-24T06:30Z",
-  "FI": "2026-11-24T06:30Z",
-  "EE": "2026-11-24T06:30Z",
+  "SE1": "2026-11-24T07:30Z",
+  "SE2": "2026-11-24T07:30Z",
+  "SE3": "2026-11-24T07:30Z",
+  "SE4": "2026-11-24T07:30Z",
+  "NO1": "2026-11-24T07:30Z",
+  "NO2": "2026-11-24T07:30Z",
+  "NO3": "2026-11-24T07:30Z",
+  "NO4": "2026-11-24T07:30Z",
+  "NO5": "2026-11-24T07:30Z",
+  "DK1": "2026-11-24T07:30Z",
+  "DK2": "2026-11-24T07:30Z",
+  "FI": "2026-11-24T07:30Z",
+  "EE": "2026-11-24T07:30Z",
   "LV": "2026-11-24T06:30Z",
   "LT": "2026-11-24T06:30Z",
   "DE": "2026-11-24T06:30Z",
@@ -337,6 +337,16 @@
     "tillganglig_mw": 0.0,
     "orsak": "Control of turbine wheel G1+fix cooler G2.",
     "kraftslag": "vattenkraft"
+   },
+   {
+    "namn": "Evanger",
+    "typ": "planerat",
+    "start": "2026-11-25T06:30Z",
+    "slut": "2026-11-25T14:00Z",
+    "nominell_mw": 110.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Control of turbine wheel G1",
+    "kraftslag": "vattenkraft"
    }
   ],
   "DK1": [
@@ -395,6 +405,16 @@
   ],
   "FI": [
    {
+    "namn": "Olkiluoto 3",
+    "typ": "planerat",
+    "start": "2026-11-24T23:00Z",
+    "slut": "2026-11-25T23:00Z",
+    "nominell_mw": 1600.0,
+    "tillganglig_mw": 910.0,
+    "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
+    "kraftslag": "karnkraft"
+   },
+   {
     "namn": "Metsä Fibre Kemi",
     "typ": "planerat",
     "start": "2026-10-07T00:00Z",
@@ -425,7 +445,18 @@
     "kraftslag": "karnkraft"
    }
   ],
-  "EE": [],
+  "EE": [
+   {
+    "namn": "Eesti Elektrijaam",
+    "typ": "oplanerat",
+    "start": "2026-11-24T09:00Z",
+    "slut": "2026-11-24T10:00Z",
+    "nominell_mw": 194.0,
+    "tillganglig_mw": 85.0,
+    "orsak": "Required maintenance of the boiler 8K-2",
+    "kraftslag": "oljeskiffer"
+   }
+  ],
   "LV": [],
   "LT": [
    {
