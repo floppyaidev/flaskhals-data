@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T17:14Z",
+ "uppdaterad": "2026-11-24T17:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -4409,7 +4409,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-22T22:00Z",
+   "produktion_tid": "2026-11-23T22:45Z",
    "verk": [
     {
      "namn": "Eemshaven",
@@ -4521,7 +4521,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 453
+     "produktion_mw": 906
     },
     {
      "namn": "OWF Hollandse Kust Noord",
@@ -4587,7 +4587,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 428
+     "produktion_mw": 470
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4602,7 +4602,7 @@
      "mw": 443,
      "tillganglig_mw": 443,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 428
     },
     {
      "namn": "Sloe Centrale 20",
@@ -4652,7 +4652,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 361
     },
     {
      "namn": "Eems 5",
@@ -4660,7 +4660,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 365
     },
     {
      "namn": "Eems 4",
@@ -4668,7 +4668,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 369
     },
     {
      "namn": "Delesto 2",
@@ -4684,7 +4684,7 @@
      "mw": 248,
      "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 212
+     "produktion_mw": 230
     },
     {
      "namn": "Merwedekanaal 12",
@@ -4692,7 +4692,7 @@
      "mw": 225,
      "tillganglig_mw": 225,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 149
     },
     {
      "namn": "RoCa",
@@ -4743,7 +4743,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 92
+     "produktion_mw": 112
     },
     {
      "namn": "PERGEN 2",
@@ -4751,7 +4751,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 97
+     "produktion_mw": 111
     },
     {
      "namn": "Prinses Alexia Windpark",
