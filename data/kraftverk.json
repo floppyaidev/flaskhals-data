@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T09:59Z",
+ "uppdaterad": "2026-11-24T10:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -16,6 +16,18 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 431
+    },
+    {
+     "namn": "Vietas",
+     "kraftslag": "vattenkraft",
+     "mw": 307,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T17:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance.",
+     "alv": "Luleälven",
+     "produktion_mw": 251
     },
     {
      "namn": "Ligga",
@@ -85,15 +97,6 @@
      "status": "drift",
      "alv": "Luleälven",
      "produktion_mw": 275
-    },
-    {
-     "namn": "Vietas",
-     "kraftslag": "vattenkraft",
-     "mw": 307,
-     "tillganglig_mw": 307,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 251
     },
     {
      "namn": "Porsi",
@@ -225,6 +228,16 @@
    "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T20:00Z",
+     "typ": "planerat",
+     "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
+    },
+    {
      "namn": "Kölvallen Vindpark",
      "kraftslag": "vind_land",
      "mw": 277,
@@ -262,13 +275,6 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -2686,18 +2692,15 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-24T06:45Z",
+   "produktion_tid": "2026-11-24T09:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 1369,
-     "tillganglig_mw": 85.0,
-     "status": "begransad",
-     "slut": "2026-11-24T10:00Z",
-     "typ": "oplanerat",
-     "orsak": "Required maintenance of the boiler 8K-2",
-     "produktion_mw": 59
+     "tillganglig_mw": 1369,
+     "status": "drift",
+     "produktion_mw": 83
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2705,7 +2708,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 177
+     "produktion_mw": 174
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2738,7 +2741,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T06:00Z",
+   "produktion_tid": "2026-11-24T09:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3004,16 +3007,6 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-24T10:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3288,6 +3281,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
