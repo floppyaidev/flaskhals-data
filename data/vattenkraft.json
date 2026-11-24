@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T07:59Z",
+ "uppdaterad": "2026-11-24T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,13 +9,20 @@
      "alv": "Luleälven",
      "verk": 11,
      "nominell_mw": 3926,
-     "tillganglig_mw": 3498,
+     "tillganglig_mw": 3328.0,
      "avbrott": [
       {
        "namn": "Messaure",
        "tillganglig_mw": 0.0,
        "nominell_mw": 428,
        "slut": "2026-12-18T13:00Z",
+       "orsak": "Maintenance"
+      },
+      {
+       "namn": "Ligga",
+       "tillganglig_mw": 150.0,
+       "nominell_mw": 320,
+       "slut": "2026-11-24T15:00Z",
        "orsak": "Maintenance"
       }
      ],
@@ -160,7 +167,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5756,
+     "tillganglig_mw": 5260,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -191,11 +198,25 @@
        "orsak": "High storage temperature"
       },
       {
+       "namn": "Lysebotn 2",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 372,
+       "slut": "2026-11-24T13:00Z",
+       "orsak": "Maintenance"
+      },
+      {
        "namn": "Blåfal.V",
        "tillganglig_mw": 0.0,
        "nominell_mw": 235,
        "slut": "2026-11-25T14:00Z",
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
+      },
+      {
+       "namn": "Lysebotn",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 124,
+       "slut": "2026-11-24T13:00Z",
+       "orsak": "Maintenance"
       }
      ],
      "produktion_mw": 3804,

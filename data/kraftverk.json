@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T07:59Z",
+ "uppdaterad": "2026-11-24T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -16,6 +16,18 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 433
+    },
+    {
+     "namn": "Ligga",
+     "kraftslag": "vattenkraft",
+     "mw": 320,
+     "tillganglig_mw": 150.0,
+     "status": "begransad",
+     "slut": "2026-11-24T15:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance",
+     "alv": "Luleälven",
+     "produktion_mw": 171
     },
     {
      "namn": "Harsprånget",
@@ -73,15 +85,6 @@
      "status": "drift",
      "alv": "Luleälven",
      "produktion_mw": 268
-    },
-    {
-     "namn": "Ligga",
-     "kraftslag": "vattenkraft",
-     "mw": 320,
-     "tillganglig_mw": 320,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 171
     },
     {
      "namn": "Vietas",
@@ -1123,6 +1126,16 @@
      "produktion_mw": 258
     },
     {
+     "namn": "Lysebotn 2",
+     "kraftslag": "vattenkraft",
+     "mw": 372,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T13:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance"
+    },
+    {
      "namn": "Blåfal.V",
      "kraftslag": "vattenkraft",
      "mw": 235,
@@ -1143,19 +1156,22 @@
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
     },
     {
+     "namn": "Lysebotn",
+     "kraftslag": "vattenkraft",
+     "mw": 124,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T13:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance"
+    },
+    {
      "namn": "Brokke",
      "kraftslag": "vattenkraft",
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
      "produktion_mw": 101
-    },
-    {
-     "namn": "Lysebotn 2",
-     "kraftslag": "vattenkraft",
-     "mw": 372,
-     "tillganglig_mw": 372,
-     "status": "drift"
     },
     {
      "namn": "Saurdal Magasin",
@@ -1319,13 +1335,6 @@
      "tillganglig_mw": 136,
      "status": "drift",
      "produktion_mw": 132
-    },
-    {
-     "namn": "Lysebotn",
-     "kraftslag": "vattenkraft",
-     "mw": 124,
-     "tillganglig_mw": 124,
-     "status": "drift"
     },
     {
      "namn": "Tjørhom",
@@ -2990,16 +2999,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-24T08:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3270,6 +3269,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
