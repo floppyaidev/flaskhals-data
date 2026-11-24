@@ -1,22 +1,10 @@
 {
- "uppdaterad": "2026-11-24T18:59Z",
+ "uppdaterad": "2026-11-24T19:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T19:00Z",
-     "typ": "oplanerat",
-     "orsak": "Unplanned failure.",
-     "alv": "Luleälven",
-     "produktion_mw": 715
-    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -40,6 +28,15 @@
      "orsak": "Maintenance.",
      "alv": "Luleälven",
      "produktion_mw": 249
+    },
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 811,
+     "status": "drift",
+     "alv": "Luleälven",
+     "produktion_mw": 715
     },
     {
      "namn": "MarkbygdenETT",
