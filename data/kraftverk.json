@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T15:58Z",
+ "uppdaterad": "2026-11-24T16:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2677,7 +2677,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-24T12:45Z",
+   "produktion_tid": "2026-11-24T15:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2685,7 +2685,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 129
+     "produktion_mw": 166
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2693,7 +2693,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 163
+     "produktion_mw": 176
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2726,7 +2726,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T12:00Z",
+   "produktion_tid": "2026-11-24T15:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3942,16 +3942,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 550.0,
-     "status": "begransad",
-     "slut": "2026-11-24T16:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
@@ -3959,16 +3949,6 @@
      "status": "begransad",
      "slut": "2026-11-24T17:00Z",
      "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-24T16:00Z",
-     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -3983,6 +3963,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4183,6 +4170,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
