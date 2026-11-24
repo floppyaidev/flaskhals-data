@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T01:29Z",
+ "uppdaterad": "2026-11-24T01:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2995,7 +2995,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-24T02:45Z",
+     "slut": "2026-11-24T03:00Z",
      "typ": "planerat",
      "orsak": null
     },
