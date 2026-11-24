@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T12:59Z",
+ "uppdaterad": "2026-11-24T13:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -238,16 +238,6 @@
      "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
     },
     {
-     "namn": "Kölvallen Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 277,
-     "tillganglig_mw": 172.0,
-     "status": "begransad",
-     "slut": "2026-11-24T13:14Z",
-     "typ": "oplanerat",
-     "orsak": "Icing condition."
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -275,6 +265,13 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 277,
      "status": "drift"
     },
     {
@@ -2686,7 +2683,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-24T09:45Z",
+   "produktion_tid": "2026-11-24T12:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2694,7 +2691,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 83
+     "produktion_mw": 129
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2702,7 +2699,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 174
+     "produktion_mw": 163
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2735,7 +2732,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T09:00Z",
+   "produktion_tid": "2026-11-24T12:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
