@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T09:29Z",
+ "uppdaterad": "2026-11-24T09:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -225,6 +225,16 @@
    "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 172.0,
+     "status": "begransad",
+     "slut": "2026-11-24T10:30Z",
+     "typ": "oplanerat",
+     "orsak": "Icing condition."
+    },
+    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -259,13 +269,6 @@
      "kraftslag": "vind_land",
      "mw": 286,
      "tillganglig_mw": 286,
-     "status": "drift"
-    },
-    {
-     "namn": "Kölvallen Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 277,
-     "tillganglig_mw": 277,
      "status": "drift"
     },
     {
