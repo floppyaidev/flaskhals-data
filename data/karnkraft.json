@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T06:44Z",
+ "uppdaterad": "2026-11-24T07:44Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -72,6 +72,18 @@
    "nominell_mw": 890.0,
    "tillganglig_mw": 735.0,
    "orsak": "Generator rotor limitation",
+   "status": null,
+   "kraftslag": "karnkraft",
+   "zon": "FI"
+  },
+  {
+   "namn": "Olkiluoto 3",
+   "typ": "planerat",
+   "start": "2026-11-24T23:00Z",
+   "slut": "2026-11-25T23:00Z",
+   "nominell_mw": 1600.0,
+   "tillganglig_mw": 910.0,
+   "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not be available for power regulation during the power reduction.",
    "status": null,
    "kraftslag": "karnkraft",
    "zon": "FI"
