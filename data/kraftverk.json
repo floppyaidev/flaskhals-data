@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T00:59Z",
+ "uppdaterad": "2026-11-24T01:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1852,6 +1852,17 @@
      "orsak": "Revision of earthing switch and repair of earthing switch coils."
     },
     {
+     "namn": "Evanger",
+     "kraftslag": "vattenkraft",
+     "mw": 330,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T18:00Z",
+     "typ": "planerat",
+     "orsak": "Control of turbine wheel",
+     "produktion_mw": 230
+    },
+    {
      "namn": "Fortun",
      "kraftslag": "vattenkraft",
      "mw": 270,
@@ -1875,14 +1886,6 @@
      "tillganglig_mw": 390,
      "status": "drift",
      "produktion_mw": 377
-    },
-    {
-     "namn": "Evanger",
-     "kraftslag": "vattenkraft",
-     "mw": 330,
-     "tillganglig_mw": 330,
-     "status": "drift",
-     "produktion_mw": 230
     },
     {
      "namn": "Jostedal",
@@ -3946,26 +3949,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 377.0,
-     "status": "begransad",
-     "slut": "2026-11-24T01:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-24T01:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -3977,6 +3960,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4177,6 +4167,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,

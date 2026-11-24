@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T00:59Z",
+ "uppdaterad": "2026-11-24T01:14Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -18,7 +18,7 @@
   "FI": "2026-11-24T00:29Z",
   "EE": "2026-11-24T00:59Z",
   "LV": "2026-11-24T00:59Z",
-  "LT": "2026-11-23T21:59Z",
+  "LT": "2026-11-24T01:14Z",
   "PL": "2026-11-23T22:59Z",
   "NL": "2026-11-23T22:59Z"
  },
@@ -1135,55 +1135,55 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-22T18:15Z",
+   "data_tid": "2026-11-23T01:00Z",
    "enheter": [
+    {
+     "namn": "KHAE HA3",
+     "kraftslag": "pumpkraft",
+     "mw": 221,
+     "t": "2026-11-23T01:00Z"
+    },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
      "mw": 1,
-     "t": "2026-11-22T04:15Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-22T18:15Z"
-    },
-    {
-     "namn": "KHAE HA3",
-     "kraftslag": "pumpkraft",
-     "mw": 0,
-     "t": "2026-11-22T05:00Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "KHAE HA4",
      "kraftslag": "pumpkraft",
      "mw": 0,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "KTE",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "LE TG-7",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "LE TG-8",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-23T00:00Z"
     },
     {
      "namn": "LE TG-9",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-22T00:00Z"
+     "t": "2026-11-23T00:00Z"
     }
    ]
   },
