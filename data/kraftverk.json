@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T22:59Z",
+ "uppdaterad": "2026-11-24T23:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2300,6 +2300,17 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 910.0,
+     "status": "begransad",
+     "slut": "2026-11-25T23:00Z",
+     "typ": "planerat",
+     "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
+     "produktion_mw": 1218
+    },
+    {
      "namn": "Olkiluoto 2",
      "kraftslag": "karnkraft",
      "mw": 890,
@@ -2309,14 +2320,6 @@
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
      "produktion_mw": 741
-    },
-    {
-     "namn": "Olkiluoto 3",
-     "kraftslag": "karnkraft",
-     "mw": 1600,
-     "tillganglig_mw": 1600,
-     "status": "drift",
-     "produktion_mw": 1218
     },
     {
      "namn": "Olkiluoto 1",
@@ -2906,16 +2909,6 @@
      "orsak": null
     },
     {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2936,12 +2929,42 @@
      "orsak": null
     },
     {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 290.0,
+     "status": "begransad",
+     "slut": "2026-11-25T05:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Neurath",
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 475.0,
      "status": "begransad",
      "slut": "2026-11-25T04:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 276.0,
+     "status": "begransad",
+     "slut": "2026-11-25T05:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 303.0,
+     "status": "begransad",
+     "slut": "2026-11-25T05:00Z",
      "typ": "planerat",
      "orsak": "Other"
     },
@@ -2996,31 +3019,10 @@
      "orsak": null
     },
     {
-     "namn": "KW Boxberg",
-     "kraftslag": "brunkol",
-     "mw": 2470,
-     "tillganglig_mw": 2470,
-     "status": "drift"
-    },
-    {
      "namn": "KW Lippendorf",
      "kraftslag": "brunkol",
      "mw": 1782,
      "tillganglig_mw": 1782,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 1510,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Jänschwalde",
-     "kraftslag": "brunkol",
-     "mw": 1500,
-     "tillganglig_mw": 1500,
      "status": "drift"
     },
     {
@@ -3266,6 +3268,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -3880,9 +3889,9 @@
      "mw": 651,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T23:00Z",
+     "slut": "2026-11-29T23:00Z",
      "typ": "planerat",
-     "orsak": "Short-term planned outage"
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Porąbka Żar",
@@ -3950,8 +3959,18 @@
      "mw": 620,
      "tillganglig_mw": 505.0,
      "status": "begransad",
-     "slut": "2026-11-24T23:00Z",
-     "typ": "oplanerat",
+     "slut": "2026-11-25T03:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 218.0,
+     "status": "begransad",
+     "slut": "2026-11-25T03:00Z",
+     "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -4008,13 +4027,6 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
