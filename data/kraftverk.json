@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T20:59Z",
+ "uppdaterad": "2026-11-24T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2946,6 +2946,16 @@
      "orsak": null
     },
     {
+     "namn": "GuD Dormagen",
+     "kraftslag": "gas",
+     "mw": 562,
+     "tillganglig_mw": 90.0,
+     "status": "begransad",
+     "slut": "2026-11-29T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3155,13 +3165,6 @@
      "kraftslag": "kol",
      "mw": 595,
      "tillganglig_mw": 595,
-     "status": "drift"
-    },
-    {
-     "namn": "GuD Dormagen",
-     "kraftslag": "gas",
-     "mw": 562,
-     "tillganglig_mw": 562,
      "status": "drift"
     },
     {
