@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T08:59Z",
+ "uppdaterad": "2026-11-24T09:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1090,9 +1090,9 @@
      "mw": 1240,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-12-11T14:00Z",
+     "slut": "2026-11-24T12:00Z",
      "typ": "planerat",
-     "orsak": "Repair fine water leak",
+     "orsak": "FCR testing on G2:\n\nPeriod 1: The entire station must be stopped. Please note that G4 is already unavailable due to a separate UMM.( https://umm.nordpoolgroup.c",
      "produktion_mw": 443
     },
     {
@@ -1137,6 +1137,17 @@
      "slut": "2026-11-24T13:00Z",
      "typ": "planerat",
      "orsak": "Maintenance"
+    },
+    {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T14:00Z",
+     "typ": "planerat",
+     "orsak": "Maintenance and brushgear replacement",
+     "produktion_mw": 193
     },
     {
      "namn": "Blåfal.V",
@@ -1189,14 +1200,6 @@
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"
-    },
-    {
-     "namn": "Vinje",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 309,
-     "status": "drift",
-     "produktion_mw": 193
     },
     {
      "namn": "Sønnå",
@@ -2689,8 +2692,11 @@
      "namn": "Eesti Elektrijaam",
      "kraftslag": "oljeskiffer",
      "mw": 1369,
-     "tillganglig_mw": 1369,
-     "status": "drift",
+     "tillganglig_mw": 85.0,
+     "status": "begransad",
+     "slut": "2026-11-24T10:00Z",
+     "typ": "oplanerat",
+     "orsak": "Required maintenance of the boiler 8K-2",
      "produktion_mw": 59
     },
     {
@@ -3964,22 +3970,12 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 589.0,
+     "namn": "Płock",
+     "kraftslag": "gas",
+     "mw": 620,
+     "tillganglig_mw": 505.0,
      "status": "begransad",
-     "slut": "2026-11-24T09:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-24T09:00Z",
+     "slut": "2026-11-24T17:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3998,17 +3994,17 @@
      "status": "drift"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
+     "status": "drift"
+    },
+    {
      "namn": "Żarnowiec",
      "kraftslag": "pumpkraft",
      "mw": 714,
      "tillganglig_mw": 714,
-     "status": "drift"
-    },
-    {
-     "namn": "Płock",
-     "kraftslag": "gas",
-     "mw": 620,
-     "tillganglig_mw": 620,
      "status": "drift"
     },
     {
@@ -4195,6 +4191,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,

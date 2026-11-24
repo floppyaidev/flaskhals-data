@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T08:59Z",
+ "uppdaterad": "2026-11-24T09:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -167,14 +167,14 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5260,
+     "tillganglig_mw": 4951,
      "avbrott": [
       {
        "namn": "Kvilldal",
        "tillganglig_mw": 0.0,
        "nominell_mw": 1240,
-       "slut": "2026-12-11T14:00Z",
-       "orsak": "Repair fine water leak"
+       "slut": "2026-11-24T12:00Z",
+       "orsak": "FCR testing on G2:\n\nPeriod 1: The entire station must be stopped. Please note that G4 is already unavailable due to a separate UMM.( https://umm.nordpoolgroup.c"
       },
       {
        "namn": "Tonstad",
@@ -203,6 +203,13 @@
        "nominell_mw": 372,
        "slut": "2026-11-24T13:00Z",
        "orsak": "Maintenance"
+      },
+      {
+       "namn": "Vinje",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 309,
+       "slut": "2026-11-24T14:00Z",
+       "orsak": "Maintenance and brushgear replacement"
       },
       {
        "namn": "Blåfal.V",
