@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T10:58Z",
+ "uppdaterad": "2026-11-24T11:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -274,7 +274,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4578.0,
+     "tillganglig_mw": 4434.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -303,6 +303,13 @@
        "nominell_mw": 270,
        "slut": "2026-12-11T14:00Z",
        "orsak": "Annual controls for G4, G5 and G6"
+      },
+      {
+       "namn": "Dale",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 144,
+       "slut": "2026-11-24T12:00Z",
+       "orsak": "Testing with Statnett"
       }
      ],
      "produktion_mw": 1521,

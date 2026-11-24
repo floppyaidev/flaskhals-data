@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T10:58Z",
+ "uppdaterad": "2026-11-24T11:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1878,6 +1878,17 @@
      "produktion_mw": 93
     },
     {
+     "namn": "Dale",
+     "kraftslag": "vattenkraft",
+     "mw": 144,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T12:00Z",
+     "typ": "planerat",
+     "orsak": "Testing with Statnett",
+     "produktion_mw": 112
+    },
+    {
      "namn": "Fortun",
      "kraftslag": "vattenkraft",
      "mw": 270,
@@ -1990,14 +2001,6 @@
      "mw": 155,
      "tillganglig_mw": 155,
      "status": "drift"
-    },
-    {
-     "namn": "Dale",
-     "kraftslag": "vattenkraft",
-     "mw": 144,
-     "tillganglig_mw": 144,
-     "status": "drift",
-     "produktion_mw": 112
     },
     {
      "namn": "Aurland2",
@@ -2935,14 +2938,14 @@
      "orsak": null
     },
     {
-     "namn": "Windanker",
-     "kraftslag": "vind_hav",
-     "mw": 315,
+     "namn": "GuD Marzahn",
+     "kraftslag": "gas",
+     "mw": 264,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T11:00Z",
-     "typ": "oplanerat",
-     "orsak": "External Factors"
+     "slut": "2026-11-24T17:00Z",
+     "typ": "planerat",
+     "orsak": null
     },
     {
      "namn": "PSW Erzhausen",
@@ -3369,6 +3372,13 @@
      "status": "drift"
     },
     {
+     "namn": "Windanker",
+     "kraftslag": "vind_hav",
+     "mw": 315,
+     "tillganglig_mw": 315,
+     "status": "drift"
+    },
+    {
      "namn": "Borkum Riffgrund I",
      "kraftslag": "vind_hav",
      "mw": 312,
@@ -3457,13 +3467,6 @@
      "kraftslag": "kol",
      "mw": 272,
      "tillganglig_mw": 272,
-     "status": "drift"
-    },
-    {
-     "namn": "GuD Marzahn",
-     "kraftslag": "gas",
-     "mw": 264,
-     "tillganglig_mw": 264,
      "status": "drift"
     },
     {
@@ -3964,32 +3967,12 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 589.0,
-     "status": "begransad",
-     "slut": "2026-11-24T11:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 505.0,
      "status": "begransad",
      "slut": "2026-11-24T17:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-24T11:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -4005,6 +3988,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4198,6 +4188,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
