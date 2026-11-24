@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T21:14Z",
+ "uppdaterad": "2026-11-24T21:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -15,7 +15,7 @@
   "SE": "2026-11-24T20:48Z",
   "NO": "2026-11-24T20:59Z",
   "DK": "2026-11-24T20:59Z",
-  "FI": "2026-11-24T18:29Z",
+  "FI": "2026-11-24T21:29Z",
   "EE": "2026-11-24T19:29Z",
   "LV": "2026-11-24T19:29Z",
   "LT": "2026-11-24T19:29Z",
@@ -871,109 +871,103 @@
   },
   "FI": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-19T18:15Z",
+   "data_tid": "2026-11-19T21:15Z",
    "enheter": [
     {
      "namn": "Olkiluoto 3 B3",
      "kraftslag": "karnkraft",
-     "mw": 1216,
-     "t": "2026-11-19T18:15Z"
+     "mw": 1218,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Olkiluoto 1 B1",
      "kraftslag": "karnkraft",
      "mw": 893,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Olkiluoto 2 B2",
      "kraftslag": "karnkraft",
-     "mw": 740,
-     "t": "2026-11-19T18:15Z"
+     "mw": 741,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Loviisa 2 G21",
      "kraftslag": "karnkraft",
      "mw": 257,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Loviisa 2 G22",
      "kraftslag": "karnkraft",
      "mw": 255,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:00Z"
     },
     {
      "namn": "Loviisa 1 G12",
      "kraftslag": "karnkraft",
      "mw": 251,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Loviisa 1 G11",
      "kraftslag": "karnkraft",
      "mw": 249,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Äänekoski G1",
      "kraftslag": "biobransle",
-     "mw": 171,
-     "t": "2026-11-19T18:15Z"
-    },
-    {
-     "namn": "Keljonlahti B1",
-     "kraftslag": "torv",
-     "mw": 137,
-     "t": "2026-11-19T18:15Z"
+     "mw": 164,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Alholmens B2",
      "kraftslag": "torv",
-     "mw": 125,
-     "t": "2026-11-19T18:15Z"
+     "mw": 101,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Naantali B4",
      "kraftslag": "biobransle",
-     "mw": 113,
-     "t": "2026-11-19T18:15Z"
+     "mw": 85,
+     "t": "2026-11-19T21:15Z"
+    },
+    {
+     "namn": "Keljonlahti B1",
+     "kraftslag": "torv",
+     "mw": 81,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Toppila B2",
      "kraftslag": "torv",
-     "mw": 63,
-     "t": "2026-11-19T18:15Z"
+     "mw": 55,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Vaskiluoto B2",
      "kraftslag": "kol",
-     "mw": 53,
-     "t": "2026-11-19T18:15Z"
+     "mw": 52,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Raahen Voima",
      "kraftslag": "ovrigt",
-     "mw": 41,
-     "t": "2026-11-19T18:15Z"
+     "mw": 36,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Kaukaan Voima G10",
      "kraftslag": "biobransle",
-     "mw": 32,
-     "t": "2026-11-19T18:15Z"
-    },
-    {
-     "namn": "Vuosaari VuB4",
-     "kraftslag": "gas",
-     "mw": 11,
-     "t": "2026-11-19T18:15Z"
+     "mw": 27,
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Kymijärvi B1",
      "kraftslag": "kol",
      "mw": 4,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Meri-Pori B1",
@@ -985,7 +979,7 @@
      "namn": "Vuosaari VuB6",
      "kraftslag": "gas",
      "mw": 1,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     },
     {
      "namn": "Metsä Fibre Kemi G1",
@@ -1042,10 +1036,16 @@
      "t": "2026-11-19T00:00Z"
     },
     {
+     "namn": "Vuosaari VuB4",
+     "kraftslag": "gas",
+     "mw": 0,
+     "t": "2026-11-19T18:30Z"
+    },
+    {
      "namn": "Vuosaari VuB5",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-19T18:15Z"
+     "t": "2026-11-19T21:15Z"
     }
    ]
   },
