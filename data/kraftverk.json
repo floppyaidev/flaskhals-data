@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-24T14:31Z",
+ "uppdaterad": "2026-11-24T14:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-19T11:00Z",
+   "produktion_tid": "2026-11-19T14:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -15,7 +15,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 430
+     "produktion_mw": 429
     },
     {
      "namn": "Vietas",
@@ -39,7 +39,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 168
+     "produktion_mw": 173
     },
     {
      "namn": "Harsprånget",
@@ -48,7 +48,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 678
+     "produktion_mw": 729
     },
     {
      "namn": "MarkbygdenETT",
@@ -64,7 +64,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 444
+     "produktion_mw": 443
     },
     {
      "namn": "Porjus",
@@ -73,7 +73,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 345
+     "produktion_mw": 401
     },
     {
      "namn": "Djupdal",
@@ -96,7 +96,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 274
+     "produktion_mw": 266
     },
     {
      "namn": "Porsi",
@@ -128,7 +128,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 162
+     "produktion_mw": 157
     },
     {
      "namn": "Seitevare",
@@ -225,7 +225,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-19T11:00Z",
+   "produktion_tid": "2026-11-19T14:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -244,7 +244,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 367
+     "produktion_mw": 346
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -473,7 +473,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 112
+     "produktion_mw": 77
     },
     {
      "namn": "Hocksjön",
@@ -621,7 +621,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-19T11:00Z",
+   "produktion_tid": "2026-11-19T14:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -632,7 +632,7 @@
      "slut": "2026-11-27T22:59Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 501
+     "produktion_mw": 553
     },
     {
      "namn": "Ringhals 3",
@@ -657,7 +657,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 859
+     "produktion_mw": 862
     },
     {
      "namn": "Ringhals 4",
@@ -672,7 +672,7 @@
      "mw": 1121,
      "tillganglig_mw": 1121,
      "status": "drift",
-     "produktion_mw": 1120
+     "produktion_mw": 1122
     },
     {
      "namn": "Värtaverket",
@@ -688,7 +688,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 178
+     "produktion_mw": 196
     },
     {
      "namn": "Stenungsund B3",
@@ -710,7 +710,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 118
+     "produktion_mw": 122
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -837,7 +837,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-19T11:00Z",
+   "produktion_tid": "2026-11-19T14:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -3948,6 +3948,16 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 550.0,
+     "status": "begransad",
+     "slut": "2026-11-24T16:00Z",
+     "typ": "oplanerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
@@ -3955,6 +3965,16 @@
      "status": "begransad",
      "slut": "2026-11-24T17:00Z",
      "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-24T16:00Z",
+     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -3969,13 +3989,6 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4176,13 +4189,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
@@ -4423,7 +4429,7 @@
      "mw": 1580,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T17:00Z",
+     "slut": "2026-11-25T17:00Z",
      "typ": "planerat",
      "orsak": null
     },
