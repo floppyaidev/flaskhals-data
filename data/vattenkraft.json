@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T19:13Z",
+ "uppdaterad": "2026-11-24T19:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -320,7 +320,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T15:00Z",
+   "produktion_tid": "2026-11-24T18:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -340,20 +340,13 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 2420.0,
+     "tillganglig_mw": 3714.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
        "tillganglig_mw": 0.0,
        "nominell_mw": 2142,
        "slut": "2026-12-04T15:00Z",
-       "orsak": null
-      },
-      {
-       "namn": "Vianden",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 1294,
-       "slut": "2026-11-24T19:19Z",
        "orsak": null
       },
       {

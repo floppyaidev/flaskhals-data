@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T19:13Z",
+ "uppdaterad": "2026-11-24T19:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2677,7 +2677,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-24T15:45Z",
+   "produktion_tid": "2026-11-24T18:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2685,7 +2685,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 166
+     "produktion_mw": 167
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2693,7 +2693,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 176
+     "produktion_mw": 172
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2726,7 +2726,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T15:00Z",
+   "produktion_tid": "2026-11-24T18:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2813,16 +2813,6 @@
      "status": "still",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-24T19:19Z",
-     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3025,6 +3015,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
