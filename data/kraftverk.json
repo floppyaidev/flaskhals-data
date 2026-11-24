@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-24T08:29Z",
+ "uppdaterad": "2026-11-24T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -15,7 +15,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 433
+     "produktion_mw": 431
     },
     {
      "namn": "Ligga",
@@ -27,7 +27,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 171
+     "produktion_mw": 172
     },
     {
      "namn": "Harsprånget",
@@ -36,7 +36,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 687
+     "produktion_mw": 755
     },
     {
      "namn": "MarkbygdenETT",
@@ -52,7 +52,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 403
+     "produktion_mw": 440
     },
     {
      "namn": "Porjus",
@@ -61,7 +61,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 382
+     "produktion_mw": 400
     },
     {
      "namn": "Djupdal",
@@ -84,7 +84,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 268
+     "produktion_mw": 275
     },
     {
      "namn": "Vietas",
@@ -93,7 +93,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 244
+     "produktion_mw": 251
     },
     {
      "namn": "Porsi",
@@ -102,7 +102,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 87
+     "produktion_mw": 86
     },
     {
      "namn": "Gråberget",
@@ -125,7 +125,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 150
+     "produktion_mw": 164
     },
     {
      "namn": "Seitevare",
@@ -222,8 +222,18 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 172.0,
+     "status": "begransad",
+     "slut": "2026-11-24T09:27Z",
+     "typ": "oplanerat",
+     "orsak": "Icing condition."
+    },
     {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
@@ -231,7 +241,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 357
+     "produktion_mw": 365
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -259,13 +269,6 @@
      "kraftslag": "vind_land",
      "mw": 286,
      "tillganglig_mw": 286,
-     "status": "drift"
-    },
-    {
-     "namn": "Kölvallen Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 277,
-     "tillganglig_mw": 277,
      "status": "drift"
     },
     {
@@ -467,7 +470,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 110
+     "produktion_mw": 109
     },
     {
      "namn": "Hocksjön",
@@ -615,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -626,7 +629,7 @@
      "slut": "2026-11-27T22:59Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 427
+     "produktion_mw": 489
     },
     {
      "namn": "Ringhals 3",
@@ -651,7 +654,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 188
+     "produktion_mw": 584
     },
     {
      "namn": "Ringhals 4",
@@ -682,7 +685,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 147
+     "produktion_mw": 263
     },
     {
      "namn": "Stenungsund B3",
@@ -704,7 +707,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 88
+     "produktion_mw": 118
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -831,7 +834,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -850,7 +853,7 @@
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
-     "produktion_mw": 266
+     "produktion_mw": 284
     },
     {
      "namn": "Gasturbiner Halmstad",
@@ -2819,16 +2822,6 @@
      "orsak": null
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -2854,7 +2847,7 @@
      "mw": 900,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-24T23:00Z",
+     "slut": "2026-11-27T23:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2907,6 +2900,16 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "External Factors"
+    },
+    {
+     "namn": "GuD Ludwigshafen Mitte",
+     "kraftslag": "gas",
+     "mw": 412,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T14:00Z",
+     "typ": "oplanerat",
+     "orsak": null
     },
     {
      "namn": "Gersteinwerk",
@@ -2999,6 +3002,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-24T10:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3038,6 +3051,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -3237,13 +3257,6 @@
      "status": "drift"
     },
     {
-     "namn": "GuD Ludwigshafen Mitte",
-     "kraftslag": "gas",
-     "mw": 412,
-     "tillganglig_mw": 412,
-     "status": "drift"
-    },
-    {
      "namn": "GKM AG Amprion",
      "kraftslag": "kol",
      "mw": 405,
@@ -3269,13 +3282,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3958,6 +3964,26 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 589.0,
+     "status": "begransad",
+     "slut": "2026-11-24T09:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-24T09:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -3969,13 +3995,6 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4176,13 +4195,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
@@ -4511,6 +4523,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Amer",
+     "kraftslag": "biobransle",
+     "mw": 631,
+     "tillganglig_mw": 307.0,
+     "status": "begransad",
+     "slut": "2026-11-24T11:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Claus",
      "kraftslag": "gas",
      "mw": 1304,
@@ -4566,13 +4588,6 @@
      "kraftslag": "gas",
      "mw": 684,
      "tillganglig_mw": 684,
-     "status": "drift"
-    },
-    {
-     "namn": "Amer",
-     "kraftslag": "biobransle",
-     "mw": 631,
-     "tillganglig_mw": 631,
      "status": "drift"
     },
     {

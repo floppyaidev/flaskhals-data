@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-24T08:29Z",
+ "uppdaterad": "2026-11-24T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -26,7 +26,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 2862,
+     "produktion_mw": 2997,
      "med_produktion": 9
     },
     {
@@ -35,13 +35,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 247,
+     "produktion_mw": 261,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -49,7 +49,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 357,
+     "produktion_mw": 365,
      "med_produktion": 1
     },
     {
@@ -67,7 +67,7 @@
      "nominell_mw": 791,
      "tillganglig_mw": 791,
      "avbrott": [],
-     "produktion_mw": 110,
+     "produktion_mw": 109,
      "med_produktion": 1
     },
     {
@@ -100,7 +100,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-19T05:00Z",
+   "produktion_tid": "2026-11-19T08:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -108,7 +108,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 147,
+     "produktion_mw": 263,
      "med_produktion": 1
     },
     {
@@ -354,20 +354,13 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 2420.0,
+     "tillganglig_mw": 3714.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
        "tillganglig_mw": 0.0,
        "nominell_mw": 2142,
        "slut": "2026-12-04T15:00Z",
-       "orsak": null
-      },
-      {
-       "namn": "Vianden",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 1294,
-       "slut": "2026-12-31T23:00Z",
        "orsak": null
       },
       {
