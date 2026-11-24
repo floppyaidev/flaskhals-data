@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T21:59Z",
+ "uppdaterad": "2026-11-24T22:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2936,6 +2936,16 @@
      "orsak": null
     },
     {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 475.0,
+     "status": "begransad",
+     "slut": "2026-11-25T04:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Schluchsee",
      "kraftslag": "pumpkraft",
      "mw": 870,
@@ -2990,13 +3000,6 @@
      "kraftslag": "brunkol",
      "mw": 2470,
      "tillganglig_mw": 2470,
-     "status": "drift"
-    },
-    {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 2011,
      "status": "drift"
     },
     {
