@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-24T17:48Z",
+ "uppdaterad": "2026-11-24T17:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -132,7 +132,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-19T14:45Z",
+   "produktion_tid": "2026-11-19T17:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -161,7 +161,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-19T14:45Z",
+   "produktion_tid": "2026-11-19T17:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -205,7 +205,7 @@
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
       }
      ],
-     "produktion_mw": 3638,
+     "produktion_mw": 3773,
      "med_produktion": 15
     }
    ]
@@ -225,7 +225,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-19T14:45Z",
+   "produktion_tid": "2026-11-19T17:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -248,13 +248,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 747,
+     "produktion_mw": 829,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-19T14:45Z",
+   "produktion_tid": "2026-11-19T17:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -291,7 +291,7 @@
        "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
-     "produktion_mw": 1963,
+     "produktion_mw": 1589,
      "med_produktion": 10
     }
    ]
