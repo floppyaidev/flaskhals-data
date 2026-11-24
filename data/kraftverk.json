@@ -1,10 +1,22 @@
 {
- "uppdaterad": "2026-11-24T18:29Z",
+ "uppdaterad": "2026-11-24T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-19T17:00Z",
    "verk": [
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T19:00Z",
+     "typ": "oplanerat",
+     "orsak": "Unplanned failure.",
+     "alv": "Luleälven",
+     "produktion_mw": 715
+    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -28,15 +40,6 @@
      "orsak": "Maintenance.",
      "alv": "Luleälven",
      "produktion_mw": 249
-    },
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 811,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 715
     },
     {
      "namn": "MarkbygdenETT",
@@ -2816,6 +2819,16 @@
      "orsak": null
     },
     {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-24T19:19Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -2916,16 +2929,6 @@
      "orsak": null
     },
     {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T05:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2976,6 +2979,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-24T20:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3015,13 +3028,6 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
-     "status": "drift"
-    },
-    {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -3263,13 +3269,6 @@
      "status": "drift"
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
      "namn": "Arkona",
      "kraftslag": "vind_hav",
      "mw": 378,
@@ -3344,6 +3343,13 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 316,
      "status": "drift"
     },
     {
