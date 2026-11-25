@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T18:29Z",
+ "uppdaterad": "2026-11-25T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -935,7 +935,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "verk": [
     {
      "namn": "Vamma",
@@ -946,7 +946,7 @@
      "slut": "2027-03-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
-     "produktion_mw": 100
+     "produktion_mw": 101
     },
     {
      "namn": "Nedre Vinstra",
@@ -1028,7 +1028,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 78
+     "produktion_mw": 77
     },
     {
      "namn": "Rendalen",
@@ -1082,7 +1082,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "verk": [
     {
      "namn": "Kvilldal",
@@ -1093,7 +1093,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 611
+     "produktion_mw": 610
     },
     {
      "namn": "Tonstad",
@@ -1104,7 +1104,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 724
+     "produktion_mw": 728
     },
     {
      "namn": "Tokke",
@@ -1115,7 +1115,7 @@
      "slut": "2026-11-30T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 314
+     "produktion_mw": 304
     },
     {
      "namn": "Holen",
@@ -1173,7 +1173,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 223
+     "produktion_mw": 245
     },
     {
      "namn": "Sønnå",
@@ -1196,7 +1196,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 206
+     "produktion_mw": 205
     },
     {
      "namn": "Oksla",
@@ -1204,7 +1204,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 203
+     "produktion_mw": 202
     },
     {
      "namn": "Solhom",
@@ -1220,7 +1220,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 195
+     "produktion_mw": 197
     },
     {
      "namn": "Vemork",
@@ -1647,7 +1647,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "verk": [
     {
      "namn": "Rana",
@@ -1698,7 +1698,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 263
+     "produktion_mw": 270
     },
     {
      "namn": "Melkøya",
@@ -1831,7 +1831,7 @@
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "verk": [
     {
      "namn": "Aurland1",
@@ -1842,7 +1842,7 @@
      "slut": "2027-03-08T14:00Z",
      "typ": "planerat",
      "orsak": "Reconstruction of control systems.",
-     "produktion_mw": 382
+     "produktion_mw": 525
     },
     {
      "namn": "Lang Sima",
@@ -1863,7 +1863,7 @@
      "slut": "2026-11-26T15:00Z",
      "typ": "planerat",
      "orsak": "Control of turbine wheel",
-     "produktion_mw": 114
+     "produktion_mw": 103
     },
     {
      "namn": "Fortun",
@@ -1888,7 +1888,7 @@
      "mw": 390,
      "tillganglig_mw": 390,
      "status": "drift",
-     "produktion_mw": 374
+     "produktion_mw": 373
     },
     {
      "namn": "Jostedal",
@@ -1904,7 +1904,7 @@
      "mw": 270,
      "tillganglig_mw": 270,
      "status": "drift",
-     "produktion_mw": 131
+     "produktion_mw": 252
     },
     {
      "namn": "Nes OEK",
@@ -1933,7 +1933,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 182
+     "produktion_mw": 202
     },
     {
      "namn": "Borgund",
@@ -1985,7 +1985,7 @@
      "mw": 144,
      "tillganglig_mw": 144,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 111
     },
     {
      "namn": "Aurland2",
@@ -2015,7 +2015,7 @@
      "mw": 110,
      "tillganglig_mw": 110,
      "status": "drift",
-     "produktion_mw": 20
+     "produktion_mw": 10
     },
     {
      "namn": "Bjølvo",
@@ -3876,7 +3876,7 @@
      "mw": 835,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T23:00Z",
+     "slut": "2026-11-25T19:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3951,12 +3951,32 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 570.0,
+     "status": "begransad",
+     "slut": "2026-11-25T20:00Z",
+     "typ": "oplanerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 505.0,
      "status": "begransad",
      "slut": "2026-11-25T19:00Z",
+     "typ": "oplanerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-25T20:00Z",
      "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3972,13 +3992,6 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4179,13 +4192,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,

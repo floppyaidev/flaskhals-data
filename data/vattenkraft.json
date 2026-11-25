@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T18:29Z",
+ "uppdaterad": "2026-11-25T18:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -125,7 +125,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -154,7 +154,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -191,7 +191,7 @@
        "orsak": "High storage temperature"
       }
      ],
-     "produktion_mw": 3813,
+     "produktion_mw": 3828,
      "med_produktion": 15
     }
    ]
@@ -211,7 +211,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -234,13 +234,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 949,
+     "produktion_mw": 956,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -277,7 +277,7 @@
        "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
-     "produktion_mw": 1901,
+     "produktion_mw": 2162,
      "med_produktion": 10
     }
    ]
