@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T16:59Z",
+ "uppdaterad": "2026-11-25T17:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -639,16 +639,6 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 550.0,
-     "status": "begransad",
-     "slut": "2026-11-25T17:00Z",
-     "typ": "oplanerat",
-     "orsak": "Start up sequence are taking longer than expected."
-    },
-    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -662,6 +652,13 @@
      "tillganglig_mw": 1172,
      "status": "drift",
      "produktion_mw": 992
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 1134,
+     "status": "drift"
     },
     {
      "namn": "Forsmark block 2",
@@ -2677,7 +2674,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T13:45Z",
+   "produktion_tid": "2026-11-25T16:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2685,7 +2682,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 168
+     "produktion_mw": 180
     },
     {
      "namn": "Balti Elektrijaam",
