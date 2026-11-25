@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-25T11:58Z",
+ "uppdaterad": "2026-11-25T12:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-20T09:00Z",
+   "produktion_tid": "2026-11-20T12:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -27,7 +27,7 @@
      "typ": "planerat",
      "orsak": "Maintenance.",
      "alv": "Luleälven",
-     "produktion_mw": 207
+     "produktion_mw": 181
     },
     {
      "namn": "Harsprånget",
@@ -36,7 +36,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 558
+     "produktion_mw": 583
     },
     {
      "namn": "MarkbygdenETT",
@@ -52,7 +52,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 355
+     "produktion_mw": 351
     },
     {
      "namn": "Porjus",
@@ -61,7 +61,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 333
+     "produktion_mw": 340
     },
     {
      "namn": "Djupdal",
@@ -84,7 +84,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 266
+     "produktion_mw": 268
     },
     {
      "namn": "Ligga",
@@ -93,7 +93,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 130
+     "produktion_mw": 131
     },
     {
      "namn": "Porsi",
@@ -222,7 +222,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-20T09:00Z",
+   "produktion_tid": "2026-11-20T12:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -241,7 +241,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 275
+     "produktion_mw": 344
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -470,7 +470,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 90
+     "produktion_mw": 109
     },
     {
      "namn": "Hocksjön",
@@ -618,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-20T09:00Z",
+   "produktion_tid": "2026-11-20T12:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -664,7 +664,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 992
+     "produktion_mw": 993
     },
     {
      "namn": "Forsmark block 2",
@@ -688,7 +688,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 248
+     "produktion_mw": 183
     },
     {
      "namn": "Stenungsund B3",
@@ -837,7 +837,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-20T09:00Z",
+   "produktion_tid": "2026-11-20T12:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -3015,16 +3015,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-25T12:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3295,6 +3285,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
