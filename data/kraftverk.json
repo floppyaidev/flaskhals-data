@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T17:28Z",
+ "uppdaterad": "2026-11-25T17:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -639,6 +639,16 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 550.0,
+     "status": "begransad",
+     "slut": "2026-11-26T01:00Z",
+     "typ": "oplanerat",
+     "orsak": "Start up sequence are taking longer than expected."
+    },
+    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -652,13 +662,6 @@
      "tillganglig_mw": 1172,
      "status": "drift",
      "produktion_mw": 992
-    },
-    {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 1134,
-     "status": "drift"
     },
     {
      "namn": "Forsmark block 2",
@@ -3008,7 +3011,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-25T18:00Z",
+     "slut": "2026-11-25T19:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -4474,7 +4477,7 @@
      "mw": 360,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T23:00Z",
+     "slut": "2026-11-30T23:00Z",
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
@@ -4489,16 +4492,6 @@
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 920.0,
-     "status": "begransad",
-     "slut": "2026-11-25T19:00Z",
-     "typ": "oplanerat",
-     "orsak": null
     },
     {
      "namn": "Hollandse Kust West VI",
@@ -4522,6 +4515,13 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
