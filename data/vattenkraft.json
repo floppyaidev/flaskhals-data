@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T10:59Z",
+ "uppdaterad": "2026-11-25T11:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -341,7 +341,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T07:00Z",
+   "produktion_tid": "2026-11-25T09:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -361,7 +361,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 3425.0,
+     "tillganglig_mw": 3714.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -404,13 +404,6 @@
        "nominell_mw": 455,
        "slut": "2026-11-29T23:00Z",
        "orsak": null
-      },
-      {
-       "namn": "KW Kühtai",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 289,
-       "slut": "2026-11-25T11:00Z",
-       "orsak": "Other"
       },
       {
        "namn": "PSW Erzhausen",

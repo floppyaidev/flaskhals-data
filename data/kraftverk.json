@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T10:59Z",
+ "uppdaterad": "2026-11-25T11:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2692,7 +2692,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T07:45Z",
+   "produktion_tid": "2026-11-25T10:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2741,7 +2741,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T07:00Z",
+   "produktion_tid": "2026-11-25T09:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2951,16 +2951,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "KW Kühtai",
-     "kraftslag": "pumpkraft",
-     "mw": 289,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T11:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "PSW Erzhausen",
      "kraftslag": "pumpkraft",
      "mw": 220,
@@ -2969,6 +2959,16 @@
      "slut": "2026-11-27T16:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T20:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "Koepchenwerk",
@@ -3409,6 +3409,13 @@
      "status": "drift"
     },
     {
+     "namn": "KW Kühtai",
+     "kraftslag": "pumpkraft",
+     "mw": 289,
+     "tillganglig_mw": 289,
+     "status": "drift"
+    },
+    {
      "namn": "OWP Butendiek",
      "kraftslag": "vind_hav",
      "mw": 288,
@@ -3539,13 +3546,6 @@
      "kraftslag": "gas",
      "mw": 195,
      "tillganglig_mw": 195,
-     "status": "drift"
-    },
-    {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 190,
      "status": "drift"
     },
     {
