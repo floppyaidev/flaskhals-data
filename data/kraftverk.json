@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T20:29Z",
+ "uppdaterad": "2026-11-25T20:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2302,7 +2302,7 @@
      "mw": 1600,
      "tillganglig_mw": 910.0,
      "status": "begransad",
-     "slut": "2026-11-25T23:00Z",
+     "slut": "2026-11-26T02:15Z",
      "typ": "planerat",
      "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
      "produktion_mw": 1336
