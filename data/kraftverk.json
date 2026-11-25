@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T22:59Z",
+ "uppdaterad": "2026-11-25T23:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2926,23 +2926,13 @@
      "orsak": null
     },
     {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-25T23:00Z",
-     "typ": "oplanerat",
+     "slut": "2026-11-26T23:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -2972,6 +2962,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-28T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "KMW_GENERATION",
+     "kraftslag": "gas",
+     "mw": 870,
+     "tillganglig_mw": 11.0,
+     "status": "begransad",
+     "slut": "2026-11-29T23:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3079,13 +3079,6 @@
      "kraftslag": "vind_hav",
      "mw": 900,
      "tillganglig_mw": 900,
-     "status": "drift"
-    },
-    {
-     "namn": "KMW_GENERATION",
-     "kraftslag": "gas",
-     "mw": 870,
-     "tillganglig_mw": 870,
      "status": "drift"
     },
     {
@@ -3289,6 +3282,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -3839,7 +3839,7 @@
      "mw": 1350,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-25T23:00Z",
+     "slut": "2026-11-30T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3929,7 +3929,7 @@
      "mw": 208,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-25T23:00Z",
+     "slut": "2026-11-30T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3949,8 +3949,8 @@
      "mw": 620,
      "tillganglig_mw": 510.0,
      "status": "begransad",
-     "slut": "2026-11-25T23:00Z",
-     "typ": "oplanerat",
+     "slut": "2026-11-26T10:00Z",
+     "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
