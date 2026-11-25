@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T07:13Z",
+ "uppdaterad": "2026-11-25T07:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2919,16 +2919,6 @@
      "orsak": null
     },
     {
-     "namn": "Arkona",
-     "kraftslag": "vind_hav",
-     "mw": 378,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T07:15Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Windpark Nordsee One",
      "kraftslag": "vind_hav",
      "mw": 332,
@@ -3316,6 +3306,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Arkona",
+     "kraftslag": "vind_hav",
+     "mw": 378,
+     "tillganglig_mw": 378,
      "status": "drift"
     },
     {
