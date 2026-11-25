@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T11:28Z",
+ "uppdaterad": "2026-11-25T11:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1132,16 +1132,6 @@
      "produktion_mw": 259
     },
     {
-     "namn": "Lysebotn 2",
-     "kraftslag": "vattenkraft",
-     "mw": 372,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T13:00Z",
-     "typ": "planerat",
-     "orsak": "Maintenance"
-    },
-    {
      "namn": "Blåfal.V",
      "kraftslag": "vattenkraft",
      "mw": 235,
@@ -1162,22 +1152,19 @@
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w"
     },
     {
-     "namn": "Lysebotn",
-     "kraftslag": "vattenkraft",
-     "mw": 124,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T13:00Z",
-     "typ": "planerat",
-     "orsak": "Maintenance"
-    },
-    {
      "namn": "Brokke",
      "kraftslag": "vattenkraft",
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
      "produktion_mw": 100
+    },
+    {
+     "namn": "Lysebotn 2",
+     "kraftslag": "vattenkraft",
+     "mw": 372,
+     "tillganglig_mw": 372,
+     "status": "drift"
     },
     {
      "namn": "Saurdal Magasin",
@@ -1341,6 +1328,13 @@
      "tillganglig_mw": 136,
      "status": "drift",
      "produktion_mw": 132
+    },
+    {
+     "namn": "Lysebotn",
+     "kraftslag": "vattenkraft",
+     "mw": 124,
+     "tillganglig_mw": 124,
+     "status": "drift"
     },
     {
      "namn": "Tjørhom",

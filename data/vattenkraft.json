@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T11:28Z",
+ "uppdaterad": "2026-11-25T11:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -167,7 +167,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5260,
+     "tillganglig_mw": 5756,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -198,25 +198,11 @@
        "orsak": "High storage temperature"
       },
       {
-       "namn": "Lysebotn 2",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 372,
-       "slut": "2026-11-25T13:00Z",
-       "orsak": "Maintenance"
-      },
-      {
        "namn": "Blåfal.V",
        "tillganglig_mw": 0.0,
        "nominell_mw": 235,
        "slut": "2026-11-25T14:00Z",
        "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
-      },
-      {
-       "namn": "Lysebotn",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 124,
-       "slut": "2026-11-25T13:00Z",
-       "orsak": "Maintenance"
       }
      ],
      "produktion_mw": 3730,
