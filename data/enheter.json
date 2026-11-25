@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T08:58Z",
+ "uppdaterad": "2026-11-25T09:16Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -12,68 +12,68 @@
   "NL": 2
  },
  "land_tid": {
-  "SE": "2026-11-25T05:59Z",
-  "NO": "2026-11-25T06:14Z",
-  "DK": "2026-11-25T06:14Z",
+  "SE": "2026-11-25T09:14Z",
+  "NO": "2026-11-25T09:16Z",
+  "DK": "2026-11-25T09:16Z",
   "FI": "2026-11-25T06:48Z",
   "EE": "2026-11-25T08:14Z",
   "LV": "2026-11-25T08:14Z",
   "LT": "2026-11-25T08:14Z",
-  "PL": "2026-11-25T05:59Z",
-  "NL": "2026-11-25T05:59Z"
+  "PL": "2026-11-25T09:15Z",
+  "NL": "2026-11-25T09:16Z"
  },
  "zoner": {
   "SE3": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T05:00Z",
+   "data_tid": "2026-11-20T09:00Z",
    "enheter": [
     {
      "namn": "Forsmark block 3 G31",
      "kraftslag": "karnkraft",
-     "mw": 985,
-     "t": "2026-11-20T05:00Z"
+     "mw": 992,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Forsmark block 2 G21",
      "kraftslag": "karnkraft",
      "mw": 561,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Forsmark block 2 G22",
      "kraftslag": "karnkraft",
      "mw": 560,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Forsmark block 1 G12",
      "kraftslag": "karnkraft",
      "mw": 555,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Trängslet G3",
      "kraftslag": "vattenkraft",
-     "mw": 63,
-     "t": "2026-11-20T05:00Z"
-    },
-    {
-     "namn": "Rya KVV",
-     "kraftslag": "gas",
-     "mw": 34,
-     "t": "2026-11-20T05:00Z"
+     "mw": 96,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Trängslet G2",
      "kraftslag": "vattenkraft",
-     "mw": 5,
-     "t": "2026-11-20T05:00Z"
+     "mw": 81,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Trängslet G1",
      "kraftslag": "vattenkraft",
-     "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "mw": 71,
+     "t": "2026-11-20T09:00Z"
+    },
+    {
+     "namn": "Rya KVV",
+     "kraftslag": "gas",
+     "mw": 32,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Forsmark block 1 G11",
@@ -85,19 +85,19 @@
   },
   "SE4": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T05:00Z",
+   "data_tid": "2026-11-20T09:00Z",
    "enheter": [
     {
      "namn": "Karlshamn G1",
      "kraftslag": "olja",
      "mw": 4,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Karlshamn G2",
      "kraftslag": "olja",
      "mw": 0,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Karlshamn G3",
@@ -121,127 +121,127 @@
   },
   "SE1": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T05:00Z",
+   "data_tid": "2026-11-20T09:00Z",
    "enheter": [
     {
      "namn": "Harsprånget G5",
      "kraftslag": "vattenkraft",
-     "mw": 385,
-     "t": "2026-11-20T05:00Z"
+     "mw": 372,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Ritsem G1",
      "kraftslag": "vattenkraft",
-     "mw": 262,
-     "t": "2026-11-20T05:00Z"
+     "mw": 266,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Seitevare G1",
      "kraftslag": "vattenkraft",
      "mw": 187,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Porjus G11",
      "kraftslag": "vattenkraft",
-     "mw": 156,
-     "t": "2026-11-20T05:00Z"
+     "mw": 168,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Porjus G12",
      "kraftslag": "vattenkraft",
-     "mw": 154,
-     "t": "2026-11-20T05:00Z"
+     "mw": 165,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Messaure G1",
      "kraftslag": "vattenkraft",
      "mw": 146,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Messaure G2",
      "kraftslag": "vattenkraft",
      "mw": 142,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Messaure G3",
      "kraftslag": "vattenkraft",
      "mw": 142,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Ligga G3",
      "kraftslag": "vattenkraft",
      "mw": 130,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Letsi G1",
      "kraftslag": "vattenkraft",
-     "mw": 113,
-     "t": "2026-11-20T05:00Z"
+     "mw": 122,
+     "t": "2026-11-20T09:00Z"
+    },
+    {
+     "namn": "Letsi G2",
+     "kraftslag": "vattenkraft",
+     "mw": 118,
+     "t": "2026-11-20T09:00Z"
+    },
+    {
+     "namn": "Letsi G3",
+     "kraftslag": "vattenkraft",
+     "mw": 115,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Vietas G2",
      "kraftslag": "vattenkraft",
      "mw": 106,
-     "t": "2026-11-20T05:00Z"
-    },
-    {
-     "namn": "Letsi G2",
-     "kraftslag": "vattenkraft",
-     "mw": 104,
-     "t": "2026-11-20T05:00Z"
-    },
-    {
-     "namn": "Letsi G3",
-     "kraftslag": "vattenkraft",
-     "mw": 102,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Vietas G1",
      "kraftslag": "vattenkraft",
      "mw": 101,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Bastusel G1",
      "kraftslag": "vattenkraft",
-     "mw": 97,
-     "t": "2026-11-20T05:00Z"
+     "mw": 98,
+     "t": "2026-11-20T09:00Z"
+    },
+    {
+     "namn": "Harsprånget G1",
+     "kraftslag": "vattenkraft",
+     "mw": 93,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Harsprånget G2",
      "kraftslag": "vattenkraft",
      "mw": 93,
-     "t": "2026-11-20T05:00Z"
-    },
-    {
-     "namn": "Harsprånget G1",
-     "kraftslag": "vattenkraft",
-     "mw": 91,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Porsi G3",
      "kraftslag": "vattenkraft",
-     "mw": 90,
-     "t": "2026-11-20T05:00Z"
+     "mw": 91,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Gallejaur G1",
      "kraftslag": "vattenkraft",
      "mw": 77,
-     "t": "2026-11-20T05:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Gallejaur G2",
      "kraftslag": "vattenkraft",
-     "mw": 48,
-     "t": "2026-11-20T05:00Z"
+     "mw": 49,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Harsprånget G4",
@@ -253,31 +253,31 @@
   },
   "SE2": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T05:00Z",
+   "data_tid": "2026-11-20T09:00Z",
    "enheter": [
     {
-     "namn": "Stornorrfors G2",
+     "namn": "Stornorrfors G1",
      "kraftslag": "vattenkraft",
-     "mw": 118,
-     "t": "2026-11-20T05:00Z"
-    },
-    {
-     "namn": "Stornorrfors G4",
-     "kraftslag": "vattenkraft",
-     "mw": 109,
-     "t": "2026-11-20T05:00Z"
+     "mw": 103,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Stalon G1",
      "kraftslag": "vattenkraft",
-     "mw": 94,
-     "t": "2026-11-20T05:00Z"
+     "mw": 90,
+     "t": "2026-11-20T09:00Z"
     },
     {
-     "namn": "Stornorrfors G1",
+     "namn": "Stornorrfors G4",
      "kraftslag": "vattenkraft",
-     "mw": 0,
-     "t": "2026-11-20T02:00Z"
+     "mw": 87,
+     "t": "2026-11-20T09:00Z"
+    },
+    {
+     "namn": "Stornorrfors G2",
+     "kraftslag": "vattenkraft",
+     "mw": 85,
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "Stornorrfors G3",
@@ -289,55 +289,61 @@
   },
   "NO4": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T06:00Z",
+   "data_tid": "2026-11-20T09:15Z",
    "enheter": [
     {
      "namn": "KOBBELV G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 150,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "RANA    G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 135,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "RANA    G3      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 132,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "RANA    G2      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 131,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "RANA    G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 121,
-     "t": "2026-11-20T06:00Z"
+     "mw": 122,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SISO    G2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 99,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "SKJOMEN G3      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 98,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SKJOMEN G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 93,
-     "t": "2026-11-20T06:00Z"
+     "mw": 83,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "ALTA_KRVG2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 56,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
-     "namn": "SKJOMEN G3      HYDRO",
+     "namn": "SKJOMEN G2      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 55,
-     "t": "2026-11-20T06:00Z"
+     "mw": 21,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "KOBBELV G2      HYDRO",
@@ -350,108 +356,102 @@
      "kraftslag": "vattenkraft",
      "mw": 0,
      "t": "2026-11-20T00:00Z"
-    },
-    {
-     "namn": "SKJOMEN G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 0,
-     "t": "2026-11-20T00:00Z"
     }
    ]
   },
   "NO5": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T06:00Z",
+   "data_tid": "2026-11-20T09:15Z",
    "enheter": [
     {
      "namn": "JOSTEDALG1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 275,
-     "t": "2026-11-20T06:00Z"
+     "mw": 276,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "AURLAND1G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 233,
-     "t": "2026-11-20T06:00Z"
+     "mw": 269,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "AURLAND1G3      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 218,
-     "t": "2026-11-20T06:00Z"
+     "mw": 268,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TYIN    G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 188,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TYIN    G2      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 186,
-     "t": "2026-11-20T06:00Z"
+     "mw": 187,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "AURLAND3G2      HYDRO",
+     "kraftslag": "pumpkraft",
+     "mw": 117,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "DALE    G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 114,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "NADDVIK G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 108,
-     "t": "2026-11-20T06:00Z"
+     "mw": 110,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "USTA    G1      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 104,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "USTA    G2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 102,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "BORGUND G2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 100,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "BORGUND G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 100,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "USTA    G1      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 94,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "EVANGER G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 88,
-     "t": "2026-11-20T06:00Z"
+     "mw": 45,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "EVANGER G2      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 87,
-     "t": "2026-11-20T06:00Z"
+     "mw": 44,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "EVANGER G3      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 86,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "AURLAND3G2      HYDRO",
-     "kraftslag": "pumpkraft",
-     "mw": 0,
-     "t": "2026-11-20T00:00Z"
+     "mw": 43,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "AURLAND1G2      HYDRO",
@@ -481,187 +481,181 @@
   },
   "NO2": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T06:00Z",
+   "data_tid": "2026-11-20T09:15Z",
    "enheter": [
     {
      "namn": "KVILLDALG3      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 306,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "KVILLDALG1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 305,
-     "t": "2026-11-20T06:00Z"
+     "mw": 306,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TONSTAD G5      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 288,
-     "t": "2026-11-20T06:00Z"
+     "mw": 292,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "OKSLA   G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 207,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "HOLEN   G3      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 151,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "TONSTAD G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 151,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "TONSTAD G3      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 150,
-     "t": "2026-11-20T06:00Z"
+     "mw": 208,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TONSTAD G4      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 149,
-     "t": "2026-11-20T06:00Z"
+     "mw": 153,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "HOLEN   G3      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "TONSTAD G2      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "TONSTAD G3      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 152,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SONGA   G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 132,
-     "t": "2026-11-20T05:45Z"
-    },
-    {
-     "namn": "TJODAN  G1      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 110,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TOKKE   G4      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 109,
-     "t": "2026-11-20T06:00Z"
+     "mw": 111,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "HOLEN   G2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 107,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TYSSO_2 G2      HYDRO",
      "kraftslag": "vattenkraft",
+     "mw": 105,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "TJODAN  G1      HYDRO",
+     "kraftslag": "vattenkraft",
      "mw": 103,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "TOKKE   G2      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "TOKKE   G3      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 102,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "SONNA   G2      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 101,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SONNA   G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 101,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "TYSSO_2 G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 101,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "BROKKE  G4      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 100,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "SONNA   G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 100,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "TOKKE   G3      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 100,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:00Z"
     },
     {
      "namn": "VEMORK  G2      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 99,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "VEMORK  G1      HYDRO",
      "kraftslag": "vattenkraft",
      "mw": 99,
-     "t": "2026-11-20T06:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SKJERKA G2      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 96,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "TOKKE   G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 90,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "SOLHOM  G2      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 88,
-     "t": "2026-11-20T06:00Z"
-    },
-    {
-     "namn": "SOLHOM  G1      HYDRO",
-     "kraftslag": "vattenkraft",
-     "mw": 87,
-     "t": "2026-11-20T06:00Z"
+     "mw": 97,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SKJERKA G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 85,
-     "t": "2026-11-20T06:00Z"
+     "mw": 96,
+     "t": "2026-11-20T09:15Z"
     },
     {
-     "namn": "VINJE   G3      HYDRO",
+     "namn": "SOLHOM  G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 74,
-     "t": "2026-11-20T06:00Z"
+     "mw": 90,
+     "t": "2026-11-20T09:15Z"
     },
     {
-     "namn": "VINJE   G2      HYDRO",
+     "namn": "SOLHOM  G2      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 74,
-     "t": "2026-11-20T06:00Z"
+     "mw": 89,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "DUGE    G1      HYDRO",
      "kraftslag": "pumpkraft",
-     "mw": 73,
-     "t": "2026-11-20T06:00Z"
+     "mw": 75,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "DUGE    G2      HYDRO",
      "kraftslag": "pumpkraft",
-     "mw": 73,
-     "t": "2026-11-20T06:00Z"
+     "mw": 75,
+     "t": "2026-11-20T09:15Z"
+    },
+    {
+     "namn": "VINJE   G3      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 62,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "VINJE   G1      HYDRO",
      "kraftslag": "vattenkraft",
-     "mw": 68,
-     "t": "2026-11-20T06:00Z"
+     "mw": 62,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "HOLEN   G1      HYDRO",
@@ -692,30 +686,36 @@
      "kraftslag": "vattenkraft",
      "mw": 0,
      "t": "2026-11-20T00:00Z"
+    },
+    {
+     "namn": "VINJE   G2      HYDRO",
+     "kraftslag": "vattenkraft",
+     "mw": 0,
+     "t": "2026-11-20T08:15Z"
     }
    ]
   },
   "NO1": {
    "lag_dagar": 5,
-   "data_tid": "2026-11-20T06:00Z",
+   "data_tid": "2026-11-20T09:15Z",
    "enheter": [
     {
      "namn": "VAMMA   G12     HYDRO",
      "kraftslag": "stromkraft",
-     "mw": 111,
-     "t": "2026-11-20T06:00Z"
+     "mw": 112,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "RENDAL_2G1      HYDRO",
      "kraftslag": "stromkraft",
-     "mw": 90,
-     "t": "2026-11-20T06:00Z"
+     "mw": 99,
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "SOLBERG2G1      HYDRO",
      "kraftslag": "stromkraft",
      "mw": 77,
-     "t": "2026-11-20T00:00Z"
+     "t": "2026-11-20T09:15Z"
     },
     {
      "namn": "VAMMA   G11     HYDRO",
@@ -727,43 +727,49 @@
   },
   "DK2": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-24T05:45Z",
+   "data_tid": "2026-11-24T08:45Z",
    "enheter": [
     {
      "namn": "Avedoerevaerket 2",
      "kraftslag": "gas",
-     "mw": 279,
-     "t": "2026-11-24T05:45Z"
+     "mw": 340,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Avedoerevaerket 1",
      "kraftslag": "gas",
-     "mw": 165,
-     "t": "2026-11-24T05:45Z"
+     "mw": 193,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Amagervaerket 4",
      "kraftslag": "biobransle",
      "mw": 147,
-     "t": "2026-11-24T05:45Z"
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Solar Park Lidsø",
+     "kraftslag": "sol",
+     "mw": 40,
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Solar Park Vedde",
+     "kraftslag": "sol",
+     "mw": 5,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Roedsand 2",
      "kraftslag": "vind_hav",
-     "mw": 28,
-     "t": "2026-11-24T05:45Z"
-    },
-    {
-     "namn": "Roedsand 1",
-     "kraftslag": "vind_hav",
-     "mw": 17,
-     "t": "2026-11-24T05:45Z"
+     "mw": 4,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Kyndbyvaerket 21",
      "kraftslag": "olja",
      "mw": 1,
-     "t": "2026-11-24T05:00Z"
+     "t": "2026-11-24T07:30Z"
     },
     {
      "namn": "Kyndbyvaerket 22",
@@ -772,52 +778,76 @@
      "t": "2026-11-24T00:00Z"
     },
     {
-     "namn": "Solar Park Vedde",
-     "kraftslag": "sol",
+     "namn": "Roedsand 1",
+     "kraftslag": "vind_hav",
      "mw": 0,
-     "t": "2026-11-24T00:00Z"
-    },
-    {
-     "namn": "Solar Park Lidsø",
-     "kraftslag": "sol",
-     "mw": 0,
-     "t": "2026-11-24T00:00Z"
+     "t": "2026-11-24T08:45Z"
     }
    ]
   },
   "DK1": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-24T05:45Z",
+   "data_tid": "2026-11-24T08:45Z",
    "enheter": [
     {
      "namn": "Nordjyllandsvaerket 3",
      "kraftslag": "kol",
-     "mw": 193,
-     "t": "2026-11-24T05:45Z"
+     "mw": 179,
+     "t": "2026-11-24T08:45Z"
     },
     {
-     "namn": "Horns Rev A",
-     "kraftslag": "vind_hav",
-     "mw": 13,
-     "t": "2026-11-24T05:45Z"
+     "namn": "Solar Park Gedmosen",
+     "kraftslag": "sol",
+     "mw": 28,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Horns Rev B",
      "kraftslag": "vind_hav",
+     "mw": 18,
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Solar Park Viuf and Håstrup",
+     "kraftslag": "sol",
+     "mw": 15,
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Solar Park Holsted",
+     "kraftslag": "sol",
      "mw": 10,
-     "t": "2026-11-24T05:45Z"
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Vesterhav Syd",
+     "kraftslag": "vind_hav",
+     "mw": 3,
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Horns Rev A",
+     "kraftslag": "vind_hav",
+     "mw": 1,
+     "t": "2026-11-24T08:45Z"
+    },
+    {
+     "namn": "Vesterhav Nord",
+     "kraftslag": "vind_hav",
+     "mw": 1,
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Skaerbaekvaerket 3",
      "kraftslag": "gas",
      "mw": 0,
-     "t": "2026-11-24T05:45Z"
+     "t": "2026-11-24T08:30Z"
     },
     {
      "namn": "Fynsvaerket 7",
      "kraftslag": "kol",
      "mw": 0,
-     "t": "2026-11-24T05:45Z"
+     "t": "2026-11-24T08:45Z"
     },
     {
      "namn": "Studstrupvaerket 3",
@@ -832,40 +862,10 @@
      "t": "2026-11-24T00:00Z"
     },
     {
-     "namn": "Vesterhav Syd",
-     "kraftslag": "vind_hav",
-     "mw": 0,
-     "t": "2026-11-24T05:45Z"
-    },
-    {
-     "namn": "Vesterhav Nord",
-     "kraftslag": "vind_hav",
-     "mw": 0,
-     "t": "2026-11-24T05:45Z"
-    },
-    {
      "namn": "Solar Park Kassoe",
      "kraftslag": "sol",
      "mw": 0,
-     "t": "2026-11-24T00:00Z"
-    },
-    {
-     "namn": "Solar Park Gedmosen",
-     "kraftslag": "sol",
-     "mw": 0,
-     "t": "2026-11-24T00:00Z"
-    },
-    {
-     "namn": "Solar Park Holsted",
-     "kraftslag": "sol",
-     "mw": 0,
-     "t": "2026-11-24T00:00Z"
-    },
-    {
-     "namn": "Solar Park Viuf and Håstrup",
-     "kraftslag": "sol",
-     "mw": 0,
-     "t": "2026-11-24T00:00Z"
+     "t": "2026-11-24T08:30Z"
     }
    ]
   },
