@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T08:44Z",
+ "uppdaterad": "2026-11-25T09:45Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -132,6 +132,18 @@
    "nominell_mw": 1063.0,
    "tillganglig_mw": 0.0,
    "orsak": "Delayed startup after yearly maintenance.",
+   "status": null,
+   "kraftslag": "karnkraft",
+   "zon": "SE3"
+  },
+  {
+   "namn": "Ringhals 4",
+   "typ": "oplanerat",
+   "start": "2026-11-25T09:00Z",
+   "slut": "2026-11-25T17:00Z",
+   "nominell_mw": 1134.0,
+   "tillganglig_mw": 550.0,
+   "orsak": "Start up sequence are taking longer than expected.",
    "status": null,
    "kraftslag": "karnkraft",
    "zon": "SE3"
