@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T03:29Z",
+ "uppdaterad": "2026-11-25T03:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2275,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-20T00:45Z",
+   "produktion_tid": "2026-11-20T03:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2308,7 +2308,7 @@
      "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
-     "produktion_mw": 1216
+     "produktion_mw": 1218
     },
     {
      "namn": "Olkiluoto 2",
@@ -2319,7 +2319,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 1",
@@ -2373,7 +2373,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 52
+     "produktion_mw": 53
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2404,7 +2404,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 172
+     "produktion_mw": 175
     },
     {
      "namn": "Tahkoluoto",
@@ -2484,7 +2484,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 61
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2543,7 +2543,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 54
+     "produktion_mw": 64
     },
     {
      "namn": "Haapaniemi",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 44
+     "produktion_mw": 54
     },
     {
      "namn": "Olkiluoto kt",
@@ -3024,7 +3024,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-25T04:00Z",
+     "slut": "2026-11-25T05:00Z",
      "typ": "planerat",
      "orsak": null
     },
