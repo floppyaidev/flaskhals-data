@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T03:58Z",
+ "uppdaterad": "2026-11-25T04:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2949,16 +2949,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 475.0,
-     "status": "begransad",
-     "slut": "2026-11-25T04:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KW Schwarze Pumpe",
      "kraftslag": "brunkol",
      "mw": 1510,
@@ -3027,6 +3017,13 @@
      "slut": "2026-11-25T05:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 2011,
+     "status": "drift"
     },
     {
      "namn": "KW Lippendorf",
@@ -3967,16 +3964,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 248.0,
-     "status": "begransad",
-     "slut": "2026-11-25T04:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4030,6 +4017,13 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
