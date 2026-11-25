@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T14:29Z",
+ "uppdaterad": "2026-11-25T14:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -9,7 +9,7 @@
      "alv": "Luleälven",
      "verk": 11,
      "nominell_mw": 3926,
-     "tillganglig_mw": 3191,
+     "tillganglig_mw": 3498,
      "avbrott": [
       {
        "namn": "Messaure",
@@ -17,13 +17,6 @@
        "nominell_mw": 428,
        "slut": "2026-12-18T13:00Z",
        "orsak": "Maintenance"
-      },
-      {
-       "namn": "Vietas",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 307,
-       "slut": "2026-11-25T17:00Z",
-       "orsak": "Maintenance."
       }
      ],
      "produktion_mw": 2562,
