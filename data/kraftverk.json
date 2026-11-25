@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T15:14Z",
+ "uppdaterad": "2026-11-25T15:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -232,16 +232,6 @@
      "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
     },
     {
-     "namn": "Kölvallen Vindpark",
-     "kraftslag": "vind_land",
-     "mw": 277,
-     "tillganglig_mw": 173.0,
-     "status": "begransad",
-     "slut": "2026-11-25T15:23Z",
-     "typ": "oplanerat",
-     "orsak": "Icing condition."
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -269,6 +259,13 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Kölvallen Vindpark",
+     "kraftslag": "vind_land",
+     "mw": 277,
+     "tillganglig_mw": 277,
      "status": "drift"
     },
     {
