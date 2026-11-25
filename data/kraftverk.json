@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T23:29Z",
+ "uppdaterad": "2026-11-25T23:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2286,6 +2286,17 @@
      "produktion_mw": 1
     },
     {
+     "namn": "Vaskiluoto",
+     "kraftslag": "kol",
+     "mw": 383,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T23:00Z",
+     "typ": "oplanerat",
+     "orsak": "Stator fault",
+     "produktion_mw": 0
+    },
+    {
      "namn": "Metsä Fibre Kemi",
      "kraftslag": "biobransle",
      "mw": 250,
@@ -2363,14 +2374,6 @@
      "mw": 430,
      "tillganglig_mw": 430,
      "status": "drift"
-    },
-    {
-     "namn": "Vaskiluoto",
-     "kraftslag": "kol",
-     "mw": 383,
-     "tillganglig_mw": 383,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "Pjelax Windfarm",
@@ -3021,7 +3024,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-26T00:00Z",
+     "slut": "2026-11-26T01:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3954,6 +3957,16 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 338.0,
+     "status": "begransad",
+     "slut": "2026-11-26T04:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4014,13 +4027,6 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
