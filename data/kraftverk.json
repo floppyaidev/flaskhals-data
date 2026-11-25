@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T00:28Z",
+ "uppdaterad": "2026-11-25T00:46Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2275,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-19T21:15Z",
+   "produktion_tid": "2026-11-20T00:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2308,7 +2308,7 @@
      "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
-     "produktion_mw": 1218
+     "produktion_mw": 1216
     },
     {
      "namn": "Olkiluoto 2",
@@ -2343,7 +2343,7 @@
      "mw": 496,
      "tillganglig_mw": 496,
      "status": "drift",
-     "produktion_mw": 500
+     "produktion_mw": 501
     },
     {
      "namn": "Loviisa 2",
@@ -2404,7 +2404,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 164
+     "produktion_mw": 172
     },
     {
      "namn": "Tahkoluoto",
@@ -2484,7 +2484,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 81
+     "produktion_mw": 46
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2543,7 +2543,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 85
+     "produktion_mw": 54
     },
     {
      "namn": "Haapaniemi",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 36
+     "produktion_mw": 44
     },
     {
      "namn": "Olkiluoto kt",
@@ -2617,7 +2617,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 27
+     "produktion_mw": 26
     },
     {
      "namn": "Paskoonharju",
@@ -3014,7 +3014,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-25T01:00Z",
+     "slut": "2026-11-25T02:00Z",
      "typ": "planerat",
      "orsak": null
     },
