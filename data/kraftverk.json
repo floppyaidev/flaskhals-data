@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T18:48Z",
+ "uppdaterad": "2026-11-25T19:00Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2055,7 +2055,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-24T15:30Z",
+   "produktion_tid": "2026-11-24T18:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2133,7 +2133,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 2
+     "produktion_mw": 24
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2149,7 +2149,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 11
+     "produktion_mw": 17
     },
     {
      "namn": "Solar Park Holsted",
@@ -2165,7 +2165,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 5
+     "produktion_mw": 11
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2181,7 +2181,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 12
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2194,7 +2194,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-24T15:30Z",
+   "produktion_tid": "2026-11-24T18:30Z",
    "verk": [
     {
      "namn": "Amagervaerket",
@@ -2205,7 +2205,7 @@
      "slut": "2027-06-13T22:00Z",
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
-     "produktion_mw": 148
+     "produktion_mw": 147
     },
     {
      "namn": "Avedoerevaerket",
@@ -2213,7 +2213,7 @@
      "mw": 815,
      "tillganglig_mw": 815,
      "status": "drift",
-     "produktion_mw": 561
+     "produktion_mw": 546
     },
     {
      "namn": "Asnaesvaerket",
@@ -2243,7 +2243,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 1
+     "produktion_mw": 7
     },
     {
      "namn": "Roedsand 1",
@@ -2272,7 +2272,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-20T15:45Z",
+   "produktion_tid": "2026-11-20T18:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2305,7 +2305,7 @@
      "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
-     "produktion_mw": 1216
+     "produktion_mw": 1336
     },
     {
      "namn": "Olkiluoto 2",
@@ -2316,7 +2316,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 1",
@@ -2370,7 +2370,7 @@
      "mw": 383,
      "tillganglig_mw": 383,
      "status": "drift",
-     "produktion_mw": 53
+     "produktion_mw": 0
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2401,7 +2401,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 177
+     "produktion_mw": 181
     },
     {
      "namn": "Tahkoluoto",
@@ -2481,7 +2481,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 85
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2540,7 +2540,7 @@
      "mw": 146,
      "tillganglig_mw": 146,
      "status": "drift",
-     "produktion_mw": 68
+     "produktion_mw": 0
     },
     {
      "namn": "Haapaniemi",
@@ -2599,7 +2599,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 87
+     "produktion_mw": 90
     },
     {
      "namn": "Olkiluoto kt",
@@ -3006,16 +3006,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-25T19:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3286,6 +3276,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3871,16 +3868,6 @@
      "orsak": "Short-term planned outage"
     },
     {
-     "namn": "Rybnik",
-     "kraftslag": "kol",
-     "mw": 835,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T19:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Ostrołęka B",
      "kraftslag": "kol",
      "mw": 651,
@@ -3964,9 +3951,9 @@
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
-     "tillganglig_mw": 505.0,
+     "tillganglig_mw": 510.0,
      "status": "begransad",
-     "slut": "2026-11-25T19:00Z",
+     "slut": "2026-11-25T23:00Z",
      "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3992,6 +3979,13 @@
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 835,
+     "tillganglig_mw": 835,
      "status": "drift"
     },
     {
@@ -4424,7 +4418,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-23T22:45Z",
+   "produktion_tid": "2026-11-24T22:45Z",
    "verk": [
     {
      "namn": "Eemshaven",
@@ -4536,7 +4530,7 @@
      "mw": 928,
      "tillganglig_mw": 928,
      "status": "drift",
-     "produktion_mw": 906
+     "produktion_mw": 897
     },
     {
      "namn": "OWF Hollandse Kust Noord",
@@ -4565,7 +4559,7 @@
      "mw": 731,
      "tillganglig_mw": 731,
      "status": "drift",
-     "produktion_mw": 722
+     "produktion_mw": 721
     },
     {
      "namn": "Diemen",
@@ -4602,7 +4596,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 470
+     "produktion_mw": 475
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4617,7 +4611,7 @@
      "mw": 443,
      "tillganglig_mw": 443,
      "status": "drift",
-     "produktion_mw": 428
+     "produktion_mw": 392
     },
     {
      "namn": "Sloe Centrale 20",
@@ -4667,7 +4661,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 361
+     "produktion_mw": 359
     },
     {
      "namn": "Eems 5",
@@ -4675,7 +4669,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 365
+     "produktion_mw": 362
     },
     {
      "namn": "Eems 4",
@@ -4683,7 +4677,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 369
+     "produktion_mw": 0
     },
     {
      "namn": "Delesto 2",
@@ -4699,7 +4693,7 @@
      "mw": 248,
      "tillganglig_mw": 248,
      "status": "drift",
-     "produktion_mw": 230
+     "produktion_mw": 216
     },
     {
      "namn": "Merwedekanaal 12",
@@ -4707,7 +4701,7 @@
      "mw": 225,
      "tillganglig_mw": 225,
      "status": "drift",
-     "produktion_mw": 149
+     "produktion_mw": 185
     },
     {
      "namn": "RoCa",
@@ -4758,7 +4752,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 112
+     "produktion_mw": 105
     },
     {
      "namn": "PERGEN 2",
@@ -4766,7 +4760,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 111
+     "produktion_mw": 109
     },
     {
      "namn": "Prinses Alexia Windpark",
