@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T01:46Z",
+ "uppdaterad": "2026-11-25T01:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -320,7 +320,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-24T21:00Z",
+   "produktion_tid": "2026-11-25T00:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
