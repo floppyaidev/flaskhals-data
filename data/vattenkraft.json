@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T09:58Z",
+ "uppdaterad": "2026-11-25T10:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -274,7 +274,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4578.0,
+     "tillganglig_mw": 4318.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -284,11 +284,18 @@
        "orsak": "Reconstruction of control systems."
       },
       {
-       "namn": "Sy Sima",
+       "namn": "Lang Sima",
        "tillganglig_mw": 0.0,
-       "nominell_mw": 630,
-       "slut": "2026-11-25T10:00Z",
-       "orsak": "Revision of earthing switch and repair of earthing switch coils."
+       "nominell_mw": 500,
+       "slut": "2026-11-27T14:00Z",
+       "orsak": "Maintenance grounding switch"
+      },
+      {
+       "namn": "Tyin",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 390,
+       "slut": "2026-11-25T14:00Z",
+       "orsak": "Service on switchgear"
       },
       {
        "namn": "Evanger",

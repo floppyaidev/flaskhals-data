@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T09:58Z",
+ "uppdaterad": "2026-11-25T10:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1857,14 +1857,25 @@
      "produktion_mw": 537
     },
     {
-     "namn": "Sy Sima",
+     "namn": "Lang Sima",
      "kraftslag": "vattenkraft",
-     "mw": 630,
+     "mw": 500,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-25T10:00Z",
+     "slut": "2026-11-27T14:00Z",
      "typ": "planerat",
-     "orsak": "Revision of earthing switch and repair of earthing switch coils."
+     "orsak": "Maintenance grounding switch"
+    },
+    {
+     "namn": "Tyin",
+     "kraftslag": "vattenkraft",
+     "mw": 390,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T14:00Z",
+     "typ": "planerat",
+     "orsak": "Service on switchgear",
+     "produktion_mw": 375
     },
     {
      "namn": "Evanger",
@@ -1888,19 +1899,11 @@
      "orsak": "Annual controls for G4, G5 and G6"
     },
     {
-     "namn": "Lang Sima",
+     "namn": "Sy Sima",
      "kraftslag": "vattenkraft",
-     "mw": 500,
-     "tillganglig_mw": 500,
+     "mw": 630,
+     "tillganglig_mw": 630,
      "status": "drift"
-    },
-    {
-     "namn": "Tyin",
-     "kraftslag": "vattenkraft",
-     "mw": 390,
-     "tillganglig_mw": 390,
-     "status": "drift",
-     "produktion_mw": 375
     },
     {
      "namn": "Jostedal",
@@ -3028,16 +3031,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-25T10:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3308,6 +3301,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3969,9 +3969,9 @@
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
-     "tillganglig_mw": 505.0,
+     "tillganglig_mw": 510.0,
      "status": "begransad",
-     "slut": "2026-11-25T10:00Z",
+     "slut": "2026-11-25T17:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
