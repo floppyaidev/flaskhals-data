@@ -1,25 +1,25 @@
 {
- "uppdaterad": "2026-11-25T05:46Z",
+ "uppdaterad": "2026-11-25T06:48Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-25T05:30Z",
-  "SE2": "2026-11-25T05:30Z",
-  "SE3": "2026-11-25T05:30Z",
-  "SE4": "2026-11-25T05:30Z",
-  "NO1": "2026-11-25T05:30Z",
-  "NO2": "2026-11-25T05:30Z",
-  "NO3": "2026-11-25T05:30Z",
-  "NO4": "2026-11-25T05:30Z",
-  "NO5": "2026-11-25T05:30Z",
-  "DK1": "2026-11-25T05:30Z",
-  "DK2": "2026-11-25T05:30Z",
-  "FI": "2026-11-25T05:30Z",
-  "EE": "2026-11-25T05:30Z",
-  "LV": "2026-11-25T05:30Z",
-  "LT": "2026-11-25T05:30Z",
-  "DE": "2026-11-25T05:30Z",
-  "PL": "2026-11-25T05:30Z",
-  "NL": "2026-11-25T05:30Z"
+  "SE1": "2026-11-25T06:30Z",
+  "SE2": "2026-11-25T06:30Z",
+  "SE3": "2026-11-25T06:30Z",
+  "SE4": "2026-11-25T06:30Z",
+  "NO1": "2026-11-25T06:30Z",
+  "NO2": "2026-11-25T06:30Z",
+  "NO3": "2026-11-25T06:30Z",
+  "NO4": "2026-11-25T06:30Z",
+  "NO5": "2026-11-25T06:30Z",
+  "DK1": "2026-11-25T06:30Z",
+  "DK2": "2026-11-25T06:30Z",
+  "FI": "2026-11-25T06:30Z",
+  "EE": "2026-11-25T06:30Z",
+  "LV": "2026-11-25T06:30Z",
+  "LT": "2026-11-25T06:30Z",
+  "DE": "2026-11-25T06:30Z",
+  "PL": "2026-11-25T06:30Z",
+  "NL": "2026-11-25T06:30Z"
  },
  "zoner": {
   "SE1": [
@@ -551,20 +551,20 @@
     "kraftslag": "vind_hav"
    },
    {
-    "namn": "KW Boxberg",
+    "namn": "Windpark Nordsee One",
     "typ": "planerat",
-    "start": "2026-11-25T22:00Z",
-    "slut": "2026-11-26T00:00Z",
-    "nominell_mw": 840.0,
-    "tillganglig_mw": 505.0,
-    "orsak": "Other",
-    "kraftslag": "brunkol"
+    "start": "2026-11-25T07:00Z",
+    "slut": "2026-11-25T23:00Z",
+    "nominell_mw": 332.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "External Factors",
+    "kraftslag": "vind_hav"
    },
    {
     "namn": "Merkur Offshore GmbH",
     "typ": "planerat",
     "start": "2026-11-22T11:30Z",
-    "slut": "2026-11-25T07:00Z",
+    "slut": "2026-11-25T08:00Z",
     "nominell_mw": 396.0,
     "tillganglig_mw": 68.0,
     "orsak": null,
@@ -711,6 +711,16 @@
     "kraftslag": "kol"
    },
    {
+    "namn": "KW Boxberg",
+    "typ": "planerat",
+    "start": "2026-11-25T22:00Z",
+    "slut": "2026-11-26T05:00Z",
+    "nominell_mw": 500.0,
+    "tillganglig_mw": 290.0,
+    "orsak": "Other",
+    "kraftslag": "brunkol"
+   },
+   {
     "namn": "Weisweiler",
     "typ": "planerat",
     "start": "2026-04-06T22:00Z",
@@ -824,7 +834,7 @@
     "namn": "HKW Tiefstack",
     "typ": "planerat",
     "start": "2026-11-21T06:00Z",
-    "slut": "2026-11-25T07:00Z",
+    "slut": "2026-11-25T08:00Z",
     "nominell_mw": 127.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
@@ -848,16 +858,6 @@
     "nominell_mw": 110.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Sued GuD1",
-    "typ": "planerat",
-    "start": "2026-11-03T23:00Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 108.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "External Factors",
     "kraftslag": "gas"
    }
   ],
@@ -1050,16 +1050,6 @@
     "nominell_mw": 211.1,
     "tillganglig_mw": 0.0,
     "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Jaworzno 3",
-    "typ": "oplanerat",
-    "start": "2026-11-25T04:26Z",
-    "slut": "2026-11-25T06:00Z",
-    "nominell_mw": 209.9,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "kol"
    },
    {
@@ -1303,16 +1293,6 @@
     "tillganglig_mw": 0.0,
     "orsak": null,
     "kraftslag": "gas"
-   },
-   {
-    "namn": "Hollandse Kust Zuid",
-    "typ": "planerat",
-    "start": "2026-11-25T07:30Z",
-    "slut": "2026-11-25T15:30Z",
-    "nominell_mw": 1420.0,
-    "tillganglig_mw": 1398.0,
-    "orsak": null,
-    "kraftslag": "vind_hav"
    }
   ]
  }
