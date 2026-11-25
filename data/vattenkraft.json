@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-25T20:59Z",
+ "uppdaterad": "2026-11-25T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -19,7 +19,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 2544,
+     "produktion_mw": 1822,
      "med_produktion": 9
     },
     {
@@ -28,13 +28,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 229,
+     "produktion_mw": 239,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -42,7 +42,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 368,
+     "produktion_mw": 328,
      "med_produktion": 1
     },
     {
@@ -60,7 +60,7 @@
      "nominell_mw": 791,
      "tillganglig_mw": 791,
      "avbrott": [],
-     "produktion_mw": 115,
+     "produktion_mw": 88,
      "med_produktion": 1
     },
     {
@@ -93,7 +93,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -101,7 +101,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 36,
+     "produktion_mw": 3,
      "med_produktion": 1
     },
     {

@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-25T20:59Z",
+ "uppdaterad": "2026-11-25T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -24,7 +24,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 580
+     "produktion_mw": 377
     },
     {
      "namn": "MarkbygdenETT",
@@ -40,7 +40,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 353
+     "produktion_mw": 331
     },
     {
      "namn": "Porjus",
@@ -49,7 +49,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 323
+     "produktion_mw": 168
     },
     {
      "namn": "Djupdal",
@@ -72,7 +72,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 268
+     "produktion_mw": 0
     },
     {
      "namn": "Ligga",
@@ -81,7 +81,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 129
+     "produktion_mw": 118
     },
     {
      "namn": "Vietas",
@@ -90,7 +90,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 181
+     "produktion_mw": 119
     },
     {
      "namn": "Porsi",
@@ -99,7 +99,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 91
+     "produktion_mw": 90
     },
     {
      "namn": "Gråberget",
@@ -122,7 +122,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 131
+     "produktion_mw": 141
     },
     {
      "namn": "Seitevare",
@@ -219,7 +219,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -238,7 +238,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 368
+     "produktion_mw": 328
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -467,7 +467,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 115
+     "produktion_mw": 88
     },
     {
      "namn": "Hocksjön",
@@ -615,7 +615,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -626,7 +626,7 @@
      "slut": "2026-11-26T10:00Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 557
+     "produktion_mw": 556
     },
     {
      "namn": "Ringhals 3",
@@ -661,7 +661,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 992
+     "produktion_mw": 1025
     },
     {
      "namn": "Forsmark block 2",
@@ -685,7 +685,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 36
+     "produktion_mw": 3
     },
     {
      "namn": "Stenungsund B3",
@@ -707,7 +707,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 14
+     "produktion_mw": 8
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -834,7 +834,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-20T18:00Z",
+   "produktion_tid": "2026-11-20T21:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
@@ -2996,16 +2996,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-25T21:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3276,6 +3266,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
