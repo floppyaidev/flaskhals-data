@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T07:29Z",
+ "uppdaterad": "2026-11-25T07:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -626,7 +626,7 @@
      "mw": 1100,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T22:59Z",
+     "slut": "2026-11-26T10:00Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
      "produktion_mw": 555
@@ -2889,6 +2889,16 @@
      "orsak": "External Factors"
     },
     {
+     "namn": "GuD Ludwigshafen Mitte",
+     "kraftslag": "gas",
+     "mw": 412,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T08:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -2949,16 +2959,6 @@
      "orsak": null
     },
     {
-     "namn": "HKW Merkenich",
-     "kraftslag": "gas",
-     "mw": 185,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Koepchenwerk",
      "kraftslag": "pumpkraft",
      "mw": 162,
@@ -3014,7 +3014,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-25T08:00Z",
+     "slut": "2026-11-25T09:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3271,13 +3271,6 @@
      "kraftslag": "gas",
      "mw": 424,
      "tillganglig_mw": 424,
-     "status": "drift"
-    },
-    {
-     "namn": "GuD Ludwigshafen Mitte",
-     "kraftslag": "gas",
-     "mw": 412,
-     "tillganglig_mw": 412,
      "status": "drift"
     },
     {
@@ -3544,6 +3537,13 @@
      "kraftslag": "gas",
      "mw": 190,
      "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Merkenich",
+     "kraftslag": "gas",
+     "mw": 185,
+     "tillganglig_mw": 185,
      "status": "drift"
     },
     {
@@ -4483,7 +4483,7 @@
      "mw": 360,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-25T23:00Z",
+     "slut": "2026-11-27T23:00Z",
      "typ": "planerat",
      "orsak": null,
      "produktion_mw": 0
