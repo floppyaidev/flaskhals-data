@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-25T05:46Z",
+ "uppdaterad": "2026-11-25T05:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-20T02:00Z",
+   "produktion_tid": "2026-11-20T05:00Z",
    "verk": [
     {
      "namn": "Messaure",
@@ -36,7 +36,7 @@
      "tillganglig_mw": 811,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 526
+     "produktion_mw": 569
     },
     {
      "namn": "MarkbygdenETT",
@@ -52,7 +52,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 292
+     "produktion_mw": 319
     },
     {
      "namn": "Porjus",
@@ -61,7 +61,7 @@
      "tillganglig_mw": 422,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 294
+     "produktion_mw": 310
     },
     {
      "namn": "Djupdal",
@@ -84,7 +84,7 @@
      "tillganglig_mw": 334,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 0
+     "produktion_mw": 262
     },
     {
      "namn": "Ligga",
@@ -93,7 +93,7 @@
      "tillganglig_mw": 320,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 136
+     "produktion_mw": 130
     },
     {
      "namn": "Porsi",
@@ -125,7 +125,7 @@
      "tillganglig_mw": 207,
      "status": "drift",
      "alv": "Skellefteälven",
-     "produktion_mw": 104
+     "produktion_mw": 125
     },
     {
      "namn": "Seitevare",
@@ -222,7 +222,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-20T02:00Z",
+   "produktion_tid": "2026-11-20T05:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -241,7 +241,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 258
+     "produktion_mw": 227
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -470,7 +470,7 @@
      "tillganglig_mw": 132,
      "status": "drift",
      "alv": "Ångermanälven",
-     "produktion_mw": 81
+     "produktion_mw": 94
     },
     {
      "namn": "Hocksjön",
@@ -618,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-20T02:00Z",
+   "produktion_tid": "2026-11-20T05:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -654,7 +654,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 984
+     "produktion_mw": 985
     },
     {
      "namn": "Ringhals 4",
@@ -669,7 +669,7 @@
      "mw": 1121,
      "tillganglig_mw": 1121,
      "status": "drift",
-     "produktion_mw": 1122
+     "produktion_mw": 1121
     },
     {
      "namn": "Värtaverket",
@@ -685,7 +685,7 @@
      "tillganglig_mw": 330,
      "status": "drift",
      "alv": "Dalälven",
-     "produktion_mw": 0
+     "produktion_mw": 68
     },
     {
      "namn": "Stenungsund B3",
@@ -834,7 +834,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-20T02:00Z",
+   "produktion_tid": "2026-11-20T05:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
