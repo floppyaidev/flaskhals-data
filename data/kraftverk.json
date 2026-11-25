@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T04:58Z",
+ "uppdaterad": "2026-11-25T05:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2680,7 +2680,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T00:45Z",
+   "produktion_tid": "2026-11-25T04:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2688,7 +2688,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 162
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2696,7 +2696,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 163
+     "produktion_mw": 174
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2729,7 +2729,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T00:00Z",
+   "produktion_tid": "2026-11-25T04:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2939,36 +2939,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Boxberg",
-     "kraftslag": "brunkol",
-     "mw": 2470,
-     "tillganglig_mw": 290.0,
-     "status": "begransad",
-     "slut": "2026-11-25T05:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
-     "namn": "KW Schwarze Pumpe",
-     "kraftslag": "brunkol",
-     "mw": 1510,
-     "tillganglig_mw": 276.0,
-     "status": "begransad",
-     "slut": "2026-11-25T05:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
-     "namn": "KW Jänschwalde",
-     "kraftslag": "brunkol",
-     "mw": 1500,
-     "tillganglig_mw": 297.0,
-     "status": "begransad",
-     "slut": "2026-11-25T05:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "Schluchsee",
      "kraftslag": "pumpkraft",
      "mw": 870,
@@ -3019,6 +2989,13 @@
      "orsak": null
     },
     {
+     "namn": "KW Boxberg",
+     "kraftslag": "brunkol",
+     "mw": 2470,
+     "tillganglig_mw": 2470,
+     "status": "drift"
+    },
+    {
      "namn": "Neurath",
      "kraftslag": "brunkol",
      "mw": 2011,
@@ -3030,6 +3007,20 @@
      "kraftslag": "brunkol",
      "mw": 1782,
      "tillganglig_mw": 1782,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Schwarze Pumpe",
+     "kraftslag": "brunkol",
+     "mw": 1510,
+     "tillganglig_mw": 1510,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Jänschwalde",
+     "kraftslag": "brunkol",
+     "mw": 1500,
+     "tillganglig_mw": 1500,
      "status": "drift"
     },
     {

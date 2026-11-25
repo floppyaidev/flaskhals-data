@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T04:58Z",
+ "uppdaterad": "2026-11-25T05:14Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -16,9 +16,9 @@
   "NO": "2026-11-25T03:14Z",
   "DK": "2026-11-25T03:14Z",
   "FI": "2026-11-25T03:47Z",
-  "EE": "2026-11-25T01:59Z",
-  "LV": "2026-11-25T01:59Z",
-  "LT": "2026-11-25T01:59Z",
+  "EE": "2026-11-25T05:14Z",
+  "LV": "2026-11-25T05:14Z",
+  "LT": "2026-11-25T05:14Z",
   "PL": "2026-11-25T02:48Z",
   "NL": "2026-11-25T02:59Z"
  },
@@ -1051,25 +1051,25 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-25T00:45Z",
+   "data_tid": "2026-11-25T04:45Z",
    "enheter": [
     {
      "namn": "Auvere EJ- G1",
      "kraftslag": "oljeskiffer",
-     "mw": 213,
-     "t": "2026-11-25T00:45Z"
+     "mw": 229,
+     "t": "2026-11-25T04:45Z"
     },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
-     "mw": 163,
-     "t": "2026-11-25T00:45Z"
+     "mw": 174,
+     "t": "2026-11-25T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 161,
-     "t": "2026-11-25T00:45Z"
+     "mw": 162,
+     "t": "2026-11-25T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
@@ -1099,31 +1099,31 @@
   },
   "LV": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-25T00:00Z",
+   "data_tid": "2026-11-25T04:00Z",
    "enheter": [
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 220,
-     "t": "2026-11-25T00:00Z"
+     "mw": 180,
+     "t": "2026-11-25T04:00Z"
     },
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 189,
-     "t": "2026-11-25T00:00Z"
-    },
-    {
-     "namn": "Block-2, Steam Turbine, RTEC2",
-     "kraftslag": "gas",
-     "mw": 104,
-     "t": "2026-11-25T00:00Z"
+     "mw": 167,
+     "t": "2026-11-25T04:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 98,
-     "t": "2026-11-25T00:00Z"
+     "mw": 97,
+     "t": "2026-11-25T04:00Z"
+    },
+    {
+     "namn": "Block-2, Steam Turbine, RTEC2",
+     "kraftslag": "gas",
+     "mw": 90,
+     "t": "2026-11-25T04:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
@@ -1135,19 +1135,25 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-24T00:00Z",
+   "data_tid": "2026-11-24T05:15Z",
    "enheter": [
-    {
-     "namn": "KHAE HA1",
-     "kraftslag": "pumpkraft",
-     "mw": 214,
-     "t": "2026-11-24T00:00Z"
-    },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
-     "mw": 1,
-     "t": "2026-11-24T00:00Z"
+     "mw": 163,
+     "t": "2026-11-24T05:15Z"
+    },
+    {
+     "namn": "LE TG-8",
+     "kraftslag": "gas",
+     "mw": 109,
+     "t": "2026-11-24T05:15Z"
+    },
+    {
+     "namn": "KHAE HA1",
+     "kraftslag": "pumpkraft",
+     "mw": 0,
+     "t": "2026-11-24T04:15Z"
     },
     {
      "namn": "KHAE HA3",
@@ -1169,12 +1175,6 @@
     },
     {
      "namn": "LE TG-7",
-     "kraftslag": "gas",
-     "mw": 0,
-     "t": "2026-11-24T00:00Z"
-    },
-    {
-     "namn": "LE TG-8",
      "kraftslag": "gas",
      "mw": 0,
      "t": "2026-11-24T00:00Z"
