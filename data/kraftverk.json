@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T16:29Z",
+ "uppdaterad": "2026-11-25T16:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2896,16 +2896,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "GuD Ludwigshafen Mitte",
-     "kraftslag": "gas",
-     "mw": 412,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-28T08:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -2936,14 +2926,14 @@
      "orsak": null
     },
     {
-     "namn": "Windpark Nordsee One",
-     "kraftslag": "vind_hav",
-     "mw": 332,
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-25T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
+     "typ": "oplanerat",
+     "orsak": null
     },
     {
      "namn": "PSW Erzhausen",
@@ -2982,7 +2972,7 @@
      "tillganglig_mw": 227.5,
      "status": "begransad",
      "slut": "2026-11-29T23:00Z",
-     "typ": "planerat",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3002,7 +2992,7 @@
      "tillganglig_mw": 227.5,
      "status": "begransad",
      "slut": "2026-11-29T23:00Z",
-     "typ": "planerat",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3012,6 +3002,16 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-25T18:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3254,6 +3254,13 @@
      "status": "drift"
     },
     {
+     "namn": "GuD Ludwigshafen Mitte",
+     "kraftslag": "gas",
+     "mw": 412,
+     "tillganglig_mw": 412,
+     "status": "drift"
+    },
+    {
      "namn": "GKM AG Amprion",
      "kraftslag": "kol",
      "mw": 405,
@@ -3279,13 +3286,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3324,6 +3324,13 @@
      "status": "drift"
     },
     {
+     "namn": "Windpark Nordsee One",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 332,
+     "status": "drift"
+    },
+    {
      "namn": "Gode Wind I",
      "kraftslag": "vind_hav",
      "mw": 332,
@@ -3356,13 +3363,6 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
-     "status": "drift"
-    },
-    {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 316,
      "status": "drift"
     },
     {
@@ -3836,7 +3836,7 @@
      "mw": 1350,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T23:00Z",
+     "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3936,7 +3936,7 @@
      "mw": 208,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T23:00Z",
+     "slut": "2026-11-25T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
