@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T10:33Z",
+ "uppdaterad": "2026-11-25T10:50Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -194,7 +194,7 @@
        "namn": "Holen",
        "tillganglig_mw": 0.0,
        "nominell_mw": 415,
-       "slut": "2026-12-11T14:00Z",
+       "slut": "2026-12-21T11:00Z",
        "orsak": "High storage temperature"
       },
       {
