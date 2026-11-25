@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T06:58Z",
+ "uppdaterad": "2026-11-25T07:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2929,6 +2929,16 @@
      "orsak": null
     },
     {
+     "namn": "Windpark Nordsee One",
+     "kraftslag": "vind_hav",
+     "mw": 332,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-25T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
@@ -3015,6 +3025,16 @@
      "tillganglig_mw": 68.0,
      "status": "begransad",
      "slut": "2026-11-25T08:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "PSW Hohenwarte II",
+     "kraftslag": "pumpkraft",
+     "mw": 320,
+     "tillganglig_mw": 200.0,
+     "status": "begransad",
+     "slut": "2026-11-25T11:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3327,13 +3347,6 @@
      "status": "drift"
     },
     {
-     "namn": "Windpark Nordsee One",
-     "kraftslag": "vind_hav",
-     "mw": 332,
-     "tillganglig_mw": 332,
-     "status": "drift"
-    },
-    {
      "namn": "Gode Wind I",
      "kraftslag": "vind_hav",
      "mw": 332,
@@ -3350,13 +3363,6 @@
     {
      "namn": "RUHRORT-KW",
      "kraftslag": "kolgas",
-     "mw": 320,
-     "tillganglig_mw": 320,
-     "status": "drift"
-    },
-    {
-     "namn": "PSW Hohenwarte II",
-     "kraftslag": "pumpkraft",
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"

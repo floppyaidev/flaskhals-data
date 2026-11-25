@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T06:58Z",
+ "uppdaterad": "2026-11-25T07:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -340,7 +340,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 3714.0,
+     "tillganglig_mw": 3594.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -382,6 +382,13 @@
        "tillganglig_mw": 227.5,
        "nominell_mw": 455,
        "slut": "2026-11-29T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "PSW Hohenwarte II",
+       "tillganglig_mw": 200.0,
+       "nominell_mw": 320,
+       "slut": "2026-11-25T11:00Z",
        "orsak": null
       },
       {
