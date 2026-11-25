@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T19:59Z",
+ "uppdaterad": "2026-11-25T20:14Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -16,9 +16,9 @@
   "NO": "2026-11-25T18:48Z",
   "DK": "2026-11-25T18:59Z",
   "FI": "2026-11-25T18:59Z",
-  "EE": "2026-11-25T17:14Z",
-  "LV": "2026-11-25T17:14Z",
-  "LT": "2026-11-25T17:14Z",
+  "EE": "2026-11-25T20:14Z",
+  "LV": "2026-11-25T20:14Z",
+  "LT": "2026-11-25T20:14Z",
   "PL": "2026-11-25T19:00Z",
   "NL": "2026-11-25T19:00Z"
  },
@@ -1051,43 +1051,43 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-25T16:45Z",
+   "data_tid": "2026-11-25T19:45Z",
    "enheter": [
     {
      "namn": "Auvere EJ- G1",
      "kraftslag": "oljeskiffer",
-     "mw": 254,
-     "t": "2026-11-25T16:45Z"
+     "mw": 256,
+     "t": "2026-11-25T19:45Z"
     },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
      "mw": 176,
-     "t": "2026-11-25T16:00Z"
+     "t": "2026-11-25T19:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 173,
-     "t": "2026-11-25T16:45Z"
+     "mw": 172,
+     "t": "2026-11-25T19:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
-     "mw": 4,
-     "t": "2026-11-25T15:15Z"
+     "mw": 9,
+     "t": "2026-11-25T19:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG6",
      "kraftslag": "oljeskiffer",
-     "mw": 3,
-     "t": "2026-11-25T16:45Z"
+     "mw": 7,
+     "t": "2026-11-25T19:30Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
      "kraftslag": "oljeskiffer",
-     "mw": 0,
-     "t": "2026-11-25T14:15Z"
+     "mw": 5,
+     "t": "2026-11-25T19:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG4",
@@ -1135,19 +1135,13 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-24T17:15Z",
+   "data_tid": "2026-11-24T18:45Z",
    "enheter": [
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
-     "mw": 207,
-     "t": "2026-11-24T17:15Z"
-    },
-    {
-     "namn": "LE TG-8",
-     "kraftslag": "gas",
-     "mw": 141,
-     "t": "2026-11-24T17:15Z"
+     "mw": 0,
+     "t": "2026-11-24T18:45Z"
     },
     {
      "namn": "KHAE HA2",
@@ -1178,6 +1172,12 @@
      "kraftslag": "gas",
      "mw": 0,
      "t": "2026-11-24T00:00Z"
+    },
+    {
+     "namn": "LE TG-8",
+     "kraftslag": "gas",
+     "mw": 0,
+     "t": "2026-11-24T18:00Z"
     },
     {
      "namn": "LE TG-9",

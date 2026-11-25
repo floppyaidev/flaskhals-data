@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T19:59Z",
+ "uppdaterad": "2026-11-25T20:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2677,7 +2677,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T16:45Z",
+   "produktion_tid": "2026-11-25T19:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2685,7 +2685,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 193
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2944,16 +2944,6 @@
      "slut": "2026-11-27T16:00Z",
      "typ": "planerat",
      "orsak": null
-    },
-    {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T20:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
     },
     {
      "namn": "Koepchenwerk",
@@ -3534,6 +3524,13 @@
      "status": "drift"
     },
     {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
      "namn": "HKW Merkenich",
      "kraftslag": "gas",
      "mw": 185,
@@ -3941,32 +3938,12 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 570.0,
-     "status": "begransad",
-     "slut": "2026-11-25T20:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 510.0,
      "status": "begransad",
      "slut": "2026-11-25T23:00Z",
-     "typ": "oplanerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-25T20:00Z",
      "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3989,6 +3966,13 @@
      "kraftslag": "kol",
      "mw": 835,
      "tillganglig_mw": 835,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4189,6 +4173,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
