@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T13:59Z",
+ "uppdaterad": "2026-11-25T14:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -167,7 +167,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5756,
+     "tillganglig_mw": 5991,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -196,13 +196,6 @@
        "nominell_mw": 415,
        "slut": "2026-12-21T11:00Z",
        "orsak": "High storage temperature"
-      },
-      {
-       "namn": "Blåfal.V",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 235,
-       "slut": "2026-11-25T14:00Z",
-       "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
       }
      ],
      "produktion_mw": 3389,
@@ -260,7 +253,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4318.0,
+     "tillganglig_mw": 4708.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -275,13 +268,6 @@
        "nominell_mw": 500,
        "slut": "2026-11-27T14:00Z",
        "orsak": "Maintenance grounding switch"
-      },
-      {
-       "namn": "Tyin",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 390,
-       "slut": "2026-11-25T14:00Z",
-       "orsak": "Service on switchgear"
       },
       {
        "namn": "Evanger",
@@ -327,7 +313,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T09:00Z",
+   "produktion_tid": "2026-11-25T13:00Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",

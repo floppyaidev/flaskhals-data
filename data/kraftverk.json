@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-25T13:59Z",
+ "uppdaterad": "2026-11-25T14:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1132,16 +1132,6 @@
      "produktion_mw": 257
     },
     {
-     "namn": "Blåfal.V",
-     "kraftslag": "vattenkraft",
-     "mw": 235,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T14:00Z",
-     "typ": "planerat",
-     "orsak": "Runner stress measurement via turbine lab. Test to be conducted on Monday, Nov 23, from 14:00 to 21:00 with variable load."
-    },
-    {
      "namn": "Tonstad Vindpark",
      "kraftslag": "vind_land",
      "mw": 213,
@@ -1195,6 +1185,13 @@
      "tillganglig_mw": 275,
      "status": "drift",
      "produktion_mw": 192
+    },
+    {
+     "namn": "Blåfal.V",
+     "kraftslag": "vattenkraft",
+     "mw": 235,
+     "tillganglig_mw": 235,
+     "status": "drift"
     },
     {
      "namn": "Tysso 2",
@@ -1861,17 +1858,6 @@
      "orsak": "Maintenance grounding switch"
     },
     {
-     "namn": "Tyin",
-     "kraftslag": "vattenkraft",
-     "mw": 390,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T14:00Z",
-     "typ": "planerat",
-     "orsak": "Service on switchgear",
-     "produktion_mw": 373
-    },
-    {
      "namn": "Evanger",
      "kraftslag": "vattenkraft",
      "mw": 330,
@@ -1898,6 +1884,14 @@
      "mw": 630,
      "tillganglig_mw": 630,
      "status": "drift"
+    },
+    {
+     "namn": "Tyin",
+     "kraftslag": "vattenkraft",
+     "mw": 390,
+     "tillganglig_mw": 390,
+     "status": "drift",
+     "produktion_mw": 373
     },
     {
      "namn": "Jostedal",
@@ -2306,16 +2300,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Alholmens Kraft",
-     "kraftslag": "torv",
-     "mw": 240,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-25T14:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failure"
-    },
-    {
      "namn": "Olkiluoto 3",
      "kraftslag": "karnkraft",
      "mw": 1600,
@@ -2425,6 +2409,13 @@
     {
      "namn": "Tahkoluoto",
      "kraftslag": "kol",
+     "mw": 240,
+     "tillganglig_mw": 240,
+     "status": "drift"
+    },
+    {
+     "namn": "Alholmens Kraft",
+     "kraftslag": "torv",
      "mw": 240,
      "tillganglig_mw": 240,
      "status": "drift"
@@ -2689,7 +2680,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T10:45Z",
+   "produktion_tid": "2026-11-25T13:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2697,7 +2688,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 161
+     "produktion_mw": 168
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2738,7 +2729,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T09:00Z",
+   "produktion_tid": "2026-11-25T13:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -3018,16 +3009,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-25T14:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3298,6 +3279,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
