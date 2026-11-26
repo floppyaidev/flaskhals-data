@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T17:59Z",
+ "uppdaterad": "2026-11-26T18:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -246,7 +246,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4708.0,
+     "tillganglig_mw": 5038.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -261,13 +261,6 @@
        "nominell_mw": 500,
        "slut": "2026-11-27T14:00Z",
        "orsak": "Maintenance grounding switch"
-      },
-      {
-       "namn": "Evanger",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 330,
-       "slut": "2026-11-26T18:00Z",
-       "orsak": "Control of turbine wheel"
       },
       {
        "namn": "Fortun",
