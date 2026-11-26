@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T03:59Z",
+ "uppdaterad": "2026-11-26T04:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3963,16 +3963,6 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 338.0,
-     "status": "begransad",
-     "slut": "2026-11-26T04:00Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Kozienice 1",
      "kraftslag": "kol",
      "mw": 1674,
@@ -4033,6 +4023,13 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
