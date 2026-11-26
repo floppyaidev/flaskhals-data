@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T08:14Z",
+ "uppdaterad": "2026-11-26T08:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2683,7 +2683,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-26T04:45Z",
+   "produktion_tid": "2026-11-26T07:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2691,7 +2691,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 376
+     "produktion_mw": 602
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2699,7 +2699,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 158
+     "produktion_mw": 176
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2732,7 +2732,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-25T13:00Z",
+   "produktion_tid": "2026-11-25T21:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
