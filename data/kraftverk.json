@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T11:59Z",
+ "uppdaterad": "2026-11-26T12:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -845,19 +845,22 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Gasturbiner Halmstad",
+     "kraftslag": "olja",
+     "mw": 278,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T13:45Z",
+     "typ": "planerat",
+     "orsak": "Annual test start."
+    },
+    {
      "namn": "Karlshamn",
      "kraftslag": "olja",
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
      "produktion_mw": 4
-    },
-    {
-     "namn": "Gasturbiner Halmstad",
-     "kraftslag": "olja",
-     "mw": 278,
-     "tillganglig_mw": 278,
-     "status": "drift"
     },
     {
      "namn": "Kilberget",
