@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T21:59Z",
+ "uppdaterad": "2026-11-26T22:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2185,17 +2185,6 @@
    "produktion_tid": "2026-11-25T15:30Z",
    "verk": [
     {
-     "namn": "Avedoerevaerket",
-     "kraftslag": "biobransle",
-     "mw": 815,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T22:00Z",
-     "typ": "oplanerat",
-     "orsak": "Boiler trip.",
-     "produktion_mw": 555
-    },
-    {
      "namn": "Amagervaerket",
      "kraftslag": "kol",
      "mw": 479,
@@ -2205,6 +2194,14 @@
      "typ": "oplanerat",
      "orsak": "Boiler trip\n(Following completion of planned maintenance, the unit is operating at reduced capacity.)",
      "produktion_mw": 149
+    },
+    {
+     "namn": "Avedoerevaerket",
+     "kraftslag": "biobransle",
+     "mw": 815,
+     "tillganglig_mw": 815,
+     "status": "drift",
+     "produktion_mw": 555
     },
     {
      "namn": "Asnaesvaerket",
