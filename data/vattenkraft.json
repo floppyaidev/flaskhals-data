@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-26T09:29Z",
+ "uppdaterad": "2026-11-26T09:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T06:00Z",
+   "produktion_tid": "2026-11-21T09:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -26,7 +26,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 1029,
+     "produktion_mw": 1357,
      "med_produktion": 9
     },
     {
@@ -35,13 +35,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 212,
+     "produktion_mw": 211,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T06:00Z",
+   "produktion_tid": "2026-11-21T09:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -49,7 +49,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 276,
+     "produktion_mw": 310,
      "med_produktion": 1
     },
     {
@@ -100,7 +100,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T06:00Z",
+   "produktion_tid": "2026-11-21T09:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -402,7 +402,7 @@
        "namn": "Koepchenwerk",
        "tillganglig_mw": 0.0,
        "nominell_mw": 162,
-       "slut": "2026-11-28T15:00Z",
+       "slut": "2026-11-26T17:00Z",
        "orsak": null
       }
      ],
