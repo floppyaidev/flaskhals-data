@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-26T06:13Z",
+ "uppdaterad": "2026-11-26T06:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "verk": [
     {
      "namn": "Harsprånget",
@@ -15,7 +15,7 @@
      "typ": "oplanerat",
      "orsak": "Failure.",
      "alv": "Luleälven",
-     "produktion_mw": 0
+     "produktion_mw": 9
     },
     {
      "namn": "Messaure",
@@ -27,7 +27,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 292
+     "produktion_mw": 411
     },
     {
      "namn": "MarkbygdenETT",
@@ -43,7 +43,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 101
+     "produktion_mw": 248
     },
     {
      "namn": "Porjus",
@@ -102,7 +102,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 77
+     "produktion_mw": 81
     },
     {
      "namn": "Gråberget",
@@ -134,7 +134,7 @@
      "tillganglig_mw": 201,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 187
+     "produktion_mw": 186
     },
     {
      "namn": "Laxede",
@@ -222,7 +222,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -618,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "verk": [
     {
      "namn": "Ringhals 3",
@@ -643,7 +643,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 1117
+     "produktion_mw": 1145
     },
     {
      "namn": "Ringhals 4",
@@ -704,7 +704,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 32
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -831,7 +831,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",

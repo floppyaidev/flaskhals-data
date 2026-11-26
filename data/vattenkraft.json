@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-26T06:13Z",
+ "uppdaterad": "2026-11-26T06:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -26,7 +26,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 751,
+     "produktion_mw": 1029,
      "med_produktion": 9
     },
     {
@@ -41,7 +41,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -100,7 +100,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T03:00Z",
+   "produktion_tid": "2026-11-21T06:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
