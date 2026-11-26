@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T00:59Z",
+ "uppdaterad": "2026-11-26T01:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -639,16 +639,6 @@
      "orsak": "Delayed startup after yearly maintenance."
     },
     {
-     "namn": "Ringhals 4",
-     "kraftslag": "karnkraft",
-     "mw": 1134,
-     "tillganglig_mw": 550.0,
-     "status": "begransad",
-     "slut": "2026-11-26T01:00Z",
-     "typ": "oplanerat",
-     "orsak": "Start up sequence are taking longer than expected."
-    },
-    {
      "namn": "Oskarshamn 3",
      "kraftslag": "karnkraft",
      "mw": 1400,
@@ -662,6 +652,13 @@
      "tillganglig_mw": 1172,
      "status": "drift",
      "produktion_mw": 1084
+    },
+    {
+     "namn": "Ringhals 4",
+     "kraftslag": "karnkraft",
+     "mw": 1134,
+     "tillganglig_mw": 1134,
+     "status": "drift"
     },
     {
      "namn": "Forsmark block 2",
@@ -3019,16 +3016,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-26T01:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3285,6 +3272,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -3947,6 +3941,16 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 377.0,
+     "status": "begransad",
+     "slut": "2026-11-26T02:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
@@ -3963,6 +3967,16 @@
      "tillganglig_mw": 338.0,
      "status": "begransad",
      "slut": "2026-11-26T04:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-26T02:45Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3985,13 +3999,6 @@
      "kraftslag": "kol",
      "mw": 835,
      "tillganglig_mw": 835,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4185,13 +4192,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
