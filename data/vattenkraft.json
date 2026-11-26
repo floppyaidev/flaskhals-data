@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-26T12:28Z",
+ "uppdaterad": "2026-11-26T12:52Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T09:00Z",
+   "produktion_tid": "2026-11-21T12:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -26,7 +26,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 1357,
+     "produktion_mw": 1372,
      "med_produktion": 9
     },
     {
@@ -35,13 +35,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 211,
+     "produktion_mw": 206,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T09:00Z",
+   "produktion_tid": "2026-11-21T12:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -49,7 +49,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 310,
+     "produktion_mw": 285,
      "med_produktion": 1
     },
     {
@@ -100,7 +100,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T09:00Z",
+   "produktion_tid": "2026-11-21T12:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -108,7 +108,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 0,
+     "produktion_mw": 92,
      "med_produktion": 1
     },
     {
@@ -260,7 +260,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4598.0,
+     "tillganglig_mw": 4708.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -289,13 +289,6 @@
        "nominell_mw": 270,
        "slut": "2026-12-11T14:00Z",
        "orsak": "Annual controls for G4, G5 and G6"
-      },
-      {
-       "namn": "Myster",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 110,
-       "slut": "2026-11-26T12:30Z",
-       "orsak": "Reverse the polarity."
       }
      ],
      "produktion_mw": 1593,
@@ -335,6 +328,28 @@
      "nominell_mw": 1536,
      "tillganglig_mw": 1536,
      "avbrott": [],
+     "produktion_mw": 0,
+     "med_produktion": 0
+    }
+   ]
+  },
+  "LT": {
+   "produktion_tid": "2026-11-25T11:30Z",
+   "alvar": [
+    {
+     "alv": "Stora vattenkraftverk",
+     "verk": 2,
+     "nominell_mw": 1001,
+     "tillganglig_mw": 101,
+     "avbrott": [
+      {
+       "namn": "KruonioHAE",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 900,
+       "slut": "2027-04-02T21:59Z",
+       "orsak": "Planned maintenance"
+      }
+     ],
      "produktion_mw": 0,
      "med_produktion": 0
     }
