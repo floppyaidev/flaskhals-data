@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T19:59Z",
+ "uppdaterad": "2026-11-26T20:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -222,16 +222,6 @@
    "produktion_tid": "2026-11-21T15:00Z",
    "verk": [
     {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T20:00Z",
-     "typ": "planerat",
-     "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -259,6 +249,13 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -3011,16 +3008,6 @@
      "orsak": null
     },
     {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T20:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3596,6 +3583,13 @@
      "kraftslag": "gas",
      "mw": 195,
      "tillganglig_mw": 195,
+     "status": "drift"
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 190,
      "status": "drift"
     },
     {
