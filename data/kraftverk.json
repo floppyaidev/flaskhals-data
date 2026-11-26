@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T20:59Z",
+ "uppdaterad": "2026-11-26T21:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3008,6 +3008,16 @@
      "orsak": null
     },
     {
+     "namn": "KW Mittelsbueren",
+     "kraftslag": "gas",
+     "mw": 176,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T11:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3618,13 +3628,6 @@
      "kraftslag": "avfall",
      "mw": 179,
      "tillganglig_mw": 179,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Mittelsbueren",
-     "kraftslag": "gas",
-     "mw": 176,
-     "tillganglig_mw": 176,
      "status": "drift"
     },
     {
