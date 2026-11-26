@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T02:14Z",
+ "uppdaterad": "2026-11-26T02:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2275,6 +2275,17 @@
    "produktion_tid": "2026-11-21T00:45Z",
    "verk": [
     {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T16:00Z",
+     "typ": "planerat",
+     "orsak": "OL3 will be disconnected from the grid on 26 November 2026 at 04:15 due to the investigation of a valve failure in the secondary circuit.",
+     "produktion_mw": 1567
+    },
+    {
      "namn": "Vuosaari",
      "kraftslag": "gas",
      "mw": 480,
@@ -2306,17 +2317,6 @@
      "typ": "planerat",
      "orsak": "Yearly maintenance break.",
      "produktion_mw": 0
-    },
-    {
-     "namn": "Olkiluoto 3",
-     "kraftslag": "karnkraft",
-     "mw": 1600,
-     "tillganglig_mw": 910.0,
-     "status": "begransad",
-     "slut": "2026-11-26T02:15Z",
-     "typ": "planerat",
-     "orsak": "OL3 output will be reduced to approximately 60% power from 25 November 2026 at 01:00 due to a valve fault in a turbine plant process system. The unit will not b",
-     "produktion_mw": 1567
     },
     {
      "namn": "Olkiluoto 2",
@@ -2680,7 +2680,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-25T22:45Z",
+   "produktion_tid": "2026-11-26T01:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2688,7 +2688,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 204
+     "produktion_mw": 263
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2696,7 +2696,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 156
+     "produktion_mw": 152
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
