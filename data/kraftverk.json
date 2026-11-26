@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T04:30Z",
+ "uppdaterad": "2026-11-26T04:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -626,7 +626,7 @@
      "mw": 1100,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-26T05:00Z",
+     "slut": "2026-11-26T05:30Z",
      "typ": "planerat",
      "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
      "produktion_mw": 556
@@ -2202,7 +2202,7 @@
      "mw": 815,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-26T05:15Z",
+     "slut": "2026-11-26T17:00Z",
      "typ": "oplanerat",
      "orsak": "Boiler trip.",
      "produktion_mw": 462
