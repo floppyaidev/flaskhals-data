@@ -1,10 +1,22 @@
 {
- "uppdaterad": "2026-11-26T01:30Z",
+ "uppdaterad": "2026-11-26T01:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-21T00:00Z",
    "verk": [
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T10:00Z",
+     "typ": "oplanerat",
+     "orsak": "Failure.",
+     "alv": "Luleälven",
+     "produktion_mw": 0
+    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -16,15 +28,6 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 420
-    },
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 811,
-     "status": "drift",
-     "alv": "Luleälven",
-     "produktion_mw": 0
     },
     {
      "namn": "MarkbygdenETT",
@@ -3026,6 +3029,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-26T03:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3282,13 +3295,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
