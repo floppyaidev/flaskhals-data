@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T05:14Z",
+ "uppdaterad": "2026-11-26T05:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -16,9 +16,9 @@
   "NO": "2026-11-26T03:48Z",
   "DK": "2026-11-26T03:59Z",
   "FI": "2026-11-26T03:59Z",
-  "EE": "2026-11-26T02:29Z",
-  "LV": "2026-11-26T02:29Z",
-  "LT": "2026-11-26T02:29Z",
+  "EE": "2026-11-26T05:29Z",
+  "LV": "2026-11-26T05:29Z",
+  "LT": "2026-11-26T05:29Z",
   "PL": "2026-11-26T04:30Z",
   "NL": "2026-11-26T04:48Z"
  },
@@ -1051,49 +1051,49 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-26T01:45Z",
+   "data_tid": "2026-11-26T04:45Z",
    "enheter": [
-    {
-     "namn": "Auvere EJ- G1",
-     "kraftslag": "oljeskiffer",
-     "mw": 214,
-     "t": "2026-11-26T01:45Z"
-    },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 169,
-     "t": "2026-11-26T01:45Z"
+     "mw": 170,
+     "t": "2026-11-26T04:45Z"
+    },
+    {
+     "namn": "Auvere EJ- G1",
+     "kraftslag": "oljeskiffer",
+     "mw": 168,
+     "t": "2026-11-26T04:45Z"
     },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
-     "mw": 152,
-     "t": "2026-11-26T01:45Z"
+     "mw": 158,
+     "t": "2026-11-26T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
-     "mw": 41,
-     "t": "2026-11-26T01:45Z"
+     "mw": 83,
+     "t": "2026-11-26T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG6",
      "kraftslag": "oljeskiffer",
-     "mw": 37,
-     "t": "2026-11-26T01:45Z"
+     "mw": 82,
+     "t": "2026-11-26T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
      "kraftslag": "oljeskiffer",
-     "mw": 13,
-     "t": "2026-11-26T01:45Z"
+     "mw": 37,
+     "t": "2026-11-26T04:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG4",
      "kraftslag": "oljeskiffer",
-     "mw": 3,
-     "t": "2026-11-26T01:45Z"
+     "mw": 4,
+     "t": "2026-11-26T04:00Z"
     }
    ]
   },
@@ -1135,14 +1135,8 @@
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-25T00:30Z",
+   "data_tid": "2026-11-25T03:45Z",
    "enheter": [
-    {
-     "namn": "KHAE HA3",
-     "kraftslag": "pumpkraft",
-     "mw": 224,
-     "t": "2026-11-25T00:30Z"
-    },
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
@@ -1154,6 +1148,12 @@
      "kraftslag": "pumpkraft",
      "mw": 0,
      "t": "2026-11-25T00:00Z"
+    },
+    {
+     "namn": "KHAE HA3",
+     "kraftslag": "pumpkraft",
+     "mw": 0,
+     "t": "2026-11-25T03:45Z"
     },
     {
      "namn": "KHAE HA4",
