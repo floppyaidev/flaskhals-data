@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T22:48Z",
+ "uppdaterad": "2026-11-26T22:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-21T19:45Z",
+   "produktion_tid": "2026-11-21T22:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2389,7 +2389,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 184
+     "produktion_mw": 191
     },
     {
      "namn": "Tahkoluoto",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 68
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 26
+     "produktion_mw": 28
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 36
+     "produktion_mw": 37
     },
     {
      "namn": "Metsälä",
