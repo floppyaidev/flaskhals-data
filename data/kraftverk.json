@@ -1,22 +1,10 @@
 {
- "uppdaterad": "2026-11-26T12:59Z",
+ "uppdaterad": "2026-11-26T13:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
    "produktion_tid": "2026-11-21T12:00Z",
    "verk": [
-    {
-     "namn": "Harsprånget",
-     "kraftslag": "vattenkraft",
-     "mw": 811,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T13:00Z",
-     "typ": "oplanerat",
-     "orsak": "Failure.",
-     "alv": "Luleälven",
-     "produktion_mw": 168
-    },
     {
      "namn": "Messaure",
      "kraftslag": "vattenkraft",
@@ -28,6 +16,15 @@
      "orsak": "Maintenance",
      "alv": "Luleälven",
      "produktion_mw": 406
+    },
+    {
+     "namn": "Harsprånget",
+     "kraftslag": "vattenkraft",
+     "mw": 811,
+     "tillganglig_mw": 811,
+     "status": "drift",
+     "alv": "Luleälven",
+     "produktion_mw": 168
     },
     {
      "namn": "MarkbygdenETT",
@@ -2278,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-20T23:45Z",
+   "produktion_tid": "2026-11-21T13:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2322,7 +2319,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 3",
@@ -2330,7 +2327,7 @@
      "mw": 1600,
      "tillganglig_mw": 1600,
      "status": "drift",
-     "produktion_mw": 1538
+     "produktion_mw": 1578
     },
     {
      "namn": "Olkiluoto 1",
@@ -2407,7 +2404,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 185
+     "produktion_mw": 183
     },
     {
      "namn": "Tahkoluoto",
@@ -2605,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 60
+     "produktion_mw": 55
     },
     {
      "namn": "Olkiluoto kt",
@@ -2620,7 +2617,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 25
+     "produktion_mw": 29
     },
     {
      "namn": "Paskoonharju",
@@ -3053,16 +3050,6 @@
      "orsak": null
     },
     {
-     "namn": "KW Lippendorf",
-     "kraftslag": "brunkol",
-     "mw": 1782,
-     "tillganglig_mw": 750.0,
-     "status": "begransad",
-     "slut": "2026-11-26T13:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KMW_GENERATION",
      "kraftslag": "gas",
      "mw": 870,
@@ -3134,6 +3121,13 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
+     "status": "drift"
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 1782,
      "status": "drift"
     },
     {
