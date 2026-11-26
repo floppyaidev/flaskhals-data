@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T01:13Z",
+ "uppdaterad": "2026-11-26T01:30Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2926,6 +2926,16 @@
      "orsak": null
     },
     {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T23:00Z",
+     "typ": "oplanerat",
+     "orsak": null
+    },
+    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
@@ -3279,13 +3289,6 @@
      "kraftslag": "vind_hav",
      "mw": 396,
      "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
