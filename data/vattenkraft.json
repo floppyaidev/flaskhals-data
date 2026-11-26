@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T14:59Z",
+ "uppdaterad": "2026-11-26T15:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -160,7 +160,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 36,
      "nominell_mw": 9078,
-     "tillganglig_mw": 5682,
+     "tillganglig_mw": 5991,
      "avbrott": [
       {
        "namn": "Kvilldal",
@@ -189,13 +189,6 @@
        "nominell_mw": 415,
        "slut": "2026-12-21T11:00Z",
        "orsak": "High storage temperature"
-      },
-      {
-       "namn": "Vinje",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 309,
-       "slut": "2026-11-26T15:00Z",
-       "orsak": "Installation of a filter system for transformer cooling."
       }
      ],
      "produktion_mw": 1916,
@@ -273,7 +266,7 @@
        "namn": "Evanger",
        "tillganglig_mw": 0.0,
        "nominell_mw": 330,
-       "slut": "2026-11-26T15:00Z",
+       "slut": "2026-11-26T18:00Z",
        "orsak": "Control of turbine wheel"
       },
       {
@@ -355,20 +348,13 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 2640.0,
+     "tillganglig_mw": 3934.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
        "tillganglig_mw": 0.0,
        "nominell_mw": 2142,
        "slut": "2026-12-04T15:00Z",
-       "orsak": null
-      },
-      {
-       "namn": "Vianden",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 1294,
-       "slut": "2026-11-26T15:00Z",
        "orsak": null
       },
       {

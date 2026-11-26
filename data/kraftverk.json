@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T14:59Z",
+ "uppdaterad": "2026-11-26T15:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1123,17 +1123,6 @@
      "produktion_mw": 106
     },
     {
-     "namn": "Vinje",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T15:00Z",
-     "typ": "planerat",
-     "orsak": "Installation of a filter system for transformer cooling.",
-     "produktion_mw": 10
-    },
-    {
      "namn": "Tonstad Vindpark",
      "kraftslag": "vind_land",
      "mw": 213,
@@ -1171,6 +1160,14 @@
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"
+    },
+    {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 309,
+     "status": "drift",
+     "produktion_mw": 10
     },
     {
      "namn": "Sønnå",
@@ -1857,7 +1854,7 @@
      "mw": 330,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-26T15:00Z",
+     "slut": "2026-11-26T18:00Z",
      "typ": "planerat",
      "orsak": "Control of turbine wheel",
      "produktion_mw": 227
@@ -2907,16 +2904,6 @@
      "orsak": null
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T15:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3139,6 +3126,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -4028,9 +4022,9 @@
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
-     "tillganglig_mw": 505.0,
+     "tillganglig_mw": 510.0,
      "status": "begransad",
-     "slut": "2026-11-26T15:00Z",
+     "slut": "2026-11-26T18:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
