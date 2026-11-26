@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T10:48Z",
+ "uppdaterad": "2026-11-26T11:00Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -260,7 +260,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 4708.0,
+     "tillganglig_mw": 4598.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -289,6 +289,13 @@
        "nominell_mw": 270,
        "slut": "2026-12-11T14:00Z",
        "orsak": "Annual controls for G4, G5 and G6"
+      },
+      {
+       "namn": "Myster",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 110,
+       "slut": "2026-11-26T12:30Z",
+       "orsak": "Reverse the polarity."
       }
      ],
      "produktion_mw": 1593,

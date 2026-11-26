@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T10:48Z",
+ "uppdaterad": "2026-11-26T11:00Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1866,6 +1866,17 @@
      "produktion_mw": 231
     },
     {
+     "namn": "Myster",
+     "kraftslag": "vattenkraft",
+     "mw": 110,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T12:30Z",
+     "typ": "planerat",
+     "orsak": "Reverse the polarity.",
+     "produktion_mw": 0
+    },
+    {
      "namn": "Fortun",
      "kraftslag": "vattenkraft",
      "mw": 270,
@@ -2008,14 +2019,6 @@
      "tillganglig_mw": 113,
      "status": "drift",
      "produktion_mw": 70
-    },
-    {
-     "namn": "Myster",
-     "kraftslag": "vattenkraft",
-     "mw": 110,
-     "tillganglig_mw": 110,
-     "status": "drift",
-     "produktion_mw": 0
     },
     {
      "namn": "Bjølvo",
@@ -2278,17 +2281,6 @@
    "produktion_tid": "2026-11-20T23:45Z",
    "verk": [
     {
-     "namn": "Olkiluoto 3",
-     "kraftslag": "karnkraft",
-     "mw": 1600,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T11:00Z",
-     "typ": "planerat",
-     "orsak": "OL3 will be synchronized to the grid on 26 November 2026 at 13:00 after the valve failure in the secondary circuit has been investigated and repaired. Full powe",
-     "produktion_mw": 1538
-    },
-    {
      "namn": "Vuosaari",
      "kraftslag": "gas",
      "mw": 480,
@@ -2331,6 +2323,14 @@
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
      "produktion_mw": 740
+    },
+    {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 1600,
+     "status": "drift",
+     "produktion_mw": 1538
     },
     {
      "namn": "Olkiluoto 1",
@@ -2952,6 +2952,16 @@
      "orsak": null
     },
     {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T20:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Koepchenwerk",
      "kraftslag": "pumpkraft",
      "mw": 162,
@@ -2960,6 +2970,16 @@
      "slut": "2026-11-26T17:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "KW Lippendorf",
+     "kraftslag": "brunkol",
+     "mw": 1782,
+     "tillganglig_mw": 750.0,
+     "status": "begransad",
+     "slut": "2026-11-26T13:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "KMW_GENERATION",
@@ -3033,13 +3053,6 @@
      "kraftslag": "brunkol",
      "mw": 2011,
      "tillganglig_mw": 2011,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Lippendorf",
-     "kraftslag": "brunkol",
-     "mw": 1782,
-     "tillganglig_mw": 1782,
      "status": "drift"
     },
     {
@@ -3530,13 +3543,6 @@
      "kraftslag": "gas",
      "mw": 195,
      "tillganglig_mw": 195,
-     "status": "drift"
-    },
-    {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 190,
      "status": "drift"
     },
     {
