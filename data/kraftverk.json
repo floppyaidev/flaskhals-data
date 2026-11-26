@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T23:13Z",
+ "uppdaterad": "2026-11-26T23:28Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3987,6 +3987,16 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Pątnów 2",
+     "kraftslag": "brunkol",
+     "mw": 441,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Łagisza",
      "kraftslag": "kol",
      "mw": 430,
@@ -4083,13 +4093,6 @@
      "kraftslag": "gas",
      "mw": 444,
      "tillganglig_mw": 444,
-     "status": "drift"
-    },
-    {
-     "namn": "Pątnów 2",
-     "kraftslag": "brunkol",
-     "mw": 441,
-     "tillganglig_mw": 441,
      "status": "drift"
     },
     {
