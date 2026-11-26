@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T22:59Z",
+ "uppdaterad": "2026-11-26T23:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2985,16 +2985,6 @@
      "orsak": null
     },
     {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T23:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "HKW Tiefstack",
      "kraftslag": "kol",
      "mw": 316,
@@ -3032,6 +3022,16 @@
      "status": "begransad",
      "slut": "2026-11-29T23:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Knapsack 1",
+     "kraftslag": "gas",
+     "mw": 784,
+     "tillganglig_mw": 440.0,
+     "status": "begransad",
+     "slut": "2026-11-30T22:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3163,13 +3163,6 @@
      "kraftslag": "gas",
      "mw": 823,
      "tillganglig_mw": 823,
-     "status": "drift"
-    },
-    {
-     "namn": "Knapsack 1",
-     "kraftslag": "gas",
-     "mw": 784,
-     "tillganglig_mw": 784,
      "status": "drift"
     },
     {
@@ -3338,6 +3331,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
@@ -3897,6 +3897,16 @@
      "orsak": "Medium-term planned overhaul"
     },
     {
+     "namn": "Kozienice 1",
+     "kraftslag": "kol",
+     "mw": 1674,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-29T17:00Z",
+     "typ": "planerat",
+     "orsak": "Short-term planned outage"
+    },
+    {
      "namn": "Połaniec",
      "kraftslag": "kol",
      "mw": 1350,
@@ -3935,6 +3945,16 @@
      "slut": "2026-12-06T23:00Z",
      "typ": "planerat",
      "orsak": "Short-term planned outage"
+    },
+    {
+     "namn": "Rybnik",
+     "kraftslag": "kol",
+     "mw": 835,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T23:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
      "namn": "Ostrołęka B",
@@ -4012,29 +4032,15 @@
      "mw": 620,
      "tillganglig_mw": 515.0,
      "status": "begransad",
-     "slut": "2026-11-26T23:00Z",
+     "slut": "2026-11-27T09:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Kozienice 1",
-     "kraftslag": "kol",
-     "mw": 1674,
-     "tillganglig_mw": 1674,
-     "status": "drift"
     },
     {
      "namn": "Baltic Power",
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Rybnik",
-     "kraftslag": "kol",
-     "mw": 835,
-     "tillganglig_mw": 835,
      "status": "drift"
     },
     {
