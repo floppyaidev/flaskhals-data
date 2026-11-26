@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T06:59Z",
+ "uppdaterad": "2026-11-26T07:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -1126,6 +1126,17 @@
      "produktion_mw": 107
     },
     {
+     "namn": "Vinje",
+     "kraftslag": "vattenkraft",
+     "mw": 309,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T15:00Z",
+     "typ": "planerat",
+     "orsak": "Installation of a filter system for transformer cooling.",
+     "produktion_mw": 290
+    },
+    {
      "namn": "Tonstad Vindpark",
      "kraftslag": "vind_land",
      "mw": 213,
@@ -1163,14 +1174,6 @@
      "mw": 320,
      "tillganglig_mw": 320,
      "status": "drift"
-    },
-    {
-     "namn": "Vinje",
-     "kraftslag": "vattenkraft",
-     "mw": 309,
-     "tillganglig_mw": 309,
-     "status": "drift",
-     "produktion_mw": 290
     },
     {
      "namn": "Sønnå",
@@ -2829,6 +2832,16 @@
      "orsak": null
     },
     {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3051,13 +3064,6 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
-     "status": "drift"
-    },
-    {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
