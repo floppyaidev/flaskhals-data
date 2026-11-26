@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T11:13Z",
+ "uppdaterad": "2026-11-26T11:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2683,7 +2683,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-26T07:45Z",
+   "produktion_tid": "2026-11-26T10:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2691,7 +2691,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 602
+     "produktion_mw": 489
     },
     {
      "namn": "Balti Elektrijaam",
