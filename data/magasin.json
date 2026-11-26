@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T06:29Z",
+ "uppdaterad": "2026-11-26T06:49Z",
  "enhet": "MWh",
  "zoner": {
   "SE1": {
@@ -19,52 +19,52 @@
    "hamtad": "2026-11-26T06:29Z"
   },
   "SE3": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 2009000,
-   "snitt_mwh": 2205000,
-   "andel_av_snitt": 91,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 1944000,
+   "snitt_mwh": 2106000,
+   "andel_av_snitt": 92,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:30Z"
+   "hamtad": "2026-11-26T06:47Z"
   },
   "SE4": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 55000,
-   "snitt_mwh": 111000,
-   "andel_av_snitt": 50,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 65000,
+   "snitt_mwh": 108333,
+   "andel_av_snitt": 60,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:30Z"
+   "hamtad": "2026-11-26T06:47Z"
   },
   "NO1": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 4574827,
-   "snitt_mwh": 5262037,
-   "andel_av_snitt": 87,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 4366594,
+   "snitt_mwh": 5057769,
+   "andel_av_snitt": 86,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:31Z"
+   "hamtad": "2026-11-26T06:48Z"
   },
   "NO2": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 17989128,
-   "snitt_mwh": 26167231,
-   "andel_av_snitt": 69,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 17277784,
+   "snitt_mwh": 25299259,
+   "andel_av_snitt": 68,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:32Z"
+   "hamtad": "2026-11-26T06:48Z"
   },
   "NO3": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 6220369,
-   "snitt_mwh": 7666404,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 5993225,
+   "snitt_mwh": 7414512,
    "andel_av_snitt": 81,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:33Z"
+   "hamtad": "2026-11-26T06:49Z"
   },
   "NO4": {
-   "vecka": "2026-11-08T23:00Z",
-   "mwh": 19373804,
-   "snitt_mwh": 17133720,
+   "vecka": "2026-11-15T23:00Z",
+   "mwh": 19003938,
+   "snitt_mwh": 16771989,
    "andel_av_snitt": 113,
    "ar_i_snitt": 3,
-   "hamtad": "2026-11-25T10:33Z"
+   "hamtad": "2026-11-26T06:49Z"
   },
   "NO5": {
    "vecka": "2026-11-08T23:00Z",

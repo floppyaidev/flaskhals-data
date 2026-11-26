@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T06:30Z",
+ "uppdaterad": "2026-11-26T06:49Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -932,7 +932,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-21T03:45Z",
+   "produktion_tid": "2026-11-21T06:45Z",
    "verk": [
     {
      "namn": "Vamma",
@@ -943,7 +943,7 @@
      "slut": "2027-03-20T14:00Z",
      "typ": "oplanerat",
      "orsak": "Intake gates must be rehabilitated. Outage period is highly uncertain, will be adjusted in the time to come.",
-     "produktion_mw": 101
+     "produktion_mw": 100
     },
     {
      "namn": "Nedre Vinstra",
@@ -1017,7 +1017,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 73
+     "produktion_mw": 68
     },
     {
      "namn": "Solberg2",
@@ -1079,7 +1079,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-21T03:45Z",
+   "produktion_tid": "2026-11-21T06:45Z",
    "verk": [
     {
      "namn": "Kvilldal",
@@ -1090,7 +1090,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 474
+     "produktion_mw": 604
     },
     {
      "namn": "Tonstad",
@@ -1101,7 +1101,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 134
+     "produktion_mw": 302
     },
     {
      "namn": "Tokke",
@@ -1112,7 +1112,7 @@
      "slut": "2026-11-30T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 236
+     "produktion_mw": 293
     },
     {
      "namn": "Holen",
@@ -1123,7 +1123,7 @@
      "slut": "2026-12-21T11:00Z",
      "typ": "oplanerat",
      "orsak": "High storage temperature",
-     "produktion_mw": 77
+     "produktion_mw": 107
     },
     {
      "namn": "Tonstad Vindpark",
@@ -1141,7 +1141,7 @@
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
-     "produktion_mw": 61
+     "produktion_mw": 100
     },
     {
      "namn": "Lysebotn 2",
@@ -1170,7 +1170,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 10
+     "produktion_mw": 290
     },
     {
      "namn": "Sønnå",
@@ -1193,7 +1193,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 68
+     "produktion_mw": 172
     },
     {
      "namn": "Oksla",
@@ -1201,7 +1201,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 202
+     "produktion_mw": 203
     },
     {
      "namn": "Solhom",
@@ -1209,7 +1209,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 70
+     "produktion_mw": 165
     },
     {
      "namn": "Skjerka",
@@ -1233,7 +1233,7 @@
      "mw": 202,
      "tillganglig_mw": 202,
      "status": "drift",
-     "produktion_mw": 69
+     "produktion_mw": 67
     },
     {
      "namn": "Suldal 1",
@@ -1318,7 +1318,7 @@
      "mw": 136,
      "tillganglig_mw": 136,
      "status": "drift",
-     "produktion_mw": 106
+     "produktion_mw": 126
     },
     {
      "namn": "Lysebotn",
@@ -1644,7 +1644,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-21T03:45Z",
+   "produktion_tid": "2026-11-21T06:45Z",
    "verk": [
     {
      "namn": "Rana",
@@ -1655,7 +1655,7 @@
      "slut": "2027-01-18T22:59Z",
      "typ": "planerat",
      "orsak": "Turbine rehabilitation",
-     "produktion_mw": 221
+     "produktion_mw": 192
     },
     {
      "namn": "Kobbelv",
@@ -1695,7 +1695,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 16
+     "produktion_mw": 36
     },
     {
      "namn": "Melkøya",
@@ -1828,7 +1828,7 @@
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-21T03:45Z",
+   "produktion_tid": "2026-11-21T06:45Z",
    "verk": [
     {
      "namn": "Aurland1",
@@ -1839,7 +1839,7 @@
      "slut": "2027-03-08T14:00Z",
      "typ": "planerat",
      "orsak": "Reconstruction of control systems.",
-     "produktion_mw": 264
+     "produktion_mw": 528
     },
     {
      "namn": "Lang Sima",
@@ -1860,7 +1860,7 @@
      "slut": "2026-11-26T15:00Z",
      "typ": "planerat",
      "orsak": "Control of turbine wheel",
-     "produktion_mw": 182
+     "produktion_mw": 245
     },
     {
      "namn": "Fortun",
@@ -1885,7 +1885,7 @@
      "mw": 390,
      "tillganglig_mw": 390,
      "status": "drift",
-     "produktion_mw": 375
+     "produktion_mw": 376
     },
     {
      "namn": "Jostedal",
@@ -1893,7 +1893,7 @@
      "mw": 293,
      "tillganglig_mw": 293,
      "status": "drift",
-     "produktion_mw": 31
+     "produktion_mw": 276
     },
     {
      "namn": "Aurland3",
@@ -1930,7 +1930,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 174
+     "produktion_mw": 201
     },
     {
      "namn": "Borgund",
@@ -1938,7 +1938,7 @@
      "mw": 213,
      "tillganglig_mw": 213,
      "status": "drift",
-     "produktion_mw": 140
+     "produktion_mw": 160
     },
     {
      "namn": "Nore 1",
@@ -2004,7 +2004,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 67
+     "produktion_mw": 75
     },
     {
      "namn": "Myster",
@@ -2899,16 +2899,6 @@
      "orsak": "External Factors"
     },
     {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -2956,16 +2946,6 @@
      "status": "still",
      "slut": "2026-11-27T16:00Z",
      "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "HKW Merkenich",
-     "kraftslag": "gas",
-     "mw": 185,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T23:00Z",
-     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3246,6 +3226,13 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
@@ -3547,6 +3534,13 @@
      "kraftslag": "gas",
      "mw": 190,
      "tillganglig_mw": 190,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Merkenich",
+     "kraftslag": "gas",
+     "mw": 185,
+     "tillganglig_mw": 185,
      "status": "drift"
     },
     {
@@ -3950,12 +3944,32 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 574.0,
+     "status": "begransad",
+     "slut": "2026-11-26T08:30Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
      "tillganglig_mw": 510.0,
      "status": "begransad",
      "slut": "2026-11-26T10:00Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-26T08:30Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
@@ -3978,13 +3992,6 @@
      "kraftslag": "kol",
      "mw": 835,
      "tillganglig_mw": 835,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4185,13 +4192,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
