@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T13:29Z",
+ "uppdaterad": "2026-11-26T13:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -842,22 +842,19 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Gasturbiner Halmstad",
-     "kraftslag": "olja",
-     "mw": 278,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T13:45Z",
-     "typ": "planerat",
-     "orsak": "Annual test start."
-    },
-    {
      "namn": "Karlshamn",
      "kraftslag": "olja",
      "mw": 670,
      "tillganglig_mw": 670,
      "status": "drift",
      "produktion_mw": 4
+    },
+    {
+     "namn": "Gasturbiner Halmstad",
+     "kraftslag": "olja",
+     "mw": 278,
+     "tillganglig_mw": 278,
+     "status": "drift"
     },
     {
      "namn": "Kilberget",
@@ -1109,7 +1106,7 @@
      "mw": 440,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-30T14:00Z",
+     "slut": "2026-12-01T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
      "produktion_mw": 247
@@ -3020,12 +3017,12 @@
      "orsak": null
     },
     {
-     "namn": "PSW Erzhausen",
-     "kraftslag": "pumpkraft",
-     "mw": 220,
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T16:00Z",
+     "slut": "2026-11-27T05:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3105,7 +3102,7 @@
      "mw": 396,
      "tillganglig_mw": 68.0,
      "status": "begransad",
-     "slut": "2026-11-27T04:30Z",
+     "slut": "2026-11-26T16:30Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3446,13 +3443,6 @@
      "status": "drift"
     },
     {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 316,
-     "status": "drift"
-    },
-    {
      "namn": "Windanker",
      "kraftslag": "vind_hav",
      "mw": 315,
@@ -3604,6 +3594,13 @@
      "kraftslag": "gas",
      "mw": 230,
      "tillganglig_mw": 230,
+     "status": "drift"
+    },
+    {
+     "namn": "PSW Erzhausen",
+     "kraftslag": "pumpkraft",
+     "mw": 220,
+     "tillganglig_mw": 220,
      "status": "drift"
     },
     {
@@ -4581,20 +4578,10 @@
      "namn": "Hollandse Kust Zuid",
      "kraftslag": "vind_hav",
      "mw": 1420,
-     "tillganglig_mw": 1402.0,
+     "tillganglig_mw": 1406.0,
      "status": "begransad",
      "slut": "2026-11-26T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
-     "namn": "Maasvlakte",
-     "kraftslag": "kol",
-     "mw": 1070,
-     "tillganglig_mw": 750.0,
-     "status": "begransad",
-     "slut": "2026-11-26T14:00Z",
-     "typ": "planerat",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -4612,6 +4599,13 @@
      "kraftslag": "gas",
      "mw": 1304,
      "tillganglig_mw": 1304,
+     "status": "drift"
+    },
+    {
+     "namn": "Maasvlakte",
+     "kraftslag": "kol",
+     "mw": 1070,
+     "tillganglig_mw": 1070,
      "status": "drift"
     },
     {
