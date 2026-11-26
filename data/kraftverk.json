@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-26T03:13Z",
+ "uppdaterad": "2026-11-26T03:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T00:00Z",
+   "produktion_tid": "2026-11-21T03:00Z",
    "verk": [
     {
      "namn": "Harsprånget",
@@ -27,7 +27,7 @@
      "typ": "planerat",
      "orsak": "Maintenance",
      "alv": "Luleälven",
-     "produktion_mw": 420
+     "produktion_mw": 292
     },
     {
      "namn": "MarkbygdenETT",
@@ -43,7 +43,7 @@
      "tillganglig_mw": 474,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 332
+     "produktion_mw": 101
     },
     {
      "namn": "Porjus",
@@ -93,7 +93,7 @@
      "tillganglig_mw": 307,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 134
+     "produktion_mw": 94
     },
     {
      "namn": "Porsi",
@@ -102,7 +102,7 @@
      "tillganglig_mw": 273,
      "status": "drift",
      "alv": "Luleälven",
-     "produktion_mw": 90
+     "produktion_mw": 77
     },
     {
      "namn": "Gråberget",
@@ -222,7 +222,7 @@
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T00:00Z",
+   "produktion_tid": "2026-11-21T03:00Z",
    "verk": [
     {
      "namn": "Åndberg",
@@ -241,7 +241,7 @@
      "tillganglig_mw": 602,
      "status": "drift",
      "alv": "Umeälven",
-     "produktion_mw": 273
+     "produktion_mw": 276
     },
     {
      "namn": "Björnberget Vindkraft",
@@ -618,7 +618,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T00:00Z",
+   "produktion_tid": "2026-11-21T03:00Z",
    "verk": [
     {
      "namn": "Forsmark block 1",
@@ -654,7 +654,7 @@
      "mw": 1172,
      "tillganglig_mw": 1172,
      "status": "drift",
-     "produktion_mw": 1084
+     "produktion_mw": 1117
     },
     {
      "namn": "Ringhals 4",
@@ -707,7 +707,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 11
+     "produktion_mw": 21
     },
     {
      "namn": "Storflötten och Lästerhöjden",
@@ -834,7 +834,7 @@
    ]
   },
   "SE4": {
-   "produktion_tid": "2026-11-21T00:00Z",
+   "produktion_tid": "2026-11-21T03:00Z",
    "verk": [
     {
      "namn": "Öresundsverket CHP",
