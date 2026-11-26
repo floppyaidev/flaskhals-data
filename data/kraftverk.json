@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T05:29Z",
+ "uppdaterad": "2026-11-26T05:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -621,17 +621,6 @@
    "produktion_tid": "2026-11-21T03:00Z",
    "verk": [
     {
-     "namn": "Forsmark block 1",
-     "kraftslag": "karnkraft",
-     "mw": 1100,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T05:30Z",
-     "typ": "planerat",
-     "orsak": "Yearly outage, followed by additional maintenance work at turbine 11",
-     "produktion_mw": 556
-    },
-    {
      "namn": "Ringhals 3",
      "kraftslag": "karnkraft",
      "mw": 1063,
@@ -670,6 +659,14 @@
      "tillganglig_mw": 1121,
      "status": "drift",
      "produktion_mw": 1121
+    },
+    {
+     "namn": "Forsmark block 1",
+     "kraftslag": "karnkraft",
+     "mw": 1100,
+     "tillganglig_mw": 1100,
+     "status": "drift",
+     "produktion_mw": 556
     },
     {
      "namn": "Värtaverket",
@@ -3032,6 +3029,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-27T04:30Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3288,13 +3295,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
