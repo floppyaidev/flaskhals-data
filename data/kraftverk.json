@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T14:28Z",
+ "uppdaterad": "2026-11-26T14:49Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2199,7 +2199,7 @@
      "mw": 815,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-26T17:00Z",
+     "slut": "2026-11-26T22:00Z",
      "typ": "oplanerat",
      "orsak": "Boiler trip.",
      "produktion_mw": 564
@@ -2286,17 +2286,6 @@
      "produktion_mw": 1
     },
     {
-     "namn": "Vaskiluoto",
-     "kraftslag": "kol",
-     "mw": 383,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T23:00Z",
-     "typ": "oplanerat",
-     "orsak": "Stator fault",
-     "produktion_mw": 0
-    },
-    {
      "namn": "Metsä Fibre Kemi",
      "kraftslag": "biobransle",
      "mw": 250,
@@ -2308,6 +2297,17 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Olkiluoto 3",
+     "kraftslag": "karnkraft",
+     "mw": 1600,
+     "tillganglig_mw": 440.0,
+     "status": "begransad",
+     "slut": "2026-11-27T23:00Z",
+     "typ": "oplanerat",
+     "orsak": "OL3 net power output is limited to approximately 440 MW due to fault investigation until 28 November 2026 at 01:00.",
+     "produktion_mw": 1578
+    },
+    {
      "namn": "Olkiluoto 2",
      "kraftslag": "karnkraft",
      "mw": 890,
@@ -2317,14 +2317,6 @@
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
      "produktion_mw": 741
-    },
-    {
-     "namn": "Olkiluoto 3",
-     "kraftslag": "karnkraft",
-     "mw": 1600,
-     "tillganglig_mw": 1600,
-     "status": "drift",
-     "produktion_mw": 1578
     },
     {
      "namn": "Olkiluoto 1",
@@ -2371,6 +2363,14 @@
      "mw": 430,
      "tillganglig_mw": 430,
      "status": "drift"
+    },
+    {
+     "namn": "Vaskiluoto",
+     "kraftslag": "kol",
+     "mw": 383,
+     "tillganglig_mw": 383,
+     "status": "drift",
+     "produktion_mw": 0
     },
     {
      "namn": "Pjelax Windfarm",
@@ -2677,7 +2677,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-26T10:45Z",
+   "produktion_tid": "2026-11-26T13:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2685,7 +2685,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 489
+     "produktion_mw": 400
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2693,7 +2693,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 176
+     "produktion_mw": 175
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2773,7 +2773,7 @@
    ]
   },
   "LT": {
-   "produktion_tid": "2026-11-25T11:30Z",
+   "produktion_tid": "2026-11-25T15:00Z",
    "verk": [
     {
      "namn": "Lietuvos elektrine",
