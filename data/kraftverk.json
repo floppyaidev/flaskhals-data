@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T03:48Z",
+ "uppdaterad": "2026-11-26T03:59Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2055,7 +2055,7 @@
    ]
   },
   "DK1": {
-   "produktion_tid": "2026-11-25T00:30Z",
+   "produktion_tid": "2026-11-25T03:30Z",
    "verk": [
     {
      "namn": "Studstrupvaerket",
@@ -2077,7 +2077,7 @@
      "slut": "2027-08-13T21:59Z",
      "typ": "planerat",
      "orsak": "Limitation extended, due to risk assessment on production unit.",
-     "produktion_mw": 179
+     "produktion_mw": 178
     },
     {
      "namn": "Skaerbaekvaerket",
@@ -2133,7 +2133,7 @@
      "mw": 209,
      "tillganglig_mw": 209,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 99
     },
     {
      "namn": "Solar Park Viuf and Håstrup",
@@ -2149,7 +2149,7 @@
      "mw": 176,
      "tillganglig_mw": 176,
      "status": "drift",
-     "produktion_mw": 17
+     "produktion_mw": 34
     },
     {
      "namn": "Solar Park Holsted",
@@ -2165,7 +2165,7 @@
      "mw": 168,
      "tillganglig_mw": 168,
      "status": "drift",
-     "produktion_mw": 31
+     "produktion_mw": 35
     },
     {
      "namn": "Solar Park Gedmosen",
@@ -2181,7 +2181,7 @@
      "mw": 160,
      "tillganglig_mw": 160,
      "status": "drift",
-     "produktion_mw": 32
+     "produktion_mw": 69
     },
     {
      "namn": "Silkeborgvaerket",
@@ -2194,7 +2194,7 @@
    ]
   },
   "DK2": {
-   "produktion_tid": "2026-11-25T00:30Z",
+   "produktion_tid": "2026-11-25T03:30Z",
    "verk": [
     {
      "namn": "Avedoerevaerket",
@@ -2205,7 +2205,7 @@
      "slut": "2026-11-26T05:15Z",
      "typ": "oplanerat",
      "orsak": "Boiler trip.",
-     "produktion_mw": 548
+     "produktion_mw": 462
     },
     {
      "namn": "Amagervaerket",
@@ -2246,7 +2246,7 @@
      "mw": 207,
      "tillganglig_mw": 207,
      "status": "drift",
-     "produktion_mw": 2
+     "produktion_mw": 60
     },
     {
      "namn": "Roedsand 1",
@@ -2254,7 +2254,7 @@
      "mw": 161,
      "tillganglig_mw": 161,
      "status": "drift",
-     "produktion_mw": 0
+     "produktion_mw": 42
     },
     {
      "namn": "Solar Park Lidsø",
@@ -2275,7 +2275,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-21T00:45Z",
+   "produktion_tid": "2026-11-21T03:45Z",
    "verk": [
     {
      "namn": "Olkiluoto 3",
@@ -2286,7 +2286,7 @@
      "slut": "2026-11-28T16:00Z",
      "typ": "planerat",
      "orsak": "OL3 will be disconnected from the grid on 26 November 2026 at 04:15 due to the investigation of a valve failure in the secondary circuit.",
-     "produktion_mw": 1567
+     "produktion_mw": 1579
     },
     {
      "namn": "Vuosaari",
@@ -2330,7 +2330,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 1",
@@ -2338,7 +2338,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 892
+     "produktion_mw": 893
     },
     {
      "namn": "Meri-Pori",
@@ -2407,7 +2407,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 178
     },
     {
      "namn": "Tahkoluoto",
@@ -2487,7 +2487,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2605,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 65
+     "produktion_mw": 60
     },
     {
      "namn": "Olkiluoto kt",
