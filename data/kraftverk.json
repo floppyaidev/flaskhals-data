@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T03:29Z",
+ "uppdaterad": "2026-11-26T03:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -935,7 +935,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-21T00:45Z",
+   "produktion_tid": "2026-11-21T03:45Z",
    "verk": [
     {
      "namn": "Vamma",
@@ -1020,7 +1020,7 @@
      "mw": 100,
      "tillganglig_mw": 100,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 73
     },
     {
      "namn": "Solberg2",
@@ -1082,7 +1082,7 @@
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-21T00:45Z",
+   "produktion_tid": "2026-11-21T03:45Z",
    "verk": [
     {
      "namn": "Kvilldal",
@@ -1093,7 +1093,7 @@
      "slut": "2026-12-11T14:00Z",
      "typ": "planerat",
      "orsak": "Repair fine water leak",
-     "produktion_mw": 603
+     "produktion_mw": 474
     },
     {
      "namn": "Tonstad",
@@ -1104,7 +1104,7 @@
      "slut": "2027-09-01T13:00Z",
      "typ": "oplanerat",
      "orsak": "Update 07.04.2025: Oil samples show signs of gas development in transformer. Unavailable while searching  for fault.\n\nOriginal message: Reduced capacity while w",
-     "produktion_mw": 262
+     "produktion_mw": 134
     },
     {
      "namn": "Tokke",
@@ -1115,7 +1115,7 @@
      "slut": "2026-11-30T14:00Z",
      "typ": "planerat",
      "orsak": "Alignment of generator shaft",
-     "produktion_mw": 237
+     "produktion_mw": 236
     },
     {
      "namn": "Holen",
@@ -1126,7 +1126,7 @@
      "slut": "2026-12-21T11:00Z",
      "typ": "oplanerat",
      "orsak": "High storage temperature",
-     "produktion_mw": 107
+     "produktion_mw": 77
     },
     {
      "namn": "Tonstad Vindpark",
@@ -1144,7 +1144,7 @@
      "mw": 379,
      "tillganglig_mw": 379,
      "status": "drift",
-     "produktion_mw": 95
+     "produktion_mw": 61
     },
     {
      "namn": "Lysebotn 2",
@@ -1173,7 +1173,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 145
+     "produktion_mw": 10
     },
     {
      "namn": "Sønnå",
@@ -1196,7 +1196,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 82
+     "produktion_mw": 68
     },
     {
      "namn": "Oksla",
@@ -1204,7 +1204,7 @@
      "mw": 220,
      "tillganglig_mw": 220,
      "status": "drift",
-     "produktion_mw": 203
+     "produktion_mw": 202
     },
     {
      "namn": "Solhom",
@@ -1228,7 +1228,7 @@
      "mw": 204,
      "tillganglig_mw": 204,
      "status": "drift",
-     "produktion_mw": 198
+     "produktion_mw": 197
     },
     {
      "namn": "Duge",
@@ -1321,7 +1321,7 @@
      "mw": 136,
      "tillganglig_mw": 136,
      "status": "drift",
-     "produktion_mw": 116
+     "produktion_mw": 106
     },
     {
      "namn": "Lysebotn",
@@ -1647,7 +1647,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-21T00:45Z",
+   "produktion_tid": "2026-11-21T03:45Z",
    "verk": [
     {
      "namn": "Rana",
@@ -1658,7 +1658,7 @@
      "slut": "2027-01-18T22:59Z",
      "typ": "planerat",
      "orsak": "Turbine rehabilitation",
-     "produktion_mw": 257
+     "produktion_mw": 221
     },
     {
      "namn": "Kobbelv",
@@ -1698,7 +1698,7 @@
      "mw": 309,
      "tillganglig_mw": 309,
      "status": "drift",
-     "produktion_mw": 33
+     "produktion_mw": 16
     },
     {
      "namn": "Melkøya",
@@ -1831,7 +1831,7 @@
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-21T00:45Z",
+   "produktion_tid": "2026-11-21T03:45Z",
    "verk": [
     {
      "namn": "Aurland1",
@@ -1842,7 +1842,7 @@
      "slut": "2027-03-08T14:00Z",
      "typ": "planerat",
      "orsak": "Reconstruction of control systems.",
-     "produktion_mw": 477
+     "produktion_mw": 264
     },
     {
      "namn": "Lang Sima",
@@ -1863,7 +1863,7 @@
      "slut": "2026-11-26T15:00Z",
      "typ": "planerat",
      "orsak": "Control of turbine wheel",
-     "produktion_mw": 226
+     "produktion_mw": 182
     },
     {
      "namn": "Fortun",
@@ -1896,7 +1896,7 @@
      "mw": 293,
      "tillganglig_mw": 293,
      "status": "drift",
-     "produktion_mw": 99
+     "produktion_mw": 31
     },
     {
      "namn": "Aurland3",
@@ -1933,7 +1933,7 @@
      "mw": 214,
      "tillganglig_mw": 214,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 174
     },
     {
      "namn": "Borgund",
@@ -1941,7 +1941,7 @@
      "mw": 213,
      "tillganglig_mw": 213,
      "status": "drift",
-     "produktion_mw": 160
+     "produktion_mw": 140
     },
     {
      "namn": "Nore 1",
@@ -2007,7 +2007,7 @@
      "mw": 113,
      "tillganglig_mw": 113,
      "status": "drift",
-     "produktion_mw": 68
+     "produktion_mw": 67
     },
     {
      "namn": "Myster",
@@ -2197,6 +2197,17 @@
    "produktion_tid": "2026-11-25T00:30Z",
    "verk": [
     {
+     "namn": "Avedoerevaerket",
+     "kraftslag": "biobransle",
+     "mw": 815,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-26T05:15Z",
+     "typ": "oplanerat",
+     "orsak": "Boiler trip.",
+     "produktion_mw": 548
+    },
+    {
      "namn": "Amagervaerket",
      "kraftslag": "kol",
      "mw": 479,
@@ -2206,14 +2217,6 @@
      "typ": "oplanerat",
      "orsak": "Following completion of planned maintenance, the unit is operating at reduced capacity. No corrective action is currently planned before the next major maintena",
      "produktion_mw": 146
-    },
-    {
-     "namn": "Avedoerevaerket",
-     "kraftslag": "biobransle",
-     "mw": 815,
-     "tillganglig_mw": 815,
-     "status": "drift",
-     "produktion_mw": 548
     },
     {
      "namn": "Asnaesvaerket",
@@ -3029,6 +3032,16 @@
      "orsak": null
     },
     {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-26T05:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3285,13 +3298,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
