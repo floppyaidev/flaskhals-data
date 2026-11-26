@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-26T16:58Z",
+ "uppdaterad": "2026-11-26T17:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2904,16 +2904,6 @@
      "orsak": null
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T17:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3126,6 +3116,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -4496,16 +4493,6 @@
    "produktion_tid": "2026-11-24T22:45Z",
    "verk": [
     {
-     "namn": "Eemshaven",
-     "kraftslag": "kol",
-     "mw": 1580,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-26T17:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Velsen",
      "kraftslag": "gas",
      "mw": 869,
@@ -4577,6 +4564,13 @@
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
+    },
+    {
+     "namn": "Eemshaven",
+     "kraftslag": "kol",
+     "mw": 1580,
+     "tillganglig_mw": 1580,
+     "status": "drift"
     },
     {
      "namn": "Hollandse Kust Zuid",
