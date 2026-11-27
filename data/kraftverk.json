@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T08:29Z",
+ "uppdaterad": "2026-11-27T08:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2868,6 +2868,16 @@
      "orsak": null
     },
     {
+     "namn": "Neurath",
+     "kraftslag": "brunkol",
+     "mw": 2011,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T15:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Emsland",
      "kraftslag": "gas",
      "mw": 1820,
@@ -3043,7 +3053,7 @@
      "mw": 162,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-27T16:00Z",
+     "slut": "2026-11-27T16:30Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3122,13 +3132,6 @@
      "kraftslag": "brunkol",
      "mw": 2470,
      "tillganglig_mw": 2470,
-     "status": "drift"
-    },
-    {
-     "namn": "Neurath",
-     "kraftslag": "brunkol",
-     "mw": 2011,
-     "tillganglig_mw": 2011,
      "status": "drift"
     },
     {
