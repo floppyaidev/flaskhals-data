@@ -1,9 +1,9 @@
 {
- "uppdaterad": "2026-11-27T01:13Z",
+ "uppdaterad": "2026-11-27T01:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
-   "produktion_tid": "2026-11-21T22:00Z",
+   "produktion_tid": "2026-11-22T01:00Z",
    "alvar": [
     {
      "alv": "Luleälven",
@@ -19,7 +19,7 @@
        "orsak": "Maintenance"
       }
      ],
-     "produktion_mw": 372,
+     "produktion_mw": 161,
      "med_produktion": 9
     },
     {
@@ -28,13 +28,13 @@
      "nominell_mw": 589,
      "tillganglig_mw": 589,
      "avbrott": [],
-     "produktion_mw": 158,
+     "produktion_mw": 93,
      "med_produktion": 2
     }
    ]
   },
   "SE2": {
-   "produktion_tid": "2026-11-21T22:00Z",
+   "produktion_tid": "2026-11-22T01:00Z",
    "alvar": [
     {
      "alv": "Umeälven",
@@ -42,7 +42,7 @@
      "nominell_mw": 1116,
      "tillganglig_mw": 1116,
      "avbrott": [],
-     "produktion_mw": 156,
+     "produktion_mw": 133,
      "med_produktion": 1
     },
     {
@@ -93,7 +93,7 @@
    ]
   },
   "SE3": {
-   "produktion_tid": "2026-11-21T22:00Z",
+   "produktion_tid": "2026-11-22T01:00Z",
    "alvar": [
     {
      "alv": "Dalälven",
@@ -101,7 +101,7 @@
      "nominell_mw": 450,
      "tillganglig_mw": 450,
      "avbrott": [],
-     "produktion_mw": 6,
+     "produktion_mw": 5,
      "med_produktion": 1
     },
     {
@@ -125,7 +125,7 @@
    ]
   },
   "NO1": {
-   "produktion_tid": "2026-11-21T22:15Z",
+   "produktion_tid": "2026-11-22T01:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -148,13 +148,13 @@
        "orsak": "Annual maintenance and annual inspection of the transformer T5 and Correction of fault on the generator 5. November 25, a generator brush replacement on unit 1 "
       }
      ],
-     "produktion_mw": 265,
+     "produktion_mw": 264,
      "med_produktion": 3
     }
    ]
   },
   "NO2": {
-   "produktion_tid": "2026-11-21T22:15Z",
+   "produktion_tid": "2026-11-22T01:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -191,7 +191,7 @@
        "orsak": "High storage temperature"
       }
      ],
-     "produktion_mw": 2517,
+     "produktion_mw": 1996,
      "med_produktion": 15
     }
    ]
@@ -211,7 +211,7 @@
    ]
   },
   "NO4": {
-   "produktion_tid": "2026-11-21T22:15Z",
+   "produktion_tid": "2026-11-22T01:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -234,13 +234,13 @@
        "orsak": "Fix issues with generator and turbine rehabilitation"
       }
      ],
-     "produktion_mw": 378,
+     "produktion_mw": 392,
      "med_produktion": 5
     }
    ]
   },
   "NO5": {
-   "produktion_tid": "2026-11-21T22:15Z",
+   "produktion_tid": "2026-11-22T01:15Z",
    "alvar": [
     {
      "alv": "Stora vattenkraftverk",
@@ -270,7 +270,7 @@
        "orsak": "Annual controls for G4, G5 and G6"
       }
      ],
-     "produktion_mw": 1664,
+     "produktion_mw": 1717,
      "med_produktion": 10
     }
    ]
