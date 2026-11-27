@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T15:48Z",
+ "uppdaterad": "2026-11-27T16:01Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2767,7 +2767,7 @@
    ]
   },
   "LT": {
-   "produktion_tid": "2026-11-26T13:00Z",
+   "produktion_tid": "2026-11-26T14:45Z",
    "verk": [
     {
      "namn": "Lietuvos elektrine",
@@ -4511,7 +4511,7 @@
    ]
   },
   "NL": {
-   "produktion_tid": "2026-11-25T22:15Z",
+   "produktion_tid": "2026-11-25T23:00Z",
    "verk": [
     {
      "namn": "Velsen",
@@ -4686,7 +4686,7 @@
      "mw": 464,
      "tillganglig_mw": 464,
      "status": "drift",
-     "produktion_mw": 459
+     "produktion_mw": 455
     },
     {
      "namn": "TNZ150 ELSTA",
@@ -4751,7 +4751,7 @@
      "mw": 360,
      "tillganglig_mw": 360,
      "status": "drift",
-     "produktion_mw": 5
+     "produktion_mw": 0
     },
     {
      "namn": "Eems 5",
@@ -4842,7 +4842,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 92
+     "produktion_mw": 89
     },
     {
      "namn": "PERGEN 2",
