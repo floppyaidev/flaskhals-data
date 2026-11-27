@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T15:29Z",
+ "uppdaterad": "2026-11-27T15:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2961,6 +2961,16 @@
      "orsak": "Other"
     },
     {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "External Factors"
+    },
+    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -3328,13 +3338,6 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
-     "status": "drift"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
@@ -4574,16 +4577,6 @@
      "produktion_mw": 0
     },
     {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1408.0,
-     "status": "begransad",
-     "slut": "2026-11-27T15:30Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4598,6 +4591,13 @@
      "kraftslag": "kol",
      "mw": 1580,
      "tillganglig_mw": 1580,
+     "status": "drift"
+    },
+    {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1420,
      "status": "drift"
     },
     {
