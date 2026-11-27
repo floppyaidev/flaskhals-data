@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T04:59Z",
+ "uppdaterad": "2026-11-27T05:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2263,7 +2263,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-22T02:00Z",
+   "produktion_tid": "2026-11-22T05:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2315,7 +2315,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 892
+     "produktion_mw": 893
     },
     {
      "namn": "Meri-Pori",
@@ -2392,7 +2392,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 187
+     "produktion_mw": 180
     },
     {
      "namn": "Tahkoluoto",
@@ -2472,7 +2472,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2590,7 +2590,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 79
+     "produktion_mw": 76
     },
     {
      "namn": "Olkiluoto kt",
@@ -2605,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 20
+     "produktion_mw": 23
     },
     {
      "namn": "Paskoonharju",
@@ -2628,7 +2628,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 36
+     "produktion_mw": 37
     },
     {
      "namn": "Metsälä",
@@ -2995,16 +2995,6 @@
      "status": "still",
      "slut": "2026-11-27T23:00Z",
      "typ": "oplanerat",
-     "orsak": null
-    },
-    {
-     "namn": "HKW Tiefstack",
-     "kraftslag": "kol",
-     "mw": 316,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-27T05:00Z",
-     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3421,6 +3411,13 @@
      "kraftslag": "vind_hav",
      "mw": 319,
      "tillganglig_mw": 319,
+     "status": "drift"
+    },
+    {
+     "namn": "HKW Tiefstack",
+     "kraftslag": "kol",
+     "mw": 316,
+     "tillganglig_mw": 316,
      "status": "drift"
     },
     {
@@ -4499,6 +4496,16 @@
    "produktion_tid": "2026-11-25T22:15Z",
    "verk": [
     {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
@@ -4596,13 +4603,6 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 896
-    },
-    {
-     "namn": "Velsen",
-     "kraftslag": "gas",
-     "mw": 869,
-     "tillganglig_mw": 869,
-     "status": "drift"
     },
     {
      "namn": "OWF Hollandse Kust Noord",
