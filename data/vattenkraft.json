@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T16:28Z",
+ "uppdaterad": "2026-11-27T16:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -246,7 +246,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 27,
      "nominell_mw": 6522,
-     "tillganglig_mw": 5038.0,
+     "tillganglig_mw": 5538.0,
      "avbrott": [
       {
        "namn": "Aurland1",
@@ -254,13 +254,6 @@
        "nominell_mw": 840,
        "slut": "2027-03-08T14:00Z",
        "orsak": "Reconstruction of control systems."
-      },
-      {
-       "namn": "Lang Sima",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 500,
-       "slut": "2026-11-27T17:00Z",
-       "orsak": "Maintenance grounding switch"
       },
       {
        "namn": "Fortun",
@@ -341,7 +334,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 4414.0,
+     "tillganglig_mw": 4576.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -376,13 +369,6 @@
        "tillganglig_mw": 227.5,
        "nominell_mw": 455,
        "slut": "2026-11-29T23:00Z",
-       "orsak": null
-      },
-      {
-       "namn": "Koepchenwerk",
-       "tillganglig_mw": 0.0,
-       "nominell_mw": 162,
-       "slut": "2026-11-27T16:30Z",
        "orsak": null
       }
      ],
