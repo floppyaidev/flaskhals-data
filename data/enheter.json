@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T21:13Z",
+ "uppdaterad": "2026-11-27T21:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -16,7 +16,7 @@
   "NO": "2026-11-27T20:14Z",
   "DK": "2026-11-27T20:14Z",
   "FI": "2026-11-27T20:48Z",
-  "EE": "2026-11-27T18:29Z",
+  "EE": "2026-11-27T21:29Z",
   "LV": "2026-11-27T18:59Z",
   "LT": "2026-11-27T18:59Z",
   "PL": "2026-11-27T19:15Z",
@@ -1051,49 +1051,49 @@
   },
   "EE": {
    "lag_dagar": 0,
-   "data_tid": "2026-11-27T17:45Z",
+   "data_tid": "2026-11-27T20:45Z",
    "enheter": [
     {
      "namn": "Auvere EJ- G1",
      "kraftslag": "oljeskiffer",
-     "mw": 268,
-     "t": "2026-11-27T16:45Z"
+     "mw": 262,
+     "t": "2026-11-27T20:45Z"
     },
     {
      "namn": "Balti Elektrijaam -TG11",
      "kraftslag": "oljeskiffer",
-     "mw": 176,
-     "t": "2026-11-27T17:45Z"
+     "mw": 175,
+     "t": "2026-11-27T20:30Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG8",
      "kraftslag": "oljeskiffer",
-     "mw": 169,
-     "t": "2026-11-27T17:45Z"
+     "mw": 168,
+     "t": "2026-11-27T20:30Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG6",
      "kraftslag": "oljeskiffer",
-     "mw": 164,
-     "t": "2026-11-27T17:45Z"
+     "mw": 166,
+     "t": "2026-11-27T20:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG3",
      "kraftslag": "oljeskiffer",
-     "mw": 128,
-     "t": "2026-11-27T17:45Z"
+     "mw": 113,
+     "t": "2026-11-27T20:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG5",
      "kraftslag": "oljeskiffer",
-     "mw": 75,
-     "t": "2026-11-27T17:45Z"
+     "mw": 68,
+     "t": "2026-11-27T20:45Z"
     },
     {
      "namn": "Eesti Elektrijaam- TG4",
      "kraftslag": "oljeskiffer",
      "mw": 2,
-     "t": "2026-11-27T17:30Z"
+     "t": "2026-11-27T20:45Z"
     }
    ]
   },
