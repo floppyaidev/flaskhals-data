@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T02:28Z",
+ "uppdaterad": "2026-11-27T02:51Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2958,16 +2958,6 @@
      "orsak": "Other"
     },
     {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Gersteinwerk",
      "kraftslag": "gas",
      "mw": 405,
@@ -3074,6 +3064,16 @@
      "tillganglig_mw": 219.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 68.0,
+     "status": "begransad",
+     "slut": "2026-11-27T04:15Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3288,6 +3288,13 @@
      "status": "drift"
     },
     {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
+     "status": "drift"
+    },
+    {
      "namn": "Knapsack 2",
      "kraftslag": "gas",
      "mw": 426,
@@ -3334,13 +3341,6 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
-     "status": "drift"
-    },
-    {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
@@ -4040,16 +4040,6 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 377.0,
-     "status": "begransad",
-     "slut": "2026-11-27T02:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
@@ -4060,20 +4050,17 @@
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-27T02:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Baltic Power",
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4267,6 +4254,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
@@ -4502,16 +4496,6 @@
    "produktion_tid": "2026-11-25T22:15Z",
    "verk": [
     {
-     "namn": "Velsen",
-     "kraftslag": "gas",
-     "mw": 869,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-27T03:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "Moerdijk",
      "kraftslag": "gas",
      "mw": 766,
@@ -4609,6 +4593,13 @@
      "tillganglig_mw": 928,
      "status": "drift",
      "produktion_mw": 896
+    },
+    {
+     "namn": "Velsen",
+     "kraftslag": "gas",
+     "mw": 869,
+     "tillganglig_mw": 869,
+     "status": "drift"
     },
     {
      "namn": "OWF Hollandse Kust Noord",
