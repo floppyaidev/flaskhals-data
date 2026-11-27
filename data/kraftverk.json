@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T05:58Z",
+ "uppdaterad": "2026-11-27T06:15Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2668,7 +2668,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-27T01:45Z",
+   "produktion_tid": "2026-11-27T05:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2676,7 +2676,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 373
+     "produktion_mw": 469
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2684,7 +2684,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 139
+     "produktion_mw": 173
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -2978,6 +2978,16 @@
      "orsak": "External Factors; Other"
     },
     {
+     "namn": "Offshore-Windpark Veja Mate",
+     "kraftslag": "vind_hav",
+     "mw": 402,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Voelklingen",
      "kraftslag": "kol",
      "mw": 390,
@@ -2995,6 +3005,26 @@
      "status": "still",
      "slut": "2026-11-27T23:00Z",
      "typ": "oplanerat",
+     "orsak": null
+    },
+    {
+     "namn": "Offshore Windpark",
+     "kraftslag": "vind_hav",
+     "mw": 288,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T17:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Deutsche Bucht",
+     "kraftslag": "vind_hav",
+     "mw": 252,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-30T16:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3316,13 +3346,6 @@
      "status": "drift"
     },
     {
-     "namn": "Offshore-Windpark Veja Mate",
-     "kraftslag": "vind_hav",
-     "mw": 402,
-     "tillganglig_mw": 402,
-     "status": "drift"
-    },
-    {
      "namn": "Bard Offshore 1",
      "kraftslag": "vind_hav",
      "mw": 400,
@@ -3470,13 +3493,6 @@
      "status": "drift"
     },
     {
-     "namn": "Offshore Windpark",
-     "kraftslag": "vind_hav",
-     "mw": 288,
-     "tillganglig_mw": 288,
-     "status": "drift"
-    },
-    {
      "namn": "OWP Meerwind Süd|Ost",
      "kraftslag": "vind_hav",
      "mw": 288,
@@ -3537,13 +3553,6 @@
      "kraftslag": "vind_hav",
      "mw": 257,
      "tillganglig_mw": 257,
-     "status": "drift"
-    },
-    {
-     "namn": "Deutsche Bucht",
-     "kraftslag": "vind_hav",
-     "mw": 252,
-     "tillganglig_mw": 252,
      "status": "drift"
     },
     {
