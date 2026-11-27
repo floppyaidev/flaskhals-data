@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T06:58Z",
+ "uppdaterad": "2026-11-27T07:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -354,7 +354,7 @@
        "namn": "Vianden",
        "tillganglig_mw": 0.0,
        "nominell_mw": 1294,
-       "slut": "2026-12-31T23:00Z",
+       "slut": "2026-11-27T11:00Z",
        "orsak": null
       },
       {
