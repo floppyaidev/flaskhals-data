@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T11:29Z",
+ "uppdaterad": "2026-11-27T11:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2850,7 +2850,7 @@
      "mw": 2197,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-28T10:00Z",
+     "slut": "2026-11-28T15:00Z",
      "typ": "planerat",
      "orsak": "Other"
     },
@@ -2953,16 +2953,6 @@
      "slut": "2026-12-12T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
     },
     {
      "namn": "Gersteinwerk",
@@ -3332,6 +3322,13 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
@@ -3887,7 +3884,7 @@
      "mw": 3090,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-30T23:00Z",
+     "slut": "2026-12-07T23:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
