@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T07:58Z",
+ "uppdaterad": "2026-11-27T08:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2263,7 +2263,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-22T05:00Z",
+   "produktion_tid": "2026-11-22T08:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2315,7 +2315,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2392,7 +2392,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 193
     },
     {
      "namn": "Tahkoluoto",
@@ -2472,7 +2472,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 45
+     "produktion_mw": 46
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2590,7 +2590,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 76
+     "produktion_mw": 83
     },
     {
      "namn": "Olkiluoto kt",
@@ -2605,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 23
+     "produktion_mw": 22
     },
     {
      "namn": "Paskoonharju",
@@ -2628,7 +2628,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 36
     },
     {
      "namn": "Metsälä",
@@ -3034,6 +3034,16 @@
      "tillganglig_mw": 0,
      "status": "still",
      "slut": "2026-11-30T11:00Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "Koepchenwerk",
+     "kraftslag": "pumpkraft",
+     "mw": 162,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-27T16:00Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -3670,13 +3680,6 @@
     {
      "namn": "HKW Halle Dieselstraße",
      "kraftslag": "gas",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Koepchenwerk",
-     "kraftslag": "pumpkraft",
      "mw": 162,
      "tillganglig_mw": 162,
      "status": "drift"

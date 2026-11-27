@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T07:58Z",
+ "uppdaterad": "2026-11-27T08:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -276,7 +276,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-22T05:00Z",
+   "produktion_tid": "2026-11-22T08:00Z",
    "alvar": [
     {
      "alv": "Kemijoki",
@@ -341,7 +341,7 @@
      "alv": "Stora vattenkraftverk",
      "verk": 19,
      "nominell_mw": 9608,
-     "tillganglig_mw": 3282.0,
+     "tillganglig_mw": 3120.0,
      "avbrott": [
       {
        "namn": "Vorarlberger Illwerke AG",
@@ -383,6 +383,13 @@
        "tillganglig_mw": 227.5,
        "nominell_mw": 455,
        "slut": "2026-11-29T23:00Z",
+       "orsak": null
+      },
+      {
+       "namn": "Koepchenwerk",
+       "tillganglig_mw": 0.0,
+       "nominell_mw": 162,
+       "slut": "2026-11-27T16:00Z",
        "orsak": null
       }
      ],
