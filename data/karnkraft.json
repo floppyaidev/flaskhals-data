@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T09:45Z",
+ "uppdaterad": "2026-11-27T11:16Z",
  "enhet": "MW",
  "reaktorer": [
   {
@@ -72,18 +72,6 @@
    "nominell_mw": 890.0,
    "tillganglig_mw": 735.0,
    "orsak": "Generator rotor limitation",
-   "status": null,
-   "kraftslag": "karnkraft",
-   "zon": "FI"
-  },
-  {
-   "namn": "Olkiluoto 3",
-   "typ": "planerat",
-   "start": "2026-11-26T02:15Z",
-   "slut": "2026-11-26T11:00Z",
-   "nominell_mw": 1600.0,
-   "tillganglig_mw": 0.0,
-   "orsak": "OL3 will be synchronized to the grid on 26 November 2026 at 13:00 after the valve failure in the secondary circuit has been investigated and repaired. Full power is expected to be reached approximately 15 hours after synchronization.",
    "status": null,
    "kraftslag": "karnkraft",
    "zon": "FI"
