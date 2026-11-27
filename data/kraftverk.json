@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T19:29Z",
+ "uppdaterad": "2026-11-27T19:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3053,8 +3053,8 @@
      "mw": 870,
      "tillganglig_mw": 227.5,
      "status": "begransad",
-     "slut": "2026-11-27T20:00Z",
-     "typ": "planerat",
+     "slut": "2026-11-29T23:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3083,8 +3083,8 @@
      "mw": 455,
      "tillganglig_mw": 227.5,
      "status": "begransad",
-     "slut": "2026-11-27T20:00Z",
-     "typ": "planerat",
+     "slut": "2026-11-29T23:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -4512,7 +4512,7 @@
      "status": "still",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
-     "orsak": "Other"
+     "orsak": null
     },
     {
      "namn": "Moerdijk",

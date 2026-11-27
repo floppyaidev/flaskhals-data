@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T19:29Z",
+ "uppdaterad": "2026-11-27T19:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -361,14 +361,14 @@
        "namn": "Schluchsee",
        "tillganglig_mw": 227.5,
        "nominell_mw": 870,
-       "slut": "2026-11-27T20:00Z",
+       "slut": "2026-11-29T23:00Z",
        "orsak": null
       },
       {
        "namn": "Schluchseewerk AG",
        "tillganglig_mw": 227.5,
        "nominell_mw": 455,
-       "slut": "2026-11-27T20:00Z",
+       "slut": "2026-11-29T23:00Z",
        "orsak": null
       }
      ],
