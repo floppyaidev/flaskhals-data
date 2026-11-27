@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T06:15Z",
+ "uppdaterad": "2026-11-27T06:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2764,7 +2764,7 @@
    ]
   },
   "LT": {
-   "produktion_tid": "2026-11-26T03:30Z",
+   "produktion_tid": "2026-11-26T06:00Z",
    "verk": [
     {
      "namn": "Lietuvos elektrine",
