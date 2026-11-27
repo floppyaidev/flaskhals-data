@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T10:59Z",
+ "uppdaterad": "2026-11-27T11:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -222,16 +222,6 @@
    "produktion_tid": "2026-11-22T10:00Z",
    "verk": [
     {
-     "namn": "Åndberg",
-     "kraftslag": "vind_land",
-     "mw": 286,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-27T11:00Z",
-     "typ": "planerat",
-     "orsak": "Production restrictions due to transmission system constraints related to measures implemented by Svenska Kraftnät to increase transmission capacity between SE2"
-    },
-    {
      "namn": "Stornorrfors",
      "kraftslag": "vattenkraft",
      "mw": 602,
@@ -259,6 +249,13 @@
      "kraftslag": "vind_land",
      "mw": 288,
      "tillganglig_mw": 288,
+     "status": "drift"
+    },
+    {
+     "namn": "Åndberg",
+     "kraftslag": "vind_land",
+     "mw": 286,
+     "tillganglig_mw": 286,
      "status": "drift"
     },
     {
@@ -2908,16 +2905,6 @@
      "orsak": null
     },
     {
-     "namn": "Vianden",
-     "kraftslag": "pumpkraft",
-     "mw": 1294,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-27T11:00Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "PSW Goldisthal",
      "kraftslag": "pumpkraft",
      "mw": 1060,
@@ -3018,16 +3005,6 @@
      "orsak": null
     },
     {
-     "namn": "Windanker",
-     "kraftslag": "vind_hav",
-     "mw": 315,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-27T11:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
-    },
-    {
      "namn": "Offshore Windpark",
      "kraftslag": "vind_hav",
      "mw": 288,
@@ -3046,6 +3023,16 @@
      "slut": "2026-11-30T16:00Z",
      "typ": "planerat",
      "orsak": null
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T05:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
     },
     {
      "namn": "KW Mittelsbueren",
@@ -3163,6 +3150,13 @@
      "kraftslag": "gas",
      "mw": 1422,
      "tillganglig_mw": 1422,
+     "status": "drift"
+    },
+    {
+     "namn": "Vianden",
+     "kraftslag": "pumpkraft",
+     "mw": 1294,
+     "tillganglig_mw": 1294,
      "status": "drift"
     },
     {
@@ -3467,6 +3461,13 @@
      "status": "drift"
     },
     {
+     "namn": "Windanker",
+     "kraftslag": "vind_hav",
+     "mw": 315,
+     "tillganglig_mw": 315,
+     "status": "drift"
+    },
+    {
      "namn": "Borkum Riffgrund I",
      "kraftslag": "vind_hav",
      "mw": 312,
@@ -3618,13 +3619,6 @@
      "kraftslag": "gas",
      "mw": 195,
      "tillganglig_mw": 195,
-     "status": "drift"
-    },
-    {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 190,
      "status": "drift"
     },
     {
@@ -4061,9 +4055,9 @@
      "namn": "Płock",
      "kraftslag": "gas",
      "mw": 620,
-     "tillganglig_mw": 510.0,
+     "tillganglig_mw": 505.0,
      "status": "begransad",
-     "slut": "2026-11-27T11:00Z",
+     "slut": "2026-11-27T15:00Z",
      "typ": "planerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
