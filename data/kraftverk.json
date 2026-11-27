@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T02:14Z",
+ "uppdaterad": "2026-11-27T02:28Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3078,16 +3078,6 @@
      "orsak": null
     },
     {
-     "namn": "Merkur Offshore GmbH",
-     "kraftslag": "vind_hav",
-     "mw": 396,
-     "tillganglig_mw": 68.0,
-     "status": "begransad",
-     "slut": "2026-11-27T02:15Z",
-     "typ": "planerat",
-     "orsak": null
-    },
-    {
      "namn": "KW Boxberg",
      "kraftslag": "brunkol",
      "mw": 2470,
@@ -3344,6 +3334,13 @@
      "kraftslag": "gas",
      "mw": 400,
      "tillganglig_mw": 400,
+     "status": "drift"
+    },
+    {
+     "namn": "Merkur Offshore GmbH",
+     "kraftslag": "vind_hav",
+     "mw": 396,
+     "tillganglig_mw": 396,
      "status": "drift"
     },
     {
