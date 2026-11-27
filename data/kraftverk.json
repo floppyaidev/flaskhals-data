@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T17:28Z",
+ "uppdaterad": "2026-11-27T17:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2263,7 +2263,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-22T14:45Z",
+   "produktion_tid": "2026-11-22T17:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2307,7 +2307,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 1",
@@ -2315,7 +2315,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2392,7 +2392,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 175
+     "produktion_mw": 174
     },
     {
      "namn": "Tahkoluoto",
@@ -2472,7 +2472,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2590,7 +2590,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 94
+     "produktion_mw": 85
     },
     {
      "namn": "Olkiluoto kt",
@@ -2605,7 +2605,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 28
+     "produktion_mw": 19
     },
     {
      "namn": "Paskoonharju",
@@ -2628,7 +2628,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 36
     },
     {
      "namn": "Metsälä",
@@ -2873,7 +2873,7 @@
      "mw": 2011,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-28T15:00Z",
+     "slut": "2026-11-30T09:30Z",
      "typ": "planerat",
      "orsak": null
     },
@@ -2956,16 +2956,6 @@
      "slut": "2026-12-12T23:00Z",
      "typ": "planerat",
      "orsak": "Other"
-    },
-    {
-     "namn": "Sued GuD1",
-     "kraftslag": "gas",
-     "mw": 444,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-12-31T23:00Z",
-     "typ": "planerat",
-     "orsak": "External Factors"
     },
     {
      "namn": "Gersteinwerk",
@@ -3063,8 +3053,8 @@
      "mw": 870,
      "tillganglig_mw": 227.5,
      "status": "begransad",
-     "slut": "2026-11-29T23:00Z",
-     "typ": "oplanerat",
+     "slut": "2026-11-27T20:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3093,8 +3083,8 @@
      "mw": 455,
      "tillganglig_mw": 227.5,
      "status": "begransad",
-     "slut": "2026-11-29T23:00Z",
-     "typ": "oplanerat",
+     "slut": "2026-11-27T20:00Z",
+     "typ": "planerat",
      "orsak": null
     },
     {
@@ -3325,6 +3315,13 @@
      "kraftslag": "gas",
      "mw": 450,
      "tillganglig_mw": 450,
+     "status": "drift"
+    },
+    {
+     "namn": "Sued GuD1",
+     "kraftslag": "gas",
+     "mw": 444,
+     "tillganglig_mw": 444,
      "status": "drift"
     },
     {
