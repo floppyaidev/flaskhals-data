@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T03:29Z",
+ "uppdaterad": "2026-11-28T03:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-27T23:45Z",
+   "produktion_tid": "2026-11-28T02:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2673,7 +2673,7 @@
      "mw": 1369,
      "tillganglig_mw": 1369,
      "status": "drift",
-     "produktion_mw": 150
+     "produktion_mw": 152
     },
     {
      "namn": "Balti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 124
+     "produktion_mw": 118
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
@@ -3927,8 +3927,8 @@
      "mw": 1350,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-30T23:00Z",
-     "typ": "planerat",
+     "slut": "2026-12-03T23:00Z",
+     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -4037,8 +4037,8 @@
      "mw": 208,
      "tillganglig_mw": 0,
      "status": "still",
-     "slut": "2026-11-30T23:00Z",
-     "typ": "planerat",
+     "slut": "2026-12-03T23:00Z",
+     "typ": "oplanerat",
      "orsak": "Non-usable capacity due to power plant equipment failure"
     },
     {
@@ -4062,30 +4062,17 @@
      "orsak": "Unplanned outage"
     },
     {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 464.0,
-     "status": "begransad",
-     "slut": "2026-11-28T03:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
-     "namn": "Jaworzno 2",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "begransad",
-     "slut": "2026-11-28T03:45Z",
-     "typ": "planerat",
-     "orsak": "Non-usable capacity due to power plant equipment failure"
-    },
-    {
      "namn": "Baltic Power",
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4279,6 +4266,13 @@
     },
     {
      "namn": "Nowa",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "drift"
+    },
+    {
+     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
