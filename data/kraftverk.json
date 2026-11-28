@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T01:58Z",
+ "uppdaterad": "2026-11-28T02:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2925,6 +2925,16 @@
      "orsak": null
     },
     {
+     "namn": "Schkopau",
+     "kraftslag": "brunkol",
+     "mw": 900,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-29T02:15Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "KW Hamm-Uentrop",
      "kraftslag": "gas",
      "mw": 850,
@@ -3159,13 +3169,6 @@
     {
      "namn": "Windpark He Dreiht",
      "kraftslag": "vind_hav",
-     "mw": 900,
-     "tillganglig_mw": 900,
-     "status": "drift"
-    },
-    {
-     "namn": "Schkopau",
-     "kraftslag": "brunkol",
      "mw": 900,
      "tillganglig_mw": 900,
      "status": "drift"
@@ -4059,17 +4062,30 @@
      "orsak": "Unplanned outage"
     },
     {
+     "namn": "Jaworzno 2 JWCD",
+     "kraftslag": "kol",
+     "mw": 834,
+     "tillganglig_mw": 464.0,
+     "status": "begransad",
+     "slut": "2026-11-28T03:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
+     "namn": "Jaworzno 2",
+     "kraftslag": "kol",
+     "mw": 162,
+     "tillganglig_mw": 162,
+     "status": "begransad",
+     "slut": "2026-11-28T03:45Z",
+     "typ": "planerat",
+     "orsak": "Non-usable capacity due to power plant equipment failure"
+    },
+    {
      "namn": "Baltic Power",
      "kraftslag": "vind_hav",
      "mw": 1140,
      "tillganglig_mw": 1140,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2 JWCD",
-     "kraftslag": "kol",
-     "mw": 834,
-     "tillganglig_mw": 834,
      "status": "drift"
     },
     {
@@ -4263,13 +4279,6 @@
     },
     {
      "namn": "Nowa",
-     "kraftslag": "kol",
-     "mw": 162,
-     "tillganglig_mw": 162,
-     "status": "drift"
-    },
-    {
-     "namn": "Jaworzno 2",
      "kraftslag": "kol",
      "mw": 162,
      "tillganglig_mw": 162,
