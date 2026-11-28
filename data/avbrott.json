@@ -1,25 +1,25 @@
 {
- "uppdaterad": "2026-11-28T07:47Z",
+ "uppdaterad": "2026-11-28T08:47Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-28T07:30Z",
-  "SE2": "2026-11-28T07:30Z",
-  "SE3": "2026-11-28T07:30Z",
-  "SE4": "2026-11-28T07:30Z",
-  "NO1": "2026-11-28T07:30Z",
-  "NO2": "2026-11-28T07:30Z",
-  "NO3": "2026-11-28T07:30Z",
-  "NO4": "2026-11-28T07:30Z",
-  "NO5": "2026-11-28T07:30Z",
-  "DK1": "2026-11-28T07:30Z",
-  "DK2": "2026-11-28T07:30Z",
-  "FI": "2026-11-28T07:30Z",
-  "EE": "2026-11-28T07:30Z",
-  "LV": "2026-11-28T07:30Z",
-  "LT": "2026-11-28T07:30Z",
-  "DE": "2026-11-28T07:30Z",
-  "PL": "2026-11-28T07:30Z",
-  "NL": "2026-11-28T07:30Z"
+  "SE1": "2026-11-28T08:30Z",
+  "SE2": "2026-11-28T08:30Z",
+  "SE3": "2026-11-28T08:30Z",
+  "SE4": "2026-11-28T08:30Z",
+  "NO1": "2026-11-28T08:30Z",
+  "NO2": "2026-11-28T08:30Z",
+  "NO3": "2026-11-28T08:30Z",
+  "NO4": "2026-11-28T08:30Z",
+  "NO5": "2026-11-28T08:30Z",
+  "DK1": "2026-11-28T08:30Z",
+  "DK2": "2026-11-28T08:30Z",
+  "FI": "2026-11-28T08:30Z",
+  "EE": "2026-11-28T08:30Z",
+  "LV": "2026-11-28T08:30Z",
+  "LT": "2026-11-28T08:30Z",
+  "DE": "2026-11-28T08:30Z",
+  "PL": "2026-11-28T08:30Z",
+  "NL": "2026-11-28T08:30Z"
  },
  "zoner": {
   "SE1": [
@@ -267,7 +267,7 @@
     "namn": "Metsä Fibre Kemi",
     "typ": "planerat",
     "start": "2026-10-07T00:00Z",
-    "slut": "2026-11-30T05:00Z",
+    "slut": "2026-11-29T14:00Z",
     "nominell_mw": 250.0,
     "tillganglig_mw": 0.0,
     "orsak": "Yearly maintenance break.",
@@ -363,7 +363,7 @@
     "namn": "KW Jänschwalde",
     "typ": "planerat",
     "start": "2026-11-25T13:30Z",
-    "slut": "2026-11-29T23:00Z",
+    "slut": "2026-11-30T03:00Z",
     "nominell_mw": 500.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
@@ -843,9 +843,9 @@
    },
    {
     "namn": "Opole",
-    "typ": "planerat",
+    "typ": "oplanerat",
     "start": "2026-11-27T23:09Z",
-    "slut": "2026-12-29T22:45Z",
+    "slut": "2026-11-29T22:45Z",
     "nominell_mw": 358.0,
     "tillganglig_mw": 0.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
@@ -1032,6 +1032,16 @@
     "kraftslag": "kol"
    },
    {
+    "namn": "Rybnik",
+    "typ": "oplanerat",
+    "start": "2026-11-28T06:45Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 208.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
     "namn": "Zielona Góra",
     "typ": "planerat",
     "start": "2026-11-27T23:01Z",
@@ -1118,16 +1128,6 @@
     "slut": "2026-11-28T18:00Z",
     "nominell_mw": 236.0,
     "tillganglig_mw": 113.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T17:30Z",
-    "slut": "2026-11-28T17:45Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 337.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "brunkol"
    }
@@ -1250,6 +1250,16 @@
     "slut": "2026-11-28T15:30Z",
     "nominell_mw": 1420.0,
     "tillganglig_mw": 1386.0,
+    "orsak": null,
+    "kraftslag": "vind_hav"
+   },
+   {
+    "namn": "Hollandse Kust Zuid",
+    "typ": "planerat",
+    "start": "2026-11-29T07:30Z",
+    "slut": "2026-11-29T15:30Z",
+    "nominell_mw": 1420.0,
+    "tillganglig_mw": 1408.0,
     "orsak": null,
     "kraftslag": "vind_hav"
    }
