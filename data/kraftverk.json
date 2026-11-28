@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T00:58Z",
+ "uppdaterad": "2026-11-28T01:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3085,16 +3085,6 @@
      "orsak": null
     },
     {
-     "namn": "Kraftwerk Rostock",
-     "kraftslag": "kol",
-     "mw": 514,
-     "tillganglig_mw": 350.0,
-     "status": "begransad",
-     "slut": "2026-11-28T01:00Z",
-     "typ": "oplanerat",
-     "orsak": null
-    },
-    {
      "namn": "Schluchseewerk AG",
      "kraftslag": "pumpkraft",
      "mw": 455,
@@ -3259,6 +3249,13 @@
      "kraftslag": "kol",
      "mw": 595,
      "tillganglig_mw": 595,
+     "status": "drift"
+    },
+    {
+     "namn": "Kraftwerk Rostock",
+     "kraftslag": "kol",
+     "mw": 514,
+     "tillganglig_mw": 514,
      "status": "drift"
     },
     {
