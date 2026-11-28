@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T07:14Z",
+ "uppdaterad": "2026-11-28T07:29Z",
  "enhet": "MW",
  "lag_land": {
   "SE": 5,
@@ -7,7 +7,7 @@
   "DK": 1,
   "FI": 5,
   "EE": 0,
-  "LV": 2,
+  "LV": 1,
   "LT": 1,
   "NL": 2
  },
@@ -17,8 +17,8 @@
   "DK": "2026-11-28T05:47Z",
   "FI": "2026-11-28T05:59Z",
   "EE": "2026-11-28T06:47Z",
-  "LV": "2026-11-28T04:29Z",
-  "LT": "2026-11-28T04:29Z",
+  "LV": "2026-11-28T07:29Z",
+  "LT": "2026-11-28T07:29Z",
   "PL": "2026-11-28T04:48Z",
   "NL": "2026-11-28T04:48Z"
  },
@@ -1098,62 +1098,62 @@
    ]
   },
   "LV": {
-   "lag_dagar": 2,
-   "data_tid": "2026-11-26T21:00Z",
+   "lag_dagar": 1,
+   "data_tid": "2026-11-27T21:00Z",
    "enheter": [
     {
      "namn": "Block-1, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 210,
-     "t": "2026-11-26T21:00Z"
+     "mw": 207,
+     "t": "2026-11-27T20:00Z"
     },
     {
      "namn": "Block-2, Gas Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 191,
-     "t": "2026-11-26T20:00Z"
+     "mw": 200,
+     "t": "2026-11-27T21:00Z"
     },
     {
      "namn": "Block-1, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 99,
-     "t": "2026-11-26T20:00Z"
+     "mw": 103,
+     "t": "2026-11-27T21:00Z"
     },
     {
      "namn": "Block-2, Steam Turbine, RTEC2",
      "kraftslag": "gas",
-     "mw": 85,
-     "t": "2026-11-26T21:00Z"
+     "mw": 95,
+     "t": "2026-11-27T21:00Z"
     },
     {
      "namn": "Generator Nr.4, Plavinas HPP",
      "kraftslag": "stromkraft",
      "mw": 0,
-     "t": "2026-11-26T00:00Z"
+     "t": "2026-11-27T16:00Z"
     }
    ]
   },
   "LT": {
    "lag_dagar": 1,
-   "data_tid": "2026-11-27T04:30Z",
+   "data_tid": "2026-11-27T07:15Z",
    "enheter": [
-    {
-     "namn": "KHAE HA3",
-     "kraftslag": "pumpkraft",
-     "mw": 1,
-     "t": "2026-11-27T04:30Z"
-    },
     {
      "namn": "KHAE HA1",
      "kraftslag": "pumpkraft",
-     "mw": 0,
-     "t": "2026-11-27T03:45Z"
+     "mw": 204,
+     "t": "2026-11-27T07:15Z"
     },
     {
      "namn": "KHAE HA2",
      "kraftslag": "pumpkraft",
      "mw": 0,
      "t": "2026-11-27T04:00Z"
+    },
+    {
+     "namn": "KHAE HA3",
+     "kraftslag": "pumpkraft",
+     "mw": 0,
+     "t": "2026-11-27T04:45Z"
     },
     {
      "namn": "KHAE HA4",

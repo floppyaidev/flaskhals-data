@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T07:14Z",
+ "uppdaterad": "2026-11-28T07:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2714,7 +2714,7 @@
    ]
   },
   "LV": {
-   "produktion_tid": "2026-11-26T21:00Z",
+   "produktion_tid": "2026-11-27T21:00Z",
    "verk": [
     {
      "namn": "Plavinas HPP",
@@ -2761,7 +2761,7 @@
    ]
   },
   "LT": {
-   "produktion_tid": "2026-11-27T04:30Z",
+   "produktion_tid": "2026-11-27T07:15Z",
    "verk": [
     {
      "namn": "Lietuvos elektrine",
