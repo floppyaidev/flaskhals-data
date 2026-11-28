@@ -1,25 +1,25 @@
 {
- "uppdaterad": "2026-11-28T04:47Z",
+ "uppdaterad": "2026-11-28T05:46Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-28T04:30Z",
-  "SE2": "2026-11-28T04:30Z",
-  "SE3": "2026-11-28T04:30Z",
-  "SE4": "2026-11-28T04:30Z",
-  "NO1": "2026-11-28T04:30Z",
-  "NO2": "2026-11-28T04:30Z",
-  "NO3": "2026-11-28T04:30Z",
-  "NO4": "2026-11-28T04:30Z",
-  "NO5": "2026-11-28T04:30Z",
-  "DK1": "2026-11-28T04:30Z",
-  "DK2": "2026-11-28T04:30Z",
-  "FI": "2026-11-28T04:30Z",
-  "EE": "2026-11-28T04:30Z",
-  "LV": "2026-11-28T04:30Z",
-  "LT": "2026-11-28T04:30Z",
-  "DE": "2026-11-28T04:30Z",
-  "PL": "2026-11-28T04:30Z",
-  "NL": "2026-11-28T04:30Z"
+  "SE1": "2026-11-28T05:30Z",
+  "SE2": "2026-11-28T05:30Z",
+  "SE3": "2026-11-28T05:30Z",
+  "SE4": "2026-11-28T05:30Z",
+  "NO1": "2026-11-28T05:30Z",
+  "NO2": "2026-11-28T05:30Z",
+  "NO3": "2026-11-28T05:30Z",
+  "NO4": "2026-11-28T05:30Z",
+  "NO5": "2026-11-28T05:30Z",
+  "DK1": "2026-11-28T05:30Z",
+  "DK2": "2026-11-28T05:30Z",
+  "FI": "2026-11-28T05:30Z",
+  "EE": "2026-11-28T05:30Z",
+  "LV": "2026-11-28T05:30Z",
+  "LT": "2026-11-28T05:30Z",
+  "DE": "2026-11-28T05:30Z",
+  "PL": "2026-11-28T05:30Z",
+  "NL": "2026-11-28T05:30Z"
  },
  "zoner": {
   "SE1": [
@@ -642,16 +642,6 @@
    {
     "namn": "Küstenkraftwerk",
     "typ": "planerat",
-    "start": "2026-11-27T11:00Z",
-    "slut": "2026-11-28T05:00Z",
-    "nominell_mw": 190.4,
-    "tillganglig_mw": 0.0,
-    "orsak": "Other",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Küstenkraftwerk",
-    "typ": "planerat",
     "start": "2026-11-28T19:00Z",
     "slut": "2026-11-29T05:00Z",
     "nominell_mw": 190.4,
@@ -728,6 +718,16 @@
     "tillganglig_mw": 0.0,
     "orsak": null,
     "kraftslag": "pumpkraft"
+   },
+   {
+    "namn": "Merkur Offshore GmbH",
+    "typ": "planerat",
+    "start": "2026-11-27T23:00Z",
+    "slut": "2026-11-28T21:15Z",
+    "nominell_mw": 396.0,
+    "tillganglig_mw": 271.0,
+    "orsak": null,
+    "kraftslag": "vind_hav"
    }
   ],
   "PL": [
@@ -799,16 +799,6 @@
     "nominell_mw": 430.1,
     "tillganglig_mw": 0.0,
     "orsak": "Medium-term planned overhaul",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-28T05:00Z",
-    "nominell_mw": 833.0,
-    "tillganglig_mw": 460.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "kol"
    },
    {
@@ -909,16 +899,6 @@
     "nominell_mw": 226.0,
     "tillganglig_mw": 0.0,
     "orsak": "Medium-term planned overhaul",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T23:00Z",
-    "slut": "2026-12-05T23:00Z",
-    "nominell_mw": 226.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
     "kraftslag": "brunkol"
    },
    {
@@ -1114,6 +1094,16 @@
    {
     "namn": "Turów",
     "typ": "planerat",
+    "start": "2026-11-28T23:00Z",
+    "slut": "2026-11-29T12:30Z",
+    "nominell_mw": 236.0,
+    "tillganglig_mw": 103.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
     "start": "2026-11-28T18:00Z",
     "slut": "2026-11-28T23:00Z",
     "nominell_mw": 226.0,
@@ -1128,6 +1118,16 @@
     "slut": "2026-11-28T18:00Z",
     "nominell_mw": 236.0,
     "tillganglig_mw": 113.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T17:30Z",
+    "slut": "2026-11-28T17:45Z",
+    "nominell_mw": 444.0,
+    "tillganglig_mw": 337.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "brunkol"
    }
