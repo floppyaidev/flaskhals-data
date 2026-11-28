@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T12:29Z",
+ "uppdaterad": "2026-11-28T12:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2665,7 +2665,7 @@
    ]
   },
   "EE": {
-   "produktion_tid": "2026-11-28T08:45Z",
+   "produktion_tid": "2026-11-28T11:45Z",
    "verk": [
     {
      "namn": "Eesti Elektrijaam",
@@ -2681,7 +2681,7 @@
      "mw": 472,
      "tillganglig_mw": 472,
      "status": "drift",
-     "produktion_mw": 178
+     "produktion_mw": 176
     },
     {
      "namn": "Auvere kondensatsioonielektrijaam",
