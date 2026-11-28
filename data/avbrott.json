@@ -1,25 +1,25 @@
 {
- "uppdaterad": "2026-11-28T08:47Z",
+ "uppdaterad": "2026-11-28T09:47Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-28T08:30Z",
-  "SE2": "2026-11-28T08:30Z",
-  "SE3": "2026-11-28T08:30Z",
-  "SE4": "2026-11-28T08:30Z",
-  "NO1": "2026-11-28T08:30Z",
-  "NO2": "2026-11-28T08:30Z",
-  "NO3": "2026-11-28T08:30Z",
-  "NO4": "2026-11-28T08:30Z",
-  "NO5": "2026-11-28T08:30Z",
-  "DK1": "2026-11-28T08:30Z",
-  "DK2": "2026-11-28T08:30Z",
-  "FI": "2026-11-28T08:30Z",
-  "EE": "2026-11-28T08:30Z",
-  "LV": "2026-11-28T08:30Z",
-  "LT": "2026-11-28T08:30Z",
-  "DE": "2026-11-28T08:30Z",
-  "PL": "2026-11-28T08:30Z",
-  "NL": "2026-11-28T08:30Z"
+  "SE1": "2026-11-28T09:30Z",
+  "SE2": "2026-11-28T09:30Z",
+  "SE3": "2026-11-28T09:30Z",
+  "SE4": "2026-11-28T09:30Z",
+  "NO1": "2026-11-28T09:30Z",
+  "NO2": "2026-11-28T09:30Z",
+  "NO3": "2026-11-28T09:30Z",
+  "NO4": "2026-11-28T09:30Z",
+  "NO5": "2026-11-28T09:30Z",
+  "DK1": "2026-11-28T09:30Z",
+  "DK2": "2026-11-28T09:30Z",
+  "FI": "2026-11-28T09:30Z",
+  "EE": "2026-11-28T09:30Z",
+  "LV": "2026-11-28T09:30Z",
+  "LT": "2026-11-28T09:30Z",
+  "DE": "2026-11-28T09:30Z",
+  "PL": "2026-11-28T09:30Z",
+  "NL": "2026-11-28T09:30Z"
  },
  "zoner": {
   "SE1": [
@@ -139,7 +139,7 @@
     "namn": "Rana",
     "typ": "planerat",
     "start": "2026-11-28T07:00Z",
-    "slut": "2026-11-28T11:00Z",
+    "slut": "2026-11-28T09:45Z",
     "nominell_mw": 526.6,
     "tillganglig_mw": 125.0,
     "orsak": "Lifting operation in the station.",
@@ -333,7 +333,7 @@
     "namn": "Neurath",
     "typ": "planerat",
     "start": "2026-11-27T08:00Z",
-    "slut": "2026-11-30T09:30Z",
+    "slut": "2026-11-30T20:30Z",
     "nominell_mw": 1058.0,
     "tillganglig_mw": 0.0,
     "orsak": null,
@@ -782,6 +782,16 @@
     "kraftslag": "gas"
    },
    {
+    "namn": "Jaworzno 2 JWCD",
+    "typ": "planerat",
+    "start": "2026-11-29T09:00Z",
+    "slut": "2026-11-29T10:45Z",
+    "nominell_mw": 834.0,
+    "tillganglig_mw": 377.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
     "namn": "Pątnów 2",
     "typ": "planerat",
     "start": "2026-11-26T23:37Z",
@@ -1118,16 +1128,6 @@
     "slut": "2026-11-28T23:00Z",
     "nominell_mw": 226.0,
     "tillganglig_mw": 101.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T17:45Z",
-    "slut": "2026-11-28T18:00Z",
-    "nominell_mw": 236.0,
-    "tillganglig_mw": 113.0,
     "orsak": "Non-usable capacity due to power plant equipment failure",
     "kraftslag": "brunkol"
    }
