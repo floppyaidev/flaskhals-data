@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T01:13Z",
+ "uppdaterad": "2026-11-28T01:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2761,7 +2761,7 @@
    ]
   },
   "LT": {
-   "produktion_tid": "2026-11-26T19:30Z",
+   "produktion_tid": "2026-11-27T01:30Z",
    "verk": [
     {
      "namn": "Lietuvos elektrine",
@@ -3002,6 +3002,16 @@
      "status": "still",
      "slut": "2027-01-31T23:00Z",
      "typ": "planerat",
+     "orsak": null
+    },
+    {
+     "namn": "HAMBORN-KW",
+     "kraftslag": "kolgas",
+     "mw": 385,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-28T23:00Z",
+     "typ": "oplanerat",
      "orsak": null
     },
     {
@@ -3354,13 +3364,6 @@
      "kraftslag": "vind_hav",
      "mw": 396,
      "tillganglig_mw": 396,
-     "status": "drift"
-    },
-    {
-     "namn": "HAMBORN-KW",
-     "kraftslag": "kolgas",
-     "mw": 385,
-     "tillganglig_mw": 385,
      "status": "drift"
     },
     {
