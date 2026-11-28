@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T04:58Z",
+ "uppdaterad": "2026-11-28T05:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3045,16 +3045,6 @@
      "orsak": null
     },
     {
-     "namn": "Küstenkraftwerk",
-     "kraftslag": "gas",
-     "mw": 190,
-     "tillganglig_mw": 0,
-     "status": "still",
-     "slut": "2026-11-28T05:00Z",
-     "typ": "planerat",
-     "orsak": "Other"
-    },
-    {
      "namn": "KW Mittelsbueren",
      "kraftslag": "gas",
      "mw": 176,
@@ -3612,6 +3602,13 @@
      "kraftslag": "gas",
      "mw": 195,
      "tillganglig_mw": 195,
+     "status": "drift"
+    },
+    {
+     "namn": "Küstenkraftwerk",
+     "kraftslag": "gas",
+     "mw": 190,
+     "tillganglig_mw": 190,
      "status": "drift"
     },
     {
