@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T12:13Z",
+ "uppdaterad": "2026-11-28T12:29Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-23T09:00Z",
+   "produktion_tid": "2026-11-23T12:15Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2293,7 +2293,7 @@
      "slut": "2026-11-29T23:00Z",
      "typ": "oplanerat",
      "orsak": "OL3 net power output is limited to approximately 440 MW due to fault investigation until 30 November 2026 at 01:00.\nShort test is performed at approximately 100",
-     "produktion_mw": 1578
+     "produktion_mw": 1574
     },
     {
      "namn": "Olkiluoto 2",
@@ -2304,7 +2304,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 739
+     "produktion_mw": 740
     },
     {
      "namn": "Olkiluoto 1",
@@ -2389,7 +2389,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 170
+     "produktion_mw": 182
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 46
+     "produktion_mw": 45
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 85
+     "produktion_mw": 80
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 31
+     "produktion_mw": 10
     },
     {
      "namn": "Paskoonharju",
