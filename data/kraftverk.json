@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T07:59Z",
+ "uppdaterad": "2026-11-28T08:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3085,6 +3085,16 @@
      "orsak": null
     },
     {
+     "namn": "Walsum",
+     "kraftslag": "kol",
+     "mw": 725,
+     "tillganglig_mw": 335.0,
+     "status": "begransad",
+     "slut": "2026-11-28T16:00Z",
+     "typ": "planerat",
+     "orsak": "External factors that cannot be influenced even by invoking Section 13(2) of the Energy Industry Act (EnWG)"
+    },
+    {
      "namn": "GuD Dormagen",
      "kraftslag": "gas",
      "mw": 562,
@@ -3220,13 +3230,6 @@
      "kraftslag": "kol",
      "mw": 726,
      "tillganglig_mw": 726,
-     "status": "drift"
-    },
-    {
-     "namn": "Walsum",
-     "kraftslag": "kol",
-     "mw": 725,
-     "tillganglig_mw": 725,
      "status": "drift"
     },
     {
