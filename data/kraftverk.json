@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T02:29Z",
+ "uppdaterad": "2026-11-28T02:48Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-22T23:45Z",
+   "produktion_tid": "2026-11-23T02:45Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2304,7 +2304,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 740
+     "produktion_mw": 741
     },
     {
      "namn": "Olkiluoto 1",
@@ -2312,7 +2312,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 890
+     "produktion_mw": 892
     },
     {
      "namn": "Meri-Pori",
@@ -2389,7 +2389,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 180
+     "produktion_mw": 184
     },
     {
      "namn": "Tahkoluoto",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 86
+     "produktion_mw": 88
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 24
+     "produktion_mw": 23
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 36
+     "produktion_mw": 37
     },
     {
      "namn": "Metsälä",
