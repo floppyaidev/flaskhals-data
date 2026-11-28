@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T07:29Z",
+ "uppdaterad": "2026-11-28T07:47Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -3108,7 +3108,7 @@
      "namn": "HKW Mitte",
      "kraftslag": "gas",
      "mw": 444,
-     "tillganglig_mw": 219.0,
+     "tillganglig_mw": 121.0,
      "status": "begransad",
      "slut": "2026-12-31T23:00Z",
      "typ": "planerat",
@@ -4571,6 +4571,16 @@
      "produktion_mw": 0
     },
     {
+     "namn": "Hollandse Kust Zuid",
+     "kraftslag": "vind_hav",
+     "mw": 1420,
+     "tillganglig_mw": 1386.0,
+     "status": "begransad",
+     "slut": "2026-11-28T15:30Z",
+     "typ": "planerat",
+     "orsak": null
+    },
+    {
      "namn": "Hollandse Kust West VI",
      "kraftslag": "vind_hav",
      "mw": 760,
@@ -4585,13 +4595,6 @@
      "kraftslag": "kol",
      "mw": 1580,
      "tillganglig_mw": 1580,
-     "status": "drift"
-    },
-    {
-     "namn": "Hollandse Kust Zuid",
-     "kraftslag": "vind_hav",
-     "mw": 1420,
-     "tillganglig_mw": 1420,
      "status": "drift"
     },
     {
