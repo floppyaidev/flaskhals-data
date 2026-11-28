@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-28T08:58Z",
+ "uppdaterad": "2026-11-28T09:14Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2260,7 +2260,7 @@
    ]
   },
   "FI": {
-   "produktion_tid": "2026-11-23T05:45Z",
+   "produktion_tid": "2026-11-23T09:00Z",
    "verk": [
     {
      "namn": "Vuosaari",
@@ -2293,7 +2293,7 @@
      "slut": "2026-11-29T23:00Z",
      "typ": "oplanerat",
      "orsak": "OL3 net power output is limited to approximately 440 MW due to fault investigation until 30 November 2026 at 01:00.\nShort test is performed at approximately 100",
-     "produktion_mw": 1577
+     "produktion_mw": 1578
     },
     {
      "namn": "Olkiluoto 2",
@@ -2304,7 +2304,7 @@
      "slut": "2027-04-18T15:00Z",
      "typ": "planerat",
      "orsak": "Generator rotor limitation",
-     "produktion_mw": 741
+     "produktion_mw": 739
     },
     {
      "namn": "Olkiluoto 1",
@@ -2312,7 +2312,7 @@
      "mw": 890,
      "tillganglig_mw": 890,
      "status": "drift",
-     "produktion_mw": 893
+     "produktion_mw": 891
     },
     {
      "namn": "Meri-Pori",
@@ -2328,7 +2328,7 @@
      "mw": 496,
      "tillganglig_mw": 496,
      "status": "drift",
-     "produktion_mw": 501
+     "produktion_mw": 502
     },
     {
      "namn": "Loviisa 2",
@@ -2389,7 +2389,7 @@
      "mw": 260,
      "tillganglig_mw": 260,
      "status": "drift",
-     "produktion_mw": 185
+     "produktion_mw": 170
     },
     {
      "namn": "Tahkoluoto",
@@ -2469,7 +2469,7 @@
      "mw": 190,
      "tillganglig_mw": 190,
      "status": "drift",
-     "produktion_mw": 45
+     "produktion_mw": 46
     },
     {
      "namn": "Karhunnevankankaan Tuulipuisto Oy",
@@ -2498,7 +2498,7 @@
      "mw": 170,
      "tillganglig_mw": 170,
      "status": "drift",
-     "produktion_mw": 5
+     "produktion_mw": 4
     },
     {
      "namn": "Martinlaakso",
@@ -2587,7 +2587,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 81
+     "produktion_mw": 85
     },
     {
      "namn": "Olkiluoto kt",
@@ -2602,7 +2602,7 @@
      "mw": 125,
      "tillganglig_mw": 125,
      "status": "drift",
-     "produktion_mw": 21
+     "produktion_mw": 31
     },
     {
      "namn": "Paskoonharju",
@@ -2625,7 +2625,7 @@
      "mw": 120,
      "tillganglig_mw": 120,
      "status": "drift",
-     "produktion_mw": 37
+     "produktion_mw": 36
     },
     {
      "namn": "Metsälä",
