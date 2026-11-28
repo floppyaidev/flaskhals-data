@@ -1,27 +1,531 @@
 {
- "uppdaterad": "2026-11-27T23:48Z",
+ "uppdaterad": "2026-11-28T00:47Z",
  "enhet": "MW",
  "zon_tid": {
-  "SE1": "2026-11-27T23:30Z",
-  "SE2": "2026-11-27T23:30Z",
-  "SE3": "2026-11-27T23:30Z",
-  "SE4": "2026-11-27T23:30Z",
-  "NO1": "2026-11-27T23:30Z",
-  "NO2": "2026-11-27T23:30Z",
-  "NO3": "2026-11-27T23:30Z",
-  "NO4": "2026-11-27T23:30Z",
-  "NO5": "2026-11-27T23:30Z",
-  "DK1": "2026-11-27T23:30Z",
-  "DK2": "2026-11-27T23:30Z",
-  "FI": "2026-11-27T23:30Z",
-  "EE": "2026-11-27T23:30Z",
-  "LV": "2026-11-27T23:30Z",
-  "LT": "2026-11-27T23:30Z",
-  "DE": "2026-11-27T23:30Z",
-  "PL": "2026-11-27T22:30Z",
-  "NL": "2026-11-27T22:30Z"
+  "SE1": "2026-11-28T00:30Z",
+  "SE2": "2026-11-28T00:30Z",
+  "SE3": "2026-11-28T00:30Z",
+  "SE4": "2026-11-28T00:30Z",
+  "NO1": "2026-11-28T00:30Z",
+  "NO2": "2026-11-28T00:30Z",
+  "NO3": "2026-11-28T00:30Z",
+  "NO4": "2026-11-28T00:30Z",
+  "NO5": "2026-11-28T00:30Z",
+  "DK1": "2026-11-28T00:30Z",
+  "DK2": "2026-11-28T00:30Z",
+  "FI": "2026-11-28T00:30Z",
+  "EE": "2026-11-28T00:30Z",
+  "LV": "2026-11-28T00:30Z",
+  "LT": "2026-11-28T00:30Z",
+  "DE": "2026-11-28T00:30Z",
+  "PL": "2026-11-28T00:30Z",
+  "NL": "2026-11-28T00:30Z"
  },
  "zoner": {
+  "PL": [
+   {
+    "namn": "Bełchatów",
+    "typ": "planerat",
+    "start": "2026-07-13T22:00Z",
+    "slut": "2026-12-11T17:00Z",
+    "nominell_mw": 781.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Medium-term planned overhaul",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Elektrownia Gryfino",
+    "typ": "planerat",
+    "start": "2026-11-27T23:00Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 670.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Elektrownia Gryfino",
+    "typ": "planerat",
+    "start": "2026-11-28T23:00Z",
+    "slut": "2026-11-29T13:00Z",
+    "nominell_mw": 670.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Kozienice 2",
+    "typ": "planerat",
+    "start": "2026-09-18T22:01Z",
+    "slut": "2027-03-20T21:00Z",
+    "nominell_mw": 534.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Long-term planned overhaul",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "EC Żerań 2",
+    "typ": "oplanerat",
+    "start": "2026-05-12T12:33Z",
+    "slut": "2026-12-07T11:00Z",
+    "nominell_mw": 484.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Unplanned outage",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Pątnów 2",
+    "typ": "planerat",
+    "start": "2026-11-26T23:37Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 441.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Łagisza",
+    "typ": "planerat",
+    "start": "2026-09-29T07:39Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 430.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Medium-term planned overhaul",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-27T23:00Z",
+    "slut": "2026-11-28T05:00Z",
+    "nominell_mw": 833.0,
+    "tillganglig_mw": 460.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-28T21:00Z",
+    "slut": "2026-11-28T23:00Z",
+    "nominell_mw": 833.0,
+    "tillganglig_mw": 460.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Jaworzno 2 JWCD",
+    "typ": "planerat",
+    "start": "2026-11-28T02:00Z",
+    "slut": "2026-11-28T03:45Z",
+    "nominell_mw": 834.0,
+    "tillganglig_mw": 464.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-28T23:00Z",
+    "slut": "2026-11-29T05:00Z",
+    "nominell_mw": 829.0,
+    "tillganglig_mw": 460.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-16T23:00Z",
+    "slut": "2026-12-07T23:00Z",
+    "nominell_mw": 358.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Bełchatów",
+    "typ": "planerat",
+    "start": "2026-11-27T23:00Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 358.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-27T23:09Z",
+    "slut": "2026-12-29T22:45Z",
+    "nominell_mw": 358.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Bełchatów",
+    "typ": "planerat",
+    "start": "2026-09-13T01:21Z",
+    "slut": "2026-12-10T17:00Z",
+    "nominell_mw": 357.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Medium-term planned overhaul",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Opole",
+    "typ": "planerat",
+    "start": "2026-11-20T23:00Z",
+    "slut": "2026-12-07T23:00Z",
+    "nominell_mw": 357.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T18:45Z",
+    "slut": "2026-11-28T23:00Z",
+    "nominell_mw": 444.0,
+    "tillganglig_mw": 197.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-13T23:32Z",
+    "slut": "2026-11-28T23:00Z",
+    "nominell_mw": 226.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Medium-term planned overhaul",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T23:00Z",
+    "slut": "2026-12-05T23:00Z",
+    "nominell_mw": 226.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Połaniec",
+    "typ": "planerat",
+    "start": "2026-11-17T23:01Z",
+    "slut": "2026-11-30T23:00Z",
+    "nominell_mw": 224.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Połaniec",
+    "typ": "planerat",
+    "start": "2026-11-27T18:01Z",
+    "slut": "2026-12-01T18:00Z",
+    "nominell_mw": 221.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Ostrołęka B",
+    "typ": "planerat",
+    "start": "2026-11-23T23:16Z",
+    "slut": "2026-12-06T23:00Z",
+    "nominell_mw": 217.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Ostrołęka B",
+    "typ": "planerat",
+    "start": "2026-11-28T23:00Z",
+    "slut": "2026-12-06T23:00Z",
+    "nominell_mw": 217.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Łaziska 3",
+    "typ": "planerat",
+    "start": "2026-11-27T23:07Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 216.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Kozienice 1",
+    "typ": "planerat",
+    "start": "2026-11-26T23:01Z",
+    "slut": "2026-11-29T17:00Z",
+    "nominell_mw": 213.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Kozienice 1",
+    "typ": "planerat",
+    "start": "2026-11-27T23:15Z",
+    "slut": "2026-11-29T17:00Z",
+    "nominell_mw": 213.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Jaworzno 3",
+    "typ": "planerat",
+    "start": "2026-09-30T22:07Z",
+    "slut": "2027-02-28T23:00Z",
+    "nominell_mw": 211.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Long-term planned overhaul",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Jaworzno 3",
+    "typ": "planerat",
+    "start": "2026-11-12T23:00Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 211.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Łaziska 3",
+    "typ": "planerat",
+    "start": "2026-11-13T23:00Z",
+    "slut": "2026-12-06T23:00Z",
+    "nominell_mw": 211.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Rybnik",
+    "typ": "planerat",
+    "start": "2026-11-26T23:06Z",
+    "slut": "2026-11-30T23:00Z",
+    "nominell_mw": 209.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Rybnik",
+    "typ": "planerat",
+    "start": "2026-11-27T23:03Z",
+    "slut": "2026-11-29T23:00Z",
+    "nominell_mw": 208.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Zielona Góra",
+    "typ": "planerat",
+    "start": "2026-11-27T23:01Z",
+    "slut": "2026-11-29T11:00Z",
+    "nominell_mw": 194.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Medium-term planned overhaul",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T18:30Z",
+    "slut": "2026-11-28T18:45Z",
+    "nominell_mw": 444.0,
+    "tillganglig_mw": 267.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Siersza",
+    "typ": "planerat",
+    "start": "2026-10-02T22:00Z",
+    "slut": "2026-12-15T23:00Z",
+    "nominell_mw": 139.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Short-term planned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Siersza",
+    "typ": "planerat",
+    "start": "2026-11-26T00:12Z",
+    "slut": "2026-12-06T23:00Z",
+    "nominell_mw": 139.1,
+    "tillganglig_mw": 0.0,
+    "orsak": "Unplanned outage",
+    "kraftslag": "kol"
+   },
+   {
+    "namn": "Porąbka Żar",
+    "typ": "planerat",
+    "start": "2024-10-21T22:01Z",
+    "slut": "2030-02-10T22:45Z",
+    "nominell_mw": 136.8,
+    "tillganglig_mw": 0.0,
+    "orsak": "Long-term planned overhaul",
+    "kraftslag": "pumpkraft"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-27T23:00Z",
+    "slut": "2026-11-28T12:30Z",
+    "nominell_mw": 236.0,
+    "tillganglig_mw": 103.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T18:00Z",
+    "slut": "2026-11-28T23:00Z",
+    "nominell_mw": 226.0,
+    "tillganglig_mw": 101.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T17:45Z",
+    "slut": "2026-11-28T18:00Z",
+    "nominell_mw": 236.0,
+    "tillganglig_mw": 113.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   },
+   {
+    "namn": "Turów",
+    "typ": "planerat",
+    "start": "2026-11-28T17:30Z",
+    "slut": "2026-11-28T17:45Z",
+    "nominell_mw": 444.0,
+    "tillganglig_mw": 337.0,
+    "orsak": "Non-usable capacity due to power plant equipment failure",
+    "kraftslag": "brunkol"
+   }
+  ],
+  "NL": [
+   {
+    "namn": "Hollandse Kust West VI",
+    "typ": "planerat",
+    "start": "2026-11-20T07:30Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 760.0,
+    "tillganglig_mw": 156.0,
+    "orsak": "Other",
+    "kraftslag": "vind_hav"
+   },
+   {
+    "namn": "Hemweg",
+    "typ": "planerat",
+    "start": "2026-08-28T08:00Z",
+    "slut": "2026-12-18T23:00Z",
+    "nominell_mw": 440.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Other",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Eems 6",
+    "typ": "planerat",
+    "start": "2026-10-08T05:00Z",
+    "slut": "2026-12-13T23:00Z",
+    "nominell_mw": 360.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Eems 3",
+    "typ": "planerat",
+    "start": "2026-11-18T18:00Z",
+    "slut": "2026-11-30T23:00Z",
+    "nominell_mw": 360.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Eems 3",
+    "typ": "planerat",
+    "start": "2026-11-28T17:30Z",
+    "slut": "2026-11-30T23:00Z",
+    "nominell_mw": 360.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Velsen",
+    "typ": "planerat",
+    "start": "2026-11-27T19:00Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 350.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Moerdijk",
+    "typ": "planerat",
+    "start": "2025-12-31T23:00Z",
+    "slut": "2026-12-31T23:00Z",
+    "nominell_mw": 348.0,
+    "tillganglig_mw": 0.0,
+    "orsak": "Other",
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "NAM Schoonebeek",
+    "typ": "planerat",
+    "start": "2024-12-31T23:00Z",
+    "slut": "2027-02-02T11:00Z",
+    "nominell_mw": 128.0,
+    "tillganglig_mw": 0.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Eems 3",
+    "typ": "planerat",
+    "start": "2026-11-28T06:30Z",
+    "slut": "2026-11-28T17:30Z",
+    "nominell_mw": 360.0,
+    "tillganglig_mw": 300.0,
+    "orsak": null,
+    "kraftslag": "gas"
+   },
+   {
+    "namn": "Hollandse Kust Zuid",
+    "typ": "planerat",
+    "start": "2026-11-28T07:30Z",
+    "slut": "2026-11-28T15:30Z",
+    "nominell_mw": 1420.0,
+    "tillganglig_mw": 1386.0,
+    "orsak": null,
+    "kraftslag": "vind_hav"
+   }
+  ],
   "SE1": [
    {
     "namn": "Messaure",
@@ -700,6 +1204,16 @@
     "kraftslag": "pumpkraft"
    },
    {
+    "namn": "Kraftwerk Rostock",
+    "typ": "oplanerat",
+    "start": "2026-11-28T00:00Z",
+    "slut": "2026-11-28T01:00Z",
+    "nominell_mw": 514.0,
+    "tillganglig_mw": 350.0,
+    "orsak": null,
+    "kraftslag": "kol"
+   },
+   {
     "namn": "PSW Markersbach",
     "typ": "planerat",
     "start": "2026-02-28T23:00Z",
@@ -718,520 +1232,6 @@
     "tillganglig_mw": 0.0,
     "orsak": null,
     "kraftslag": "pumpkraft"
-   },
-   {
-    "namn": "PSW Markersbach",
-    "typ": "planerat",
-    "start": "2026-11-09T23:00Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 160.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "pumpkraft"
-   }
-  ],
-  "PL": [
-   {
-    "namn": "Bełchatów",
-    "typ": "planerat",
-    "start": "2026-07-13T22:00Z",
-    "slut": "2026-12-11T17:00Z",
-    "nominell_mw": 781.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Medium-term planned overhaul",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Elektrownia Gryfino",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-29T23:00Z",
-    "nominell_mw": 670.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Elektrownia Gryfino",
-    "typ": "oplanerat",
-    "start": "2026-11-17T03:30Z",
-    "slut": "2026-11-27T23:00Z",
-    "nominell_mw": 670.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Unplanned outage",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Kozienice 2",
-    "typ": "planerat",
-    "start": "2026-09-18T22:01Z",
-    "slut": "2027-03-20T21:00Z",
-    "nominell_mw": 534.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Long-term planned overhaul",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "EC Żerań 2",
-    "typ": "oplanerat",
-    "start": "2026-05-12T12:33Z",
-    "slut": "2026-12-07T11:00Z",
-    "nominell_mw": 484.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Unplanned outage",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Pątnów 2",
-    "typ": "planerat",
-    "start": "2026-11-26T23:37Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 441.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Łagisza",
-    "typ": "planerat",
-    "start": "2026-09-29T07:39Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 430.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Medium-term planned overhaul",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-28T05:00Z",
-    "nominell_mw": 833.0,
-    "tillganglig_mw": 460.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-28T21:00Z",
-    "slut": "2026-11-28T23:00Z",
-    "nominell_mw": 833.0,
-    "tillganglig_mw": 460.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Jaworzno 2 JWCD",
-    "typ": "planerat",
-    "start": "2026-11-28T02:00Z",
-    "slut": "2026-11-28T03:45Z",
-    "nominell_mw": 834.0,
-    "tillganglig_mw": 464.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-16T23:00Z",
-    "slut": "2026-12-07T23:00Z",
-    "nominell_mw": 358.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Bełchatów",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-29T23:00Z",
-    "nominell_mw": 358.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Bełchatów",
-    "typ": "planerat",
-    "start": "2026-09-13T01:21Z",
-    "slut": "2026-12-10T17:00Z",
-    "nominell_mw": 357.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Medium-term planned overhaul",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-20T23:00Z",
-    "slut": "2026-12-07T23:00Z",
-    "nominell_mw": 357.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Opole",
-    "typ": "planerat",
-    "start": "2026-11-27T22:00Z",
-    "slut": "2026-11-27T23:00Z",
-    "nominell_mw": 829.0,
-    "tillganglig_mw": 524.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T18:45Z",
-    "slut": "2026-11-28T23:00Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 197.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-13T23:32Z",
-    "slut": "2026-11-28T23:00Z",
-    "nominell_mw": 226.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Medium-term planned overhaul",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Połaniec",
-    "typ": "planerat",
-    "start": "2026-11-17T23:01Z",
-    "slut": "2026-11-30T23:00Z",
-    "nominell_mw": 224.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Połaniec",
-    "typ": "planerat",
-    "start": "2026-11-27T18:01Z",
-    "slut": "2026-12-01T18:00Z",
-    "nominell_mw": 221.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Ostrołęka B",
-    "typ": "planerat",
-    "start": "2026-11-23T23:16Z",
-    "slut": "2026-12-06T23:00Z",
-    "nominell_mw": 217.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Łaziska 3",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-29T23:00Z",
-    "nominell_mw": 216.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Kozienice 1",
-    "typ": "planerat",
-    "start": "2026-11-26T23:01Z",
-    "slut": "2026-11-29T17:00Z",
-    "nominell_mw": 213.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Kozienice 1",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-29T17:00Z",
-    "nominell_mw": 213.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Jaworzno 3",
-    "typ": "planerat",
-    "start": "2026-09-30T22:07Z",
-    "slut": "2027-02-28T23:00Z",
-    "nominell_mw": 211.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Long-term planned overhaul",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Jaworzno 3",
-    "typ": "planerat",
-    "start": "2026-11-12T23:00Z",
-    "slut": "2026-11-29T23:00Z",
-    "nominell_mw": 211.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Łaziska 3",
-    "typ": "planerat",
-    "start": "2026-11-13T23:00Z",
-    "slut": "2026-12-06T23:00Z",
-    "nominell_mw": 211.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Rybnik",
-    "typ": "planerat",
-    "start": "2026-11-26T23:06Z",
-    "slut": "2026-11-30T23:00Z",
-    "nominell_mw": 209.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Rybnik",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-29T23:00Z",
-    "nominell_mw": 208.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Zielona Góra",
-    "typ": "planerat",
-    "start": "2026-11-27T23:01Z",
-    "slut": "2026-11-29T11:00Z",
-    "nominell_mw": 194.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Medium-term planned overhaul",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T18:30Z",
-    "slut": "2026-11-28T18:45Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 267.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Siersza",
-    "typ": "planerat",
-    "start": "2026-10-02T22:00Z",
-    "slut": "2026-12-15T23:00Z",
-    "nominell_mw": 139.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Short-term planned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Siersza",
-    "typ": "planerat",
-    "start": "2026-11-26T00:12Z",
-    "slut": "2026-12-06T23:00Z",
-    "nominell_mw": 139.1,
-    "tillganglig_mw": 0.0,
-    "orsak": "Unplanned outage",
-    "kraftslag": "kol"
-   },
-   {
-    "namn": "Porąbka Żar",
-    "typ": "planerat",
-    "start": "2024-10-21T22:01Z",
-    "slut": "2030-02-10T22:45Z",
-    "nominell_mw": 136.8,
-    "tillganglig_mw": 0.0,
-    "orsak": "Long-term planned overhaul",
-    "kraftslag": "pumpkraft"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-27T19:00Z",
-    "slut": "2026-11-27T23:00Z",
-    "nominell_mw": 236.0,
-    "tillganglig_mw": 103.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-27T23:00Z",
-    "slut": "2026-11-28T12:30Z",
-    "nominell_mw": 236.0,
-    "tillganglig_mw": 103.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-27T19:30Z",
-    "slut": "2026-11-27T23:00Z",
-    "nominell_mw": 236.0,
-    "tillganglig_mw": 104.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-27T19:15Z",
-    "slut": "2026-11-27T23:00Z",
-    "nominell_mw": 226.0,
-    "tillganglig_mw": 101.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T18:00Z",
-    "slut": "2026-11-28T23:00Z",
-    "nominell_mw": 226.0,
-    "tillganglig_mw": 101.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T17:45Z",
-    "slut": "2026-11-28T18:00Z",
-    "nominell_mw": 236.0,
-    "tillganglig_mw": 113.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   },
-   {
-    "namn": "Turów",
-    "typ": "planerat",
-    "start": "2026-11-28T17:30Z",
-    "slut": "2026-11-28T17:45Z",
-    "nominell_mw": 444.0,
-    "tillganglig_mw": 337.0,
-    "orsak": "Non-usable capacity due to power plant equipment failure",
-    "kraftslag": "brunkol"
-   }
-  ],
-  "NL": [
-   {
-    "namn": "Hollandse Kust West VI",
-    "typ": "planerat",
-    "start": "2026-11-20T07:30Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 760.0,
-    "tillganglig_mw": 156.0,
-    "orsak": "Other",
-    "kraftslag": "vind_hav"
-   },
-   {
-    "namn": "Hemweg",
-    "typ": "planerat",
-    "start": "2026-08-28T08:00Z",
-    "slut": "2026-12-18T23:00Z",
-    "nominell_mw": 440.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Other",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Eems 6",
-    "typ": "planerat",
-    "start": "2026-10-08T05:00Z",
-    "slut": "2026-12-13T23:00Z",
-    "nominell_mw": 360.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Eems 3",
-    "typ": "planerat",
-    "start": "2026-11-18T18:00Z",
-    "slut": "2026-11-30T23:00Z",
-    "nominell_mw": 360.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Eems 3",
-    "typ": "planerat",
-    "start": "2026-11-28T17:30Z",
-    "slut": "2026-11-30T23:00Z",
-    "nominell_mw": 360.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Velsen",
-    "typ": "planerat",
-    "start": "2026-11-27T19:00Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 350.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Moerdijk",
-    "typ": "planerat",
-    "start": "2025-12-31T23:00Z",
-    "slut": "2026-12-31T23:00Z",
-    "nominell_mw": 348.0,
-    "tillganglig_mw": 0.0,
-    "orsak": "Other",
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "NAM Schoonebeek",
-    "typ": "planerat",
-    "start": "2024-12-31T23:00Z",
-    "slut": "2027-02-02T11:00Z",
-    "nominell_mw": 128.0,
-    "tillganglig_mw": 0.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Eems 3",
-    "typ": "planerat",
-    "start": "2026-11-28T06:30Z",
-    "slut": "2026-11-28T17:30Z",
-    "nominell_mw": 360.0,
-    "tillganglig_mw": 300.0,
-    "orsak": null,
-    "kraftslag": "gas"
-   },
-   {
-    "namn": "Hollandse Kust Zuid",
-    "typ": "planerat",
-    "start": "2026-11-28T07:30Z",
-    "slut": "2026-11-28T15:30Z",
-    "nominell_mw": 1420.0,
-    "tillganglig_mw": 1386.0,
-    "orsak": null,
-    "kraftslag": "vind_hav"
    }
   ]
  }
