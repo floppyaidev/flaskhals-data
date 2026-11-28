@@ -1,5 +1,5 @@
 {
- "uppdaterad": "2026-11-27T23:59Z",
+ "uppdaterad": "2026-11-28T00:13Z",
  "enhet": "MW",
  "zoner": {
   "SE1": {
@@ -2925,6 +2925,16 @@
      "orsak": null
     },
     {
+     "namn": "KW Hamm-Uentrop",
+     "kraftslag": "gas",
+     "mw": 850,
+     "tillganglig_mw": 0,
+     "status": "still",
+     "slut": "2026-11-29T15:00Z",
+     "typ": "planerat",
+     "orsak": "Other"
+    },
+    {
      "namn": "Franken I",
      "kraftslag": "gas",
      "mw": 823,
@@ -3155,13 +3165,6 @@
      "kraftslag": "gas",
      "mw": 866,
      "tillganglig_mw": 866,
-     "status": "drift"
-    },
-    {
-     "namn": "KW Hamm-Uentrop",
-     "kraftslag": "gas",
-     "mw": 850,
-     "tillganglig_mw": 850,
      "status": "drift"
     },
     {
